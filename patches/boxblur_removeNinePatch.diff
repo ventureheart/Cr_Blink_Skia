@@ -1,0 +1,115 @@
+commit 48fe62a8d708f2f645441a7695674f3ad899821d
+Author: Yunchao He <yunchao.he@intel.com>
+Date:   Wed May 28 16:45:42 2014 +0800
+
+    remove ninepatch code and test blur-releated bench
+
+diff --git a/bench/BlurRoundRectBench.cpp b/bench/BlurRoundRectBench.cpp
+index 43391bf..41e3efb 100644
+--- a/bench/BlurRoundRectBench.cpp
++++ b/bench/BlurRoundRectBench.cpp
+@@ -40,6 +40,7 @@ public:
+     }
+ 
+     virtual void onDraw(const int loops, SkCanvas* canvas) SK_OVERRIDE {
++        for (int i = 0; i < loops; i++) {
+         SkLayerDrawLooper::Builder looperBuilder;
+         {
+             SkLayerDrawLooper::LayerInfo info;
+@@ -51,7 +52,8 @@ public:
+             SkPaint* paint = looperBuilder.addLayerOnTop(info);
+             SkMaskFilter* maskFilter = SkBlurMaskFilter::Create(
+                     kNormal_SkBlurStyle,
+-                    SkBlurMask::ConvertRadiusToSigma(SK_ScalarHalf),
++                    // SkBlurMask::ConvertRadiusToSigma(SK_ScalarHalf),
++                    SkBlurMask::ConvertRadiusToSigma(10.0),
+                     SkBlurMaskFilter::kHighQuality_BlurFlag);
+             paint->setMaskFilter(maskFilter)->unref();
+             SkColorFilter* colorFilter = SkColorFilter::CreateModeFilter(SK_ColorLTGRAY,
+@@ -71,7 +73,7 @@ public:
+         loopedPaint.setAntiAlias(true);
+         loopedPaint.setColor(SK_ColorCYAN);
+ 
+-        for (int i = 0; i < loops; i++) {
++        // for (int i = 0; i < loops; i++) {
+             canvas->drawRect(fRRect.rect(), dullPaint);
+             canvas->drawRRect(fRRect, loopedPaint);
+         }
+diff --git a/gyp/common_variables.gypi b/gyp/common_variables.gypi
+index 61efe92..30b150d 100644
+--- a/gyp/common_variables.gypi
++++ b/gyp/common_variables.gypi
+@@ -74,7 +74,7 @@
+           'os_posix%': 1,
+         }],
+         [ 'skia_os in ["linux"]', {
+-          'skia_poppler_enabled%': 1,
++          'skia_poppler_enabled%': 0,
+         }, {
+           'skia_poppler_enabled%': 0,
+         }],
+diff --git a/src/core/SkDraw.cpp b/src/core/SkDraw.cpp
+index 1739fef..5879fe3 100644
+--- a/src/core/SkDraw.cpp
++++ b/src/core/SkDraw.cpp
+@@ -1009,7 +1009,7 @@ void SkDraw::drawRRect(const SkRRect& rrect, const SkPaint& paint) const {
+         }
+     }
+ 
+-    if (paint.getMaskFilter()) {
++    /* if (paint.getMaskFilter()) {
+         // Transform the rrect into device space.
+         SkRRect devRRect;
+         if (rrect.transform(*fMatrix, &devRRect)) {
+@@ -1020,7 +1020,7 @@ void SkDraw::drawRRect(const SkRRect& rrect, const SkPaint& paint) const {
+                 return; // filterRRect() called the blitter, so we're done
+             }
+         }
+-    }
++    } */
+ 
+ DRAW_PATH:
+     // Now fall back to the default case of using a path.
+diff --git a/src/core/SkMaskFilter.cpp b/src/core/SkMaskFilter.cpp
+index 8b9792c..7d07f1d 100644
+--- a/src/core/SkMaskFilter.cpp
++++ b/src/core/SkMaskFilter.cpp
+@@ -200,12 +200,12 @@ static void draw_nine(const SkMask& mask, const SkIRect& outerR,
+     }
+ }
+ 
+-static int countNestedRects(const SkPath& path, SkRect rects[2]) {
++/* static int countNestedRects(const SkPath& path, SkRect rects[2]) {
+     if (path.isNestedRects(rects)) {
+         return 2;
+     }
+     return path.isRect(&rects[0]);
+-}
++} */
+ 
+ bool SkMaskFilter::filterRRect(const SkRRect& devRRect, const SkMatrix& matrix,
+                                const SkRasterClip& clip, SkBounder* bounder,
+@@ -230,12 +230,12 @@ bool SkMaskFilter::filterRRect(const SkRRect& devRRect, const SkMatrix& matrix,
+ bool SkMaskFilter::filterPath(const SkPath& devPath, const SkMatrix& matrix,
+                               const SkRasterClip& clip, SkBounder* bounder,
+                               SkBlitter* blitter, SkPaint::Style style) const {
+-    SkRect rects[2];
++    /* SkRect rects[2];
+     int rectCount = 0;
+     if (SkPaint::kFill_Style == style) {
+         rectCount = countNestedRects(devPath, rects);
+     }
+-    if (rectCount > 0) {
++     if (rectCount > 0) {
+         NinePatch patch;
+ 
+         patch.fMask.fImage = NULL;
+@@ -256,7 +256,7 @@ bool SkMaskFilter::filterPath(const SkPath& devPath, const SkMatrix& matrix,
+                 // fall through
+                 break;
+         }
+-    }
++    }*/
+ 
+     SkMask  srcM, dstM;
+ 
