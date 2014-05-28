@@ -1,0 +1,23 @@
+<html>
+	<head> </head>
+
+	<body>
+		<canvas id="myCanvas" width="400" height="400">
+		
+		<script>
+			var c = document.getElementById("myCanvas");
+			var ctx = c.getContext("2d");
+			var path = new Path();
+			path.moveTo(100, 100);
+			path.lineTo(200, 100);
+                        path.lineTo(200, 200);
+			path.lineTo(100, 200);
+			path.closePath();
+			//ctx.currentPath = path;
+                        //ctx.moveTo(100, 100);
+			//ctx.lineTo(200, 100);
+			//ctx.lineTo(200, 200);
+			ctx.fill(path);
+		</script>
+	</body>
+</html> 

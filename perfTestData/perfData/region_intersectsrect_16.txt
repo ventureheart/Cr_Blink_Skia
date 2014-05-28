@@ -1,0 +1,66 @@
+# ========
+# captured on: Mon Jul 15 17:45:39 2013
+# hostname : venture
+# os release : 3.5.0-23-generic
+# perf version : 3.5.7.2
+# arch : x86_64
+# nrcpus online : 8
+# nrcpus avail : 8
+# cpudesc : Intel(R) Core(TM) i7 CPU 870 @ 2.93GHz
+# cpuid : GenuineIntel,6,30,5
+# total memory : 3982968 kB
+# cmdline : /usr/bin/perf_3.5.0-23 record ./out/Release/bench --repeat 10 --match region_intersectsrect_16 --timers wcg 
+# event : name = cycles, type = 0, config = 0x0, config1 = 0x0, config2 = 0x0, excl_usr = 0, excl_kern = 0, id = { 118, 119, 120, 121, 122, 123, 124, 125 }
+# HEADER_CPU_TOPOLOGY info available, use -I to display
+# HEADER_NUMA_TOPOLOGY info available, use -I to display
+# ========
+#
+# Samples: 669  of event 'cycles'
+# Event count (approx.): 482439126
+#
+# Overhead  Command            Shared Object                                                                                                                                      Symbol
+# ........  .......  .......................  ..........................................................................................................................................
+#
+    38.80%    bench  [kernel.kallsyms]        [k] 0xffffffff8103fe1a                                                                                                                    
+    32.98%    bench  bench                    [.] _ZNK8SkRegion10intersectsERK7SkIRect.part.12                                                                                          
+     8.13%    bench  bench                    [.] sectsrect_proc(SkRegion&, SkRegion&)                                                                                                  
+     4.12%    bench  ld-2.15.so               [.] 0x000000000000be60                                                                                                                    
+     2.26%    bench  libGL.so.1.2             [.] 0x000000000001bd1b                                                                                                                    
+     2.01%    bench  bench                    [.] SkRegion::intersects(SkIRect const&) const                                                                                            
+     1.80%    bench  bench                    [.] SkRTree::chooseSubtree(SkRTree::Node*, SkRTree::Branch*)                                                                              
+     1.27%    bench  bench                    [.] RegionBench::onDraw(SkCanvas*)                                                                                                        
+     1.06%    bench  libfontconfig.so.1.4.4   [.] 0x000000000001d18a                                                                                                                    
+     0.90%    bench  bench                    [.] SkRTree::distributeChildren(SkRTree::Branch*)                                                                                         
+     0.90%    bench  bench                    [.] void SkTIntroSort<SkRTree::Branch, SkRTree::RectLessThan>(int, SkRTree::Branch*, SkRTree::Branch*, SkRTree::RectLessThan)             
+     0.89%    bench  libexpat.so.1.5.2        [.] 0x0000000000014f2c                                                                                                                    
+     0.37%    bench  nouveau_dri.so           [.] 0x000000000003d371                                                                                                                    
+     0.37%    bench  libGL.so.1.2             [.] glXGetFBConfigAttribSGIX                                                                                                              
+     0.25%    bench  libc-2.15.so             [.] 0x000000000008053b                                                                                                                    
+     0.18%    bench  libdricore.so            [.] _math_matrix_viewport                                                                                                                 
+     0.18%    bench  libLLVM-3.0.so.1         [.] llvm::X86TargetMachine::getSubtargetImpl() const                                                                                      
+     0.18%    bench  libglapi.so.0.0.0        [.] _glapi_add_dispatch                                                                                                                   
+     0.18%    bench  libLLVM-3.0.so.1         [.] llvm::StringMapImpl::FindKey(llvm::StringRef) const                                                                                   
+     0.18%    bench  libX11.so.6.3.0          [.] _XVIDtoVisual                                                                                                                         
+     0.18%    bench  bench                    [.] _ZL17convertToIndex666RK8SkBitmapPS_.constprop.10                                                                                     
+     0.18%    bench  nouveau_dri.so           [.] driIndexConfigAttrib                                                                                                                  
+     0.18%    bench  bench                    [.] SkIRect::join(int, int, int, int)                                                                                                     
+     0.18%    bench  bench                    [.] void SkTIntroSort<SkRTree::Branch, SkRTree::RectLessY>(int, SkRTree::Branch*, SkRTree::Branch*, SkRTree::RectLessY)                   
+     0.18%    bench  bench                    [.] operate_on_span(int const*, int const*, int*, int, int)                                                                               
+     0.18%    bench  bench                    [.] _Z12SkTIntroSortI8SkString31SkTLessFunctionToFunctorAdaptorIS0_XadL_ZN12_GLOBAL__N_117extension_compareERKS0_S4_EEEEviPT_S7_T0_.isra.6
+     0.18%    bench  bench                    [.] Fact4(void*)                                                                                                                          
+     0.18%    bench  bench                    [.] SkQuadraticEdge::setQuadratic(SkPoint const*, int)                                                                                    
+     0.18%    bench  libc-2.15.so             [.] free                                                                                                                                  
+     0.17%    bench  libfontconfig.so.1.4.4   [.] FcConfigSubstituteWithPat                                                                                                             
+     0.17%    bench  libfreetype.so.6.8.0     [.] TT_RunIns                                                                                                                             
+     0.17%    bench  libm-2.15.so             [.] __powf_finite                                                                                                                         
+     0.17%    bench  libdricore.so            [.] _mesa_GenBuffersARB                                                                                                                   
+     0.17%    bench  libdrm_nouveau.so.1.0.0  [.] nouveau_reloc_emit                                                                                                                    
+     0.16%    bench  libdricore.so            [.] hash_table_string_hash                                                                                                                
+     0.16%    bench  libdricore.so            [.] _mesa_get_enabled_extension                                                                                                           
+     0.14%    bench  libc-2.15.so             [.] __sched_yield                                                                                                                         
+     0.06%    bench  libXext.so.6.4.0         [.] XextRemoveDisplay                                                                                                                     
+
+
+#
+# (For a higher level overview, try: perf report --sort comm,dso)
+#

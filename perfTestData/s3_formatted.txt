@@ -1,0 +1,6 @@
+D/skia    (10856): Executing Command: bench --repeat 20 --timers wcg
+D/skia    (10856): Non-default runtime configuration options:
+D/skia    (10856): skia bench: alpha=0xFF antialias=1 filter=0 deferred=no logperiter=0 rotate=0 scale=0 clip=0 min=0 record=0 picturerecord=0 dither=default strokeWidth=none scalar=float system=ANDROID DEBUG
+D/skia    (10856): Could not set the context.
+D/skia    (10856): Could not set the context.
+D/skia    (10856): ../../../src/gpu/gl/GrGLUtil.cpp(132) :  !"NULL GL version string." failed

@@ -1,0 +1,24 @@
+#define SkGetPackedA32(packed)      ((uint32_t)((packed) << (24 - SK_A32_SHIFT)) >> 24)
+
+static inline unsigned SkAlpha255To256(U8CPU alpha) {
+    SkASSERT(SkToU8(alpha) == alpha);
+    // this one assues that blending on top of an opaque dst keeps it that way
+    // even though it is less accurate than a+(a>>7) for non-opaque dsts
+    return alpha + 1;
+}
+
+
+static inline uint32_t SkAlphaMulQ(uint32_t c, unsigned scale) {
+    uint32_t mask = gMask_00FF00FF;
+//    uint32_t mask = 0xFF00FF;
+
+    uint32_t rb = ((c & mask) * scale) >> 8;
+    uint32_t ag = ((c >> 8) & mask) * scale;
+    return (rb & mask) | (ag & ~mask);
+}
+
+static inline SkPMColor SkPMSrcOver(SkPMColor src, SkPMColor dst) {
+return src + SkAlphaMulQ(dst, SkAlpha255To256(255 - SkGetPackedA32(src)));
+}
+
+

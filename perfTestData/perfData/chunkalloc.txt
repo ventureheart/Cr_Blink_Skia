@@ -1,0 +1,64 @@
+# ========
+# captured on: Mon Jul 15 18:14:15 2013
+# hostname : venture
+# os release : 3.5.0-23-generic
+# perf version : 3.5.7.2
+# arch : x86_64
+# nrcpus online : 8
+# nrcpus avail : 8
+# cpudesc : Intel(R) Core(TM) i7 CPU 870 @ 2.93GHz
+# cpuid : GenuineIntel,6,30,5
+# total memory : 3982968 kB
+# cmdline : /usr/bin/perf_3.5.0-23 record ./out/Release/bench --repeat 10 --match chunkalloc --timers wcg 
+# event : name = cycles, type = 0, config = 0x0, config1 = 0x0, config2 = 0x0, excl_usr = 0, excl_kern = 0, id = { 254, 255, 256, 257, 258, 259, 260, 261 }
+# HEADER_CPU_TOPOLOGY info available, use -I to display
+# HEADER_NUMA_TOPOLOGY info available, use -I to display
+# ========
+#
+# Samples: 841  of event 'cycles'
+# Event count (approx.): 583591333
+#
+# Overhead  Command           Shared Object                                                                                                                         Symbol
+# ........  .......  ......................  .............................................................................................................................
+#
+    34.60%    bench  bench                   [.] SkChunkAlloc::alloc(unsigned long, SkChunkAlloc::AllocFailType)                                                          
+    32.23%    bench  [kernel.kallsyms]       [k] 0xffffffff8103fe1a                                                                                                       
+    15.75%    bench  bench                   [.] ChunkAllocBench::onDraw(SkCanvas*)                                                                                       
+     4.30%    bench  libc-2.15.so            [.] 0x0000000000132bb1                                                                                                       
+     3.33%    bench  ld-2.15.so              [.] 0x0000000000009bd0                                                                                                       
+     2.55%    bench  bench                   [.] SkRTree::chooseSubtree(SkRTree::Node*, SkRTree::Branch*)                                                                 
+     1.93%    bench  libGL.so.1.2            [.] 0x0000000000041700                                                                                                       
+     0.80%    bench  libexpat.so.1.5.2       [.] 0x000000000000fa55                                                                                                       
+     0.45%    bench  libc-2.15.so            [.] malloc                                                                                                                   
+     0.44%    bench  libfontconfig.so.1.4.4  [.] 0x0000000000017452                                                                                                       
+     0.29%    bench  libGL.so.1.2            [.] glXGetFBConfigAttribSGIX                                                                                                 
+     0.26%    bench  bench                   [.] SkRTree::distributeChildren(SkRTree::Branch*)                                                                            
+     0.26%    bench  bench                   [.] void SkTIntroSort<SkRTree::Branch, SkRTree::RectLessThan>(int, SkRTree::Branch*, SkRTree::Branch*, SkRTree::RectLessThan)
+     0.22%    bench  nouveau_dri.so          [.] 0x000000000003d360                                                                                                       
+     0.15%    bench  libgallium.so           [.] draw_init                                                                                                                
+     0.15%    bench  bench                   [.] SkRTree::bulkLoad(SkTDArray<SkRTree::Branch>*, int)                                                                      
+     0.15%    bench  bench                   [.] void SkTIntroSort<SkRTree::Branch, SkRTree::RectLessY>(int, SkRTree::Branch*, SkRTree::Branch*, SkRTree::RectLessY)      
+     0.15%    bench  bench                   [.] Fact3(void*)                                                                                                             
+     0.15%    bench  bench                   [.] SkRTree::insert(SkRTree::Node*, SkRTree::Branch*, unsigned short)                                                        
+     0.15%    bench  libLLVM-3.0.so.1        [.] llvm::Pass* llvm::callDefaultCtor<llvm::SlotIndexes>()                                                                   
+     0.15%    bench  libLLVM-3.0.so.1        [.] llvm::TargetLowering::computeRegisterProperties()                                                                        
+     0.15%    bench  libX11.so.6.3.0         [.] 0x000000000003d2cc                                                                                                       
+     0.14%    bench  bench                   [.] F_63(void*)                                                                                                              
+     0.14%    bench  libLLVM-3.0.so.1        [.] llvm::StringMapImpl::LookupBucketFor(llvm::StringRef)                                                                    
+     0.14%    bench  bench                   [.] SuperBlitter::blitH(int, int, int)                                                                                       
+     0.14%    bench  libc-2.15.so            [.] free                                                                                                                     
+     0.11%    bench  libdricore.so           [.] _mesa_resize_framebuffer                                                                                                 
+     0.10%    bench  libdricore.so           [.] _mesa_get_enabled_extension                                                                                              
+     0.10%    bench  nouveau_dri.so          [.] driIndexConfigAttrib                                                                                                     
+     0.10%    bench  libdricore.so           [.] hash_table_insert                                                                                                        
+     0.09%    bench  libdricore.so           [.] hash_table_find                                                                                                          
+     0.09%    bench  libm-2.15.so            [.] __powf_finite                                                                                                            
+     0.08%    bench  libstdc++.so.6.0.16     [.] __cxa_guard_acquire                                                                                                      
+     0.08%    bench  libdricore.so           [.] _mesa_GetStringi                                                                                                         
+     0.07%    bench  bench                   [.] Fact(void*)                                                                                                              
+     0.05%    bench  libc-2.15.so            [.] __libc_calloc                                                                                                            
+
+
+#
+# (For a higher level overview, try: perf report --sort comm,dso)
+#

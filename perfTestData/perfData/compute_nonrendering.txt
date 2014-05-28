@@ -1,0 +1,75 @@
+# ========
+# captured on: Mon Jul 15 18:28:21 2013
+# hostname : venture
+# os release : 3.5.0-23-generic
+# perf version : 3.5.7.2
+# arch : x86_64
+# nrcpus online : 8
+# nrcpus avail : 8
+# cpudesc : Intel(R) Core(TM) i7 CPU 870 @ 2.93GHz
+# cpuid : GenuineIntel,6,30,5
+# total memory : 3982968 kB
+# cmdline : /usr/bin/perf_3.5.0-23 record ./out/Release/bench --repeat 10 --match compute --timers wcg 
+# event : name = cycles, type = 0, config = 0x0, config1 = 0x0, config2 = 0x0, excl_usr = 0, excl_kern = 0, id = { 318, 319, 320, 321, 322, 323, 324, 325 }
+# HEADER_CPU_TOPOLOGY info available, use -I to display
+# HEADER_NUMA_TOPOLOGY info available, use -I to display
+# ========
+#
+# Samples: 20K of event 'cycles'
+# Event count (approx.): 17556993404
+#
+# Overhead  Command           Shared Object                                                                                                                                      Symbol
+# ........  .......  ......................  ..........................................................................................................................................
+#
+    57.98%    bench  bench                   [.] transform(unsigned int*, unsigned char const*)                                                                                        
+    34.05%    bench  bench                   [.] transform(unsigned int*, unsigned char const*)                                                                                        
+     2.22%    bench  bench                   [.] ComputeChecksumBench::onDraw(SkCanvas*)                                                                                               
+     1.71%    bench  bench                   [.] SkConic::computeAsQuadError(SkPoint*) const                                                                                           
+     1.28%    bench  [kernel.kallsyms]       [k] 0xffffffff8103fe1a                                                                                                                    
+     0.59%    bench  bench                   [.] SkSHA1::update(unsigned char const*, unsigned long)                                                                                   
+     0.55%    bench  bench                   [.] SkMD5::update(unsigned char const*, unsigned long)                                                                                    
+     0.38%    bench  bench                   [.] ConicBench_ComputeError::onDraw(SkCanvas*)                                                                                            
+     0.31%    bench  libc-2.15.so            [.] 0x0000000000080b59                                                                                                                    
+     0.20%    bench  bench                   [.] SkSHA1::finish(SkSHA1::Digest&)                                                                                                       
+     0.19%    bench  bench                   [.] SkMD5::finish(SkMD5::Digest&)                                                                                                         
+     0.11%    bench  ld-2.15.so              [.] 0x00000000000188d6                                                                                                                    
+     0.08%    bench  libGL.so.1.2            [.] 0x0000000000041700                                                                                                                    
+     0.05%    bench  bench                   [.] SkRTree::chooseSubtree(SkRTree::Node*, SkRTree::Branch*)                                                                              
+     0.04%    bench  bench                   [.] memcpy@plt                                                                                                                            
+     0.04%    bench  bench                   [.] SkWStream::~SkWStream()                                                                                                               
+     0.02%    bench  bench                   [.] SkRTree::insert(SkRTree::Node*, SkRTree::Branch*, unsigned short)                                                                     
+     0.02%    bench  libexpat.so.1.5.2       [.] 0x000000000000fa4d                                                                                                                    
+     0.02%    bench  bench                   [.] void SkTIntroSort<SkRTree::Branch, SkRTree::RectLessThan>(int, SkRTree::Branch*, SkRTree::Branch*, SkRTree::RectLessThan)             
+     0.02%    bench  libfontconfig.so.1.4.4  [.] 0x000000000001d0dd                                                                                                                    
+     0.01%    bench  bench                   [.] SkSHA1::SkSHA1()                                                                                                                      
+     0.01%    bench  bench                   [.] SkRTree::distributeChildren(SkRTree::Branch*)                                                                                         
+     0.01%    bench  bench                   [.] SkMD5::SkMD5()                                                                                                                        
+     0.01%    bench  nouveau_dri.so          [.] 0x000000000003d360                                                                                                                    
+     0.00%    bench  bench                   [.] F0(void*)                                                                                                                             
+     0.00%    bench  bench                   [.] operate_on_span(int const*, int const*, int*, int, int)                                                                               
+     0.00%    bench  bench                   [.] SkCanvas::drawOval(SkRect const&, SkPaint const&)                                                                                     
+     0.00%    bench  libc-2.15.so            [.] realloc                                                                                                                               
+     0.00%    bench  bench                   [.] void SkTIntroSort<SkRTree::Branch, SkRTree::RectLessY>(int, SkRTree::Branch*, SkRTree::Branch*, SkRTree::RectLessY)                   
+     0.00%    bench  bench                   [.] SkIRect::join(int, int, int, int)                                                                                                     
+     0.00%    bench  libfreetype.so.6.8.0    [.] TT_RunIns                                                                                                                             
+     0.00%    bench  libfreetype.so.6.8.0    [.] FT_Stream_ReadFields                                                                                                                  
+     0.00%    bench  libm-2.15.so            [.] __powf_finite                                                                                                                         
+     0.00%    bench  libLLVM-3.0.so.1        [.] llvm::PMTopLevelManager::setLastUser(llvm::SmallVectorImpl<llvm::Pass*> const&, llvm::Pass*)                                          
+     0.00%    bench  libLLVM-3.0.so.1        [.] llvm::createX86ISelDag(llvm::X86TargetMachine&, llvm::CodeGenOpt::Level)                                                              
+     0.00%    bench  libLLVM-3.0.so.1        [.] llvm::X86_MC::getX86RegNum(unsigned int)                                                                                              
+     0.00%    bench  libX11.so.6.3.0         [.] _XVIDtoVisual                                                                                                                         
+     0.00%    bench  libGL.so.1.2            [.] glXGetFBConfigAttribSGIX                                                                                                              
+     0.00%    bench  libxcb.so.1.1.0         [.] 0x000000000000a8af                                                                                                                    
+     0.00%    bench  libGL.so.1.2            [.] glXGetProcAddressARB                                                                                                                  
+     0.00%    bench  bench                   [.] _Z12SkTIntroSortI8SkString31SkTLessFunctionToFunctorAdaptorIS0_XadL_ZN12_GLOBAL__N_117extension_compareERKS0_S4_EEEEviPT_S7_T0_.isra.6
+     0.00%    bench  libdricore.so           [.] _mesa_get_enabled_extension                                                                                                           
+     0.00%    bench  libfontconfig.so.1.4.4  [.] FcStrSetMember                                                                                                                        
+     0.00%    bench  libc-2.15.so            [.] srandom_r                                                                                                                             
+     0.00%    bench  nouveau_dri.so          [.] driIndexConfigAttrib                                                                                                                  
+     0.00%    bench  libpthread-2.15.so      [.] pthread_cond_signal@@GLIBC_2.3.2                                                                                                      
+     0.00%    bench  libX11.so.6.3.0         [.] _XUpdateGCCache                                                                                                                       
+
+
+#
+# (For a higher level overview, try: perf report --sort comm,dso)
+#

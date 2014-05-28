@@ -1,0 +1,263 @@
+Index: src/core/SkBlitRow_D16.cpp
+===================================================================
+--- src/core/SkBlitRow_D16.cpp	(revision 9918)
++++ src/core/SkBlitRow_D16.cpp	(working copy)
+@@ -18,10 +18,17 @@
+     SkASSERT(255 == alpha);
+ 
+     if (count > 0) {
++        uint32_t rs = SK_R32_SHIFT + (8 - SK_R16_BITS);
++        uint32_t gs = SK_G32_SHIFT + (8 - SK_G16_BITS);
++        uint32_t bs = SK_B32_SHIFT + (8 - SK_B16_BITS);
+         do {
+             SkPMColor c = *src++;
+             SkPMColorAssert(c);
+-            *dst++ = SkPixel32ToPixel16_ToU16(c);
++            //*dst++ = SkPixel32ToPixel16_ToU16(c);
++            unsigned r = (c >> rs & SK_R16_MASK) << SK_R16_SHIFT;
++            unsigned g = (c >> gs & SK_G16_MASK) << SK_G16_SHIFT;
++            unsigned b = (c >> bs & SK_B16_MASK) << SK_B16_SHIFT;
++            *dst++ = SkToU16(r | g | b);
+         } while (--count != 0);
+     }
+ }
+Index: src/core/SkUtils.cpp
+===================================================================
+--- src/core/SkUtils.cpp	(revision 9918)
++++ src/core/SkUtils.cpp	(working copy)
+@@ -124,6 +124,93 @@
+ 
+ SkMemset32Proc sk_memset32 = sk_memset32_stub;
+ 
++//impl memcpy
++void sk_memcpy16_portable(uint16_t dst[], uint16_t src[], int count) {
++    SkASSERT(dst != NULL && src != NULL && count >= 0);
++
++    if (count <= 0) {
++        return;
++    }
++
++    // not sure if this helps to short-circuit on small values of count
++    //if (count < 8) {
++        do {
++            *dst++ = *src++;
++        } while (--count != 0);
++        return;
++    //}
++
++    // ensure we're on a long boundary
++    /*if ((size_t)dst & 2) {
++        *dst++ = *src++;
++        count -= 1;
++    }
++
++    uint32_t value32 = ((uint32_t)value << 16) | value;
++
++    // handle the bulk with our unrolled macro
++    {
++        int sixteenlongs = count >> 5;
++        if (sixteenlongs) {
++            uint32_t* dst32 = (uint32_t*)dst;
++            do {
++                assign_16_longs(dst32, value32);
++            } while (--sixteenlongs != 0);
++            dst = (uint16_t*)dst32;
++            count &= 31;
++        }
++    }
++
++    // handle (most) of the rest
++    {
++        int longs = count >> 1;
++        if (longs) {
++            do {
++                *(uint32_t*)dst = value32;
++                dst += 2;
++            } while (--longs != 0);
++        }
++    }
++
++    // cleanup a possible trailing short
++    if (count & 1) {
++        *dst = (uint16_t)value;
++    }*/
++}
++
++void sk_memcpy32_portable(uint32_t dst[], uint32_t src[], int count) {
++    SkASSERT(dst != NULL && src != NULL && count >= 0);
++
++    /*int sixteenlongs = count >> 4;
++    if (sixteenlongs) {
++        do {
++            assign_16_longs(dst, value);
++        } while (--sixteenlongs != 0);
++        count &= 15;
++    }
++
++    if (count) {*/
++        do {
++            *dst++ = *src++;
++        } while (--count != 0);
++   // }
++}
++
++static void sk_memcpy16_stub(uint16_t dst[], uint16_t src[], int count) {
++    SkMemcpy16Proc proc = SkMemcpy16GetPlatformProc();
++    sk_memcpy16 = proc ? proc : sk_memcpy16_portable;
++    sk_memcpy16(dst, src, count);
++}
++
++SkMemcpy16Proc sk_memcpy16 = sk_memcpy16_stub;
++
++static void sk_memcpy32_stub(uint32_t dst[], uint32_t src[], int count) {
++    SkMemcpy32Proc proc = SkMemcpy32GetPlatformProc();
++    sk_memcpy32 = proc ? proc : sk_memcpy32_portable;
++    sk_memcpy32(dst, src, count);
++}
++
++SkMemcpy32Proc sk_memcpy32 = sk_memcpy32_stub;
+ ///////////////////////////////////////////////////////////////////////////////
+ 
+ /*  0xxxxxxx    1 total
+Index: src/opts/SkUtils_opts_SSE2.cpp
+===================================================================
+--- src/opts/SkUtils_opts_SSE2.cpp	(revision 9918)
++++ src/opts/SkUtils_opts_SSE2.cpp	(working copy)
+@@ -67,3 +67,71 @@
+         --count;
+     }
+ }
++
++void sk_memcpy16_SSE2(uint16_t *dst, uint16_t *src, int count)
++{
++    SkASSERT(dst != NULL && src != NULL && count >= 0);
++
++    // dst must be 2-byte aligned.
++    SkASSERT((((size_t) dst) & 0x01) == 0);
++
++    if (count >= 32) {
++        while (((size_t)dst) & 0x0F) {
++            *dst++ = *src++;
++            --count;
++        }
++        __m128i *d = reinterpret_cast<__m128i*>(dst);
++        __m128i *s = reinterpret_cast<__m128i*>(src);
++        //__m128i value_wide = _mm_set1_epi16(value);
++        while (count >= 32) {
++            __m128i src_data1 = _mm_loadu_si128(s++);
++            __m128i src_data2 = _mm_loadu_si128(s++);
++            __m128i src_data3 = _mm_loadu_si128(s++);
++            __m128i src_data4 = _mm_loadu_si128(s++);
++            _mm_store_si128(d++, src_data1);
++            _mm_store_si128(d++, src_data2);
++            _mm_store_si128(d++, src_data3);
++            _mm_store_si128(d++, src_data4);
++            count -= 32;
++        }
++        dst = reinterpret_cast<uint16_t*>(d);
++    }
++    while (count > 0) {
++        *dst++ = *src++;
++        --count;
++    }
++}
++
++void sk_memcpy32_SSE2(uint32_t *dst, uint32_t *src, int count)
++{
++    SkASSERT(dst != NULL && src != NULL && count >= 0);
++
++    // dst must be 4-byte aligned.
++    SkASSERT((((size_t) dst) & 0x03) == 0);
++
++    if (count >= 16) {
++        while (((size_t)dst) & 0x0F) {
++            *dst++ = *src++;
++            --count;
++        }
++        __m128i *d = reinterpret_cast<__m128i*>(dst);
++        __m128i *s = reinterpret_cast<__m128i*>(src);
++        //__m128i value_wide = _mm_set1_epi32(value);
++        while (count >= 16) {
++            __m128i src_data1 = _mm_loadu_si128(s++);
++            __m128i src_data2 = _mm_loadu_si128(s++);
++            __m128i src_data3 = _mm_loadu_si128(s++);
++            __m128i src_data4 = _mm_loadu_si128(s++);
++            _mm_store_si128(d++, src_data1);
++            _mm_store_si128(d++, src_data2);
++            _mm_store_si128(d++, src_data3);
++            _mm_store_si128(d++, src_data4);
++            count -= 16;
++        }
++        dst = reinterpret_cast<uint32_t*>(d);
++    }
++    while (count > 0) {
++        *dst++ = *src++;
++        --count;
++    }
++}
+Index: src/opts/SkUtils_opts_SSE2.h
+===================================================================
+--- src/opts/SkUtils_opts_SSE2.h	(revision 9918)
++++ src/opts/SkUtils_opts_SSE2.h	(working copy)
+@@ -11,3 +11,5 @@
+ 
+ void sk_memset16_SSE2(uint16_t *dst, uint16_t value, int count);
+ void sk_memset32_SSE2(uint32_t *dst, uint32_t value, int count);
++void sk_memcpy16_SSE2(uint16_t *dst, uint16_t *src, int count);
++void sk_memcpy32_SSE2(uint32_t *dst, uint32_t *src, int count);
+Index: src/opts/opts_check_SSE2.cpp
+===================================================================
+--- src/opts/opts_check_SSE2.cpp	(revision 9918)
++++ src/opts/opts_check_SSE2.cpp	(working copy)
+@@ -231,6 +231,22 @@
+     }
+ }
+ 
++SkMemcpy16Proc SkMemcpy16GetPlatformProc() {
++    if (cachedHasSSE2()) {
++        return sk_memcpy16_SSE2;
++    } else {
++        return NULL;
++    }
++}
++
++SkMemcpy32Proc SkMemcpy32GetPlatformProc() {
++    if (cachedHasSSE2()) {
++        return sk_memcpy32_SSE2;
++    } else {
++        return NULL;
++    }
++}
++
+ SkBlitRow::ColorRectProc PlatformColorRectProcFactory(); // suppress warning
+ 
+ SkBlitRow::ColorRectProc PlatformColorRectProcFactory() {
+Index: include/core/SkUtils.h
+===================================================================
+--- include/core/SkUtils.h	(revision 9918)
++++ include/core/SkUtils.h	(working copy)
+@@ -37,7 +37,24 @@
+ #ifndef sk_memset32
+ extern SkMemset32Proc sk_memset32;
+ #endif
++/*** define memcpy()
++*/
++void sk_memcpy16_portable(uint16_t dst[], uint16_t src[], int count);
++typedef void (*SkMemcpy16Proc)(uint16_t dst[], uint16_t src[], int count);
++SkMemcpy16Proc SkMemcpy16GetPlatformProc();
+ 
++void sk_memcpy32_portable(uint32_t dst[], uint32_t src[], int count);
++typedef void (*SkMemcpy32Proc)(uint32_t dst[], uint32_t src[], int count);
++SkMemcpy32Proc SkMemcpy32GetPlatformProc();
++
++#ifndef sk_memcpy16
++extern SkMemcpy16Proc sk_memcpy16;
++#endif
++
++#ifndef sk_memcpy32
++extern SkMemcpy32Proc sk_memcpy32;
++#endif
++
+ ///////////////////////////////////////////////////////////////////////////////
+ 
+ #define kMaxBytesInUTF8Sequence     4

@@ -1,0 +1,3 @@
+1. use 'cut' command to separate bench data into benchName.txt, 8888.txt, 565.txt, GPU.txt, NonRendering.txt, NULLGPU.txt
+
+2. shell to use gdbserver and gdb to trace the code for skia on Android IA.

@@ -1,0 +1,579 @@
+running bench [640 480]                                 xfermode_create    NONRENDERING: cmsecs =     17.08
+running bench [640 480]                             Xfermode_Luminosity    8888: cmsecs =    311.01   565: cmsecs =    357.72   GPU: cmsecs =    119.33   NULLGPU: cmsecs =     12.32
+running bench [640 480]                                  Xfermode_Color    8888: cmsecs =   1038.10   565: cmsecs =   1067.10   GPU: cmsecs =     87.29   NULLGPU: cmsecs =     12.28
+running bench [640 480]                             Xfermode_Saturation    8888: cmsecs =    306.74   565: cmsecs =    347.15   GPU: cmsecs =    113.66   NULLGPU: cmsecs =     12.28
+running bench [640 480]                                    Xfermode_Hue    8888: cmsecs =    525.58   565: cmsecs =    560.95   GPU: cmsecs =    114.51   NULLGPU: cmsecs =     12.29
+running bench [640 480]                               Xfermode_Multiply    8888: cmsecs =    227.90   565: cmsecs =    236.19   GPU: cmsecs =     86.18   NULLGPU: cmsecs =     12.25
+running bench [640 480]                              Xfermode_Exclusion    8888: cmsecs =    183.04   565: cmsecs =    217.04   GPU: cmsecs =     86.34   NULLGPU: cmsecs =     12.33
+running bench [640 480]                             Xfermode_Difference    8888: cmsecs =    208.67   565: cmsecs =    241.29   GPU: cmsecs =     86.52   NULLGPU: cmsecs =     12.34
+running bench [640 480]                              Xfermode_SoftLight    8888: cmsecs =   1192.32   565: cmsecs =   1247.13   GPU: cmsecs =    114.09   NULLGPU: cmsecs =     12.27
+running bench [640 480]                              Xfermode_HardLight    8888: cmsecs =    217.24   565: cmsecs =    253.77   GPU: cmsecs =     87.36   NULLGPU: cmsecs =     12.27
+running bench [640 480]                              Xfermode_ColorBurn    8888: cmsecs =    164.57   565: cmsecs =    198.89   GPU: cmsecs =     86.92   NULLGPU: cmsecs =     12.27
+running bench [640 480]                             Xfermode_ColorDodge    8888: cmsecs =    479.29   565: cmsecs =    529.60   GPU: cmsecs =     87.40   NULLGPU: cmsecs =     12.31
+running bench [640 480]                                Xfermode_Lighten    8888: cmsecs =    157.75   565: cmsecs =    189.48   GPU: cmsecs =     86.19   NULLGPU: cmsecs =     12.38
+running bench [640 480]                                 Xfermode_Darken    8888: cmsecs =    154.01   565: cmsecs =    196.81   GPU: cmsecs =     86.13   NULLGPU: cmsecs =     12.33
+running bench [640 480]                                Xfermode_Overlay    8888: cmsecs =    194.57   565: cmsecs =    239.82   GPU: cmsecs =     86.41   NULLGPU: cmsecs =     12.38
+running bench [640 480]                                 Xfermode_Screen    8888: cmsecs =    141.63   565: cmsecs =    182.99   GPU: cmsecs =      5.09   NULLGPU: cmsecs =      3.28
+running bench [640 480]                               Xfermode_Modulate    8888: cmsecs =     95.86   565: cmsecs =    135.99   GPU: cmsecs =      3.66   NULLGPU: cmsecs =      3.29
+running bench [640 480]                                   Xfermode_Plus    8888: cmsecs =     97.48   565: cmsecs =    129.65   GPU: cmsecs =      3.67   NULLGPU: cmsecs =      3.27
+running bench [640 480]                                    Xfermode_Xor    8888: cmsecs =    152.48   565: cmsecs =    196.29   GPU: cmsecs =      3.81   NULLGPU: cmsecs =      3.27
+running bench [640 480]                                Xfermode_DstATop    8888: cmsecs =    137.05   565: cmsecs =    179.86   GPU: cmsecs =      3.66   NULLGPU: cmsecs =      3.30
+running bench [640 480]                                Xfermode_SrcATop    8888: cmsecs =    138.48   565: cmsecs =    175.24   GPU: cmsecs =      3.73   NULLGPU: cmsecs =      3.25
+running bench [640 480]                                 Xfermode_DstOut    8888: cmsecs =     37.43   565: cmsecs =    116.33   GPU: cmsecs =      3.65   NULLGPU: cmsecs =      3.28
+running bench [640 480]                                 Xfermode_SrcOut    8888: cmsecs =     83.23   565: cmsecs =    120.73   GPU: cmsecs =      3.63   NULLGPU: cmsecs =      3.28
+running bench [640 480]                                  Xfermode_DstIn    8888: cmsecs =     35.10   565: cmsecs =    126.01   GPU: cmsecs =      3.74   NULLGPU: cmsecs =      3.28
+running bench [640 480]                                  Xfermode_SrcIn    8888: cmsecs =     82.15   565: cmsecs =    116.67   GPU: cmsecs =      3.67   NULLGPU: cmsecs =      3.28
+running bench [640 480]                                Xfermode_DstOver    8888: cmsecs =     80.94   565: cmsecs =      1.27
+running bench [640 480]                                Xfermode_SrcOver    8888: cmsecs =     16.81   565: cmsecs =     29.95   GPU: cmsecs =      3.76   NULLGPU: cmsecs =      3.29
+running bench [640 480]                                    Xfermode_Dst    8888: cmsecs =      0.20   565: cmsecs =      0.21   GPU: cmsecs =      0.20   NULLGPU: cmsecs =      0.20
+running bench [640 480]                                    Xfermode_Src    8888: cmsecs =      7.77   565: cmsecs =     80.74   GPU: cmsecs =      3.69   NULLGPU: cmsecs =      3.28
+running bench [640 480]                                  Xfermode_Clear    8888: cmsecs =      8.15   565: cmsecs =     81.22   GPU: cmsecs =      3.66   NULLGPU: cmsecs =      3.28
+running bench [640 480]                                          writer    NONRENDERING: cmsecs =      1.84
+running bench [640 480]                               writepix_rgba_UPM    8888: cmsecs =   3710.47   565: cmsecs =   6986.49   GPU: cmsecs =  27406.18   NULLGPU: cmsecs =     33.91
+running bench [640 480]                                writepix_rgba_PM    8888: cmsecs =    711.89   565: cmsecs =   7258.85   GPU: cmsecs =  28678.10   NULLGPU: cmsecs =   1018.97
+running bench [640 480]                                           verts    8888: cmsecs =  12382.39   565: cmsecs =  14799.66   GPU: cmsecs =    153.21   NULLGPU: cmsecs =     14.97
+running bench [640 480]                      constXTile_MM_filter_trans    8888: cmsecs =    911.08   565: cmsecs =   2357.41   GPU: cmsecs =     48.43   NULLGPU: cmsecs =     13.93
+running bench [640 480]                constXTile_CC_filter_trans_scale    8888: cmsecs =    918.05   565: cmsecs =  11025.76   GPU: cmsecs =     47.78   NULLGPU: cmsecs =     14.67
+running bench [640 480]                      constXTile_RR_filter_trans    8888: cmsecs =    910.77   565: cmsecs =   2367.52   GPU: cmsecs =     46.97   NULLGPU: cmsecs =     13.97
+running bench [640 480]                       constXTile_MM_trans_scale    8888: cmsecs =    920.05   565: cmsecs =   2364.73   GPU: cmsecs =     48.73   NULLGPU: cmsecs =     14.54
+running bench [640 480]                             constXTile_CC_trans    8888: cmsecs =    903.77   565: cmsecs =   2372.13   GPU: cmsecs =     51.79   NULLGPU: cmsecs =     13.98
+running bench [640 480]                       constXTile_RR_trans_scale    8888: cmsecs =    922.21   565: cmsecs =   2364.56   GPU: cmsecs =     49.07   NULLGPU: cmsecs =     14.50
+running bench [640 480]                            constXTile_MM_filter    8888: cmsecs =    232.07   565: cmsecs =    230.42   GPU: cmsecs =     17.73   NULLGPU: cmsecs =      8.86
+running bench [640 480]                      constXTile_CC_filter_scale    8888: cmsecs =    242.96   565: cmsecs =   8889.60   GPU: cmsecs =     18.27   NULLGPU: cmsecs =      9.30
+running bench [640 480]                            constXTile_RR_filter    8888: cmsecs =    226.87   565: cmsecs =    232.26   GPU: cmsecs =     22.04   NULLGPU: cmsecs =      8.67
+running bench [640 480]                             constXTile_MM_scale    8888: cmsecs =    230.86   565: cmsecs =    232.11   GPU: cmsecs =     19.84   NULLGPU: cmsecs =      9.10
+running bench [640 480]                                   constXTile_CC    8888: cmsecs =    222.06   565: cmsecs =    222.06   GPU: cmsecs =     18.86   NULLGPU: cmsecs =      8.63
+running bench [640 480]                             constXTile_RR_scale    8888: cmsecs =    234.21   565: cmsecs =    224.43   GPU: cmsecs =     18.36   NULLGPU: cmsecs =      9.29
+running bench [640 480]                               text_16_pos_AA_BK    8888: cmsecs =     11.93   565: cmsecs =     10.45   GPU: cmsecs =     17.80   NULLGPU: cmsecs =     14.82
+running bench [640 480]                                  text_16_LCD_88    8888: cmsecs =     14.01   565: cmsecs =     12.12   GPU: cmsecs =     15.92   NULLGPU: cmsecs =     14.96
+running bench [640 480]                                  text_16_LCD_FF    8888: cmsecs =     13.88   565: cmsecs =     11.39   GPU: cmsecs =     16.01   NULLGPU: cmsecs =     14.83
+running bench [640 480]                                  text_16_LCD_BK    8888: cmsecs =     12.49   565: cmsecs =     10.47   GPU: cmsecs =     15.46   NULLGPU: cmsecs =     14.48
+running bench [640 480]                                   text_16_AA_88    8888: cmsecs =     14.08   565: cmsecs =     11.44   GPU: cmsecs =     15.70   NULLGPU: cmsecs =     14.92
+running bench [640 480]                                   text_16_AA_FF    8888: cmsecs =     13.81   565: cmsecs =     10.75   GPU: cmsecs =     15.66   NULLGPU: cmsecs =     14.68
+running bench [640 480]                                   text_16_AA_BK    8888: cmsecs =     12.42   565: cmsecs =      9.87   GPU: cmsecs =     15.37   NULLGPU: cmsecs =     14.35
+running bench [640 480]                                   text_16_BW_88    8888: cmsecs =      9.13   565: cmsecs =      7.60   GPU: cmsecs =     14.80   NULLGPU: cmsecs =     13.92
+running bench [640 480]                                   text_16_BW_FF    8888: cmsecs =      6.82   565: cmsecs =      6.07   GPU: cmsecs =     14.79   NULLGPU: cmsecs =     13.86
+running bench [640 480]                                   text_16_BW_BK    8888: cmsecs =      6.88   565: cmsecs =      6.19   GPU: cmsecs =     14.81   NULLGPU: cmsecs =     13.88
+running bench [640 480]                                      tablebench    8888: cmsecs =   6771.69   565: cmsecs =   7238.01   GPU: cmsecs =  13084.20   NULLGPU: cmsecs =  12304.12
+running bench [640 480]                          draw_stroke_oval_miter    8888: cmsecs =     47.65   565: cmsecs =     46.95   GPU: cmsecs =      9.70   NULLGPU: cmsecs =      4.55
+running bench [640 480]                          draw_stroke_oval_bevel    8888: cmsecs =     56.47   565: cmsecs =     55.84   GPU: cmsecs =      9.71   NULLGPU: cmsecs =      4.29
+running bench [640 480]                          draw_stroke_oval_round    8888: cmsecs =     48.45   565: cmsecs =     47.30   GPU: cmsecs =      9.77   NULLGPU: cmsecs =      4.29
+running bench [640 480]                         draw_stroke_rrect_miter    8888: cmsecs =     51.24   565: cmsecs =     50.62   GPU: cmsecs =     10.84   NULLGPU: cmsecs =      4.60
+running bench [640 480]                         draw_stroke_rrect_bevel    8888: cmsecs =     63.05   565: cmsecs =     61.47   GPU: cmsecs =     10.84   NULLGPU: cmsecs =      4.55
+running bench [640 480]                         draw_stroke_rrect_round    8888: cmsecs =     51.52   565: cmsecs =     50.71   GPU: cmsecs =     10.87   NULLGPU: cmsecs =      4.52
+running bench [640 480]                          draw_stroke_rect_miter    8888: cmsecs =      3.44   565: cmsecs =      3.72   GPU: cmsecs =      8.30   NULLGPU: cmsecs =      4.27
+running bench [640 480]                          draw_stroke_rect_bevel    8888: cmsecs =     25.19   565: cmsecs =     24.49   GPU: cmsecs =      8.51   NULLGPU: cmsecs =      4.37
+running bench [640 480]                          draw_stroke_rect_round    8888: cmsecs =     30.90   565: cmsecs =     30.26   GPU: cmsecs =    152.00   NULLGPU: cmsecs =     57.25
+running bench [640 480]                             sort_qsort_repeated    NONRENDERING: cmsecs =     16.26
+running bench [640 480]                            sort_skheap_repeated    NONRENDERING: cmsecs =     40.22
+running bench [640 480]                           sort_skqsort_repeated    NONRENDERING: cmsecs =     64.88
+running bench [640 480]                             sort_qsort_backward    NONRENDERING: cmsecs =     41.89
+running bench [640 480]                            sort_skheap_backward    NONRENDERING: cmsecs =     67.65
+running bench [640 480]                           sort_skqsort_backward    NONRENDERING: cmsecs =     35.88
+running bench [640 480]                              sort_qsort_forward    NONRENDERING: cmsecs =     30.18
+running bench [640 480]                             sort_skheap_forward    NONRENDERING: cmsecs =     70.24
+running bench [640 480]                            sort_skqsort_forward    NONRENDERING: cmsecs =     12.88
+running bench [640 480]                               sort_qsort_rand10    NONRENDERING: cmsecs =    101.21
+running bench [640 480]                              sort_skheap_rand10    NONRENDERING: cmsecs =     82.00
+running bench [640 480]                             sort_skqsort_rand10    NONRENDERING: cmsecs =     43.38
+running bench [640 480]                                 sort_qsort_rand    NONRENDERING: cmsecs =    154.27
+running bench [640 480]                                sort_skheap_rand    NONRENDERING: cmsecs =     82.24
+running bench [640 480]                               sort_skqsort_rand    NONRENDERING: cmsecs =     48.78
+running bench [640 480]               SkipZeroes_arrow.png_write_zeroes 
+running bench [640 480]                SkipZeroes_arrow.png_skip_zeroes 
+running bench [640 480]                               shadermask_LCD_80    8888: cmsecs =     37.42   565: cmsecs =     73.29   GPU: cmsecs =     21.48   NULLGPU: cmsecs =     20.09
+running bench [640 480]                               shadermask_LCD_FF    8888: cmsecs =     35.80   565: cmsecs =     68.55   GPU: cmsecs =     21.33   NULLGPU: cmsecs =     20.06
+running bench [640 480]                                shadermask_AA_80    8888: cmsecs =     37.09   565: cmsecs =     78.25   GPU: cmsecs =     21.69   NULLGPU: cmsecs =     19.73
+running bench [640 480]                                shadermask_AA_FF    8888: cmsecs =     34.68   565: cmsecs =     62.79   GPU: cmsecs =     20.93   NULLGPU: cmsecs =     19.68
+running bench [640 480]                                shadermask_BW_80    8888: cmsecs =     40.16   565: cmsecs =     43.82   GPU: cmsecs =     20.09   NULLGPU: cmsecs =     18.86
+running bench [640 480]                                shadermask_BW_FF    8888: cmsecs =     29.64   565: cmsecs =     30.20   GPU: cmsecs =     19.92   NULLGPU: cmsecs =     18.78
+running bench [640 480]                                 scalar_isfinite    NONRENDERING: cmsecs =      0.19
+running bench [640 480]                                     rect_bounds    NONRENDERING: cmsecs =      0.48
+running bench [640 480]                       scalar_compare_forced_int    NONRENDERING: cmsecs =      0.01
+running bench [640 480]                            scalar_compare_float    NONRENDERING: cmsecs =      0.01
+running bench [640 480]                               repeatTile_4444_A    8888: cmsecs =   1876.91   565: cmsecs =   5384.85   GPU: cmsecs =     18.47   NULLGPU: cmsecs =      8.26
+running bench [640 480]                             repeatTile_index8_A    8888: cmsecs =   2515.14   565: cmsecs =    965.64   GPU: cmsecs =     18.52   NULLGPU: cmsecs =      8.56
+running bench [640 480]                               repeatTile_4444_A    8888: cmsecs =    841.09   565: cmsecs =   3087.17   GPU: cmsecs =     18.47   NULLGPU: cmsecs =      8.50
+running bench [640 480]                               repeatTile_4444_X    8888: cmsecs =    294.68   565: cmsecs =   1502.26   GPU: cmsecs =     18.45   NULLGPU: cmsecs =      8.50
+running bench [640 480]                            region_contains_sect    NONRENDERING: cmsecs =      0.11
+running bench [640 480]                            region_containsxy_16    NONRENDERING: cmsecs =      5.24
+running bench [640 480]                        region_intersectsrect_16    NONRENDERING: cmsecs =      0.04
+running bench [640 480]                         region_intersectsrgn_16    NONRENDERING: cmsecs =     14.11
+running bench [640 480]                          region_containsrect_16    NONRENDERING: cmsecs =      0.11
+running bench [640 480]                     region_differencerectbig_16    NONRENDERING: cmsecs =      0.14
+running bench [640 480]                        region_differencerect_16    NONRENDERING: cmsecs =      4.23
+running bench [640 480]                            region_difference_16    NONRENDERING: cmsecs =     27.15
+running bench [640 480]                             region_intersect_16    NONRENDERING: cmsecs =     27.22
+running bench [640 480]                                 region_union_16    NONRENDERING: cmsecs =     28.40
+running bench [640 480]                                ref_cnt_new_weak    NONRENDERING: cmsecs =      0.19
+running bench [640 480]                               ref_cnt_heap_weak    NONRENDERING: cmsecs =      0.04
+running bench [640 480]                              ref_cnt_stack_weak    NONRENDERING: cmsecs =      0.02
+running bench [640 480]                                     ref_cnt_new    NONRENDERING: cmsecs =      0.18
+running bench [640 480]                                    ref_cnt_heap    NONRENDERING: cmsecs =      0.03
+running bench [640 480]                                   ref_cnt_stack    NONRENDERING: cmsecs =      0.02
+running bench [640 480]                                         rectori    8888: cmsecs =   1536.14   565: cmsecs =   1511.84   GPU: cmsecs =    491.67   NULLGPU: cmsecs =    118.83
+running bench [640 480]                                      maskshader    8888: cmsecs =  22481.11   565: cmsecs =  28805.00   GPU: cmsecs =  18382.70   NULLGPU: cmsecs =  12653.30
+running bench [640 480]                                       maskcolor    8888: cmsecs =  15381.92   565: cmsecs =  14497.25   GPU: cmsecs =  13295.21   NULLGPU: cmsecs =   6730.73
+running bench [640 480]                                       maskblack    8888: cmsecs =  15862.59   565: cmsecs =  13743.11   GPU: cmsecs =  13270.36   NULLGPU: cmsecs =   6660.53
+running bench [640 480]                                      maskopaque    8888: cmsecs =  15086.06   565: cmsecs =  14057.04   GPU: cmsecs =  14109.08   NULLGPU: cmsecs =   6684.68
+running bench [640 480]                                 aarects_rotated    8888: cmsecs = 229712.56   565: cmsecs = 221460.90   GPU: cmsecs = 172463.23   NULLGPU: cmsecs = 167222.13
+running bench [640 480]                                         aarects    8888: cmsecs =  66251.95   565: cmsecs =  63907.41   GPU: cmsecs = 139380.11   NULLGPU: cmsecs = 133926.51
+running bench [640 480]                                 srcmode_rects_1    8888: cmsecs =     25.79   565: cmsecs =    244.40   GPU: cmsecs =      5.01   NULLGPU: cmsecs =      5.54
+running bench [640 480]                                         polygon    8888: cmsecs =  60698.61   565: cmsecs =  50103.92   GPU: cmsecs = 123299.62   NULLGPU: cmsecs =  53642.76
+running bench [640 480]                                           lines    8888: cmsecs =  18899.79   565: cmsecs =  15837.54   GPU: cmsecs =  42131.17   NULLGPU: cmsecs =  18251.13
+running bench [640 480]                                          points    8888: cmsecs =   4508.86   565: cmsecs =   4167.82   GPU: cmsecs =   6676.52   NULLGPU: cmsecs =   3344.61
+running bench [640 480]                               rrects_3_stroke_4    8888: cmsecs =     75.75   565: cmsecs =     71.51   GPU: cmsecs =    106.07   NULLGPU: cmsecs =     50.64
+running bench [640 480]                                        rrects_3    8888: cmsecs =     22.96   565: cmsecs =     20.51   GPU: cmsecs =     16.68   NULLGPU: cmsecs =      6.48
+running bench [640 480]                               rrects_1_stroke_4    8888: cmsecs =    157.70   565: cmsecs =    142.80   GPU: cmsecs =    148.99   NULLGPU: cmsecs =     76.92
+running bench [640 480]                                        rrects_1    8888: cmsecs =     55.82   565: cmsecs =     43.50   GPU: cmsecs =     15.54   NULLGPU: cmsecs =      6.15
+running bench [640 480]                                ovals_3_stroke_4    8888: cmsecs =     75.22   565: cmsecs =     69.59   GPU: cmsecs =     98.40   NULLGPU: cmsecs =     48.12
+running bench [640 480]                                ovals_1_stroke_4    8888: cmsecs =    166.22   565: cmsecs =    145.82   GPU: cmsecs =    136.49   NULLGPU: cmsecs =     77.38
+running bench [640 480]                                         ovals_3    8888: cmsecs =     26.18   565: cmsecs =     23.13   GPU: cmsecs =     11.30   NULLGPU: cmsecs =      4.51
+running bench [640 480]                                         ovals_1    8888: cmsecs =     74.65   565: cmsecs =     60.57   GPU: cmsecs =     11.40   NULLGPU: cmsecs =      4.55
+running bench [640 480]                                rects_3_stroke_4    8888: cmsecs =      5.87   565: cmsecs =      4.93   GPU: cmsecs =     10.10   NULLGPU: cmsecs =      5.20
+running bench [640 480]                                         rects_3    8888: cmsecs =      4.55   565: cmsecs =      3.58   GPU: cmsecs =      9.86   NULLGPU: cmsecs =      5.39
+running bench [640 480]                                rects_1_stroke_4    8888: cmsecs =     13.22   565: cmsecs =     11.82   GPU: cmsecs =      9.83   NULLGPU: cmsecs =      5.12
+running bench [640 480]                                         rects_1    8888: cmsecs =     18.06   565: cmsecs =     10.26   GPU: cmsecs =     10.00   NULLGPU: cmsecs =      5.41
+running bench [640 480]                                         readpix    8888: cmsecs =    815.70   565: cmsecs =  13671.61   GPU: cmsecs =  92509.73   NULLGPU: cmsecs =  29686.94
+running bench [640 480]           rtree_(unsorted)concentric_query_bulk    NONRENDERING: cmsecs =     77.26
+running bench [640 480]                     rtree_concentric_query_bulk    NONRENDERING: cmsecs =     77.21
+running bench [640 480]           rtree_(unsorted)concentric_build_bulk    NONRENDERING: cmsecs =     33.81
+running bench [640 480]                     rtree_concentric_build_bulk    NONRENDERING: cmsecs =     73.58
+running bench [640 480]               rtree_(unsorted)random_query_bulk    NONRENDERING: cmsecs =     42.70
+running bench [640 480]                         rtree_random_query_bulk    NONRENDERING: cmsecs =      5.60
+running bench [640 480]               rtree_(unsorted)random_build_bulk    NONRENDERING: cmsecs =     51.51
+running bench [640 480]                         rtree_random_build_bulk    NONRENDERING: cmsecs =    148.65
+running bench [640 480]                              rtree_random_build    NONRENDERING: cmsecs =   1261.19
+running bench [640 480]            rtree_(unsorted)YXordered_query_bulk    NONRENDERING: cmsecs =      9.11
+running bench [640 480]                      rtree_YXordered_query_bulk    NONRENDERING: cmsecs =      4.65
+running bench [640 480]            rtree_(unsorted)YXordered_build_bulk    NONRENDERING: cmsecs =     45.78
+running bench [640 480]                      rtree_YXordered_build_bulk    NONRENDERING: cmsecs =    137.38
+running bench [640 480]                           rtree_YXordered_build    NONRENDERING: cmsecs =   1166.21
+running bench [640 480]            rtree_(unsorted)XYordered_query_bulk    NONRENDERING: cmsecs =      9.22
+running bench [640 480]                      rtree_XYordered_query_bulk    NONRENDERING: cmsecs =      4.65
+running bench [640 480]            rtree_(unsorted)XYordered_build_bulk    NONRENDERING: cmsecs =     45.68
+running bench [640 480]                      rtree_XYordered_build_bulk    NONRENDERING: cmsecs =    137.57
+running bench [640 480]                           rtree_XYordered_build    NONRENDERING: cmsecs =   1171.29
+running bench [640 480]            premul_and_unpremul_alpha_Native8888    8888: cmsecs =   8757.04   565: cmsecs =  15835.03   GPU: cmsecs =  31221.72   NULLGPU: cmsecs =    224.29
+running bench [640 480]              premul_and_unpremul_alpha_RGBA8888    8888: cmsecs =   8507.18   565: cmsecs =  15347.26   GPU: cmsecs =  30737.32   NULLGPU: cmsecs =    190.62
+running bench [640 480]       picture_record_recurring_paint_dictionary    NONRENDERING: cmsecs =      0.20
+running bench [640 480]          picture_record_unique_paint_dictionary    NONRENDERING: cmsecs =      0.34
+running bench [640 480]                     picture_record_dictionaries    NONRENDERING: cmsecs =     16.88
+running bench [640 480]                    picture_playback_drawPosText    8888: cmsecs =   2352.40   565: cmsecs =   2257.03   GPU: cmsecs =  13922.04   NULLGPU: cmsecs =   6753.52
+running bench [640 480]                   picture_playback_drawPosTextH    8888: cmsecs =   2167.67   565: cmsecs =   2089.58   GPU: cmsecs =  13431.88   NULLGPU: cmsecs =   6402.85
+running bench [640 480]                       picture_playback_drawText    8888: cmsecs =    698.00   565: cmsecs =    623.27   GPU: cmsecs =   5218.15   NULLGPU: cmsecs =   4841.17
+running bench [640 480]                                     perlinnoise    8888: cmsecs =  10504.13   565: cmsecs =  10576.97   GPU: cmsecs =    352.21   NULLGPU: cmsecs =     13.34
+running bench [640 480]                                pathUtils_region    8888: cmsecs =    158.25   565: cmsecs =    158.13   GPU: cmsecs =    157.05   NULLGPU: cmsecs =    157.86
+running bench [640 480]                                  pathUtils_path    8888: cmsecs =   1975.35   565: cmsecs =   1969.90   GPU: cmsecs =   2015.92   NULLGPU: cmsecs =   1963.37
+running bench [640 480]                                    pathiter_raw    NONRENDERING: cmsecs =     25.70
+running bench [640 480]                                pathiter_consume    NONRENDERING: cmsecs =     53.21
+running bench [640 480]                                  conic-quadPow2    NONRENDERING: cmsecs =      5.08
+running bench [640 480]                                 conic-asQuadTol    NONRENDERING: cmsecs =      2.24
+running bench [640 480]                             conic-compute-error    NONRENDERING: cmsecs =      1.97
+running bench [640 480]                               ratquad-chop-half    8888: cmsecs =      0.04   565: cmsecs =      0.04   GPU: cmsecs =      0.04   NULLGPU: cmsecs =      0.04
+running bench [640 480]                                ratquad-chop-0.5    8888: cmsecs =      0.09   565: cmsecs =      0.09   GPU: cmsecs =      0.09   NULLGPU: cmsecs =      0.09
+running bench [640 480]                    conservatively_contains_oval    NONRENDERING: cmsecs =      0.19
+running bench [640 480]              conservatively_contains_round_rect    NONRENDERING: cmsecs =      0.30
+running bench [640 480]                    conservatively_contains_rect    NONRENDERING: cmsecs =      0.18
+running bench [640 480]                                zeroradroundrect    8888: cmsecs =     12.29   565: cmsecs =     11.68   GPU: cmsecs =     22.67   NULLGPU: cmsecs =     14.05
+running bench [640 480]                                    arbroundrect    8888: cmsecs =     23.51   565: cmsecs =     22.65   GPU: cmsecs =     42.48   NULLGPU: cmsecs =     28.04
+running bench [640 480]                                  circles_stroke    8888: cmsecs =     32.51   565: cmsecs =     31.70   GPU: cmsecs =     21.28   NULLGPU: cmsecs =      9.57
+running bench [640 480]                                    circles_fill    8888: cmsecs =      9.93   565: cmsecs =      9.53   GPU: cmsecs =     14.40   NULLGPU: cmsecs =      9.25
+running bench [640 480]                            path_reverse_path_to    NONRENDERING: cmsecs =      1.59
+running bench [640 480]                           path_reverse_add_path    NONRENDERING: cmsecs =      4.96
+running bench [640 480]                            path_add_path_matrix    NONRENDERING: cmsecs =      6.73
+running bench [640 480]                             path_add_path_trans    NONRENDERING: cmsecs =      6.57
+running bench [640 480]                                   path_add_path    NONRENDERING: cmsecs =      6.28
+running bench [640 480]                               path_equality_50%    NONRENDERING: cmsecs =      0.02
+running bench [640 480]                             path_transform_copy    NONRENDERING: cmsecs =      0.50
+running bench [640 480]                         path_transform_in_place    NONRENDERING: cmsecs =      0.48
+running bench [640 480]                                       path_copy    NONRENDERING: cmsecs =      0.03
+running bench [640 480]                                     path_create    NONRENDERING: cmsecs =      5.45
+running bench [640 480]                     path_stroke_small_long_line    8888: cmsecs =     60.28   565: cmsecs =     55.50   GPU: cmsecs =     73.57   NULLGPU: cmsecs =     63.46
+running bench [640 480]                       path_fill_small_long_line    8888: cmsecs =     31.55   565: cmsecs =     30.59   GPU: cmsecs =     34.32   NULLGPU: cmsecs =     30.21
+running bench [640 480]                   path_stroke_small_long_curved    8888: cmsecs =    103.17   565: cmsecs =     84.44   GPU: cmsecs =    111.25   NULLGPU: cmsecs =     85.09
+running bench [640 480]                     path_fill_small_long_curved    8888: cmsecs =     32.57   565: cmsecs =     30.11   GPU: cmsecs =     37.18   NULLGPU: cmsecs =     30.56
+running bench [640 480]                      path_stroke_small_sawtooth    8888: cmsecs =     49.58   565: cmsecs =     48.88   GPU: cmsecs =     66.69   NULLGPU: cmsecs =     52.36
+running bench [640 480]                        path_fill_small_sawtooth    8888: cmsecs =     26.50   565: cmsecs =     25.36   GPU: cmsecs =     41.50   NULLGPU: cmsecs =     29.21
+running bench [640 480]                          path_stroke_big_circle    8888: cmsecs =     56.97   565: cmsecs =     54.74   GPU: cmsecs =      2.71   NULLGPU: cmsecs =      1.19
+running bench [640 480]                            path_fill_big_circle    8888: cmsecs =     23.48   565: cmsecs =     21.10   GPU: cmsecs =      2.68   NULLGPU: cmsecs =      1.15
+running bench [640 480]                        path_stroke_small_circle    8888: cmsecs =     54.81   565: cmsecs =     54.14   GPU: cmsecs =     10.23   NULLGPU: cmsecs =      4.75
+running bench [640 480]                          path_fill_small_circle    8888: cmsecs =     12.10   565: cmsecs =     11.78   GPU: cmsecs =     10.05   NULLGPU: cmsecs =      4.60
+running bench [640 480]                            path_stroke_big_oval    8888: cmsecs =     34.94   565: cmsecs =     34.21   GPU: cmsecs =      2.78   NULLGPU: cmsecs =      1.09
+running bench [640 480]                              path_fill_big_oval    8888: cmsecs =     12.95   565: cmsecs =     11.84   GPU: cmsecs =      2.61   NULLGPU: cmsecs =      1.08
+running bench [640 480]                          path_stroke_small_oval    8888: cmsecs =     48.61   565: cmsecs =     48.15   GPU: cmsecs =     10.51   NULLGPU: cmsecs =      4.38
+running bench [640 480]                            path_fill_small_oval    8888: cmsecs =      8.54   565: cmsecs =      8.26   GPU: cmsecs =      9.92   NULLGPU: cmsecs =      4.28
+running bench [640 480]                            path_stroke_big_rect    8888: cmsecs =     24.07   565: cmsecs =     23.22   GPU: cmsecs =     55.38   NULLGPU: cmsecs =     29.18
+running bench [640 480]                              path_fill_big_rect    8888: cmsecs =      3.00   565: cmsecs =      2.90   GPU: cmsecs =      4.30   NULLGPU: cmsecs =      2.13
+running bench [640 480]                          path_stroke_small_rect    8888: cmsecs =     16.48   565: cmsecs =     16.11   GPU: cmsecs =    139.89   NULLGPU: cmsecs =     45.47
+running bench [640 480]                            path_fill_small_rect    8888: cmsecs =      4.61   565: cmsecs =      4.27   GPU: cmsecs =     16.60   NULLGPU: cmsecs =      8.84
+running bench [640 480]                        path_stroke_big_triangle    8888: cmsecs =     35.57   565: cmsecs =     35.10   GPU: cmsecs =     70.46   NULLGPU: cmsecs =     41.58
+running bench [640 480]                          path_fill_big_triangle    8888: cmsecs =     14.27   565: cmsecs =     13.04   GPU: cmsecs =      3.98   NULLGPU: cmsecs =      2.02
+running bench [640 480]                      path_stroke_small_triangle    8888: cmsecs =     21.92   565: cmsecs =     21.48   GPU: cmsecs =    145.35   NULLGPU: cmsecs =     50.34
+running bench [640 480]                        path_fill_small_triangle    8888: cmsecs =      6.33   565: cmsecs =      5.95   GPU: cmsecs =     15.61   NULLGPU: cmsecs =      8.07
+running bench [640 480]                                           mutex    NONRENDERING: cmsecs =      0.04
+running bench [640 480]                                    morph_0_none    8888: cmsecs =     93.11   565: cmsecs =     84.14   GPU: cmsecs =     10.63   NULLGPU: cmsecs =      3.84
+running bench [640 480]                               morph_1.50_dilate    8888: cmsecs =  12050.95   565: cmsecs =  11850.73   GPU: cmsecs =    319.95   NULLGPU: cmsecs =     62.66
+running bench [640 480]                                morph_1.50_erode    8888: cmsecs =  12081.91   565: cmsecs =  11844.46   GPU: cmsecs =    291.56   NULLGPU: cmsecs =     63.34
+running bench [640 480]                                 morph_10_dilate    8888: cmsecs =  28935.95   565: cmsecs =  28833.26   GPU: cmsecs =    591.01   NULLGPU: cmsecs =     62.79
+running bench [640 480]                                  morph_10_erode    8888: cmsecs =  28857.48   565: cmsecs =  28686.66   GPU: cmsecs =    483.17   NULLGPU: cmsecs =     62.58
+running bench [640 480]                                  morph_2_dilate    8888: cmsecs =  13609.54   565: cmsecs =  13348.56   GPU: cmsecs =    352.86   NULLGPU: cmsecs =     62.67
+running bench [640 480]                                   morph_2_erode    8888: cmsecs =  13404.07   565: cmsecs =  13691.62   GPU: cmsecs =    465.40   NULLGPU: cmsecs =     62.60
+running bench [640 480]                                     merge_large    8888: cmsecs =   3177.31   565: cmsecs =   3088.54   GPU: cmsecs =    286.75   NULLGPU: cmsecs =     64.14
+running bench [640 480]                                     merge_small    8888: cmsecs =   3110.59   565: cmsecs =   3046.17   GPU: cmsecs =    286.80   NULLGPU: cmsecs =     64.15
+running bench [640 480]                              memset16_4000_5000    NONRENDERING: cmsecs =   2496.77
+running bench [640 480]                              memset16_3000_4000    NONRENDERING: cmsecs =   1910.85
+running bench [640 480]                              memset16_2000_3000    NONRENDERING: cmsecs =   1461.69
+running bench [640 480]                              memset16_1000_2000    NONRENDERING: cmsecs =   1028.61
+running bench [640 480]                               memset16_800_1000    NONRENDERING: cmsecs =    155.86
+running bench [640 480]                                memset16_600_800    NONRENDERING: cmsecs =    139.94
+running bench [640 480]                                  memset16_1_600    NONRENDERING: cmsecs =    306.82
+running bench [640 480]                              memset32_4000_5000 
+running bench [640 480]                              memset32_3000_4000    NONRENDERING: cmsecs =   2000.41
+running bench [640 480]                              memset32_2000_3000    NONRENDERING: cmsecs =   1378.35
+running bench [640 480]                              memset32_1000_2000    NONRENDERING: cmsecs =    789.63
+running bench [640 480]                               memset32_800_1000    NONRENDERING: cmsecs =    107.65
+running bench [640 480]                                memset32_600_800    NONRENDERING: cmsecs =     92.11
+running bench [640 480]                                  memset32_1_600    NONRENDERING: cmsecs =    169.74
+running bench [640 480]                              memory_calloc_rw_4    NONRENDERING: cmsecs =      0.18
+running bench [640 480]                        memory_malloc_bzero_rw_4    NONRENDERING: cmsecs =      0.17
+running bench [640 480]                               memory_calloc_r_4    NONRENDERING: cmsecs =      0.17
+running bench [640 480]                         memory_malloc_bzero_r_4    NONRENDERING: cmsecs =      0.17
+running bench [640 480]                               memory_calloc_w_4    NONRENDERING: cmsecs =      0.17
+running bench [640 480]                         memory_malloc_bzero_w_4    NONRENDERING: cmsecs =      0.16
+running bench [640 480]                                 memory_calloc_4    NONRENDERING: cmsecs =      0.16
+running bench [640 480]                           memory_malloc_bzero_4    NONRENDERING: cmsecs =      0.16
+running bench [640 480]                            memory_calloc_rw_300    NONRENDERING: cmsecs =      1.25
+running bench [640 480]                      memory_malloc_bzero_rw_300    NONRENDERING: cmsecs =      1.38
+running bench [640 480]                             memory_calloc_r_300    NONRENDERING: cmsecs =      1.00
+running bench [640 480]                       memory_malloc_bzero_r_300    NONRENDERING: cmsecs =      1.12
+running bench [640 480]                             memory_calloc_w_300    NONRENDERING: cmsecs =      0.57
+running bench [640 480]                       memory_malloc_bzero_w_300    NONRENDERING: cmsecs =      0.54
+running bench [640 480]                               memory_calloc_300    NONRENDERING: cmsecs =      0.28
+running bench [640 480]                         memory_malloc_bzero_300    NONRENDERING: cmsecs =      0.28
+running bench [640 480]                           memory_calloc_rw_4096    NONRENDERING: cmsecs =     15.73
+running bench [640 480]                     memory_malloc_bzero_rw_4096    NONRENDERING: cmsecs =     15.22
+running bench [640 480]                            memory_calloc_r_4096    NONRENDERING: cmsecs =     12.09
+running bench [640 480]                      memory_malloc_bzero_r_4096    NONRENDERING: cmsecs =     11.50
+running bench [640 480]                            memory_calloc_w_4096    NONRENDERING: cmsecs =      4.20
+running bench [640 480]                      memory_malloc_bzero_w_4096    NONRENDERING: cmsecs =      4.33
+running bench [640 480]                              memory_calloc_4096    NONRENDERING: cmsecs =      0.98
+running bench [640 480]                        memory_malloc_bzero_4096    NONRENDERING: cmsecs =      0.99
+running bench [640 480]                         memory_calloc_rw_262144    NONRENDERING: cmsecs =   1893.08
+running bench [640 480]                   memory_malloc_bzero_rw_262144    NONRENDERING: cmsecs =   2078.09
+running bench [640 480]                          memory_calloc_r_262144    NONRENDERING: cmsecs =    922.84
+running bench [640 480]                    memory_malloc_bzero_r_262144    NONRENDERING: cmsecs =   1792.71
+running bench [640 480]                          memory_calloc_w_262144    NONRENDERING: cmsecs =    915.71
+running bench [640 480]                    memory_malloc_bzero_w_262144    NONRENDERING: cmsecs =   1327.73
+running bench [640 480]                            memory_calloc_262144    NONRENDERING: cmsecs =     12.88
+running bench [640 480]                      memory_malloc_bzero_262144    NONRENDERING: cmsecs =   1113.77
+running bench [640 480]                        memory_calloc_rw_1048576    NONRENDERING: cmsecs =   8324.09
+running bench [640 480]                  memory_malloc_bzero_rw_1048576    NONRENDERING: cmsecs =   9286.65
+running bench [640 480]                         memory_calloc_r_1048576    NONRENDERING: cmsecs =   3674.96
+running bench [640 480]                   memory_malloc_bzero_r_1048576    NONRENDERING: cmsecs =   8279.05
+running bench [640 480]                         memory_calloc_w_1048576    NONRENDERING: cmsecs =   4539.37
+running bench [640 480]                   memory_malloc_bzero_w_1048576    NONRENDERING: cmsecs =   6301.46
+running bench [640 480]                           memory_calloc_1048576    NONRENDERING: cmsecs =     16.52
+running bench [640 480]                     memory_malloc_bzero_1048576    NONRENDERING: cmsecs =   4986.50
+running bench [640 480]                                 chunkalloc_8192    NONRENDERING: cmsecs =     14.11
+running bench [640 480]                                   chunkalloc_64    NONRENDERING: cmsecs =     12.40
+running bench [640 480]                               matrixconvolution    8888: cmsecs =  66465.21   565: cmsecs =  67482.76   GPU: cmsecs =    382.54   NULLGPU: cmsecs =     50.46
+running bench [640 480]                               matrixconvolution    8888: cmsecs =  74304.73   565: cmsecs =  77696.20   GPU: cmsecs =    321.60   NULLGPU: cmsecs =     50.27
+running bench [640 480]                               matrixconvolution    8888: cmsecs =  74734.78   565: cmsecs =  78136.30   GPU: cmsecs =    301.05   NULLGPU: cmsecs =     53.55
+running bench [640 480]                               matrixconvolution    8888: cmsecs =  74607.22   565: cmsecs =  77848.71   GPU: cmsecs =    308.42   NULLGPU: cmsecs =     50.19
+running bench [640 480]                        matrix_scaletrans_double    NONRENDERING: cmsecs =      0.12
+running bench [640 480]                         matrix_scaletrans_mixed    NONRENDERING: cmsecs =      0.12
+running bench [640 480]         matrix_invert_maprect_typemask_nonpersp    NONRENDERING: cmsecs =      0.19
+running bench [640 480]    matrix_invert_maprect_typemask_rectstaysrect    NONRENDERING: cmsecs =      0.11
+running bench [640 480]                     matrix_invert_maprect_persp    NONRENDERING: cmsecs =      0.26
+running bench [640 480]                  matrix_invert_maprect_nonpersp    NONRENDERING: cmsecs =      0.17
+running bench [640 480]                 matrix_invert_maprect_translate    NONRENDERING: cmsecs =      0.07
+running bench [640 480]             matrix_invert_maprect_rectstaysrect    NONRENDERING: cmsecs =      0.09
+running bench [640 480]                  matrix_invert_maprect_identity    NONRENDERING: cmsecs =      0.06
+running bench [640 480]                                matrix_decompose    NONRENDERING: cmsecs =      0.74
+running bench [640 480]                                  matrix_gettype    NONRENDERING: cmsecs =      0.10
+running bench [640 480]                            matrix_concat_double    NONRENDERING: cmsecs =      0.02
+running bench [640 480]                       matrix_concat_floatdouble    NONRENDERING: cmsecs =      0.04
+running bench [640 480]                        matrix_concat_floatfloat    NONRENDERING: cmsecs =      0.02
+running bench [640 480]                                    matrix_scale    NONRENDERING: cmsecs =      0.08
+running bench [640 480]                                   matrix_equals    NONRENDERING: cmsecs =      0.09
+running bench [640 480]                                matrix44_gettype    NONRENDERING: cmsecs =      0.66
+running bench [640 480]                              matrix44_setconcat    NONRENDERING: cmsecs =      0.46
+running bench [640 480]                        matrix44_inverttranslate    NONRENDERING: cmsecs =      0.42
+running bench [640 480]                   matrix44_invertscaletranslate    NONRENDERING: cmsecs =      0.66
+running bench [640 480]                           matrix44_invertaffine    NONRENDERING: cmsecs =      1.07
+running bench [640 480]                                 matrix44_invert    NONRENDERING: cmsecs =      1.89
+running bench [640 480]                              matrix44_postscale    NONRENDERING: cmsecs =      0.42
+running bench [640 480]                               matrix44_prescale    NONRENDERING: cmsecs =      0.43
+running bench [640 480]                                 matrix44_equals    NONRENDERING: cmsecs =      0.71
+running bench [640 480]                            matrix44_setidentity    NONRENDERING: cmsecs =      0.17
+running bench [640 480]                                  float_to_fixed    NONRENDERING: cmsecs =     10.07
+running bench [640 480]                                 point_normalize    NONRENDERING: cmsecs =     40.65
+running bench [640 480]                                    clz_portable    NONRENDERING: cmsecs =      9.70
+running bench [640 480]                                   clz_intrinsic    NONRENDERING: cmsecs =      6.27
+running bench [640 480]                                      floor_fast    NONRENDERING: cmsecs =      5.64
+running bench [640 480]                                       floor_std    NONRENDERING: cmsecs =     19.77
+running bench [640 480]                           isfinite_plus_mulzero    NONRENDERING: cmsecs =      7.92
+running bench [640 480]                             isfinite_plus_float    NONRENDERING: cmsecs =      7.92
+running bench [640 480]                               isfinite_plus_int    NONRENDERING: cmsecs =      9.16
+running bench [640 480]                            isfinite_and_mulzero    NONRENDERING: cmsecs =      9.16
+running bench [640 480]                              isfinite_and_float    NONRENDERING: cmsecs =     28.23
+running bench [640 480]                                isfinite_and_int    NONRENDERING: cmsecs =      8.84
+running bench [640 480]                                   isfinite_rect    NONRENDERING: cmsecs =      5.41
+running bench [640 480]                                     math_qmul32    NONRENDERING: cmsecs =      0.46
+running bench [640 480]                                     math_qmul64    NONRENDERING: cmsecs =      0.94
+running bench [640 480]                                  math_fastIsqrt    NONRENDERING: cmsecs =      3.23
+running bench [640 480]                                  math_slowIsqrt    NONRENDERING: cmsecs =      2.51
+running bench [640 480]                             math_sk_float_rsqrt    NONRENDERING: cmsecs =      0.23
+running bench [640 480]                                       math_noOp    NONRENDERING: cmsecs =      0.14
+running bench [640 480]                                  divmod_int64_t    NONRENDERING: cmsecs =      0.05
+running bench [640 480]                                  divmod_int32_t    NONRENDERING: cmsecs =      0.02
+running bench [640 480]                                  divmod_int16_t    NONRENDERING: cmsecs =      0.02
+running bench [640 480]                                   divmod_int8_t    NONRENDERING: cmsecs =      0.02
+running bench [640 480]                                 divmod_uint64_t    NONRENDERING: cmsecs =      0.05
+running bench [640 480]                                 divmod_uint32_t    NONRENDERING: cmsecs =      0.01
+running bench [640 480]                                 divmod_uint16_t    NONRENDERING: cmsecs =      0.01
+running bench [640 480]                                  divmod_uint8_t    NONRENDERING: cmsecs =      0.01
+running bench [640 480]                                 magnifier_large    8888: cmsecs =  24656.65   565: cmsecs =  26021.20   GPU: cmsecs =    271.21   NULLGPU: cmsecs =     53.63
+running bench [640 480]                                 magnifier_small    8888: cmsecs =  23917.44   565: cmsecs =  25271.28   GPU: cmsecs =    247.75   NULLGPU: cmsecs =     56.75
+running bench [640 480]                                      lines_1_AA    8888: cmsecs =   5149.23   565: cmsecs =   3909.33   GPU: cmsecs =   3333.14   NULLGPU: cmsecs =   1603.80
+running bench [640 480]                                    lines_0.5_AA    8888: cmsecs =   8726.59   565: cmsecs =   4087.54   GPU: cmsecs =   3251.00   NULLGPU: cmsecs =   1589.99
+running bench [640 480]                                      lines_0_AA    8888: cmsecs =   4604.60   565: cmsecs =   3482.79   GPU: cmsecs =     30.85   NULLGPU: cmsecs =      7.08
+running bench [640 480]                                      lines_1_BW    8888: cmsecs =   4002.81   565: cmsecs =   3315.30   GPU: cmsecs =   2682.37   NULLGPU: cmsecs =   1435.75
+running bench [640 480]                                      lines_0_BW    8888: cmsecs =   2468.26   565: cmsecs =   1617.59   GPU: cmsecs =     34.81   NULLGPU: cmsecs =      7.02
+running bench [640 480]                   lightingspotlitspecular_large    8888: cmsecs =  72855.56   565: cmsecs =  73487.27   GPU: cmsecs =    306.87   NULLGPU: cmsecs =     51.52
+running bench [640 480]                   lightingspotlitspecular_small    8888: cmsecs =  72761.47   565: cmsecs =  73347.69   GPU: cmsecs =    258.89   NULLGPU: cmsecs =     51.45
+running bench [640 480]                lightingdistantlitspecular_large    8888: cmsecs =  62901.27   565: cmsecs =  67663.65   GPU: cmsecs =    305.53   NULLGPU: cmsecs =     51.19
+running bench [640 480]                lightingdistantlitspecular_small    8888: cmsecs =  62767.81   565: cmsecs =  66187.56   GPU: cmsecs =    253.29   NULLGPU: cmsecs =     51.19
+running bench [640 480]                  lightingpointlitspecular_large    8888: cmsecs =  67806.83   565: cmsecs =  71154.21   GPU: cmsecs =    303.57   NULLGPU: cmsecs =     51.35
+running bench [640 480]                  lightingpointlitspecular_small    8888: cmsecs =  67682.69   565: cmsecs =  71264.34   GPU: cmsecs =    258.70   NULLGPU: cmsecs =     51.32
+running bench [640 480]                    lightingspotlitdiffuse_large    8888: cmsecs =  49818.34   565: cmsecs =  53252.67   GPU: cmsecs =    302.71   NULLGPU: cmsecs =     51.59
+running bench [640 480]                    lightingspotlitdiffuse_small    8888: cmsecs =  49748.93   565: cmsecs =  53171.07   GPU: cmsecs =    255.55   NULLGPU: cmsecs =     51.88
+running bench [640 480]                 lightingdistantlitdiffuse_large    8888: cmsecs =  38593.94   565: cmsecs =  41991.71   GPU: cmsecs =    301.61   NULLGPU: cmsecs =     51.12
+running bench [640 480]                 lightingdistantlitdiffuse_small    8888: cmsecs =  38484.79   565: cmsecs =  41918.08   GPU: cmsecs =    273.47   NULLGPU: cmsecs =     51.09
+running bench [640 480]                   lightingpointlitdiffuse_large    8888: cmsecs =  44470.79   565: cmsecs =  47871.00   GPU: cmsecs =    303.57   NULLGPU: cmsecs =     51.29
+running bench [640 480]                   lightingpointlitdiffuse_small    8888: cmsecs =  44369.23   565: cmsecs =  47785.11   GPU: cmsecs =    257.05   NULLGPU: cmsecs =     51.30
+running bench [640 480]                                   interp_double    NONRENDERING: cmsecs =      0.34
+running bench [640 480]                                    interp_float    NONRENDERING: cmsecs =      0.33
+running bench [640 480]                                    interp_16.48    NONRENDERING: cmsecs =      0.35
+running bench [640 480]                                    interp_32.32    NONRENDERING: cmsecs =      0.52
+running bench [640 480]                                    interp_16.16    NONRENDERING: cmsecs =      0.24
+running bench [640 480]                                      imagecache    8888: cmsecs =      0.12   565: cmsecs =      0.12   GPU: cmsecs =      0.12   NULLGPU: cmsecs =      0.12
+running bench [640 480]                      path_hairline_big_AA_cubic    8888: cmsecs =    188.15   565: cmsecs =    180.82   GPU: cmsecs =    115.53   NULLGPU: cmsecs =     53.27
+running bench [640 480]                    path_hairline_small_AA_cubic    8888: cmsecs =    163.93   565: cmsecs =    159.14   GPU: cmsecs =     91.80   NULLGPU: cmsecs =     37.92
+running bench [640 480]                    path_hairline_big_noAA_cubic    8888: cmsecs =    166.68   565: cmsecs =    157.90   GPU: cmsecs =     24.11   NULLGPU: cmsecs =     15.96
+running bench [640 480]                  path_hairline_small_noAA_cubic    8888: cmsecs =    125.01   565: cmsecs =    122.23   GPU: cmsecs =     20.15   NULLGPU: cmsecs =     13.33
+running bench [640 480]                      path_hairline_big_AA_conic    8888: cmsecs =     52.25   565: cmsecs =     49.40   GPU: cmsecs =     75.97   NULLGPU: cmsecs =     27.16
+running bench [640 480]                    path_hairline_small_AA_conic    8888: cmsecs =     27.10   565: cmsecs =     25.88   GPU: cmsecs =     73.54   NULLGPU: cmsecs =     26.10
+running bench [640 480]                       path_hairline_big_AA_quad    8888: cmsecs =     44.30   565: cmsecs =     41.17   GPU: cmsecs =     73.08   NULLGPU: cmsecs =     25.89
+running bench [640 480]                     path_hairline_small_AA_quad    8888: cmsecs =     20.51   565: cmsecs =     19.26   GPU: cmsecs =     70.94   NULLGPU: cmsecs =     23.40
+running bench [640 480]                     path_hairline_big_noAA_quad    8888: cmsecs =     36.09   565: cmsecs =     30.29   GPU: cmsecs =     20.61   NULLGPU: cmsecs =     14.35
+running bench [640 480]                   path_hairline_small_noAA_quad    8888: cmsecs =     18.47   565: cmsecs =     15.83   GPU: cmsecs =     18.94   NULLGPU: cmsecs =     12.16
+running bench [640 480]                       path_hairline_big_AA_line    8888: cmsecs =     35.12   565: cmsecs =     31.24   GPU: cmsecs =     20.18   NULLGPU: cmsecs =     11.29
+running bench [640 480]                     path_hairline_small_AA_line    8888: cmsecs =     15.55   565: cmsecs =     13.97   GPU: cmsecs =     20.02   NULLGPU: cmsecs =     11.29
+running bench [640 480]                     path_hairline_big_noAA_line    8888: cmsecs =     25.64   565: cmsecs =     19.39   GPU: cmsecs =     15.78   NULLGPU: cmsecs =      9.19
+running bench [640 480]                   path_hairline_small_noAA_line    8888: cmsecs =     13.01   565: cmsecs =     10.59   GPU: cmsecs =     15.50   NULLGPU: cmsecs =      9.14
+running bench [640 480]                           gradient_create_alpha    8888: cmsecs =     16.43   565: cmsecs =     16.41   GPU: cmsecs =     21.61   NULLGPU: cmsecs =     12.47
+running bench [640 480]                          gradient_create_opaque    8888: cmsecs =      9.19   565: cmsecs =      8.35   GPU: cmsecs =     21.90   NULLGPU: cmsecs =     12.40
+running bench [640 480]                   gradient_conical_clamp_3color    8888: cmsecs = 139672.48   565: cmsecs = 166672.62
+running bench [640 480]                  gradient_conical_clamp_hicolor    8888: cmsecs = 139337.14   565: cmsecs = 166439.71
+running bench [640 480]                          gradient_conical_clamp    8888: cmsecs = 139463.80   565: cmsecs = 166972.42   GPU: cmsecs =    355.43   NULLGPU: cmsecs =    113.74
+running bench [640 480]                         gradient_radial2_mirror    8888: cmsecs =  58708.69   565: cmsecs =  67172.20   GPU: cmsecs =    242.03   NULLGPU: cmsecs =    143.12
+running bench [640 480]                  gradient_radial2_clamp_hicolor    8888: cmsecs =  69070.22   565: cmsecs =  77006.84
+running bench [640 480]                          gradient_radial2_clamp    8888: cmsecs =  69087.15   565: cmsecs =  77086.17   GPU: cmsecs =    398.30   NULLGPU: cmsecs =    117.55
+running bench [640 480]                     gradient_sweep_clamp_3color    8888: cmsecs = 240447.02   565: cmsecs = 238930.09   GPU: cmsecs =    304.67   NULLGPU: cmsecs =    109.09
+running bench [640 480]                    gradient_sweep_clamp_hicolor    8888: cmsecs = 240592.36   565: cmsecs = 238821.32   GPU: cmsecs =    564.91   NULLGPU: cmsecs =    654.29
+running bench [640 480]                            gradient_sweep_clamp    8888: cmsecs = 240373.08   565: cmsecs = 238914.20   GPU: cmsecs =    674.97   NULLGPU: cmsecs =    108.56
+running bench [640 480]                         gradient_radial1_repeat    8888: cmsecs =  35859.68   565: cmsecs =  35732.95   GPU: cmsecs =    283.31   NULLGPU: cmsecs =    132.90
+running bench [640 480]                         gradient_radial1_mirror    8888: cmsecs =  35947.92   565: cmsecs =  35702.29   GPU: cmsecs =    173.41   NULLGPU: cmsecs =    132.78
+running bench [640 480]                     gradient_radial1_clamp_oval    8888: cmsecs =  16358.98   565: cmsecs =  17815.88   GPU: cmsecs =    287.93   NULLGPU: cmsecs =    131.64
+running bench [640 480]                gradient_radial1_clamp_scale_0.5    8888: cmsecs =   9525.88   565: cmsecs =  17719.87   GPU: cmsecs =    567.12   NULLGPU: cmsecs =    108.77
+running bench [640 480]                   gradient_radial1_clamp_3color    8888: cmsecs =  16869.33   565: cmsecs =  17745.80   GPU: cmsecs =    332.17   NULLGPU: cmsecs =    110.52
+running bench [640 480]                  gradient_radial1_clamp_hicolor    8888: cmsecs =  16812.76   565: cmsecs =  17733.50   GPU: cmsecs =    273.04   NULLGPU: cmsecs =    144.89
+running bench [640 480]                          gradient_radial1_clamp    8888: cmsecs =  16821.17   565: cmsecs =  17683.51
+running bench [640 480]                          gradient_linear_mirror    8888: cmsecs =  10181.07   565: cmsecs =  10160.63
+running bench [640 480]                    gradient_linear_clamp_3color    8888: cmsecs =   8028.21   565: cmsecs =   7769.65
+running bench [640 480]                   gradient_linear_clamp_hicolor    8888: cmsecs =   8002.09   565: cmsecs =   7764.49   GPU: cmsecs =    232.79   NULLGPU: cmsecs =    144.56
+running bench [640 480]                           gradient_linear_clamp    8888: cmsecs =   8002.68   565: cmsecs =   7753.81
+running bench [640 480]                            grresourcecache_find    GPU: cmsecs =    997.99   NULLGPU: cmsecs =    996.37
+running bench [640 480]                             grresourcecache_add    GPU: cmsecs =   4085.24   NULLGPU: cmsecs =   4058.72
+running bench [640 480]                              grmemorypool_queue    NONRENDERING: cmsecs =     56.27
+running bench [640 480]                             grmemorypool_random    NONRENDERING: cmsecs =      0.03
+running bench [640 480]                              grmemorypool_stack    NONRENDERING: cmsecs =      0.03
+running bench [640 480]              game_trans_full_atlas_drawVerts_aa    8888: cmsecs =     62.85   565: cmsecs =     73.48   GPU: cmsecs =     18.92   NULLGPU: cmsecs =      9.93
+running bench [640 480]                        game_trans_full_atlas_aa    8888: cmsecs =     22.90   565: cmsecs =     36.17   GPU: cmsecs =     11.03   NULLGPU: cmsecs =     10.27
+running bench [640 480]                                game_rot_full_aa    8888: cmsecs =    214.25   565: cmsecs =    246.72   GPU: cmsecs =     12.13   NULLGPU: cmsecs =     11.40
+running bench [640 480]                      game_trans_aligned_full_aa    8888: cmsecs =     32.79   565: cmsecs =     72.72   GPU: cmsecs =     10.86   NULLGPU: cmsecs =     10.23
+running bench [640 480]                              game_trans_full_aa    8888: cmsecs =     33.77   565: cmsecs =     71.51   GPU: cmsecs =     10.67   NULLGPU: cmsecs =      9.96
+running bench [640 480]                              game_scale_full_aa    8888: cmsecs =    150.17   565: cmsecs =    192.81   GPU: cmsecs =     10.86   NULLGPU: cmsecs =     10.13
+running bench [640 480]                             game_rot_partial_aa    8888: cmsecs =    269.69   565: cmsecs =    299.56   GPU: cmsecs =     18.49   NULLGPU: cmsecs =     17.30
+running bench [640 480]                   game_trans_aligned_partial_aa    8888: cmsecs =     42.45   565: cmsecs =     79.22   GPU: cmsecs =     18.04   NULLGPU: cmsecs =     14.86
+running bench [640 480]                           game_trans_partial_aa    8888: cmsecs =     46.85   565: cmsecs =     81.96   GPU: cmsecs =     15.91   NULLGPU: cmsecs =     14.58
+running bench [640 480]                           game_scale_partial_aa    8888: cmsecs =    160.65   565: cmsecs =    202.40   GPU: cmsecs =     17.35   NULLGPU: cmsecs =     14.70
+running bench [640 480]                                  fontscaler_lcd    8888: cmsecs =   6120.47   565: cmsecs =   5985.06   GPU: cmsecs =   1444.42   NULLGPU: cmsecs =   1330.16
+running bench [640 480]                                   fontscaler_aa    8888: cmsecs =   6108.56   565: cmsecs =   5972.40   GPU: cmsecs =   1394.85   NULLGPU: cmsecs =   1339.92
+running bench [640 480]                                       fontcache    8888: cmsecs =   1206.75   565: cmsecs =   1200.05   GPU: cmsecs =   1202.28   NULLGPU: cmsecs =   1202.74
+running bench [640 480]                                fullscreen_rects    8888: cmsecs =    212.98   565: cmsecs =     49.74   GPU: cmsecs =     10.61   NULLGPU: cmsecs =      1.38
+running bench [640 480]                         displacement_full_large    8888: cmsecs =   2319.24   565: cmsecs =   2220.56   GPU: cmsecs =    232.96   NULLGPU: cmsecs =     60.46
+running bench [640 480]                        displacement_alpha_large    8888: cmsecs =   2413.96   565: cmsecs =   2283.56   GPU: cmsecs =    250.83   NULLGPU: cmsecs =     56.38
+running bench [640 480]                         displacement_zero_large    8888: cmsecs =   2344.83   565: cmsecs =   2247.54   GPU: cmsecs =    232.47   NULLGPU: cmsecs =     55.64
+running bench [640 480]                         displacement_full_small    8888: cmsecs =    236.05   565: cmsecs =    238.55   GPU: cmsecs =    214.38   NULLGPU: cmsecs =     58.25
+running bench [640 480]                        displacement_alpha_small    8888: cmsecs =    250.61   565: cmsecs =    253.08   GPU: cmsecs =    227.21   NULLGPU: cmsecs =     58.15
+running bench [640 480]                         displacement_zero_small    8888: cmsecs =    246.33   565: cmsecs =    250.54   GPU: cmsecs =    213.73   NULLGPU: cmsecs =     57.87
+running bench [640 480]                 DeferredSurfaceCopy_discardable    8888: cmsecs =   6688.33   565: cmsecs =   6690.83   GPU: cmsecs =     71.59   NULLGPU: cmsecs =     25.60
+running bench [640 480]              DeferredSurfaceCopy_nonDiscardable    8888: cmsecs =  11582.61   565: cmsecs =  11611.88   GPU: cmsecs =    400.54   NULLGPU: cmsecs =     62.85
+running bench [640 480]                          deferred_canvas_record    8888: cmsecs =      2.03   565: cmsecs =      2.03   GPU: cmsecs =      2.02   NULLGPU: cmsecs =      2.01
+running bench [640 480]                            decode_565_CMYK.jpeg    NONRENDERING: cmsecs =     10.05
+running bench [640 480]                         decode_index8_CMYK.jpeg    NONRENDERING: cmsecs =     10.06
+running bench [640 480]                           decode_4444_CMYK.jpeg    NONRENDERING: cmsecs =     10.01
+running bench [640 480]                           drawpointsdash_5_5_aa    8888: cmsecs =     33.14   565: cmsecs =     33.03   GPU: cmsecs =    298.29   NULLGPU: cmsecs =    173.77
+running bench [640 480]                           drawpointsdash_5_5_bw    8888: cmsecs =     20.07   565: cmsecs =     21.83   GPU: cmsecs =    188.47   NULLGPU: cmsecs =    154.83
+running bench [640 480]                           drawpointsdash_3_1_aa    8888: cmsecs =    104.47   565: cmsecs =    106.04   GPU: cmsecs =    346.61   NULLGPU: cmsecs =    267.82
+running bench [640 480]                           drawpointsdash_3_1_bw    8888: cmsecs =     93.73   565: cmsecs =     90.97   GPU: cmsecs =    278.21   NULLGPU: cmsecs =    238.51
+running bench [640 480]                           drawpointsdash_1_1_aa    8888: cmsecs =     45.67   565: cmsecs =     38.57   GPU: cmsecs =    786.70   NULLGPU: cmsecs =    711.68
+running bench [640 480]                           drawpointsdash_1_1_bw    8888: cmsecs =     17.28   565: cmsecs =     17.14   GPU: cmsecs =    704.91   NULLGPU: cmsecs =    648.29
+running bench [640 480]                               dashline_2_circle    8888: cmsecs =   1263.07   565: cmsecs =   1256.87   GPU: cmsecs =   1555.63   NULLGPU: cmsecs =   1304.55
+running bench [640 480]                               dashline_1_circle    8888: cmsecs =    192.58   565: cmsecs =    191.08   GPU: cmsecs =    285.44   NULLGPU: cmsecs =    201.00
+running bench [640 480]                               dashline_0_circle    8888: cmsecs =    192.99   565: cmsecs =    191.10   GPU: cmsecs =    272.37   NULLGPU: cmsecs =    199.85
+running bench [640 480]                               dashline_2_square    8888: cmsecs =    541.80   565: cmsecs =    543.06   GPU: cmsecs =    774.94   NULLGPU: cmsecs =    579.13
+running bench [640 480]                               dashline_1_square    8888: cmsecs =    192.58   565: cmsecs =    190.96   GPU: cmsecs =    271.47   NULLGPU: cmsecs =    200.49
+running bench [640 480]                               dashline_0_square    8888: cmsecs =    192.54   565: cmsecs =    190.90   GPU: cmsecs =    269.15   NULLGPU: cmsecs =    199.31
+running bench [640 480]                                  makedash_cubic    8888: cmsecs =     64.67   565: cmsecs =     64.70   GPU: cmsecs =     64.45   NULLGPU: cmsecs =     64.78
+running bench [640 480]                                   makedash_quad    8888: cmsecs =     46.72   565: cmsecs =     46.71   GPU: cmsecs =     46.74   NULLGPU: cmsecs =     46.72
+running bench [640 480]                                   makedash_poly    8888: cmsecs =     63.50   565: cmsecs =     63.05   GPU: cmsecs =     63.08   NULLGPU: cmsecs =     63.07
+running bench [640 480]                                   dash_4_noclip    8888: cmsecs =     54.39   565: cmsecs =     51.41   GPU: cmsecs =    125.79   NULLGPU: cmsecs =     54.01
+running bench [640 480]                                  dash_1_clipped    8888: cmsecs =      0.06   565: cmsecs =      0.06   GPU: cmsecs =      0.06   NULLGPU: cmsecs =      0.06
+running bench [640 480]                                   dash_1_noclip    8888: cmsecs =    153.10   565: cmsecs =    150.50   GPU: cmsecs =    297.79   NULLGPU: cmsecs =    162.23
+running bench [640 480]                                   dash_0_noclip    8888: cmsecs =     20.89   565: cmsecs =     15.51   GPU: cmsecs =     11.00   NULLGPU: cmsecs =      6.10
+running bench [640 480]                              draw_coverage_true    8888: cmsecs =    287.81   565: cmsecs =    287.79   GPU: cmsecs =    287.87   NULLGPU: cmsecs =    287.81
+running bench [640 480]                             draw_coverage_false    8888: cmsecs =    547.75   565: cmsecs =    547.45   GPU: cmsecs =    547.99   NULLGPU: cmsecs =    548.58
+running bench [640 480]                          luma_colorfilter_large    8888: cmsecs =    102.61   565: cmsecs =    330.32   GPU: cmsecs =      7.94   NULLGPU: cmsecs =      3.61
+running bench [640 480]                         table_colorfilter_large    8888: cmsecs =     27.36   565: cmsecs =     13.50   GPU: cmsecs =     10.50   NULLGPU: cmsecs =      5.33
+running bench [640 480]                          colorfilter_gray_large    8888: cmsecs =  15027.76   565: cmsecs =  15656.14   GPU: cmsecs =    303.30   NULLGPU: cmsecs =     56.55
+running bench [640 480]                          colorfilter_blue_large    8888: cmsecs =   7221.98   565: cmsecs =   7815.64   GPU: cmsecs =    292.08   NULLGPU: cmsecs =     57.32
+running bench [640 480]                        colorfilter_bright_large    8888: cmsecs =  12767.81   565: cmsecs =  13381.63   GPU: cmsecs =    293.38   NULLGPU: cmsecs =     57.27
+running bench [640 480]                   colorfilter_bright_blue_large    8888: cmsecs =  18002.79   565: cmsecs =  18588.34   GPU: cmsecs =    417.95   NULLGPU: cmsecs =     83.47
+running bench [640 480]                   colorfilter_blue_bright_large    8888: cmsecs =  18027.62   565: cmsecs =  18645.85   GPU: cmsecs =    411.27   NULLGPU: cmsecs =     84.15
+running bench [640 480]                   colorfilter_gray_bright_large    8888: cmsecs =  15338.30   565: cmsecs =  15931.96   GPU: cmsecs =    299.06   NULLGPU: cmsecs =     60.47
+running bench [640 480]                   colorfilter_bright_gray_large    8888: cmsecs =  25678.38   565: cmsecs =  26501.54   GPU: cmsecs =    412.16   NULLGPU: cmsecs =     82.83
+running bench [640 480]                    colorfilter_dim_bright_large    8888: cmsecs = 137015.11   565: cmsecs = 140650.30   GPU: cmsecs =   2448.03   NULLGPU: cmsecs =    497.82
+running bench [640 480]                          luma_colorfilter_small    8888: cmsecs =      4.25   565: cmsecs =      7.36   GPU: cmsecs =      3.84   NULLGPU: cmsecs =      3.60
+running bench [640 480]                         table_colorfilter_small    8888: cmsecs =      4.91   565: cmsecs =      4.15   GPU: cmsecs =      5.59   NULLGPU: cmsecs =      5.30
+running bench [640 480]                          colorfilter_gray_small    8888: cmsecs =  15397.84   565: cmsecs =  15269.32   GPU: cmsecs =    288.68   NULLGPU: cmsecs =     56.86
+running bench [640 480]                          colorfilter_blue_small    8888: cmsecs =   7216.94   565: cmsecs =   7082.82   GPU: cmsecs =    277.10   NULLGPU: cmsecs =     58.23
+running bench [640 480]                        colorfilter_bright_small    8888: cmsecs =  13073.40   565: cmsecs =  12917.23   GPU: cmsecs =    290.93   NULLGPU: cmsecs =     59.91
+running bench [640 480]                   colorfilter_bright_blue_small    8888: cmsecs =  18372.71   565: cmsecs =  18235.17   GPU: cmsecs =    404.80   NULLGPU: cmsecs =     83.06
+running bench [640 480]                   colorfilter_blue_bright_small    8888: cmsecs =  18342.01   565: cmsecs =  18206.98   GPU: cmsecs =    412.39   NULLGPU: cmsecs =     83.96
+running bench [640 480]                   colorfilter_gray_bright_small    8888: cmsecs =  15656.81   565: cmsecs =  15495.69   GPU: cmsecs =    299.98   NULLGPU: cmsecs =     59.34
+running bench [640 480]                   colorfilter_bright_gray_small    8888: cmsecs =  26577.33   565: cmsecs =  26423.30   GPU: cmsecs =    400.81   NULLGPU: cmsecs =     83.16
+running bench [640 480]                    colorfilter_dim_bright_small    8888: cmsecs = 140462.59   565: cmsecs = 139855.37   GPU: cmsecs =   2383.81   NULLGPU: cmsecs =    493.82
+running bench [640 480]                    cmap_face_charsToGlyphs_null    8888: cmsecs =      9.31   565: cmsecs =      9.31   GPU: cmsecs =      9.31   NULLGPU: cmsecs =      9.31
+running bench [640 480]                         cmap_face_charsToGlyphs    8888: cmsecs =      9.64   565: cmsecs =      9.64   GPU: cmsecs =      9.66   NULLGPU: cmsecs =      9.66
+running bench [640 480]                         cmap_paint_textToGlyphs    8888: cmsecs =     13.91   565: cmsecs =     14.52   GPU: cmsecs =     13.69   NULLGPU: cmsecs =     13.64
+running bench [640 480]                         cmap_paint_containsText    8888: cmsecs =     13.67   565: cmsecs =     13.63   GPU: cmsecs =     13.62   NULLGPU: cmsecs =     13.70
+running bench [640 480]                                 compute_murmur3    NONRENDERING: cmsecs =      0.91
+running bench [640 480]                                    compute_sha1    NONRENDERING: cmsecs =      8.80
+running bench [640 480]                                     compute_md5    NONRENDERING: cmsecs =      4.08
+running bench [640 480]                                compute_checksum    NONRENDERING: cmsecs =      0.27
+running bench [640 480]                                        chart_bw    8888: cmsecs =   7895.14   565: cmsecs =   8239.66   GPU: cmsecs =   3407.46   NULLGPU: cmsecs =   2737.84
+running bench [640 480]                                        chart_aa    8888: cmsecs =  15388.30   565: cmsecs =  15005.87   GPU: cmsecs =  16106.50   NULLGPU: cmsecs =  13833.55
+running bench [100 100]                blurroundrect_WH[100x100]_cr[90]    8888: cmsecs =    292.84   565: cmsecs =    299.36   GPU: cmsecs =    350.12   NULLGPU: cmsecs =     88.28
+running bench [100 100]                blurroundrect_WH[100x100]_cr[30]    8888: cmsecs =    200.93   565: cmsecs =    205.38   GPU: cmsecs =    338.74   NULLGPU: cmsecs =     95.20
+running bench [100 100]                 blurroundrect_WH[100x100]_cr[6]    8888: cmsecs =    101.21   565: cmsecs =    100.49   GPU: cmsecs =    334.74   NULLGPU: cmsecs =     94.80
+running bench [600 5514]                blurroundrect_WH[600x5514]_cr[6]    8888: cmsecs =  14644.95   565: cmsecs =   8488.91   GPU: cmsecs =   1273.61   NULLGPU: cmsecs =    109.31
+running bench [640 480]                           blurrect_boxfilter_20    8888: cmsecs =    254.88   565: cmsecs =    254.84   GPU: cmsecs =    254.90   NULLGPU: cmsecs =    254.88
+running bench [640 480]                            blurrect_boxfilter_5    8888: cmsecs =     30.61   565: cmsecs =     30.61   GPU: cmsecs =     30.63   NULLGPU: cmsecs =     32.50
+running bench [640 480]                              blurrect_direct_20    8888: cmsecs =     74.53   565: cmsecs =     74.51   GPU: cmsecs =     74.68   NULLGPU: cmsecs =     74.57
+running bench [640 480]                               blurrect_direct_5    8888: cmsecs =     10.22   565: cmsecs =     10.21   GPU: cmsecs =     10.21   NULLGPU: cmsecs =     10.22
+running bench [640 480]                            blurrect_direct_1.50    8888: cmsecs =      3.78   565: cmsecs =      3.77   GPU: cmsecs =      3.79   NULLGPU: cmsecs =      3.79
+running bench [640 480]                           blurrect_direct_30.50    8888: cmsecs =    154.99   565: cmsecs =    154.97   GPU: cmsecs =    155.04   NULLGPU: cmsecs =    155.02
+running bench [640 480]                              blurrect_direct_10    8888: cmsecs =     25.50   565: cmsecs =     25.50   GPU: cmsecs =     25.44   NULLGPU: cmsecs =     25.42
+running bench [640 480]                               blurrect_direct_2    8888: cmsecs =      4.39   565: cmsecs =      4.41   GPU: cmsecs =      4.41   NULLGPU: cmsecs =      4.40
+running bench [640 480]                          blurrect_gaussian_1.50    8888: cmsecs =     16.18   565: cmsecs =     16.18   GPU: cmsecs =     16.20   NULLGPU: cmsecs =     16.20
+running bench [640 480]                         blurrect_gaussian_30.50    8888: cmsecs =  17717.94   565: cmsecs =  17642.54   GPU: cmsecs =  17792.67   NULLGPU: cmsecs =  17646.34
+running bench [640 480]                            blurrect_gaussian_10    8888: cmsecs =    857.82   565: cmsecs =    857.20   GPU: cmsecs =    857.85   NULLGPU: cmsecs =    857.16
+running bench [640 480]                             blurrect_gaussian_2    8888: cmsecs =     24.57   565: cmsecs =     24.58   GPU: cmsecs =     24.61   NULLGPU: cmsecs =     24.58
+running bench [640 480]                         blurrect_boxfilter_1.50    8888: cmsecs =      2.05   565: cmsecs =      2.05   GPU: cmsecs =      2.05   NULLGPU: cmsecs =      2.05
+running bench [640 480]                        blurrect_boxfilter_30.50    8888: cmsecs =    549.72   565: cmsecs =    549.58   GPU: cmsecs =    552.32   NULLGPU: cmsecs =    549.65
+running bench [640 480]                           blurrect_boxfilter_10    8888: cmsecs =     88.60   565: cmsecs =     88.59   GPU: cmsecs =     88.64   NULLGPU: cmsecs =     88.63
+running bench [640 480]                            blurrect_boxfilter_2    8888: cmsecs =      2.31   565: cmsecs =      2.30   GPU: cmsecs =      2.30   NULLGPU: cmsecs =      2.30
+running bench [640 480]             blur_image_filter_large_10.00_10.00    8888: cmsecs =  26290.76   565: cmsecs =  27033.30   GPU: cmsecs =    716.00   NULLGPU: cmsecs =    126.12
+running bench [640 480]             blur_image_filter_small_10.00_10.00    8888: cmsecs =  26119.21   565: cmsecs =  26191.75   GPU: cmsecs =    659.84   NULLGPU: cmsecs =    125.73
+running bench [640 480]               blur_image_filter_large_1.00_1.00    8888: cmsecs =  27853.39   565: cmsecs =  28530.44   GPU: cmsecs =    492.10   NULLGPU: cmsecs =     95.13
+running bench [640 480]               blur_image_filter_small_1.00_1.00    8888: cmsecs =  27717.78   565: cmsecs =  27715.06   GPU: cmsecs =    440.13   NULLGPU: cmsecs =     95.11
+running bench [640 480]               blur_image_filter_large_0.00_1.00    8888: cmsecs =  17328.00   565: cmsecs =  17958.87   GPU: cmsecs =    297.05   NULLGPU: cmsecs =     71.72
+running bench [640 480]              blur_image_filter_large_0.00_10.00    8888: cmsecs =  16968.29   565: cmsecs =  17701.24   GPU: cmsecs =    549.77   NULLGPU: cmsecs =    101.57
+running bench [640 480]               blur_image_filter_large_1.00_0.00    8888: cmsecs =  15527.93   565: cmsecs =  16190.53   GPU: cmsecs =    303.47   NULLGPU: cmsecs =     71.74
+running bench [640 480]              blur_image_filter_large_10.00_0.00    8888: cmsecs =  14877.15   565: cmsecs =  15537.14   GPU: cmsecs =    547.16   NULLGPU: cmsecs =    101.51
+running bench [640 480]                         blur_0_none_low_quality    8888: cmsecs =     94.70   565: cmsecs =     80.73   GPU: cmsecs =     11.85   NULLGPU: cmsecs =      4.14
+running bench [640 480]                   blur_1.50_normal_high_quality    8888: cmsecs =    631.53   565: cmsecs =    625.77   GPU: cmsecs =    300.91   NULLGPU: cmsecs =     56.36
+running bench [640 480]                 blur_100.50_normal_high_quality    8888: cmsecs =   3472.18   565: cmsecs =   3480.28   GPU: cmsecs =    707.83   NULLGPU: cmsecs =    102.73
+running bench [640 480]                     blur_10_normal_high_quality    8888: cmsecs =   1568.88   565: cmsecs =   1531.48   GPU: cmsecs =    506.52   NULLGPU: cmsecs =     79.46
+running bench [640 480]                      blur_2_normal_high_quality    8888: cmsecs =    631.40   565: cmsecs =    627.10   GPU: cmsecs =    289.60   NULLGPU: cmsecs =     56.55
+running bench [640 480]                     blur_1.50_inner_low_quality    8888: cmsecs =    698.91   565: cmsecs =    694.73   GPU: cmsecs =    332.72   NULLGPU: cmsecs =     66.89
+running bench [640 480]                     blur_1.50_outer_low_quality    8888: cmsecs =    774.69   565: cmsecs =    755.57   GPU: cmsecs =    333.29   NULLGPU: cmsecs =     66.93
+running bench [640 480]                     blur_1.50_solid_low_quality    8888: cmsecs =    838.70   565: cmsecs =    790.02   GPU: cmsecs =    335.73   NULLGPU: cmsecs =     66.86
+running bench [640 480]                    blur_1.50_normal_low_quality    8888: cmsecs =    628.60   565: cmsecs =    626.60   GPU: cmsecs =    297.89   NULLGPU: cmsecs =     56.46
+running bench [640 480]                   blur_100.50_inner_low_quality    8888: cmsecs =   1092.35   565: cmsecs =   1106.60   GPU: cmsecs =    693.03   NULLGPU: cmsecs =    107.46
+running bench [640 480]                   blur_100.50_outer_low_quality    8888: cmsecs =   1398.89   565: cmsecs =   1457.76   GPU: cmsecs =    587.67   NULLGPU: cmsecs =    107.58
+running bench [640 480]                   blur_100.50_solid_low_quality    8888: cmsecs =   1422.08   565: cmsecs =   1486.45   GPU: cmsecs =    587.74   NULLGPU: cmsecs =    107.30
+running bench [640 480]                  blur_100.50_normal_low_quality    8888: cmsecs =   1436.50   565: cmsecs =   1470.59   GPU: cmsecs =    551.23   NULLGPU: cmsecs =    103.15
+running bench [640 480]                       blur_10_inner_low_quality    8888: cmsecs =    764.78   565: cmsecs =    699.24   GPU: cmsecs =    478.82   NULLGPU: cmsecs =     85.91
+running bench [640 480]                       blur_10_outer_low_quality    8888: cmsecs =    877.73   565: cmsecs =    824.95   GPU: cmsecs =    479.50   NULLGPU: cmsecs =     86.10
+running bench [640 480]                       blur_10_solid_low_quality    8888: cmsecs =    955.97   565: cmsecs =    887.86   GPU: cmsecs =    477.02   NULLGPU: cmsecs =     85.95
+running bench [640 480]                      blur_10_normal_low_quality    8888: cmsecs =    688.46   565: cmsecs =    677.55   GPU: cmsecs =    464.29   NULLGPU: cmsecs =     75.79
+running bench [640 480]                        blur_2_inner_low_quality    8888: cmsecs =    701.33   565: cmsecs =    719.27   GPU: cmsecs =    338.28   NULLGPU: cmsecs =     66.90
+running bench [640 480]                        blur_2_outer_low_quality    8888: cmsecs =    777.10   565: cmsecs =    728.47   GPU: cmsecs =    332.56   NULLGPU: cmsecs =     67.02
+running bench [640 480]                        blur_2_solid_low_quality    8888: cmsecs =    842.44   565: cmsecs =    793.08   GPU: cmsecs =    326.92   NULLGPU: cmsecs =     66.67
+running bench [640 480]                       blur_2_normal_low_quality    8888: cmsecs =    632.19   565: cmsecs =    625.72   GPU: cmsecs =    289.58   NULLGPU: cmsecs =     56.55
+running bench [256 256]                      bitmap_scale_filter_64_256    8888: cmsecs =     47.11   565: cmsecs =     47.08   GPU: cmsecs =     47.15   NULLGPU: cmsecs =     47.09
+running bench [ 64  64]                      bitmap_scale_filter_256_64    8888: cmsecs =     14.46   565: cmsecs =     14.49   GPU: cmsecs =     14.49   NULLGPU: cmsecs =     14.41
+running bench [ 10  10]                       bitmap_scale_filter_90_10    8888: cmsecs =     10.37   565: cmsecs =     10.39   GPU: cmsecs =     10.36   NULLGPU: cmsecs =     10.24
+running bench [ 30  30]                       bitmap_scale_filter_90_30    8888: cmsecs =     11.39   565: cmsecs =     11.44   GPU: cmsecs =     11.46   NULLGPU: cmsecs =     11.39
+running bench [ 80  80]                       bitmap_scale_filter_90_80    8888: cmsecs =     16.05   565: cmsecs =     16.01   GPU: cmsecs =     16.23   NULLGPU: cmsecs =     15.95
+running bench [ 90  90]                       bitmap_scale_filter_90_90    8888: cmsecs =      9.89   565: cmsecs =      9.71   GPU: cmsecs =     10.42   NULLGPU: cmsecs =      9.62
+running bench [ 90  90]                       bitmap_scale_filter_80_90    8888: cmsecs =     17.74   565: cmsecs =     17.89   GPU: cmsecs =     18.22   NULLGPU: cmsecs =     17.97
+running bench [ 90  90]                       bitmap_scale_filter_30_90    8888: cmsecs =     17.68   565: cmsecs =     17.71   GPU: cmsecs =     17.71   NULLGPU: cmsecs =     17.68
+running bench [ 90  90]                       bitmap_scale_filter_10_90    8888: cmsecs =     17.70   565: cmsecs =     17.68   GPU: cmsecs =     17.68   NULLGPU: cmsecs =     17.72
+running bench [640 480]                      bitmaprect_FF_filter_trans    8888: cmsecs =     10.85   565: cmsecs =     60.81   GPU: cmsecs =      9.23   NULLGPU: cmsecs =      7.55
+running bench [640 480]                    bitmaprect_FF_nofilter_trans    8888: cmsecs =     10.83   565: cmsecs =     60.81   GPU: cmsecs =      8.66   NULLGPU: cmsecs =      7.62
+running bench [640 480]                   bitmaprect_80_filter_identity    8888: cmsecs =     37.89   565: cmsecs =    158.07   GPU: cmsecs =      8.00   NULLGPU: cmsecs =      7.15
+running bench [640 480]                   bitmaprect_FF_filter_identity    8888: cmsecs =     10.58   565: cmsecs =     60.52
+running bench [640 480]                 bitmaprect_80_nofilter_identity    8888: cmsecs =     38.00   565: cmsecs =    157.60   GPU: cmsecs =      8.01   NULLGPU: cmsecs =      7.05
+running bench [640 480]                 bitmaprect_FF_nofilter_identity    8888: cmsecs =     10.61   565: cmsecs =     60.54
+running bench [640 480]              bitmap_4444_A_source_stripes_three    8888: cmsecs =     45.99   565: cmsecs =    138.76   GPU: cmsecs =      8.57   NULLGPU: cmsecs =      8.23
+running bench [640 480]                bitmap_4444_A_source_stripes_two    8888: cmsecs =     45.71   565: cmsecs =    115.80   GPU: cmsecs =      8.32   NULLGPU: cmsecs =      7.77
+running bench [640 480]                bitmap_4444_A_source_transparent    8888: cmsecs =     44.93   565: cmsecs =     26.12
+running bench [640 480]                     bitmap_4444_A_source_opaque    8888: cmsecs =     45.41   565: cmsecs =    199.26   GPU: cmsecs =      9.40   NULLGPU: cmsecs =      7.83
+running bench [640 480]              bitmap_4444_A_scale_rotate_bicubic    8888: cmsecs =   9213.06   565: cmsecs =   9254.38   GPU: cmsecs =      9.31   NULLGPU: cmsecs =      8.23
+running bench [640 480]                     bitmap_4444_A_scale_bicubic    8888: cmsecs =     83.49   565: cmsecs =    169.10   GPU: cmsecs =      8.72   NULLGPU: cmsecs =      8.05
+running bench [640 480]          bitmap_4444_update_scale_rotate_bilerp    8888: cmsecs =    401.60   565: cmsecs =    524.91   GPU: cmsecs =    238.05   NULLGPU: cmsecs =     18.42
+running bench [640 480] bitmap_4444_update_volatile_scale_rotate_bilerp    8888: cmsecs =    398.99   565: cmsecs =    524.80   GPU: cmsecs =    226.36   NULLGPU: cmsecs =     21.29
+running bench [640 480]                 bitmap_4444_scale_rotate_bilerp    8888: cmsecs =    400.77   565: cmsecs =    528.19   GPU: cmsecs =      8.78   NULLGPU: cmsecs =      8.02
+running bench [640 480]               bitmap_4444_A_scale_rotate_bilerp    8888: cmsecs =    430.82   565: cmsecs =    472.28   GPU: cmsecs =      8.92   NULLGPU: cmsecs =      8.09
+running bench [640 480]                 bitmap_4444_update_scale_bilerp    8888: cmsecs =    207.52   565: cmsecs =    453.69   GPU: cmsecs =    183.98   NULLGPU: cmsecs =     18.34
+running bench [640 480]        bitmap_4444_update_volatile_scale_bilerp    8888: cmsecs =    208.12   565: cmsecs =    455.55   GPU: cmsecs =    205.39   NULLGPU: cmsecs =     21.16
+running bench [640 480]                        bitmap_4444_scale_bilerp    8888: cmsecs =    207.64   565: cmsecs =    452.83
+running bench [640 480]                      bitmap_4444_A_scale_bilerp    8888: cmsecs =    250.55   565: cmsecs =    325.97
+running bench [640 480]                              bitmap_4444_update    8888: cmsecs =     17.39   565: cmsecs =     53.96   GPU: cmsecs =    183.38   NULLGPU: cmsecs =     17.95
+running bench [640 480]                     bitmap_4444_update_volatile    8888: cmsecs =     17.08   565: cmsecs =     53.88   GPU: cmsecs =    197.40   NULLGPU: cmsecs =     21.02
+running bench [640 480]                                       bitmap_a8    8888: cmsecs =    106.64   565: cmsecs =     23.55   GPU: cmsecs =      8.58   NULLGPU: cmsecs =      7.61
+running bench [640 480]                                     bitmap_a8_A    8888: cmsecs =    144.04   565: cmsecs =    220.34   GPU: cmsecs =      9.08   NULLGPU: cmsecs =      7.80
+running bench [640 480]                                   bitmap_index8    8888: cmsecs =    162.01   565: cmsecs =      6.50   GPU: cmsecs =      8.39   NULLGPU: cmsecs =      7.59
+running bench [640 480]                                     bitmap_4444    8888: cmsecs =     17.83   565: cmsecs =     53.84
+running bench [640 480]                                   bitmap_4444_A    8888: cmsecs =     44.91   565: cmsecs =    122.54   GPU: cmsecs =      8.33   NULLGPU: cmsecs =      7.85
+running bench [640 480]                                 bicubic_2.5x2.5    8888: cmsecs =   7774.06   565: cmsecs =   7787.25   GPU: cmsecs =    250.95   NULLGPU: cmsecs =     53.70
+running bench [640 480]                                  bicubic_10x2.5    8888: cmsecs =  30624.84   565: cmsecs =  30626.70   GPU: cmsecs =    213.65   NULLGPU: cmsecs =     52.42
+running bench [640 480]                                  bicubic_2.5x10    8888: cmsecs =  30860.37   565: cmsecs =  30867.70   GPU: cmsecs =    212.39   NULLGPU: cmsecs =     52.31
+running bench [640 480]                                   bicubic_10x10    8888: cmsecs = 122534.84   565: cmsecs = 122989.12   GPU: cmsecs =    332.16   NULLGPU: cmsecs =     52.32
+running bench [640 480]                                nested_aaclip_AA    8888: cmsecs =   3200.55   565: cmsecs =   3103.46   GPU: cmsecs =  31535.08   NULLGPU: cmsecs =  11928.00
+running bench [640 480]                                nested_aaclip_BW    8888: cmsecs =   1985.11   565: cmsecs =   1892.02   GPU: cmsecs =  19066.08   NULLGPU: cmsecs =   9290.14
+running bench [640 480]                                  aaclip_path_AA    8888: cmsecs =     40.06   565: cmsecs =     39.04   GPU: cmsecs =    219.61   NULLGPU: cmsecs =     94.68
+running bench [640 480]                                  aaclip_path_BW    8888: cmsecs =     22.78   565: cmsecs =     21.78   GPU: cmsecs =    143.01   NULLGPU: cmsecs =     64.29
+running bench [640 480]                                  aaclip_rect_AA    8888: cmsecs =     24.60   565: cmsecs =     23.46   GPU: cmsecs =    168.23   NULLGPU: cmsecs =     12.68
+running bench [640 480]                                  aaclip_rect_BW    8888: cmsecs =      9.37   565: cmsecs =      8.66   GPU: cmsecs =     24.29   NULLGPU: cmsecs =      3.28
+running bench [640 480]                                aaclip_setregion    8888: cmsecs =     30.58   565: cmsecs =     30.58   GPU: cmsecs =     30.57   NULLGPU: cmsecs =     30.58
+running bench [640 480]                            aaclip_build_path_AA    8888: cmsecs =     56.81   565: cmsecs =     56.79   GPU: cmsecs =     56.83   NULLGPU: cmsecs =     56.75
+running bench [640 480]                            aaclip_build_path_BW    8888: cmsecs =     25.64   565: cmsecs =     25.62   GPU: cmsecs =     25.67   NULLGPU: cmsecs =     25.65
+running bench [640 480]                            aaclip_build_rect_AA    8888: cmsecs =      7.31   565: cmsecs =      7.28   GPU: cmsecs =      7.24   NULLGPU: cmsecs =      7.18
+running bench [640 480]                            aaclip_build_rect_BW    8888: cmsecs =      3.75   565: cmsecs =      3.77   GPU: cmsecs =      3.74   NULLGPU: cmsecs =      3.74

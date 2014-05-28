@@ -1,0 +1,1477 @@
+D/skia    (27166): Executing Command: bench --repeat 10 --timers wcg
+D/skia    (27166): skia bench: alpha=0xFF antialias=1 filter=0 deferred=no logperiter=0 rotate=0 scale=0 clip=0 min=0 record=0 picturerecord=0 dither=default strokeWidth=none scalar=float system=ANDROID
+D/skia    (27166): START /proc/cpuinfo:
+D/skia    (27166): Processor	: ARMv7 processor rev 1 (v7l)
+D/skia    (27166): BogoMIPS	: 1500
+D/skia    (27166): Features	: neon vfp swp half thumb fastmult edsp vfpv3 
+D/skia    (27166): CPU implementer	: 0x69
+D/skia    (27166): CPU architecture: 7
+D/skia    (27166): CPU variant	: 0x1
+D/skia    (27166): CPU part	: 0x001
+D/skia    (27166): CPU revision	: 1
+D/skia    (27166): 
+D/skia    (27166): Hardware	: placeholder
+D/skia    (27166): Revision	: 0001
+D/skia    (27166): Serial		: 0000000000000001
+D/skia    (27166): 
+D/skia    (27166): END /proc/cpuinfo
+D/skia    (27166): Device supports ARM NEON instructions!
+D/skia    (27166): running bench [640 480]          Xfermode_Luminosity
+D/skia    (27166):   8888: msecs =  89.89 cmsecs =  89.35
+D/skia    (27166):    565: msecs = 104.64 cmsecs = 104.13
+D/skia    (27166):    GPU: msecs =  60.53 cmsecs =  37.73
+D/skia    (27166):   NULLGPU: msecs =   5.19 cmsecs =   5.06
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]               Xfermode_Color
+D/skia    (27166):   8888: msecs = 271.37 cmsecs = 270.01
+D/skia    (27166):    565: msecs = 284.50 cmsecs = 283.38
+D/skia    (27166):    GPU: msecs =  59.24 cmsecs =  37.56
+D/skia    (27166):   NULLGPU: msecs =   6.98 cmsecs =   6.88
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          Xfermode_Saturation
+D/skia    (27166):   8888: msecs =  92.97 cmsecs =  92.47
+D/skia    (27166):    565: msecs =  97.92 cmsecs =  97.41
+D/skia    (27166):    GPU: msecs =  66.88 cmsecs =  41.97
+D/skia    (27166):   NULLGPU: msecs =   4.73 cmsecs =   4.66
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                 Xfermode_Hue
+D/skia    (27166):   8888: msecs = 154.35 cmsecs = 153.51
+D/skia    (27166):    565: msecs = 161.09 cmsecs = 160.43
+D/skia    (27166):    GPU: msecs =  67.90 cmsecs =  44.30
+D/skia    (27166):   NULLGPU: msecs =   4.63 cmsecs =   4.51
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            Xfermode_Multiply
+D/skia    (27166):   8888: msecs =  85.13 cmsecs =  84.57
+D/skia    (27166):    565: msecs =  87.56 cmsecs =  87.16
+D/skia    (27166):    GPU: msecs =  55.39 cmsecs =  36.87
+D/skia    (27166):   NULLGPU: msecs =   3.83 cmsecs =   3.67
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           Xfermode_Exclusion
+D/skia    (27166):   8888: msecs =  72.19 cmsecs =  71.82
+D/skia    (27166):    565: msecs =  76.32 cmsecs =  75.95
+D/skia    (27166):    GPU: msecs =  54.69 cmsecs =  36.21
+D/skia    (27166):   NULLGPU: msecs =   3.72 cmsecs =   3.68
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          Xfermode_Difference
+D/skia    (27166):   8888: msecs =  60.53 cmsecs =  60.07
+D/skia    (27166):    565: msecs =  64.38 cmsecs =  64.00
+D/skia    (27166):    GPU: msecs =  56.04 cmsecs =  37.11
+D/skia    (27166):   NULLGPU: msecs =   3.65 cmsecs =   3.62
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           Xfermode_SoftLight
+D/skia    (27166):   8888: msecs = 269.17 cmsecs = 268.11
+D/skia    (27166):    565: msecs = 274.17 cmsecs = 272.90
+D/skia    (27166):    GPU: msecs =  82.97 cmsecs =  48.38
+D/skia    (27166):   NULLGPU: msecs =   3.28 cmsecs =   3.24
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           Xfermode_HardLight
+D/skia    (27166):   8888: msecs =  71.62 cmsecs =  71.17
+D/skia    (27166):    565: msecs =  75.39 cmsecs =  75.06
+D/skia    (27166):    GPU: msecs =  62.11 cmsecs =  40.53
+D/skia    (27166):   NULLGPU: msecs =   4.57 cmsecs =   4.44
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           Xfermode_ColorBurn
+D/skia    (27166):   8888: msecs =  64.86 cmsecs =  64.57
+D/skia    (27166):    565: msecs =  68.75 cmsecs =  68.41
+D/skia    (27166):    GPU: msecs =  65.71 cmsecs =  42.55
+D/skia    (27166):   NULLGPU: msecs =   2.95 cmsecs =   2.93
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          Xfermode_ColorDodge
+D/skia    (27166):   8888: msecs = 114.90 cmsecs = 114.20
+D/skia    (27166):    565: msecs = 118.46 cmsecs = 117.98
+D/skia    (27166):    GPU: msecs =  62.52 cmsecs =  37.96
+D/skia    (27166):   NULLGPU: msecs =   2.96 cmsecs =   2.94
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             Xfermode_Lighten
+D/skia    (27166):   8888: msecs =  58.29 cmsecs =  57.90
+D/skia    (27166):    565: msecs =  65.43 cmsecs =  65.11
+D/skia    (27166):    GPU: msecs =  54.69 cmsecs =  36.02
+D/skia    (27166):   NULLGPU: msecs =   2.96 cmsecs =   2.93
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]              Xfermode_Darken
+D/skia    (27166):   8888: msecs =  59.28 cmsecs =  58.89
+D/skia    (27166):    565: msecs =  66.71 cmsecs =  66.33
+D/skia    (27166):    GPU: msecs =  54.76 cmsecs =  36.28
+D/skia    (27166):   NULLGPU: msecs =   3.80 cmsecs =   3.77
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             Xfermode_Overlay
+D/skia    (27166):   8888: msecs =  75.48 cmsecs =  75.00
+D/skia    (27166):    565: msecs =  83.50 cmsecs =  83.22
+D/skia    (27166):    GPU: msecs =  61.48 cmsecs =  38.17
+D/skia    (27166):   NULLGPU: msecs =   4.32 cmsecs =   4.28
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]              Xfermode_Screen
+D/skia    (27166):   8888: msecs =  53.00 cmsecs =  52.63
+D/skia    (27166):    565: msecs =  60.01 cmsecs =  59.72
+D/skia    (27166):    GPU: msecs =   1.15 cmsecs =   1.14
+D/skia    (27166):   NULLGPU: msecs =   0.88 cmsecs =   0.86
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            Xfermode_Modulate
+D/skia    (27166):   8888: msecs =  42.47 cmsecs =  42.16
+D/skia    (27166):    565: msecs =  49.93 cmsecs =  49.63
+D/skia    (27166):    GPU: msecs =   1.00 cmsecs =   0.99
+D/skia    (27166):   NULLGPU: msecs =   1.16 cmsecs =   1.14
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                Xfermode_Plus
+D/skia    (27166):   8888: msecs =  28.33 cmsecs =  28.14
+D/skia    (27166):    565: msecs =  35.81 cmsecs =  35.58
+D/skia    (27166):    GPU: msecs =   0.93 cmsecs =   0.91
+D/skia    (27166):   NULLGPU: msecs =   0.82 cmsecs =   0.81
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                 Xfermode_Xor
+D/skia    (27166):   8888: msecs =  59.78 cmsecs =  59.61
+D/skia    (27166):    565: msecs =  66.79 cmsecs =  66.49
+D/skia    (27166):    GPU: msecs =   0.92 cmsecs =   0.91
+D/skia    (27166):   NULLGPU: msecs =   0.85 cmsecs =   0.84
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             Xfermode_DstATop
+D/skia    (27166):   8888: msecs =  49.93 cmsecs =  49.52
+D/skia    (27166):    565: msecs =  56.66 cmsecs =  56.35
+D/skia    (27166):    GPU: msecs =   0.93 cmsecs =   0.92
+D/skia    (27166):   NULLGPU: msecs =   0.84 cmsecs =   0.82
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             Xfermode_SrcATop
+D/skia    (27166):   8888: msecs =  51.49 cmsecs =  51.13
+D/skia    (27166):    565: msecs =  58.53 cmsecs =  58.26
+D/skia    (27166):    GPU: msecs =   0.91 cmsecs =   0.90
+D/skia    (27166):   NULLGPU: msecs =   0.84 cmsecs =   0.82
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]              Xfermode_DstOut
+D/skia    (27166):   8888: msecs =   9.19 cmsecs =   9.12
+D/skia    (27166):    565: msecs =  32.81 cmsecs =  32.64
+D/skia    (27166):    GPU: msecs =   0.92 cmsecs =   0.90
+D/skia    (27166):   NULLGPU: msecs =   0.83 cmsecs =   0.82
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]              Xfermode_SrcOut
+D/skia    (27166):   8888: msecs =  25.79 cmsecs =  25.59
+D/skia    (27166):    565: msecs =  33.36 cmsecs =  32.96
+D/skia    (27166):    GPU: msecs =   0.94 cmsecs =   0.92
+D/skia    (27166):   NULLGPU: msecs =   0.86 cmsecs =   0.84
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]               Xfermode_DstIn
+D/skia    (27166):   8888: msecs =   9.43 cmsecs =   9.35
+D/skia    (27166):    565: msecs =  33.44 cmsecs =  33.22
+D/skia    (27166):    GPU: msecs =   0.93 cmsecs =   0.92
+D/skia    (27166):   NULLGPU: msecs =   0.86 cmsecs =   0.84
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]               Xfermode_SrcIn
+D/skia    (27166):   8888: msecs =  25.82 cmsecs =  25.64
+D/skia    (27166):    565: msecs =  33.09 cmsecs =  32.90
+D/skia    (27166):    GPU: msecs =   0.92 cmsecs =   0.91
+D/skia    (27166):   NULLGPU: msecs =   0.85 cmsecs =   0.84
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             Xfermode_DstOver
+D/skia    (27166):   8888: msecs =  27.33 cmsecs =  27.15
+D/skia    (27166):    565: msecs =   0.28 cmsecs =   0.28
+D/skia    (27166):    GPU: msecs =   0.91 cmsecs =   0.90
+D/skia    (27166):   NULLGPU: msecs =   0.83 cmsecs =   0.82
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             Xfermode_SrcOver
+D/skia    (27166):   8888: msecs =   3.90 cmsecs =   3.86
+D/skia    (27166):    565: msecs =   5.36 cmsecs =   5.33
+D/skia    (27166):    GPU: msecs =   0.87 cmsecs =   0.86
+D/skia    (27166):   NULLGPU: msecs =   0.80 cmsecs =   0.79
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                 Xfermode_Dst
+D/skia    (27166):   8888: msecs =   0.11 cmsecs =   0.10
+D/skia    (27166):    565: msecs =   0.11 cmsecs =   0.10
+D/skia    (27166):    GPU: msecs =   0.11 cmsecs =   0.10
+D/skia    (27166):   NULLGPU: msecs =   0.11 cmsecs =   0.10
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                 Xfermode_Src
+D/skia    (27166):   8888: msecs =   2.35 cmsecs =   2.33
+D/skia    (27166):    565: msecs =  25.54 cmsecs =  25.39
+D/skia    (27166):    GPU: msecs =   0.95 cmsecs =   0.93
+D/skia    (27166):   NULLGPU: msecs =   0.84 cmsecs =   0.83
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]               Xfermode_Clear
+D/skia    (27166):   8888: msecs =   2.45 cmsecs =   2.43
+D/skia    (27166):    565: msecs =  25.59 cmsecs =  25.44
+D/skia    (27166):    GPU: msecs =   0.98 cmsecs =   0.96
+D/skia    (27166):   NULLGPU: msecs =   0.85 cmsecs =   0.84
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                       writer
+D/skia    (27166):   NONRENDERING: msecs =   2.89 cmsecs =   2.85
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                        verts
+D/skia    (27166):   8888: msecs = 619.77 cmsecs = 617.11
+D/skia    (27166):    565: msecs = 626.25 cmsecs = 623.76
+D/skia    (27166):    GPU: msecs =   2.47 cmsecs =   2.44
+D/skia    (27166):   NULLGPU: msecs =   1.31 cmsecs =   1.29
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]   constXTile_MM_filter_trans
+D/skia    (27166):   8888: msecs =  93.17 cmsecs =  92.42
+D/skia    (27166):    565: msecs = 146.33 cmsecs = 145.01
+D/skia    (27166):    GPU: msecs =   4.35 cmsecs =   4.31
+D/skia    (27166):   NULLGPU: msecs =   1.77 cmsecs =   1.74
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] constXTile_CC_filter_trans_scale
+D/skia    (27166):   8888: msecs =  93.92 cmsecs =  93.14
+D/skia    (27166):    565: msecs = 775.69 cmsecs = 772.19
+D/skia    (27166):    GPU: msecs =   6.39 cmsecs =   6.30
+D/skia    (27166):   NULLGPU: msecs =   3.49 cmsecs =   3.45
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]   constXTile_RR_filter_trans
+D/skia    (27166):   8888: msecs =  91.94 cmsecs =  91.00
+D/skia    (27166):    565: msecs = 146.39 cmsecs = 145.27
+D/skia    (27166):    GPU: msecs =   5.74 cmsecs =   5.66
+D/skia    (27166):   NULLGPU: msecs =   3.20 cmsecs =   3.14
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]    constXTile_MM_trans_scale
+D/skia    (27166):   8888: msecs =  93.43 cmsecs =  92.62
+D/skia    (27166):    565: msecs = 159.51 cmsecs = 158.32
+D/skia    (27166):    GPU: msecs =   5.87 cmsecs =   5.78
+D/skia    (27166):   NULLGPU: msecs =   2.55 cmsecs =   2.51
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          constXTile_CC_trans
+D/skia    (27166):   8888: msecs =  91.40 cmsecs =  90.64
+D/skia    (27166):    565: msecs = 145.98 cmsecs = 144.90
+D/skia    (27166):    GPU: msecs =   5.32 cmsecs =   5.24
+D/skia    (27166):   NULLGPU: msecs =   3.25 cmsecs =   3.20
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]    constXTile_RR_trans_scale
+D/skia    (27166):   8888: msecs =  93.22 cmsecs =  92.50
+D/skia    (27166):    565: msecs = 145.14 cmsecs = 144.03
+D/skia    (27166):    GPU: msecs =   5.47 cmsecs =   5.38
+D/skia    (27166):   NULLGPU: msecs =   3.49 cmsecs =   3.43
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         constXTile_MM_filter
+D/skia    (27166):   8888: msecs =  14.28 cmsecs =  14.16
+D/skia    (27166):    565: msecs =  17.49 cmsecs =  17.36
+D/skia    (27166):    GPU: msecs =   1.69 cmsecs =   1.66
+D/skia    (27166):   NULLGPU: msecs =   1.52 cmsecs =   1.46
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]   constXTile_CC_filter_scale
+D/skia    (27166):   8888: msecs =  16.03 cmsecs =  15.89
+D/skia    (27166):    565: msecs = 649.45 cmsecs = 646.59
+D/skia    (27166):    GPU: msecs =   0.88 cmsecs =   0.87
+D/skia    (27166):   NULLGPU: msecs =   0.61 cmsecs =   0.60
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         constXTile_RR_filter
+D/skia    (27166):   8888: msecs =  16.90 cmsecs =  16.73
+D/skia    (27166):    565: msecs =  18.82 cmsecs =  18.69
+D/skia    (27166):    GPU: msecs =   0.64 cmsecs =   0.63
+D/skia    (27166):   NULLGPU: msecs =   0.59 cmsecs =   0.58
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          constXTile_MM_scale
+D/skia    (27166):   8888: msecs =  19.17 cmsecs =  18.98
+D/skia    (27166):    565: msecs =  32.19 cmsecs =  31.96
+D/skia    (27166):    GPU: msecs =   0.69 cmsecs =   0.68
+D/skia    (27166):   NULLGPU: msecs =   0.63 cmsecs =   0.61
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                constXTile_CC
+D/skia    (27166):   8888: msecs =  16.88 cmsecs =  16.71
+D/skia    (27166):    565: msecs =  18.92 cmsecs =  18.78
+D/skia    (27166):    GPU: msecs =   0.64 cmsecs =   0.63
+D/skia    (27166):   NULLGPU: msecs =   0.56 cmsecs =   0.55
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          constXTile_RR_scale
+D/skia    (27166):   8888: msecs =  18.42 cmsecs =  18.24
+D/skia    (27166):    565: msecs =  17.68 cmsecs =  17.55
+D/skia    (27166):    GPU: msecs =   0.69 cmsecs =   0.68
+D/skia    (27166):   NULLGPU: msecs =   0.61 cmsecs =   0.60
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            text_16_pos_AA_BK
+D/skia    (27166):   8888: msecs =  31.73 cmsecs =  31.56
+D/skia    (27166):    565: msecs =  26.59 cmsecs =  26.48
+D/skia    (27166):    GPU: msecs =  46.13 cmsecs =  45.84
+D/skia    (27166):   NULLGPU: msecs =  40.02 cmsecs =  39.84
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]               text_16_LCD_88
+D/skia    (27166):   8888: msecs =  46.55 cmsecs =  46.27
+D/skia    (27166):    565: msecs =  32.70 cmsecs =  32.47
+D/skia    (27166):    GPU: msecs =  46.03 cmsecs =  45.69
+D/skia    (27166):   NULLGPU: msecs =  40.18 cmsecs =  40.00
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]               text_16_LCD_FF
+D/skia    (27166):   8888: msecs =  44.12 cmsecs =  43.87
+D/skia    (27166):    565: msecs =  29.46 cmsecs =  29.30
+D/skia    (27166):    GPU: msecs =  44.88 cmsecs =  44.61
+D/skia    (27166):   NULLGPU: msecs =  39.87 cmsecs =  39.62
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]               text_16_LCD_BK
+D/skia    (27166):   8888: msecs =  32.69 cmsecs =  32.43
+D/skia    (27166):    565: msecs =  27.29 cmsecs =  27.09
+D/skia    (27166):    GPU: msecs =  44.02 cmsecs =  43.76
+D/skia    (27166):   NULLGPU: msecs =  38.78 cmsecs =  38.62
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                text_16_AA_88
+D/skia    (27166):   8888: msecs =  46.02 cmsecs =  45.74
+D/skia    (27166):    565: msecs =  31.31 cmsecs =  31.09
+D/skia    (27166):    GPU: msecs =  45.18 cmsecs =  44.92
+D/skia    (27166):   NULLGPU: msecs =  40.75 cmsecs =  40.48
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                text_16_AA_FF
+D/skia    (27166):   8888: msecs =  43.74 cmsecs =  43.46
+D/skia    (27166):    565: msecs =  28.18 cmsecs =  28.02
+D/skia    (27166):    GPU: msecs =  45.19 cmsecs =  44.93
+D/skia    (27166):   NULLGPU: msecs =  40.43 cmsecs =  40.20
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                text_16_AA_BK
+D/skia    (27166):   8888: msecs =  31.45 cmsecs =  31.24
+D/skia    (27166):    565: msecs =  25.68 cmsecs =  25.52
+D/skia    (27166):    GPU: msecs =  44.58 cmsecs =  44.24
+D/skia    (27166):   NULLGPU: msecs =  38.84 cmsecs =  38.67
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                text_16_BW_88
+D/skia    (27166):   8888: msecs =  24.50 cmsecs =  24.33
+D/skia    (27166):    565: msecs =  21.44 cmsecs =  21.29
+D/skia    (27166):    GPU: msecs =  42.81 cmsecs =  42.52
+D/skia    (27166):   NULLGPU: msecs =  37.51 cmsecs =  37.35
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                text_16_BW_FF
+D/skia    (27166):   8888: msecs =  17.57 cmsecs =  17.45
+D/skia    (27166):    565: msecs =  15.89 cmsecs =  15.78
+D/skia    (27166):    GPU: msecs =  43.52 cmsecs =  43.20
+D/skia    (27166):   NULLGPU: msecs =  37.81 cmsecs =  37.65
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                text_16_BW_BK
+D/skia    (27166):   8888: msecs =  17.49 cmsecs =  17.37
+D/skia    (27166):    565: msecs =  15.75 cmsecs =  15.64
+D/skia    (27166):    GPU: msecs =  42.76 cmsecs =  42.46
+D/skia    (27166):   NULLGPU: msecs =  37.52 cmsecs =  37.37
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                   tablebench
+D/skia    (27166):   8888: msecs = 184.81 cmsecs = 183.38
+D/skia    (27166):    565: msecs = 156.00 cmsecs = 155.17
+D/skia    (27166):    GPU: msecs = 419.69 cmsecs = 414.56
+D/skia    (27166):   NULLGPU: msecs = 389.68 cmsecs = 388.29
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]       draw_stroke_oval_miter
+D/skia    (27166):   8888: msecs =  74.49 cmsecs =  74.15
+D/skia    (27166):    565: msecs =  71.77 cmsecs =  71.52
+D/skia    (27166):    GPU: msecs =  14.21 cmsecs =  14.11
+D/skia    (27166):   NULLGPU: msecs =   9.21 cmsecs =   9.16
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]       draw_stroke_oval_bevel
+D/skia    (27166):   8888: msecs =  84.83 cmsecs =  84.55
+D/skia    (27166):    565: msecs =  83.33 cmsecs =  82.96
+D/skia    (27166):    GPU: msecs =  20.14 cmsecs =  19.98
+D/skia    (27166):   NULLGPU: msecs =   9.00 cmsecs =   8.95
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]       draw_stroke_oval_round
+D/skia    (27166):   8888: msecs =  73.49 cmsecs =  73.24
+D/skia    (27166):    565: msecs =  71.32 cmsecs =  71.37
+D/skia    (27166):    GPU: msecs =  21.11 cmsecs =  20.46
+D/skia    (27166):   NULLGPU: msecs =   9.18 cmsecs =   9.12
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]      draw_stroke_rrect_miter
+D/skia    (27166):   8888: msecs =  77.19 cmsecs =  76.91
+D/skia    (27166):    565: msecs =  75.11 cmsecs =  74.76
+D/skia    (27166):    GPU: msecs =  22.78 cmsecs =  22.61
+D/skia    (27166):   NULLGPU: msecs =   9.84 cmsecs =   9.79
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]      draw_stroke_rrect_bevel
+D/skia    (27166):   8888: msecs =  88.25 cmsecs =  87.47
+D/skia    (27166):    565: msecs =  84.73 cmsecs =  84.42
+D/skia    (27166):    GPU: msecs =  20.47 cmsecs =  20.31
+D/skia    (27166):   NULLGPU: msecs =   9.76 cmsecs =   9.72
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]      draw_stroke_rrect_round
+D/skia    (27166):   8888: msecs =  77.07 cmsecs =  76.77
+D/skia    (27166):    565: msecs =  75.71 cmsecs =  75.35
+D/skia    (27166):    GPU: msecs =  20.48 cmsecs =  20.32
+D/skia    (27166):   NULLGPU: msecs =   9.71 cmsecs =   9.67
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]       draw_stroke_rect_miter
+D/skia    (27166):   8888: msecs =   6.66 cmsecs =   6.63
+D/skia    (27166):    565: msecs =   5.05 cmsecs =   5.03
+D/skia    (27166):    GPU: msecs =  19.18 cmsecs =  19.04
+D/skia    (27166):   NULLGPU: msecs =   9.37 cmsecs =   9.32
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]       draw_stroke_rect_bevel
+D/skia    (27166):   8888: msecs =  37.49 cmsecs =  37.36
+D/skia    (27166):    565: msecs =  35.35 cmsecs =  35.22
+D/skia    (27166):    GPU: msecs = 414.82 cmsecs = 389.24
+D/skia    (27166):   NULLGPU: msecs =  86.90 cmsecs =  86.51
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]       draw_stroke_rect_round
+D/skia    (27166):   8888: msecs =  44.11 cmsecs =  43.92
+D/skia    (27166):    565: msecs =  41.58 cmsecs =  41.39
+D/skia    (27166):    GPU: msecs = 404.02 cmsecs = 376.17
+D/skia    (27166):   NULLGPU: msecs =  99.09 cmsecs =  98.59
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          sort_qsort_repeated
+D/skia    (27166):   NONRENDERING: msecs =   5.06 cmsecs =   5.03
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         sort_skheap_repeated
+D/skia    (27166):   NONRENDERING: msecs =  30.49 cmsecs =  30.39
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]        sort_skqsort_repeated
+D/skia    (27166):   NONRENDERING: msecs =  42.15 cmsecs =  42.00
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          sort_qsort_backward
+D/skia    (27166):   NONRENDERING: msecs =  17.52 cmsecs =  17.40
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         sort_skheap_backward
+D/skia    (27166):   NONRENDERING: msecs =  38.79 cmsecs =  38.62
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]        sort_skqsort_backward
+D/skia    (27166):   NONRENDERING: msecs =  18.01 cmsecs =  17.94
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           sort_qsort_forward
+D/skia    (27166):   NONRENDERING: msecs =  12.06 cmsecs =  12.01
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          sort_skheap_forward
+D/skia    (27166):   NONRENDERING: msecs =  42.45 cmsecs =  42.29
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         sort_skqsort_forward
+D/skia    (27166):   NONRENDERING: msecs =   5.87 cmsecs =   5.84
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            sort_qsort_rand10
+D/skia    (27166):   NONRENDERING: msecs =  36.95 cmsecs =  36.81
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           sort_skheap_rand10
+D/skia    (27166):   NONRENDERING: msecs =  43.99 cmsecs =  43.85
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          sort_skqsort_rand10
+D/skia    (27166):   NONRENDERING: msecs =  15.71 cmsecs =  15.65
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]              sort_qsort_rand
+D/skia    (27166):   NONRENDERING: msecs =  60.26 cmsecs =  60.05
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             sort_skheap_rand
+D/skia    (27166):   NONRENDERING: msecs =  44.77 cmsecs =  44.51
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            sort_skqsort_rand
+D/skia    (27166):   NONRENDERING: msecs =  18.47 cmsecs =  18.39
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            shadermask_LCD_80
+D/skia    (27166):   8888: msecs =  64.91 cmsecs =  64.46
+D/skia    (27166):    565: msecs = 151.28 cmsecs = 150.62
+D/skia    (27166):    GPU: msecs =  37.77 cmsecs =  37.51
+D/skia    (27166):   NULLGPU: msecs =  33.84 cmsecs =  33.69
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            shadermask_LCD_FF
+D/skia    (27166):   8888: msecs =  67.54 cmsecs =  67.12
+D/skia    (27166):    565: msecs =  90.76 cmsecs =  90.26
+D/skia    (27166):    GPU: msecs =  37.70 cmsecs =  37.45
+D/skia    (27166):   NULLGPU: msecs =  33.46 cmsecs =  33.31
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             shadermask_AA_80
+D/skia    (27166):   8888: msecs =  65.36 cmsecs =  64.95
+D/skia    (27166):    565: msecs = 152.17 cmsecs = 151.37
+D/skia    (27166):    GPU: msecs =  37.23 cmsecs =  36.99
+D/skia    (27166):   NULLGPU: msecs =  32.97 cmsecs =  32.83
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             shadermask_AA_FF
+D/skia    (27166):   8888: msecs =  67.63 cmsecs =  67.02
+D/skia    (27166):    565: msecs =  89.35 cmsecs =  88.87
+D/skia    (27166):    GPU: msecs =  37.01 cmsecs =  36.79
+D/skia    (27166):   NULLGPU: msecs =  32.97 cmsecs =  32.82
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             shadermask_BW_80
+D/skia    (27166):   8888: msecs =  71.99 cmsecs =  71.47
+D/skia    (27166):    565: msecs =  73.27 cmsecs =  72.89
+D/skia    (27166):    GPU: msecs =  35.36 cmsecs =  35.14
+D/skia    (27166):   NULLGPU: msecs =  31.14 cmsecs =  31.00
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             shadermask_BW_FF
+D/skia    (27166):   8888: msecs =  52.76 cmsecs =  52.39
+D/skia    (27166):    565: msecs =  50.91 cmsecs =  50.54
+D/skia    (27166):    GPU: msecs =  35.16 cmsecs =  34.95
+D/skia    (27166):   NULLGPU: msecs =  31.02 cmsecs =  30.88
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]              scalar_isfinite
+D/skia    (27166):   NONRENDERING: msecs = 152.06 cmsecs = 151.50
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                  rect_bounds
+D/skia    (27166):   NONRENDERING: msecs =  67.28 cmsecs =  67.07
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]    scalar_compare_forced_int
+D/skia    (27166):   NONRENDERING: msecs =  27.02 cmsecs =  26.92
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         scalar_compare_float
+D/skia    (27166):   NONRENDERING: msecs =  28.62 cmsecs =  28.52
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           rtree_random_query
+D/skia    (27166):   NONRENDERING: msecs =  15.01 cmsecs =  14.94
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]      rtree_random_query_bulk
+D/skia    (27166):   NONRENDERING: msecs =  11.78 cmsecs =  11.73
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]  rtree_concentric_build_bulk
+D/skia    (27166):   NONRENDERING: msecs =  26.99 cmsecs =  26.89
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           rtree_random_build
+D/skia    (27166):   NONRENDERING: msecs = 397.04 cmsecs = 395.53
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]      rtree_random_build_bulk
+D/skia    (27166):   NONRENDERING: msecs =  47.17 cmsecs =  46.92
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          repeatTile_index8_A
+D/skia    (27166):   8888: msecs = 107.26 cmsecs = 106.43
+D/skia    (27166):    565: msecs = 164.71 cmsecs = 163.44
+D/skia    (27166):    GPU: msecs =   1.20 cmsecs =   0.96
+D/skia    (27166):   NULLGPU: msecs =   0.59 cmsecs =   0.57
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             repeatTile_565_A
+D/skia    (27166):   8888: msecs = 181.20 cmsecs = 179.81
+D/skia    (27166):    565: msecs =  69.27 cmsecs =  68.67
+D/skia    (27166):    GPU: msecs =   0.63 cmsecs =   0.62
+D/skia    (27166):   NULLGPU: msecs =   0.57 cmsecs =   0.56
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            repeatTile_8888_A
+D/skia    (27166):   8888: msecs =  49.69 cmsecs =  49.32
+D/skia    (27166):    565: msecs =  94.16 cmsecs =  93.45
+D/skia    (27166):    GPU: msecs =   0.63 cmsecs =   0.62
+D/skia    (27166):   NULLGPU: msecs =   0.55 cmsecs =   0.54
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            repeatTile_8888_X
+D/skia    (27166):   8888: msecs =  18.98 cmsecs =  18.79
+D/skia    (27166):    565: msecs = 113.57 cmsecs = 112.63
+D/skia    (27166):    GPU: msecs =   0.64 cmsecs =   0.62
+D/skia    (27166):   NULLGPU: msecs =   0.55 cmsecs =   0.53
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         region_contains_sect
+D/skia    (27166):   NONRENDERING: msecs =  17.31 cmsecs =  17.21
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         region_containsxy_16
+D/skia    (27166):   NONRENDERING: msecs =  18.66 cmsecs =  18.57
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]     region_intersectsrect_16
+D/skia    (27166):   NONRENDERING: msecs =  59.45 cmsecs =  59.26
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]      region_intersectsrgn_16
+D/skia    (27166):   NONRENDERING: msecs =  28.40 cmsecs =  28.16
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]       region_containsrect_16
+D/skia    (27166):   NONRENDERING: msecs =  53.42 cmsecs =  53.26
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]  region_differencerectbig_16
+D/skia    (27166):   NONRENDERING: msecs =   0.96 cmsecs =   0.95
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]     region_differencerect_16
+D/skia    (27166):   NONRENDERING: msecs =  26.67 cmsecs =  26.57
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         region_difference_16
+D/skia    (27166):   NONRENDERING: msecs =  63.17 cmsecs =  62.87
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          region_intersect_16
+D/skia    (27166):   NONRENDERING: msecs =  60.11 cmsecs =  59.88
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]              region_union_16
+D/skia    (27166):   NONRENDERING: msecs =  66.74 cmsecs =  66.52
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             ref_cnt_new_weak
+D/skia    (27166):   NONRENDERING: msecs = 135.57 cmsecs = 135.12
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            ref_cnt_heap_weak
+D/skia    (27166):   NONRENDERING: msecs = 109.48 cmsecs = 109.03
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           ref_cnt_stack_weak
+D/skia    (27166):   NONRENDERING: msecs =  68.19 cmsecs =  67.98
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                  ref_cnt_new
+D/skia    (27166):   NONRENDERING: msecs = 125.54 cmsecs = 125.11
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                 ref_cnt_heap
+D/skia    (27166):   NONRENDERING: msecs =  93.10 cmsecs =  92.78
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                ref_cnt_stack
+D/skia    (27166):   NONRENDERING: msecs =  69.00 cmsecs =  68.79
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                      rectori
+D/skia    (27166):   8888: msecs = 384.93 cmsecs = 382.26
+D/skia    (27166):    565: msecs = 374.80 cmsecs = 372.27
+D/skia    (27166):    GPU: msecs = 632.45 cmsecs = 242.36
+D/skia    (27166):   NULLGPU: msecs =  47.92 cmsecs =  47.63
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                   maskshader
+D/skia    (27166):   8888: msecs =  88.31 cmsecs =  87.78
+D/skia    (27166):    565: msecs = 139.50 cmsecs = 138.57
+D/skia    (27166):    GPU: msecs =  65.80 cmsecs =  63.42
+D/skia    (27166):   NULLGPU: msecs =  51.03 cmsecs =  50.77
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                    maskcolor
+D/skia    (27166):   8888: msecs =  64.85 cmsecs =  64.46
+D/skia    (27166):    565: msecs =  55.50 cmsecs =  54.87
+D/skia    (27166):    GPU: msecs =  49.02 cmsecs =  46.67
+D/skia    (27166):   NULLGPU: msecs =  28.51 cmsecs =  28.38
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                    maskblack
+D/skia    (27166):   8888: msecs =  58.23 cmsecs =  58.16
+D/skia    (27166):    565: msecs =  52.93 cmsecs =  52.64
+D/skia    (27166):    GPU: msecs =  42.87 cmsecs =  41.02
+D/skia    (27166):   NULLGPU: msecs =  30.23 cmsecs =  29.43
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                   maskopaque
+D/skia    (27166):   8888: msecs =  64.17 cmsecs =  63.78
+D/skia    (27166):    565: msecs =  53.37 cmsecs =  53.04
+D/skia    (27166):    GPU: msecs =  45.54 cmsecs =  42.60
+D/skia    (27166):   NULLGPU: msecs =  28.46 cmsecs =  28.32
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]              aarects_rotated
+D/skia    (27166):   8888: msecs = 783.38 cmsecs = 779.01
+D/skia    (27166):    565: msecs = 718.91 cmsecs = 715.31
+D/skia    (27166):    GPU: msecs = 624.02 cmsecs = 619.71
+D/skia    (27166):   NULLGPU: msecs = 576.11 cmsecs = 569.37
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                      aarects
+D/skia    (27166):   8888: msecs = 307.84 cmsecs = 305.14
+D/skia    (27166):    565: msecs = 247.19 cmsecs = 246.29
+D/skia    (27166):    GPU: msecs = 500.38 cmsecs = 498.16
+D/skia    (27166):   NULLGPU: msecs = 445.46 cmsecs = 443.67
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]              srcmode_rects_1
+D/skia    (27166):   8888: msecs =  27.24 cmsecs =  27.05
+D/skia    (27166):    565: msecs = 303.60 cmsecs = 301.81
+D/skia    (27166):    GPU: msecs =   4.24 cmsecs =   4.20
+D/skia    (27166):   NULLGPU: msecs =   6.90 cmsecs =   6.85
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                      polygon
+D/skia    (27166):   8888: msecs = 222.30 cmsecs = 220.82
+D/skia    (27166):    565: msecs = 190.68 cmsecs = 189.58
+D/skia    (27166):    GPU: msecs = 6720.83 cmsecs = 6569.52
+D/skia    (27166):   NULLGPU: msecs = 371.45 cmsecs = 368.94
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                        lines
+D/skia    (27166):   8888: msecs =  66.53 cmsecs =  66.02
+D/skia    (27166):    565: msecs =  57.87 cmsecs =  57.52
+D/skia    (27166):    GPU: msecs = 988.40 cmsecs = 920.93
+D/skia    (27166):   NULLGPU: msecs = 100.28 cmsecs =  99.66
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                       points
+D/skia    (27166):   8888: msecs =  19.45 cmsecs =  19.33
+D/skia    (27166):    565: msecs =  17.79 cmsecs =  17.67
+D/skia    (27166):    GPU: msecs =  21.02 cmsecs =  20.74
+D/skia    (27166):   NULLGPU: msecs =  14.53 cmsecs =  14.44
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            rrects_3_stroke_4
+D/skia    (27166):   8888: msecs =  82.46 cmsecs =  81.89
+D/skia    (27166):    565: msecs =  82.34 cmsecs =  81.06
+D/skia    (27166):    GPU: msecs = 226.24 cmsecs = 209.48
+D/skia    (27166):   NULLGPU: msecs =  77.42 cmsecs =  75.53
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                     rrects_3
+D/skia    (27166):   8888: msecs =  24.66 cmsecs =  24.48
+D/skia    (27166):    565: msecs =  21.22 cmsecs =  21.09
+D/skia    (27166):    GPU: msecs =  15.52 cmsecs =  15.39
+D/skia    (27166):   NULLGPU: msecs =   9.41 cmsecs =   9.35
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            rrects_1_stroke_4
+D/skia    (27166):   8888: msecs = 183.81 cmsecs = 181.03
+D/skia    (27166):    565: msecs = 161.52 cmsecs = 160.87
+D/skia    (27166):    GPU: msecs = 1043.57 cmsecs = 1002.23
+D/skia    (27166):   NULLGPU: msecs = 121.31 cmsecs = 120.29
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                     rrects_1
+D/skia    (27166):   8888: msecs =  65.02 cmsecs =  64.60
+D/skia    (27166):    565: msecs =  50.51 cmsecs =  50.18
+D/skia    (27166):    GPU: msecs =  15.69 cmsecs =  15.52
+D/skia    (27166):   NULLGPU: msecs =   8.55 cmsecs =   8.49
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             ovals_3_stroke_4
+D/skia    (27166):   8888: msecs =  73.28 cmsecs =  72.74
+D/skia    (27166):    565: msecs =  67.17 cmsecs =  66.78
+D/skia    (27166):    GPU: msecs = 212.79 cmsecs = 197.86
+D/skia    (27166):   NULLGPU: msecs =  59.55 cmsecs =  59.19
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             ovals_1_stroke_4
+D/skia    (27166):   8888: msecs = 166.75 cmsecs = 165.62
+D/skia    (27166):    565: msecs = 151.63 cmsecs = 150.67
+D/skia    (27166):    GPU: msecs = 1016.98 cmsecs = 975.74
+D/skia    (27166):   NULLGPU: msecs = 108.29 cmsecs = 107.61
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                      ovals_3
+D/skia    (27166):   8888: msecs =  27.23 cmsecs =  27.05
+D/skia    (27166):    565: msecs =  24.00 cmsecs =  23.86
+D/skia    (27166):    GPU: msecs =  11.70 cmsecs =  11.51
+D/skia    (27166):   NULLGPU: msecs =   7.17 cmsecs =   7.11
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                      ovals_1
+D/skia    (27166):   8888: msecs =  85.51 cmsecs =  84.75
+D/skia    (27166):    565: msecs =  71.11 cmsecs =  70.60
+D/skia    (27166):    GPU: msecs =  10.65 cmsecs =  10.49
+D/skia    (27166):   NULLGPU: msecs =   7.00 cmsecs =   6.95
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             rects_3_stroke_4
+D/skia    (27166):   8888: msecs =   6.73 cmsecs =   6.67
+D/skia    (27166):    565: msecs =   4.63 cmsecs =   4.60
+D/skia    (27166):    GPU: msecs =  15.90 cmsecs =  15.71
+D/skia    (27166):   NULLGPU: msecs =   6.62 cmsecs =   6.58
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                      rects_3
+D/skia    (27166):   8888: msecs =   5.28 cmsecs =   5.24
+D/skia    (27166):    565: msecs =   3.39 cmsecs =   3.36
+D/skia    (27166):    GPU: msecs =   9.82 cmsecs =   9.72
+D/skia    (27166):   NULLGPU: msecs =   6.11 cmsecs =   6.07
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             rects_1_stroke_4
+D/skia    (27166):   8888: msecs =  15.28 cmsecs =  15.12
+D/skia    (27166):    565: msecs =  12.11 cmsecs =  11.99
+D/skia    (27166):    GPU: msecs =  11.17 cmsecs =  11.05
+D/skia    (27166):   NULLGPU: msecs =   6.65 cmsecs =   6.60
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                      rects_1
+D/skia    (27166):   8888: msecs =  21.57 cmsecs =  21.38
+D/skia    (27166):    565: msecs =  11.34 cmsecs =  11.25
+D/skia    (27166):    GPU: msecs =   9.81 cmsecs =   9.70
+D/skia    (27166):   NULLGPU: msecs =   6.13 cmsecs =   6.08
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] premul_and_unpremul_alpha_Native8888
+D/skia    (27166):   8888: msecs = 235.60 cmsecs = 233.95
+D/skia    (27166):    565: msecs = 351.25 cmsecs = 348.76
+D/skia    (27166):    GPU: msecs = 519.86 cmsecs = 505.27
+D/skia    (27166):   NULLGPU: msecs =  11.66 cmsecs =  11.57
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] premul_and_unpremul_alpha_RGBA8888
+D/skia    (27166):   8888: msecs = 233.50 cmsecs = 231.88
+D/skia    (27166):    565: msecs = 348.09 cmsecs = 345.57
+D/skia    (27166):    GPU: msecs = 517.99 cmsecs = 502.93
+D/skia    (27166):   NULLGPU: msecs =   9.75 cmsecs =   9.66
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                      readpix
+D/skia    (27166):   8888: msecs =   4.76 cmsecs =   4.71
+D/skia    (27166):    565: msecs =  45.96 cmsecs =  45.72
+D/skia    (27166):    GPU: msecs = 10229.15 cmsecs = 300.43
+D/skia    (27166):   NULLGPU: msecs =  48.87 cmsecs =  48.53
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] picture_record_recurring_paint_dictionary
+D/skia    (27166):   NONRENDERING: msecs = 223.55 cmsecs = 222.72
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] picture_record_unique_paint_dictionary
+D/skia    (27166):   NONRENDERING: msecs = 394.21 cmsecs = 391.52
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]  picture_record_dictionaries
+D/skia    (27166):   NONRENDERING: msecs = 183.07 cmsecs = 182.19
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] picture_playback_drawPosText
+D/skia    (27166):   8888: msecs = 423.50 cmsecs = 420.47
+D/skia    (27166):    565: msecs = 401.50 cmsecs = 399.02
+D/skia    (27166):    GPU: msecs = 748.87 cmsecs = 742.27
+D/skia    (27166):   NULLGPU: msecs = 701.63 cmsecs = 696.84
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] picture_playback_drawPosTextH
+D/skia    (27166):   8888: msecs = 419.78 cmsecs = 416.86
+D/skia    (27166):    565: msecs = 398.74 cmsecs = 395.91
+D/skia    (27166):    GPU: msecs = 747.41 cmsecs = 742.21
+D/skia    (27166):   NULLGPU: msecs = 703.87 cmsecs = 699.62
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]    picture_playback_drawText
+D/skia    (27166):   8888: msecs = 378.79 cmsecs = 376.42
+D/skia    (27166):    565: msecs = 360.65 cmsecs = 358.31
+D/skia    (27166):    GPU: msecs = 621.30 cmsecs = 616.31
+D/skia    (27166):   NULLGPU: msecs = 525.59 cmsecs = 522.57
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                  perlinnoise
+D/skia    (27166):   8888: msecs =  48.47 cmsecs =  48.29
+D/skia    (27166):    565: msecs =  48.28 cmsecs =  48.13
+D/skia    (27166):    GPU: msecs =   1.31 cmsecs =   1.29
+D/skia    (27166):   NULLGPU: msecs =   1.60 cmsecs =   1.57
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             pathUtils_region
+D/skia    (27166):   8888: msecs =   8.48 cmsecs =   8.42
+D/skia    (27166):    565: msecs =   7.96 cmsecs =   7.92
+D/skia    (27166):    GPU: msecs =   8.75 cmsecs =   8.70
+D/skia    (27166):   NULLGPU: msecs =   9.02 cmsecs =   8.97
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]               pathUtils_path
+D/skia    (27166):   8888: msecs =  85.74 cmsecs =  85.20
+D/skia    (27166):    565: msecs =  82.79 cmsecs =  82.33
+D/skia    (27166):    GPU: msecs =  84.36 cmsecs =  83.75
+D/skia    (27166):   NULLGPU: msecs =  83.42 cmsecs =  83.42
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                 pathiter_raw
+D/skia    (27166):   NONRENDERING: msecs =  42.10 cmsecs =  41.96
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             pathiter_consume
+D/skia    (27166):   NONRENDERING: msecs =  94.13 cmsecs =  93.84
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]               conic-quadPow2
+D/skia    (27166):   NONRENDERING: msecs = 364.81 cmsecs = 363.39
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]              conic-asQuadTol
+D/skia    (27166):   NONRENDERING: msecs = 215.26 cmsecs = 214.61
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          conic-compute-error
+D/skia    (27166):   NONRENDERING: msecs = 159.43 cmsecs = 158.85
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            ratquad-chop-half
+D/skia    (27166):   8888: msecs =  16.69 cmsecs =  16.63
+D/skia    (27166):    565: msecs =  16.71 cmsecs =  16.65
+D/skia    (27166):    GPU: msecs =  16.70 cmsecs =  16.64
+D/skia    (27166):   NULLGPU: msecs =  16.71 cmsecs =  16.65
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             ratquad-chop-0.5
+D/skia    (27166):   8888: msecs =  29.32 cmsecs =  29.23
+D/skia    (27166):    565: msecs =  29.33 cmsecs =  29.23
+D/skia    (27166):    GPU: msecs =  29.45 cmsecs =  29.33
+D/skia    (27166):   NULLGPU: msecs =  29.55 cmsecs =  29.41
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] conservatively_contains_oval
+D/skia    (27166):   NONRENDERING: msecs =  95.65 cmsecs =  95.34
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] conservatively_contains_round_rect
+D/skia    (27166):   NONRENDERING: msecs = 118.87 cmsecs = 118.51
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] conservatively_contains_rect
+D/skia    (27166):   NONRENDERING: msecs =  80.35 cmsecs =  80.02
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             zeroradroundrect
+D/skia    (27166):   8888: msecs = 255.71 cmsecs = 254.02
+D/skia    (27166):    565: msecs = 205.99 cmsecs = 205.02
+D/skia    (27166):    GPU: msecs = 423.36 cmsecs = 361.22
+D/skia    (27166):   NULLGPU: msecs = 262.77 cmsecs = 261.49
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                 arbroundrect
+D/skia    (27166):   8888: msecs = 440.98 cmsecs = 438.20
+D/skia    (27166):    565: msecs = 386.34 cmsecs = 384.31
+D/skia    (27166):    GPU: msecs = 688.35 cmsecs = 627.88
+D/skia    (27166):   NULLGPU: msecs = 496.86 cmsecs = 494.33
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]               circles_stroke
+D/skia    (27166):   8888: msecs = 537.47 cmsecs = 534.91
+D/skia    (27166):    565: msecs = 522.25 cmsecs = 519.72
+D/skia    (27166):    GPU: msecs = 256.83 cmsecs = 244.63
+D/skia    (27166):   NULLGPU: msecs = 175.35 cmsecs = 174.98
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                 circles_fill
+D/skia    (27166):   8888: msecs = 196.60 cmsecs = 195.80
+D/skia    (27166):    565: msecs = 184.98 cmsecs = 184.19
+D/skia    (27166):    GPU: msecs = 222.50 cmsecs = 211.21
+D/skia    (27166):   NULLGPU: msecs = 159.95 cmsecs = 159.23
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         path_reverse_path_to
+D/skia    (27166):   NONRENDERING: msecs =  56.11 cmsecs =  55.88
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]        path_reverse_add_path
+D/skia    (27166):   NONRENDERING: msecs = 181.87 cmsecs = 181.16
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                 path_path_to
+D/skia    (27166):   NONRENDERING: msecs =  52.46 cmsecs =  52.23
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         path_add_path_matrix
+D/skia    (27166):   NONRENDERING: msecs = 283.02 cmsecs = 281.98
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          path_add_path_trans
+D/skia    (27166):   NONRENDERING: msecs = 286.75 cmsecs = 285.63
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                path_add_path
+D/skia    (27166):   NONRENDERING: msecs = 256.60 cmsecs = 254.89
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            path_equality_50%
+D/skia    (27166):   NONRENDERING: msecs =   2.51 cmsecs =   2.49
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          path_transform_copy
+D/skia    (27166):   NONRENDERING: msecs =  33.84 cmsecs =  33.72
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]      path_transform_in_place
+D/skia    (27166):   NONRENDERING: msecs =  25.29 cmsecs =  25.19
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                    path_copy
+D/skia    (27166):   NONRENDERING: msecs =  13.75 cmsecs =  13.66
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                  path_create
+D/skia    (27166):   NONRENDERING: msecs =  47.23 cmsecs =  46.84
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]  path_stroke_small_long_line
+D/skia    (27166):   8888: msecs = 230.37 cmsecs = 228.73
+D/skia    (27166):    565: msecs = 222.07 cmsecs = 220.70
+D/skia    (27166):    GPU: msecs = 1996.65 cmsecs = 1981.43
+D/skia    (27166):   NULLGPU: msecs = 259.92 cmsecs = 258.44
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]    path_fill_small_long_line
+D/skia    (27166):   8888: msecs = 108.98 cmsecs = 108.12
+D/skia    (27166):    565: msecs = 103.73 cmsecs = 103.03
+D/skia    (27166):    GPU: msecs = 1863.25 cmsecs = 1848.90
+D/skia    (27166):   NULLGPU: msecs = 128.90 cmsecs = 127.97
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] path_stroke_small_long_curved
+D/skia    (27166):   8888: msecs = 389.36 cmsecs = 386.71
+D/skia    (27166):    565: msecs = 379.14 cmsecs = 376.88
+D/skia    (27166):    GPU: msecs = 2147.44 cmsecs = 2131.76
+D/skia    (27166):   NULLGPU: msecs = 412.70 cmsecs = 410.37
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]  path_fill_small_long_curved
+D/skia    (27166):   8888: msecs = 151.23 cmsecs = 150.07
+D/skia    (27166):    565: msecs = 145.95 cmsecs = 144.89
+D/skia    (27166):    GPU: msecs = 1906.85 cmsecs = 1892.14
+D/skia    (27166):   NULLGPU: msecs = 172.53 cmsecs = 171.45
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]   path_stroke_small_sawtooth
+D/skia    (27166):   8888: msecs = 188.99 cmsecs = 187.97
+D/skia    (27166):    565: msecs = 181.59 cmsecs = 180.85
+D/skia    (27166):    GPU: msecs = 1210.50 cmsecs = 1178.90
+D/skia    (27166):   NULLGPU: msecs = 205.95 cmsecs = 204.84
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]     path_fill_small_sawtooth
+D/skia    (27166):   8888: msecs = 115.95 cmsecs = 115.46
+D/skia    (27166):    565: msecs = 113.32 cmsecs = 112.70
+D/skia    (27166):    GPU: msecs = 823.96 cmsecs = 800.77
+D/skia    (27166):   NULLGPU: msecs = 168.08 cmsecs = 167.09
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]       path_stroke_big_circle
+D/skia    (27166):   8888: msecs = 264.91 cmsecs = 263.40
+D/skia    (27166):    565: msecs = 253.69 cmsecs = 252.61
+D/skia    (27166):    GPU: msecs =  10.08 cmsecs =   9.98
+D/skia    (27166):   NULLGPU: msecs =   7.11 cmsecs =   7.04
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         path_fill_big_circle
+D/skia    (27166):   8888: msecs = 129.17 cmsecs = 128.52
+D/skia    (27166):    565: msecs = 110.24 cmsecs = 109.74
+D/skia    (27166):    GPU: msecs =  12.24 cmsecs =  12.06
+D/skia    (27166):   NULLGPU: msecs =   6.51 cmsecs =   6.46
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]     path_stroke_small_circle
+D/skia    (27166):   8888: msecs = 209.26 cmsecs = 208.45
+D/skia    (27166):    565: msecs = 203.29 cmsecs = 202.49
+D/skia    (27166):    GPU: msecs =  47.86 cmsecs =  43.78
+D/skia    (27166):   NULLGPU: msecs =  27.38 cmsecs =  27.22
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]       path_fill_small_circle
+D/skia    (27166):   8888: msecs =  59.03 cmsecs =  58.81
+D/skia    (27166):    565: msecs =  54.11 cmsecs =  53.91
+D/skia    (27166):    GPU: msecs =  47.19 cmsecs =  40.01
+D/skia    (27166):   NULLGPU: msecs =  25.80 cmsecs =  25.66
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         path_stroke_big_oval
+D/skia    (27166):   8888: msecs = 154.45 cmsecs = 153.67
+D/skia    (27166):    565: msecs = 150.62 cmsecs = 149.98
+D/skia    (27166):    GPU: msecs =  15.28 cmsecs =  15.09
+D/skia    (27166):   NULLGPU: msecs =   7.18 cmsecs =   7.11
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           path_fill_big_oval
+D/skia    (27166):   8888: msecs =  67.32 cmsecs =  67.02
+D/skia    (27166):    565: msecs =  60.65 cmsecs =  60.42
+D/skia    (27166):    GPU: msecs =  15.27 cmsecs =  15.09
+D/skia    (27166):   NULLGPU: msecs =   6.45 cmsecs =   6.40
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]       path_stroke_small_oval
+D/skia    (27166):   8888: msecs = 187.87 cmsecs = 187.02
+D/skia    (27166):    565: msecs = 183.83 cmsecs = 183.02
+D/skia    (27166):    GPU: msecs =  51.48 cmsecs =  44.18
+D/skia    (27166):   NULLGPU: msecs =  27.58 cmsecs =  27.45
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         path_fill_small_oval
+D/skia    (27166):   8888: msecs =  44.02 cmsecs =  43.83
+D/skia    (27166):    565: msecs =  40.49 cmsecs =  40.34
+D/skia    (27166):    GPU: msecs =  43.79 cmsecs =  39.76
+D/skia    (27166):   NULLGPU: msecs =  26.12 cmsecs =  25.95
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         path_stroke_big_rect
+D/skia    (27166):   8888: msecs = 117.26 cmsecs = 116.79
+D/skia    (27166):    565: msecs = 112.42 cmsecs = 111.98
+D/skia    (27166):    GPU: msecs = 1335.37 cmsecs = 1284.92
+D/skia    (27166):   NULLGPU: msecs = 173.94 cmsecs = 172.92
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           path_fill_big_rect
+D/skia    (27166):   8888: msecs =  16.84 cmsecs =  16.76
+D/skia    (27166):    565: msecs =  13.14 cmsecs =  12.86
+D/skia    (27166):    GPU: msecs =  15.89 cmsecs =  15.75
+D/skia    (27166):   NULLGPU: msecs =  11.83 cmsecs =  11.75
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]       path_stroke_small_rect
+D/skia    (27166):   8888: msecs =  64.71 cmsecs =  64.45
+D/skia    (27166):    565: msecs =  61.35 cmsecs =  60.99
+D/skia    (27166):    GPU: msecs = 489.32 cmsecs = 485.40
+D/skia    (27166):   NULLGPU: msecs = 188.47 cmsecs = 187.45
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         path_fill_small_rect
+D/skia    (27166):   8888: msecs =  30.58 cmsecs =  30.45
+D/skia    (27166):    565: msecs =  26.81 cmsecs =  26.69
+D/skia    (27166):    GPU: msecs =  64.58 cmsecs =  63.40
+D/skia    (27166):   NULLGPU: msecs =  46.83 cmsecs =  46.60
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]     path_stroke_big_triangle
+D/skia    (27166):   8888: msecs = 171.09 cmsecs = 170.31
+D/skia    (27166):    565: msecs = 164.20 cmsecs = 163.49
+D/skia    (27166):    GPU: msecs = 2415.20 cmsecs = 2367.48
+D/skia    (27166):   NULLGPU: msecs = 254.63 cmsecs = 253.03
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]       path_fill_big_triangle
+D/skia    (27166):   8888: msecs =  79.74 cmsecs =  79.42
+D/skia    (27166):    565: msecs =  74.35 cmsecs =  74.04
+D/skia    (27166):    GPU: msecs =  15.65 cmsecs =  15.49
+D/skia    (27166):   NULLGPU: msecs =  11.61 cmsecs =  11.52
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]   path_stroke_small_triangle
+D/skia    (27166):   8888: msecs =  87.52 cmsecs =  87.14
+D/skia    (27166):    565: msecs =  83.33 cmsecs =  83.00
+D/skia    (27166):    GPU: msecs = 834.45 cmsecs = 785.43
+D/skia    (27166):   NULLGPU: msecs = 221.40 cmsecs = 220.04
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]     path_fill_small_triangle
+D/skia    (27166):   8888: msecs =  37.86 cmsecs =  37.71
+D/skia    (27166):    565: msecs =  33.88 cmsecs =  33.75
+D/skia    (27166):    GPU: msecs =  64.20 cmsecs =  61.51
+D/skia    (27166):   NULLGPU: msecs =  45.29 cmsecs =  45.05
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                        mutex
+D/skia    (27166):   NONRENDERING: msecs =   2.24 cmsecs =   2.21
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                 morph_0_none
+D/skia    (27166):   8888: msecs =   2.02 cmsecs =   1.99
+D/skia    (27166):    565: msecs =   1.61 cmsecs =   1.59
+D/skia    (27166):    GPU: msecs =   0.36 cmsecs =   0.33
+D/skia    (27166):   NULLGPU: msecs =   0.29 cmsecs =   0.27
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            morph_1.50_dilate
+D/skia    (27166):   8888: msecs = 267.95 cmsecs = 266.02
+D/skia    (27166):    565: msecs = 279.97 cmsecs = 278.02
+D/skia    (27166):    GPU: msecs =  13.80 cmsecs =   6.95
+D/skia    (27166):   NULLGPU: msecs =   3.40 cmsecs =   3.34
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             morph_1.50_erode
+D/skia    (27166):   8888: msecs = 270.39 cmsecs = 268.48
+D/skia    (27166):    565: msecs = 281.40 cmsecs = 279.99
+D/skia    (27166):    GPU: msecs =  13.96 cmsecs =   4.90
+D/skia    (27166):   NULLGPU: msecs =   2.67 cmsecs =   2.59
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]              morph_10_dilate
+D/skia    (27166):   8888: msecs = 920.82 cmsecs = 916.50
+D/skia    (27166):    565: msecs = 934.94 cmsecs = 929.98
+D/skia    (27166):    GPU: msecs =  53.67 cmsecs =   7.35
+D/skia    (27166):   NULLGPU: msecs =   2.18 cmsecs =   2.13
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]               morph_10_erode
+D/skia    (27166):   8888: msecs = 921.32 cmsecs = 917.21
+D/skia    (27166):    565: msecs = 937.25 cmsecs = 932.70
+D/skia    (27166):    GPU: msecs =  53.86 cmsecs =   7.44
+D/skia    (27166):   NULLGPU: msecs =   2.15 cmsecs =   2.08
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]               morph_2_dilate
+D/skia    (27166):   8888: msecs = 335.13 cmsecs = 332.99
+D/skia    (27166):    565: msecs = 280.42 cmsecs = 278.59
+D/skia    (27166):    GPU: msecs =  18.19 cmsecs =   5.47
+D/skia    (27166):   NULLGPU: msecs =   2.27 cmsecs =   2.20
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                morph_2_erode
+D/skia    (27166):   8888: msecs = 271.90 cmsecs = 270.27
+D/skia    (27166):    565: msecs = 226.76 cmsecs = 225.92
+D/skia    (27166):    GPU: msecs =  18.66 cmsecs =   5.20
+D/skia    (27166):   NULLGPU: msecs =   2.12 cmsecs =   2.07
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                  merge_large
+D/skia    (27166):   8888: msecs =  11.13 cmsecs =  10.97
+D/skia    (27166):    565: msecs =   8.45 cmsecs =   8.36
+D/skia    (27166):    GPU: msecs =   1.59 cmsecs =   1.56
+D/skia    (27166):   NULLGPU: msecs =   1.43 cmsecs =   1.40
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                  merge_small
+D/skia    (27166):   8888: msecs =   4.05 cmsecs =   4.00
+D/skia    (27166):    565: msecs =   6.04 cmsecs =   5.98
+D/skia    (27166):    GPU: msecs =   1.52 cmsecs =   1.28
+D/skia    (27166):   NULLGPU: msecs =   0.41 cmsecs =   0.39
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           memset16_4000_5000
+D/skia    (27166):   NONRENDERING: msecs = 2046.46 cmsecs = 2039.69
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           memset16_3000_4000
+D/skia    (27166):   NONRENDERING: msecs = 1612.12 cmsecs = 1606.76
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           memset16_2000_3000
+D/skia    (27166):   NONRENDERING: msecs = 1178.48 cmsecs = 1174.39
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           memset16_1000_2000
+D/skia    (27166):   NONRENDERING: msecs = 744.81 cmsecs = 742.18
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            memset16_800_1000
+D/skia    (27166):   NONRENDERING: msecs =  96.73 cmsecs =  96.38
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             memset16_600_800
+D/skia    (27166):   NONRENDERING: msecs =  78.95 cmsecs =  78.66
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]               memset16_1_600
+D/skia    (27166):   NONRENDERING: msecs = 130.99 cmsecs = 130.59
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           memset32_4000_5000
+D/skia    (27166):   NONRENDERING: msecs = 1879.33 cmsecs = 1872.22
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           memset32_3000_4000
+D/skia    (27166):   NONRENDERING: msecs = 1795.59 cmsecs = 1787.97
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           memset32_2000_3000
+D/skia    (27166):   NONRENDERING: msecs = 1315.66 cmsecs = 1310.49
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           memset32_1000_2000
+D/skia    (27166):   NONRENDERING: msecs = 800.67 cmsecs = 797.47
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            memset32_800_1000
+D/skia    (27166):   NONRENDERING: msecs =  98.35 cmsecs =  97.96
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             memset32_600_800
+D/skia    (27166):   NONRENDERING: msecs =  77.88 cmsecs =  77.55
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]               memset32_1_600
+D/skia    (27166):   NONRENDERING: msecs = 109.65 cmsecs = 109.26
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]              chunkalloc_8192
+D/skia    (27166):   NONRENDERING: msecs =  58.59 cmsecs =  58.30
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                chunkalloc_64
+D/skia    (27166):   NONRENDERING: msecs =  53.71 cmsecs =  53.50
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            matrixconvolution
+D/skia    (27166):   8888: msecs = 1104.88 cmsecs = 1099.99
+D/skia    (27166):    565: msecs = 1114.95 cmsecs = 1109.86
+D/skia    (27166):    GPU: msecs =  98.82 cmsecs =   7.88
+D/skia    (27166):   NULLGPU: msecs =   4.53 cmsecs =   4.37
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            matrixconvolution
+D/skia    (27166):   8888: msecs = 1487.65 cmsecs = 1480.31
+D/skia    (27166):    565: msecs = 1300.62 cmsecs = 1295.19
+D/skia    (27166):    GPU: msecs =  87.74 cmsecs =   6.68
+D/skia    (27166):   NULLGPU: msecs =   1.73 cmsecs =   1.67
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            matrixconvolution
+D/skia    (27166):   8888: msecs = 1183.51 cmsecs = 1179.21
+D/skia    (27166):    565: msecs = 1185.76 cmsecs = 1181.24
+D/skia    (27166):    GPU: msecs =  36.66 cmsecs =   5.74
+D/skia    (27166):   NULLGPU: msecs =   1.72 cmsecs =   1.68
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            matrixconvolution
+D/skia    (27166):   8888: msecs = 1182.79 cmsecs = 1178.93
+D/skia    (27166):    565: msecs = 1184.61 cmsecs = 1180.36
+D/skia    (27166):    GPU: msecs =  38.47 cmsecs =   5.79
+D/skia    (27166):   NULLGPU: msecs =   1.81 cmsecs =   1.74
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]     matrix_scaletrans_double
+D/skia    (27166):   NONRENDERING: msecs =  49.48 cmsecs =  49.30
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]      matrix_scaletrans_mixed
+D/skia    (27166):   NONRENDERING: msecs =  41.62 cmsecs =  41.47
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] matrix_invert_maprect_typemask_nonpersp
+D/skia    (27166):   NONRENDERING: msecs = 100.52 cmsecs = 100.19
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] matrix_invert_maprect_typemask_rectstaysrect
+D/skia    (27166):   NONRENDERING: msecs =  52.34 cmsecs =  52.08
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]  matrix_invert_maprect_persp
+D/skia    (27166):   NONRENDERING: msecs = 125.67 cmsecs = 125.62
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] matrix_invert_maprect_nonpersp
+D/skia    (27166):   NONRENDERING: msecs =  90.08 cmsecs =  89.79
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] matrix_invert_maprect_translate
+D/skia    (27166):   NONRENDERING: msecs =  33.53 cmsecs =  33.41
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] matrix_invert_maprect_rectstaysrect
+D/skia    (27166):   NONRENDERING: msecs =  41.28 cmsecs =  41.07
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] matrix_invert_maprect_identity
+D/skia    (27166):   NONRENDERING: msecs =  23.04 cmsecs =  22.93
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]               matrix_gettype
+D/skia    (27166):   NONRENDERING: msecs =  44.64 cmsecs =  44.49
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         matrix_concat_double
+D/skia    (27166):   NONRENDERING: msecs =  48.27 cmsecs =  48.08
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]    matrix_concat_floatdouble
+D/skia    (27166):   NONRENDERING: msecs = 106.46 cmsecs = 106.11
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]     matrix_concat_floatfloat
+D/skia    (27166):   NONRENDERING: msecs =  39.28 cmsecs =  39.15
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                 matrix_scale
+D/skia    (27166):   NONRENDERING: msecs =  32.78 cmsecs =  32.62
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                matrix_equals
+D/skia    (27166):   NONRENDERING: msecs =  60.98 cmsecs =  60.74
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             matrix44_gettype
+D/skia    (27166):   NONRENDERING: msecs =  45.21 cmsecs =  45.00
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           matrix44_setconcat
+D/skia    (27166):   NONRENDERING: msecs =  14.02 cmsecs =  13.95
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]              matrix44_invert
+D/skia    (27166):   NONRENDERING: msecs =  68.89 cmsecs =  68.62
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           matrix44_postscale
+D/skia    (27166):   NONRENDERING: msecs =  15.41 cmsecs =  15.35
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            matrix44_prescale
+D/skia    (27166):   NONRENDERING: msecs =  12.16 cmsecs =  12.10
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]              matrix44_equals
+D/skia    (27166):   NONRENDERING: msecs =  46.31 cmsecs =  46.15
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]              point_normalize
+D/skia    (27166):   NONRENDERING: msecs = 127.75 cmsecs = 127.23
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                 clz_portable
+D/skia    (27166):   NONRENDERING: msecs = 148.21 cmsecs = 147.73
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                clz_intrinsic
+D/skia    (27166):   NONRENDERING: msecs =  68.76 cmsecs =  68.46
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                   floor_fast
+D/skia    (27166):   NONRENDERING: msecs =  35.16 cmsecs =  35.00
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                    floor_std
+D/skia    (27166):   NONRENDERING: msecs = 111.37 cmsecs = 110.99
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]        isfinite_plus_mulzero
+D/skia    (27166):   NONRENDERING: msecs =  43.71 cmsecs =  43.56
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          isfinite_plus_float
+D/skia    (27166):   NONRENDERING: msecs =  72.11 cmsecs =  71.87
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]            isfinite_plus_int
+D/skia    (27166):   NONRENDERING: msecs =  47.38 cmsecs =  47.12
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         isfinite_and_mulzero
+D/skia    (27166):   NONRENDERING: msecs = 117.15 cmsecs = 116.76
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           isfinite_and_float
+D/skia    (27166):   NONRENDERING: msecs =  56.76 cmsecs =  56.56
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             isfinite_and_int
+D/skia    (27166):   NONRENDERING: msecs =  31.63 cmsecs =  31.52
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                isfinite_rect
+D/skia    (27166):   NONRENDERING: msecs =  33.15 cmsecs =  33.03
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                  math_qmul32
+D/skia    (27166):   NONRENDERING: msecs =  17.77 cmsecs =  17.69
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                  math_qmul64
+D/skia    (27166):   NONRENDERING: msecs =  34.52 cmsecs =  34.16
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]               math_fastIsqrt
+D/skia    (27166):   NONRENDERING: msecs =  73.21 cmsecs =  72.94
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]               math_slowIsqrt
+D/skia    (27166):   NONRENDERING: msecs =  77.64 cmsecs =  77.18
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                    math_noOp
+D/skia    (27166):   NONRENDERING: msecs =   5.71 cmsecs =   5.68
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]              magnifier_large
+D/skia    (27166):   8888: msecs = 115.08 cmsecs = 114.53
+D/skia    (27166):    565: msecs = 117.98 cmsecs = 117.48
+D/skia    (27166):    GPU: msecs =   3.16 cmsecs =   1.70
+D/skia    (27166):   NULLGPU: msecs =   2.03 cmsecs =   1.97
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]              magnifier_small
+D/skia    (27166):   8888: msecs = 115.51 cmsecs = 115.01
+D/skia    (27166):    565: msecs = 119.41 cmsecs = 118.82
+D/skia    (27166):    GPU: msecs =   3.12 cmsecs =   1.44
+D/skia    (27166):   NULLGPU: msecs =   1.21 cmsecs =   1.18
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] lightingspotlitspecular_large
+D/skia    (27166):   8888: msecs = 425.94 cmsecs = 424.64
+D/skia    (27166):    565: msecs = 428.44 cmsecs = 426.82
+D/skia    (27166):    GPU: msecs =   7.05 cmsecs =   1.64
+D/skia    (27166):   NULLGPU: msecs =   1.07 cmsecs =   1.04
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] lightingspotlitspecular_small
+D/skia    (27166):   8888: msecs = 427.37 cmsecs = 426.12
+D/skia    (27166):    565: msecs = 430.97 cmsecs = 429.38
+D/skia    (27166):    GPU: msecs =   7.18 cmsecs =   1.52
+D/skia    (27166):   NULLGPU: msecs =   1.11 cmsecs =   1.06
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] lightingdistantlitspecular_large
+D/skia    (27166):   8888: msecs = 345.26 cmsecs = 343.95
+D/skia    (27166):    565: msecs = 345.79 cmsecs = 344.53
+D/skia    (27166):    GPU: msecs =   5.51 cmsecs =   1.50
+D/skia    (27166):   NULLGPU: msecs =   0.63 cmsecs =   0.61
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] lightingdistantlitspecular_small
+D/skia    (27166):   8888: msecs = 344.70 cmsecs = 343.42
+D/skia    (27166):    565: msecs = 347.61 cmsecs = 346.21
+D/skia    (27166):    GPU: msecs =   5.73 cmsecs =   1.43
+D/skia    (27166):   NULLGPU: msecs =   0.37 cmsecs =   0.36
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] lightingpointlitspecular_large
+D/skia    (27166):   8888: msecs = 386.89 cmsecs = 385.47
+D/skia    (27166):    565: msecs = 388.10 cmsecs = 386.57
+D/skia    (27166):    GPU: msecs =   6.24 cmsecs =   1.42
+D/skia    (27166):   NULLGPU: msecs =   0.66 cmsecs =   0.64
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] lightingpointlitspecular_small
+D/skia    (27166):   8888: msecs = 387.30 cmsecs = 386.38
+D/skia    (27166):    565: msecs = 389.22 cmsecs = 387.71
+D/skia    (27166):    GPU: msecs =   6.49 cmsecs =   1.45
+D/skia    (27166):   NULLGPU: msecs =   0.44 cmsecs =   0.40
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] lightingspotlitdiffuse_large
+D/skia    (27166):   8888: msecs = 252.75 cmsecs = 251.74
+D/skia    (27166):    565: msecs = 250.90 cmsecs = 249.98
+D/skia    (27166):    GPU: msecs =   6.60 cmsecs =   1.57
+D/skia    (27166):   NULLGPU: msecs =   0.88 cmsecs =   0.86
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] lightingspotlitdiffuse_small
+D/skia    (27166):   8888: msecs = 248.44 cmsecs = 247.35
+D/skia    (27166):    565: msecs = 251.52 cmsecs = 251.12
+D/skia    (27166):    GPU: msecs =   6.74 cmsecs =   1.36
+D/skia    (27166):   NULLGPU: msecs =   0.69 cmsecs =   0.67
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] lightingdistantlitdiffuse_large
+D/skia    (27166):   8888: msecs = 175.43 cmsecs = 174.75
+D/skia    (27166):    565: msecs = 178.81 cmsecs = 178.05
+D/skia    (27166):    GPU: msecs =   5.49 cmsecs =   1.35
+D/skia    (27166):   NULLGPU: msecs =   0.55 cmsecs =   0.53
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] lightingdistantlitdiffuse_small
+D/skia    (27166):   8888: msecs = 175.63 cmsecs = 174.61
+D/skia    (27166):    565: msecs = 178.21 cmsecs = 177.58
+D/skia    (27166):    GPU: msecs =   5.47 cmsecs =   1.76
+D/skia    (27166):   NULLGPU: msecs =   0.44 cmsecs =   0.42
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] lightingpointlitdiffuse_large
+D/skia    (27166):   8888: msecs = 200.99 cmsecs = 200.17
+D/skia    (27166):    565: msecs = 203.88 cmsecs = 203.04
+D/skia    (27166):    GPU: msecs =   6.05 cmsecs =   1.53
+D/skia    (27166):   NULLGPU: msecs =   0.61 cmsecs =   0.59
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480] lightingpointlitdiffuse_small
+D/skia    (27166):   8888: msecs = 200.49 cmsecs = 199.68
+D/skia    (27166):    565: msecs = 203.67 cmsecs = 203.58
+D/skia    (27166):    GPU: msecs =   6.12 cmsecs =   1.34
+D/skia    (27166):   NULLGPU: msecs =   0.29 cmsecs =   0.28
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                   lines_1_AA
+D/skia    (27166):   8888: msecs = 203.89 cmsecs = 202.47
+D/skia    (27166):    565: msecs = 156.77 cmsecs = 155.60
+D/skia    (27166):    GPU: msecs = 110.13 cmsecs = 108.81
+D/skia    (27166):   NULLGPU: msecs =  82.69 cmsecs =  82.33
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                 lines_0.5_AA
+D/skia    (27166):   8888: msecs = 335.91 cmsecs = 333.95
+D/skia    (27166):    565: msecs = 177.70 cmsecs = 176.54
+D/skia    (27166):    GPU: msecs = 141.22 cmsecs = 121.48
+D/skia    (27166):   NULLGPU: msecs =  83.32 cmsecs =  82.93
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                   lines_0_AA
+D/skia    (27166):   8888: msecs = 163.61 cmsecs = 162.72
+D/skia    (27166):    565: msecs = 129.83 cmsecs = 128.98
+D/skia    (27166):    GPU: msecs =   0.82 cmsecs =   0.80
+D/skia    (27166):   NULLGPU: msecs =   0.65 cmsecs =   0.63
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                   lines_1_BW
+D/skia    (27166):   8888: msecs = 158.71 cmsecs = 157.51
+D/skia    (27166):    565: msecs = 128.46 cmsecs = 127.66
+D/skia    (27166):    GPU: msecs = 144.37 cmsecs = 139.96
+D/skia    (27166):   NULLGPU: msecs = 115.51 cmsecs = 115.01
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                   lines_0_BW
+D/skia    (27166):   8888: msecs = 101.57 cmsecs = 100.71
+D/skia    (27166):    565: msecs =  73.50 cmsecs =  73.00
+D/skia    (27166):    GPU: msecs =   0.77 cmsecs =   0.75
+D/skia    (27166):   NULLGPU: msecs =   0.63 cmsecs =   0.61
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                interp_double
+D/skia    (27166):   NONRENDERING: msecs =  77.92 cmsecs =  77.66
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                 interp_float
+D/skia    (27166):   NONRENDERING: msecs =  52.82 cmsecs =  52.61
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                 interp_16.48
+D/skia    (27166):   NONRENDERING: msecs =  52.13 cmsecs =  51.90
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                 interp_32.32
+D/skia    (27166):   NONRENDERING: msecs =  58.21 cmsecs =  58.01
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]                 interp_16.16
+D/skia    (27166):   NONRENDERING: msecs =  19.33 cmsecs =  19.25
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           grmemorypool_queue
+D/skia    (27166):   NONRENDERING: msecs =  44.98 cmsecs =  44.79
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          grmemorypool_random
+D/skia    (27166):   NONRENDERING: msecs =  56.37 cmsecs =  56.13
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           grmemorypool_stack
+D/skia    (27166):   NONRENDERING: msecs =  67.20 cmsecs =  66.87
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]        gradient_create_alpha
+D/skia    (27166):   8888: msecs =  66.42 cmsecs =  66.12
+D/skia    (27166):    565: msecs =  66.94 cmsecs =  66.67
+D/skia    (27166):    GPU: msecs = 183.02 cmsecs = 180.35
+D/skia    (27166):   NULLGPU: msecs = 110.06 cmsecs = 109.45
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]       gradient_create_opaque
+D/skia    (27166):   8888: msecs =  37.19 cmsecs =  37.04
+D/skia    (27166):    565: msecs =  28.94 cmsecs =  29.20
+D/skia    (27166):    GPU: msecs = 148.17 cmsecs = 146.24
+D/skia    (27166):   NULLGPU: msecs =  81.53 cmsecs =  81.05
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]       gradient_conical_clamp
+D/skia    (27166):   8888: msecs = 258.91 cmsecs = 257.55
+D/skia    (27166):    565: msecs = 267.89 cmsecs = 266.73
+D/skia    (27166):    GPU: msecs =   1.39 cmsecs =   1.35
+D/skia    (27166):   NULLGPU: msecs =   0.49 cmsecs =   0.48
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]      gradient_radial2_mirror
+D/skia    (27166):   8888: msecs = 125.48 cmsecs = 124.67
+D/skia    (27166):    565: msecs = 138.98 cmsecs = 137.27
+D/skia    (27166):    GPU: msecs =   2.08 cmsecs =   2.01
+D/skia    (27166):   NULLGPU: msecs =   0.34 cmsecs =   0.33
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]       gradient_radial2_clamp
+D/skia    (27166):   8888: msecs = 121.40 cmsecs = 121.03
+D/skia    (27166):    565: msecs = 133.83 cmsecs = 133.17
+D/skia    (27166):    GPU: msecs =   0.52 cmsecs =   0.49
+D/skia    (27166):   NULLGPU: msecs =   0.53 cmsecs =   0.50
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]         gradient_sweep_clamp
+D/skia    (27166):   8888: msecs =  78.75 cmsecs =  78.41
+D/skia    (27166):    565: msecs =  80.26 cmsecs =  79.87
+D/skia    (27166):    GPU: msecs =   0.43 cmsecs =   0.41
+D/skia    (27166):   NULLGPU: msecs =   0.34 cmsecs =   0.32
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]      gradient_radial1_mirror
+D/skia    (27166):   8888: msecs = 158.87 cmsecs = 157.84
+D/skia    (27166):    565: msecs = 159.16 cmsecs = 158.13
+D/skia    (27166):    GPU: msecs =   0.91 cmsecs =   0.88
+D/skia    (27166):   NULLGPU: msecs =   0.47 cmsecs =   0.45
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]  gradient_radial1_clamp_oval
+D/skia    (27166):   8888: msecs =  49.19 cmsecs =  49.26
+D/skia    (27166):    565: msecs =  48.99 cmsecs =  48.65
+D/skia    (27166):    GPU: msecs =   2.01 cmsecs =   1.95
+D/skia    (27166):   NULLGPU: msecs =   1.02 cmsecs =   0.99
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]       gradient_radial1_clamp
+D/skia    (27166):   8888: msecs =  29.21 cmsecs =  28.90
+D/skia    (27166):    565: msecs =  38.68 cmsecs =  38.35
+D/skia    (27166):    GPU: msecs =   0.60 cmsecs =   0.58
+D/skia    (27166):   NULLGPU: msecs =   0.51 cmsecs =   0.48
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]       gradient_linear_mirror
+D/skia    (27166):   8888: msecs =  34.60 cmsecs =  34.31
+D/skia    (27166):    565: msecs =  29.52 cmsecs =  29.31
+D/skia    (27166):    GPU: msecs =   0.83 cmsecs =   0.81
+D/skia    (27166):   NULLGPU: msecs =   0.62 cmsecs =   0.61
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]        gradient_linear_clamp
+D/skia    (27166):   8888: msecs =  28.78 cmsecs =  28.53
+D/skia    (27166):    565: msecs =  30.34 cmsecs =  30.12
+D/skia    (27166):    GPU: msecs =   0.77 cmsecs =   0.74
+D/skia    (27166):   NULLGPU: msecs =   0.66 cmsecs =   0.62
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]     game_trans_full_atlas_aa
+D/skia    (27166):   8888: msecs = 389.70 cmsecs = 387.06
+D/skia    (27166):    565: msecs = 478.38 cmsecs = 474.87
+D/skia    (27166):    GPU: msecs = 497.97 cmsecs = 469.33
+D/skia    (27166):   NULLGPU: msecs = 362.96 cmsecs = 360.67
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]             game_rot_full_aa
+D/skia    (27166):   8888: msecs = 6381.19 cmsecs = 6334.48
+D/skia    (27166):    565: msecs = 6512.02 cmsecs = 6468.64
+D/skia    (27166):    GPU: msecs = 202.14 cmsecs = 201.22
+D/skia    (27166):   NULLGPU: msecs = 196.95 cmsecs = 196.16
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]   game_trans_aligned_full_aa
+D/skia    (27166):   8888: msecs = 380.31 cmsecs = 377.37
+D/skia    (27166):    565: msecs = 757.76 cmsecs = 752.43
+D/skia    (27166):    GPU: msecs = 195.80 cmsecs = 193.34
+D/skia    (27166):   NULLGPU: msecs = 192.13 cmsecs = 191.16
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           game_trans_full_aa
+D/skia    (27166):   8888: msecs = 379.39 cmsecs = 376.69
+D/skia    (27166):    565: msecs = 755.77 cmsecs = 750.79
+D/skia    (27166):    GPU: msecs = 193.19 cmsecs = 190.26
+D/skia    (27166):   NULLGPU: msecs = 187.37 cmsecs = 186.60
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]           game_scale_full_aa
+D/skia    (27166):   8888: msecs = 5995.41 cmsecs = 5953.99
+D/skia    (27166):    565: msecs = 6692.59 cmsecs = 6652.22
+D/skia    (27166):    GPU: msecs = 242.16 cmsecs = 240.96
+D/skia    (27166):   NULLGPU: msecs = 237.45 cmsecs = 236.38
+D/skia    (27166): 
+D/skia    (27166): running bench [640 480]          game_rot_partial_aa

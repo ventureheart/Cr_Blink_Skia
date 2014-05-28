@@ -1,0 +1,86 @@
+# ========
+# captured on: Mon Jul 15 18:36:23 2013
+# hostname : venture
+# os release : 3.5.0-23-generic
+# perf version : 3.5.7.2
+# arch : x86_64
+# nrcpus online : 8
+# nrcpus avail : 8
+# cpudesc : Intel(R) Core(TM) i7 CPU 870 @ 2.93GHz
+# cpuid : GenuineIntel,6,30,5
+# total memory : 3982968 kB
+# cmdline : /usr/bin/perf_3.5.0-23 record ./out/Release/bench --repeat 10 --match blur_image_filter --config 8888 --timers wcg 
+# event : name = cycles, type = 0, config = 0x0, config1 = 0x0, config2 = 0x0, excl_usr = 0, excl_kern = 0, id = { 342, 343, 344, 345, 346, 347, 348, 349 }
+# HEADER_CPU_TOPOLOGY info available, use -I to display
+# HEADER_NUMA_TOPOLOGY info available, use -I to display
+# ========
+#
+# Samples: 6K of event 'cycles'
+# Event count (approx.): 5157293719
+#
+# Overhead  Command           Shared Object                                                                                                                                                                                                   Symbol
+# ........  .......  ......................  .......................................................................................................................................................................................................
+#
+    63.80%    bench  bench                   [.] boxBlurY(SkBitmap const&, SkBitmap*, int, int, int)                                                                                                                                                
+    28.43%    bench  bench                   [.] boxBlurX(SkBitmap const&, SkBitmap*, int, int, int)                                                                                                                                                
+     4.69%    bench  [kernel.kallsyms]       [k] 0xffffffff8103fe1a                                                                                                                                                                                 
+     0.87%    bench  bench                   [.] S32A_Opaque_BlitRow32_SSE2(unsigned int*, unsigned int const*, int, unsigned int)                                                                                                                  
+     0.49%    bench  bench                   [.] sk_memset32_SSE2(unsigned int*, unsigned int, int)                                                                                                                                                 
+     0.33%    bench  ld-2.15.so              [.] 0x0000000000008bd4                                                                                                                                                                                 
+     0.21%    bench  libGL.so.1.2            [.] 0x000000000001f3c0                                                                                                                                                                                 
+     0.20%    bench  bench                   [.] SkRTree::chooseSubtree(SkRTree::Node*, SkRTree::Branch*)                                                                                                                                           
+     0.16%    bench  libc-2.15.so            [.] 0x0000000000162de8                                                                                                                                                                                 
+     0.09%    bench  libexpat.so.1.5.2       [.] 0x00000000000048e0                                                                                                                                                                                 
+     0.07%    bench  libfontconfig.so.1.4.4  [.] 0x0000000000008e2e                                                                                                                                                                                 
+     0.06%    bench  bench                   [.] SkRTree::insert(SkRTree::Node*, SkRTree::Branch*, unsigned short)                                                                                                                                  
+     0.04%    bench  nouveau_dri.so          [.] 0x000000000003d360                                                                                                                                                                                 
+     0.03%    bench  bench                   [.] void SkTIntroSort<SkRTree::Branch, SkRTree::RectLessThan>(int, SkRTree::Branch*, SkRTree::Branch*, SkRTree::RectLessThan)                                                                          
+     0.03%    bench  bench                   [.] make_random_rects(SkRandom&, int, int)                                                                                                                                                             
+     0.03%    bench  bench                   [.] SkQuadraticEdge::setQuadratic(SkPoint const*, int)                                                                                                                                                 
+     0.03%    bench  libLLVM-3.0.so.1        [.] llvm::PMTopLevelManager::setLastUser(llvm::SmallVectorImpl<llvm::Pass*> const&, llvm::Pass*)                                                                                                       
+     0.02%    bench  libGL.so.1.2            [.] glXGetFBConfigAttribSGIX                                                                                                                                                                           
+     0.02%    bench  nouveau_dri.so          [.] driIndexConfigAttrib                                                                                                                                                                               
+     0.02%    bench  bench                   [.] SkBlitter::~SkBlitter()                                                                                                                                                                            
+     0.02%    bench  libc-2.15.so            [.] __printf_fp                                                                                                                                                                                        
+     0.02%    bench  bench                   [.] SkBlitRow::PlatformProcs32(unsigned int)                                                                                                                                                           
+     0.02%    bench  bench                   [.] void SkTIntroSort<SkRTree::Branch, SkRTree::RectLessY>(int, SkRTree::Branch*, SkRTree::Branch*, SkRTree::RectLessY)                                                                                
+     0.02%    bench  bench                   [.] SkRTree::bulkLoad(SkTDArray<SkRTree::Branch>*, int)                                                                                                                                                
+     0.02%    bench  bench                   [.] SkMatrix::mapRect(SkRect*, SkRect const&) const                                                                                                                                                    
+     0.02%    bench  bench                   [.] F_498(void*)                                                                                                                                                                                       
+     0.02%    bench  bench                   [.] operate_on_span(int const*, int const*, int*, int, int)                                                                                                                                            
+     0.02%    bench  bench                   [.] SkDevice::accessBitmap(bool)                                                                                                                                                                       
+     0.02%    bench  bench                   [.] SkRegion::op(SkRegion const&, SkIRect const&, SkRegion::Op)                                                                                                                                        
+     0.02%    bench  bench                   [.] SkRTree::insert(void*, SkIRect const&, bool)                                                                                                                                                       
+     0.02%    bench  bench                   [.] SkDeque::pop_back()                                                                                                                                                                                
+     0.02%    bench  libm-2.15.so            [.] 0x000000000002f676                                                                                                                                                                                 
+     0.02%    bench  bench                   [.] SkRTree::distributeChildren(SkRTree::Branch*)                                                                                                                                                      
+     0.01%    bench  libfreetype.so.6.8.0    [.] 0x0000000000045530                                                                                                                                                                                 
+     0.01%    bench  bench                   [.] SkScalerContext_FreeType::SkScalerContext_FreeType(SkTypeface*, SkDescriptor const*)                                                                                                               
+     0.01%    bench  libm-2.15.so            [.] __powf_finite                                                                                                                                                                                      
+     0.01%    bench  libX11.so.6.3.0         [.] XGetVisualInfo                                                                                                                                                                                     
+     0.01%    bench  libLLVM-3.0.so.1        [.] llvm::X86::CCRClass::~CCRClass()                                                                                                                                                                   
+     0.01%    bench  libc-2.15.so            [.] _dl_addr                                                                                                                                                                                           
+     0.01%    bench  libdricore.so           [.] _mesa_make_extension_string                                                                                                                                                                        
+     0.01%    bench  libdricore.so           [.] _mesa_set_scissor                                                                                                                                                                                  
+     0.01%    bench  bench                   [.] SkString::operator=(SkString const&)                                                                                                                                                               
+     0.01%    bench  libdricore.so           [.] _mesa_get_enabled_extension                                                                                                                                                                        
+     0.01%    bench  libc-2.15.so            [.] free                                                                                                                                                                                               
+     0.01%    bench  libc-2.15.so            [.] __libc_calloc                                                                                                                                                                                      
+     0.01%    bench  libglsl.so              [.] 0x0000000000056a51                                                                                                                                                                                 
+     0.01%    bench  bench                   [.] sk_atomic_dec(int*)                                                                                                                                                                                
+     0.01%    bench  libLLVM-3.0.so.1        [.] llvm::DenseMap<unsigned int, std::pair<unsigned int, unsigned int>, llvm::DenseMapInfo<unsigned int>, llvm::DenseMapInfo<std::pair<unsigned int, unsigned int> > >::operator[](unsigned int const&)
+     0.01%    bench  bench                   [.] SkBitmap::unlockPixels() const                                                                                                                                                                     
+     0.01%    bench  libpthread-2.15.so      [.] __libc_close                                                                                                                                                                                       
+     0.01%    bench  libLLVM-3.0.so.1        [.] llvm::StringMapImpl::RehashTable()                                                                                                                                                                 
+     0.01%    bench  libLLVM-3.0.so.1        [.] llvm::createGreedyRegisterAllocator()                                                                                                                                                              
+     0.01%    bench  libLLVM-3.0.so.1        [.] llvm::APFloat::copySignificand(llvm::APFloat const&)                                                                                                                                               
+     0.01%    bench  libX11.so.6.3.0         [.] _XVIDtoVisual                                                                                                                                                                                      
+     0.01%    bench  libpthread-2.15.so      [.] __errno_location                                                                                                                                                                                   
+     0.01%    bench  libc-2.15.so            [.] random_r                                                                                                                                                                                           
+     0.01%    bench  libc-2.15.so            [.] malloc                                                                                                                                                                                             
+     0.00%    bench  libc-2.15.so            [.] execvp                                                                                                                                                                                             
+
+
+#
+# (For a higher level overview, try: perf report --sort comm,dso)
+#

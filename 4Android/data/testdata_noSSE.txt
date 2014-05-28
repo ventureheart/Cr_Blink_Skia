@@ -1,0 +1,1177 @@
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: Initial value of 'need_update' 0.
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: Force update value 0.
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: 'need_update' value 0.
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=6345931757134, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=6345986253446, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=6405932883527, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=6405984488969, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=6465932382898, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=6465983684670, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=6525402725351, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+D/ConnectivityService(  540): Sampling interval elapsed, updating statistics ..
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=6525403953161, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+V/AlarmManager(  540): triggered: act=android.net.ConnectivityService.action.PKT_CNT_SAMPLE_INTERVAL_ELAPSED flg=0x14
+V/AlarmManager(  540): Pkg: android
+D/ConnectivityService(  540): Done.
+D/ConnectivityService(  540): Setting timer for 720seconds
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=6525931715488, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=6525986863558, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=6585931625805, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=6585983529608, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: Initial value of 'need_update' 0.
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: Force update value 0.
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: 'need_update' value 0.
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=6645931761290, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=6645984519951, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=6705931206464, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=6705983678496, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=6765932423651, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=6765989470008, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=6825931514031, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=6825984827232, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=6885931628844, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=6885983366145, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: Initial value of 'need_update' 0.
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: Force update value 0.
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: 'need_update' value 0.
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=6945931840596, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=6945987242330, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7005932217452, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7005984079351, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7065932416074, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7065982383039, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7125931538302, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7125984991744, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7185931669038, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7185984339978, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: Initial value of 'need_update' 0.
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: Force update value 0.
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: 'need_update' value 0.
+D/NVM     (  165): [NVM]Timer will trigger Flush
+D/NVM     (  165): [NVM]
+D/NVM     (  165): ==============================================================================================
+D/NVM     (  165): [NVM]<CMD_FLUSH> Command sent => at+xdrv=43,2,1
+D/NVM     (  165): 
+D/NVM     (  165): [NVM]Total Responce read = 25-----read returns = 25------Total len = 25
+D/NVM     (  165): [NVM]Modem AT response => 
+D/NVM     (  165): 
+D/NVM     (  165): +XDRV: 43,2,0,0
+D/NVM     (  165): 
+D/NVM     (  165): OK
+D/NVM     (  165): [NVM]XDRV command [Success].
+D/NVM     (  165): [NVM]Total Responce read = 18-----read returns = 18------Total len = 180
+D/NVM     (  165): [NVM]-------Modem Ack response----- = +XDRVI: 43,5,0,1
+D/NVM     (  165): 
+D/NVM     (  165): [NVM]Timer Flushing finished
+D/NVM     (  165): [NVM]No more Request Update Ack from Modem
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7245931753399, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/ProcessStatsService(  540): Prepared write state in 3ms
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7245983798841, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7305932229989, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7305985805234, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7365932433919, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7365988126752, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7425931571791, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7425988754199, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7485931703645, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7485988699995, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: Initial value of 'need_update' 0.
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: Force update value 0.
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: 'need_update' value 0.
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7545931792476, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7545994997716, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+D/skia    ( 2397): skia bench: alpha=0xFF antialias=1 filter=0 deferred=no logperiter=0 rotate=0 scale=0 clip=0 min=0 record=0 picturerecord=0 dither=default strokeWidth=none scalar=float system=ANDROID
+D/libEGL  ( 2397): loaded /system/lib/egl/libGLES_intel7.so
+I/ivpg-hwinfo( 2397): Device ID = 0F31
+I/ivpg-hwinfo( 2397): KMD PPGTT support = 0
+I/ivpg-hwinfo( 2397): Processors = 4, Cores = 2
+I/ufo-gral( 2397): Driver() drm driver i915 loaded
+I/ufo-gral( 2397): Hello, this is UFO GRALLOC HAL/Intel Corporation
+D/        ( 2397): droid_create_context : config id = 1 conf->NativeVisualID=1
+D/        ( 2397): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+I/        ( 2397): Requested context : GLES 2.0
+D/        ( 2397): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+D/skia    ( 2397): running bench -- test [640 480]          Xfermode_Luminosity
+D/skia    ( 2397):   8888: msecs =  23.90 cmsecs =  23.89
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               Xfermode_Color
+D/skia    ( 2397):   8888: msecs =  73.33 cmsecs =  73.30
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]          Xfermode_Saturation
+D/skia    ( 2397):   8888: msecs =  22.68 cmsecs =  22.67
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                 Xfermode_Hue
+D/skia    ( 2397):   8888: msecs =  37.85 cmsecs =  37.83
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            Xfermode_Multiply
+D/skia    ( 2397):   8888: msecs =  12.99 cmsecs =  12.98
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]           Xfermode_Exclusion
+D/skia    ( 2397):   8888: msecs =  13.17 cmsecs =  13.14
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]          Xfermode_Difference
+D/skia    ( 2397):   8888: msecs =  16.08 cmsecs =  16.07
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]           Xfermode_SoftLight
+D/skia    ( 2397):   8888: msecs =  86.61 cmsecs =  86.58
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]           Xfermode_HardLight
+D/skia    ( 2397):   8888: msecs =  15.26 cmsecs =  15.25
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]           Xfermode_ColorBurn
+D/skia    ( 2397):   8888: msecs =  12.52 cmsecs =  12.51
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]          Xfermode_ColorDodge
+D/skia    ( 2397):   8888: msecs =  35.66 cmsecs =  35.64
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             Xfermode_Lighten
+D/skia    ( 2397):   8888: msecs =  11.25 cmsecs =  11.24
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]              Xfermode_Darken
+D/skia    ( 2397):   8888: msecs =  11.15 cmsecs =  11.13
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             Xfermode_Overlay
+D/skia    ( 2397):   8888: msecs =  14.76 cmsecs =  14.75
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]              Xfermode_Screen
+D/skia    ( 2397):   8888: msecs =  10.30 cmsecs =  10.29
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            Xfermode_Modulate
+D/skia    ( 2397):   8888: msecs =   7.94 cmsecs =   7.93
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                Xfermode_Plus
+D/skia    ( 2397):   8888: msecs =   7.61 cmsecs =   7.60
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                 Xfermode_Xor
+D/skia    ( 2397):   8888: msecs =  11.92 cmsecs =  11.91
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             Xfermode_DstATop
+D/skia    ( 2397):   8888: msecs =  10.43 cmsecs =  10.42
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             Xfermode_SrcATop
+D/skia    ( 2397):   8888: msecs =  10.96 cmsecs =  10.95
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]              Xfermode_DstOut
+D/skia    ( 2397):   8888: msecs =   2.65 cmsecs =   2.65
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]              Xfermode_SrcOut
+D/skia    ( 2397):   8888: msecs =   6.39 cmsecs =   6.38
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               Xfermode_DstIn
+D/skia    ( 2397):   8888: msecs =   2.62 cmsecs =   2.61
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               Xfermode_SrcIn
+D/skia    ( 2397):   8888: msecs =   5.83 cmsecs =   5.82
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             Xfermode_DstOver
+D/skia    ( 2397):   8888: msecs =   6.66 cmsecs =   6.65
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             Xfermode_SrcOver
+D/skia    ( 2397):   8888: msecs =   2.40 cmsecs =   2.39
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                 Xfermode_Dst
+D/skia    ( 2397):   8888: msecs =   0.03 cmsecs =   0.02
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                 Xfermode_Src
+D/skia    ( 2397):   8888: msecs =   0.54 cmsecs =   0.53
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               Xfermode_Clear
+D/skia    ( 2397):   8888: msecs =   0.56 cmsecs =   0.56
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                        verts
+D/skia    ( 2397):   8888: msecs = 142.84 cmsecs = 142.78
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]   constXTile_MM_filter_trans
+D/skia    ( 2397):   8888: msecs =  37.61 cmsecs =  37.59
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] constXTile_CC_filter_trans_scale
+D/skia    ( 2397):   8888: msecs =  38.26 cmsecs =  38.24
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]   constXTile_RR_filter_trans
+D/skia    ( 2397):   8888: msecs =  38.02 cmsecs =  37.99
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]    constXTile_MM_trans_scale
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7605931703911, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+D/skia    ( 2397):   8888: msecs =  37.99 cmsecs =  37.97
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]          constXTile_CC_trans
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7605979292082, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+D/skia    ( 2397):   8888: msecs =  37.62 cmsecs =  37.60
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]    constXTile_RR_trans_scale
+D/skia    ( 2397):   8888: msecs =  37.93 cmsecs =  37.92
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]         constXTile_MM_filter
+D/skia    ( 2397):   8888: msecs =   5.46 cmsecs =   5.45
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]   constXTile_CC_filter_scale
+D/skia    ( 2397):   8888: msecs =   5.98 cmsecs =   5.97
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]         constXTile_RR_filter
+D/skia    ( 2397):   8888: msecs =   5.50 cmsecs =   5.48
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]          constXTile_MM_scale
+D/skia    ( 2397):   8888: msecs =   5.69 cmsecs =   5.68
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                constXTile_CC
+D/skia    ( 2397):   8888: msecs =   5.44 cmsecs =   5.43
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]          constXTile_RR_scale
+D/skia    ( 2397):   8888: msecs =   5.73 cmsecs =   5.72
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            text_16_pos_AA_BK
+D/skia    ( 2397):   8888: msecs =   9.11 cmsecs =   9.10
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               text_16_LCD_88
+D/skia    ( 2397):   8888: msecs =  11.56 cmsecs =  11.54
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               text_16_LCD_FF
+D/skia    ( 2397):   8888: msecs =  11.05 cmsecs =  11.04
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               text_16_LCD_BK
+D/skia    ( 2397):   8888: msecs =   9.32 cmsecs =   9.31
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                text_16_AA_88
+D/skia    ( 2397):   8888: msecs =  11.50 cmsecs =  11.49
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                text_16_AA_FF
+D/skia    ( 2397):   8888: msecs =  10.83 cmsecs =  10.82
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                text_16_AA_BK
+D/skia    ( 2397):   8888: msecs =   9.17 cmsecs =   9.16
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                text_16_BW_88
+D/skia    ( 2397):   8888: msecs =   6.27 cmsecs =   6.26
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                text_16_BW_FF
+D/skia    ( 2397):   8888: msecs =   4.86 cmsecs =   4.85
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                text_16_BW_BK
+D/skia    ( 2397):   8888: msecs =   4.86 cmsecs =   4.85
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                   tablebench
+D/skia    ( 2397):   8888: msecs =  64.87 cmsecs =  64.85
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       draw_stroke_oval_miter
+D/skia    ( 2397):   8888: msecs =  21.42 cmsecs =  21.40
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       draw_stroke_oval_bevel
+D/skia    ( 2397):   8888: msecs =  24.47 cmsecs =  24.45
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       draw_stroke_oval_round
+D/skia    ( 2397):   8888: msecs =  21.34 cmsecs =  21.33
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]      draw_stroke_rrect_miter
+D/skia    ( 2397):   8888: msecs =  21.30 cmsecs =  21.29
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]      draw_stroke_rrect_bevel
+D/skia    ( 2397):   8888: msecs =  24.40 cmsecs =  24.39
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]      draw_stroke_rrect_round
+D/skia    ( 2397):   8888: msecs =  21.29 cmsecs =  21.28
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       draw_stroke_rect_miter
+D/skia    ( 2397):   8888: msecs =   1.57 cmsecs =   1.56
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       draw_stroke_rect_bevel
+D/skia    ( 2397):   8888: msecs =  11.08 cmsecs =  11.06
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       draw_stroke_rect_round
+D/skia    ( 2397):   8888: msecs =  13.01 cmsecs =  13.00
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            shadermask_LCD_80
+D/skia    ( 2397):   8888: msecs =  17.84 cmsecs =  17.82
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            shadermask_LCD_FF
+D/skia    ( 2397):   8888: msecs =  17.17 cmsecs =  17.15
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             shadermask_AA_80
+D/skia    ( 2397):   8888: msecs =  17.77 cmsecs =  17.75
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             shadermask_AA_FF
+D/skia    ( 2397):   8888: msecs =  16.56 cmsecs =  16.54
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             shadermask_BW_80
+D/skia    ( 2397):   8888: msecs =  19.62 cmsecs =  19.60
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             shadermask_BW_FF
+D/skia    ( 2397):   8888: msecs =  14.65 cmsecs =  14.64
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            repeatTile_8888_A
+D/skia    ( 2397):   8888: msecs =  58.48 cmsecs =  58.45
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             repeatTile_565_A
+D/skia    ( 2397):   8888: msecs =  48.56 cmsecs =  48.53
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            repeatTile_8888_A
+D/skia    ( 2397):   8888: msecs =  33.41 cmsecs =  33.39
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            repeatTile_8888_X
+D/skia    ( 2397):   8888: msecs =   5.51 cmsecs =   5.50
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                      rectori
+D/skia    ( 2397):   8888: msecs =  90.76 cmsecs =  90.72
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                   maskshader
+D/skia    ( 2397):   8888: msecs =  20.72 cmsecs =  20.71
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                    maskcolor
+D/skia    ( 2397):   8888: msecs =  15.47 cmsecs =  15.46
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                    maskblack
+D/skia    ( 2397):   8888: msecs =  14.17 cmsecs =  14.15
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                   maskopaque
+D/skia    ( 2397):   8888: msecs =  15.19 cmsecs =  15.18
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]              aarects_rotated
+D/skia    ( 2397):   8888: msecs = 204.67 cmsecs = 204.60
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                      aarects
+D/skia    ( 2397):   8888: msecs =  48.31 cmsecs =  48.28
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]              srcmode_rects_1
+D/skia    ( 2397):   8888: msecs =   6.80 cmsecs =   6.79
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                      polygon
+D/skia    ( 2397):   8888: msecs =  58.68 cmsecs =  58.65
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                        lines
+D/skia    ( 2397):   8888: msecs =  17.64 cmsecs =  17.63
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                       points
+D/skia    ( 2397):   8888: msecs =   3.99 cmsecs =   3.98
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            rrects_3_stroke_4
+D/skia    ( 2397):   8888: msecs =  21.41 cmsecs =  21.40
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                     rrects_3
+D/skia    ( 2397):   8888: msecs =   6.40 cmsecs =   6.38
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            rrects_1_stroke_4
+D/skia    ( 2397):   8888: msecs =  45.49 cmsecs =  45.47
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                     rrects_1
+D/skia    ( 2397):   8888: msecs =  17.01 cmsecs =  17.00
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             ovals_3_stroke_4
+D/skia    ( 2397):   8888: msecs =  19.98 cmsecs =  19.97
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             ovals_1_stroke_4
+D/skia    ( 2397):   8888: msecs =  46.00 cmsecs =  45.98
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                      ovals_3
+D/skia    ( 2397):   8888: msecs =   7.25 cmsecs =   7.24
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                      ovals_1
+D/skia    ( 2397):   8888: msecs =  22.32 cmsecs =  22.30
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             rects_3_stroke_4
+D/skia    ( 2397):   8888: msecs =   1.65 cmsecs =   1.64
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                      rects_3
+D/skia    ( 2397):   8888: msecs =   1.36 cmsecs =   1.36
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             rects_1_stroke_4
+D/skia    ( 2397):   8888: msecs =   4.05 cmsecs =   4.04
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                      rects_1
+D/skia    ( 2397):   8888: msecs =   6.60 cmsecs =   6.59
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] premul_and_unpremul_alpha_Native8888
+D/skia    ( 2397):   8888: msecs =  59.56 cmsecs =  59.54
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] premul_and_unpremul_alpha_RGBA8888
+D/skia    ( 2397):   8888: msecs =  59.62 cmsecs =  59.59
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                      readpix
+D/skia    ( 2397):   8888: msecs =   1.23 cmsecs =   1.22
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] picture_playback_drawPosText
+D/skia    ( 2397):   8888: msecs =  84.18 cmsecs =  84.14
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] picture_playback_drawPosTextH
+D/skia    ( 2397):   8888: msecs =  78.88 cmsecs =  78.85
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]    picture_playback_drawText
+D/skia    ( 2397):   8888: msecs =  72.12 cmsecs =  72.09
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                  perlinnoise
+D/skia    ( 2397):   8888: msecs =   7.64 cmsecs =   7.63
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             pathUtils_region
+D/skia    ( 2397):   8888: msecs =   2.73 cmsecs =   2.72
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               pathUtils_path
+D/skia    ( 2397):   8888: msecs =  26.11 cmsecs =  26.09
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            ratquad-chop-half
+D/skia    ( 2397):   8888: msecs =   3.81 cmsecs =   3.81
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             ratquad-chop-0.5
+D/skia    ( 2397):   8888: msecs =   9.08 cmsecs =   9.07
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             zeroradroundrect
+D/skia    ( 2397):   8888: msecs =  58.06 cmsecs =  58.04
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                 arbroundrect
+D/skia    ( 2397):   8888: msecs = 107.23 cmsecs = 107.19
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               circles_stroke
+D/skia    ( 2397):   8888: msecs = 138.28 cmsecs = 138.23
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                 circles_fill
+D/skia    ( 2397):   8888: msecs =  43.50 cmsecs =  43.48
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]  path_stroke_small_long_line
+D/skia    ( 2397):   8888: msecs =  72.23 cmsecs =  72.20
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]    path_fill_small_long_line
+D/skia    ( 2397):   8888: msecs =  34.11 cmsecs =  34.10
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] path_stroke_small_long_curved
+D/skia    ( 2397):   8888: msecs = 124.74 cmsecs = 124.69
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]  path_fill_small_long_curved
+D/skia    ( 2397):   8888: msecs =  42.41 cmsecs =  42.39
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]   path_stroke_small_sawtooth
+D/skia    ( 2397):   8888: msecs =  51.58 cmsecs =  51.55
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]     path_fill_small_sawtooth
+D/skia    ( 2397):   8888: msecs =  28.11 cmsecs =  28.09
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       path_stroke_big_circle
+D/skia    ( 2397):   8888: msecs =  59.79 cmsecs =  59.76
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]         path_fill_big_circle
+D/skia    ( 2397):   8888: msecs =  27.44 cmsecs =  27.43
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]     path_stroke_small_circle
+D/skia    ( 2397):   8888: msecs =  48.54 cmsecs =  48.51
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       path_fill_small_circle
+D/skia    ( 2397):   8888: msecs =  11.33 cmsecs =  11.32
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]         path_stroke_big_oval
+D/skia    ( 2397):   8888: msecs =  35.44 cmsecs =  35.42
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]           path_fill_big_oval
+D/skia    ( 2397):   8888: msecs =  14.14 cmsecs =  14.13
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       path_stroke_small_oval
+D/skia    ( 2397):   8888: msecs =  42.88 cmsecs =  42.86
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]         path_fill_small_oval
+D/skia    ( 2397):   8888: msecs =   7.69 cmsecs =   7.68
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]         path_stroke_big_rect
+D/skia    ( 2397):   8888: msecs =  25.44 cmsecs =  25.42
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]           path_fill_big_rect
+D/skia    ( 2397):   8888: msecs =   3.47 cmsecs =   3.47
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       path_stroke_small_rect
+D/skia    ( 2397):   8888: msecs =  13.86 cmsecs =  13.85
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]         path_fill_small_rect
+D/skia    ( 2397):   8888: msecs =   4.56 cmsecs =   4.55
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]     path_stroke_big_triangle
+D/skia    ( 2397):   8888: msecs =  37.45 cmsecs =  37.43
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       path_fill_big_triangle
+D/skia    ( 2397):   8888: msecs =  15.38 cmsecs =  15.37
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]   path_stroke_small_triangle
+D/skia    ( 2397):   8888: msecs =  19.34 cmsecs =  19.33
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]     path_fill_small_triangle
+D/skia    ( 2397):   8888: msecs =   5.76 cmsecs =   5.75
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                 morph_0_none
+D/skia    ( 2397):   8888: msecs =   0.38 cmsecs =   0.37
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            morph_1.50_dilate
+D/skia    ( 2397):   8888: msecs =  84.19 cmsecs =  84.15
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             morph_1.50_erode
+D/skia    ( 2397):   8888: msecs =  83.39 cmsecs =  83.36
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]              morph_10_dilate
+D/skia    ( 2397):   8888: msecs = 321.57 cmsecs = 321.47
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               morph_10_erode
+D/skia    ( 2397):   8888: msecs = 320.87 cmsecs = 320.77
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               morph_2_dilate
+D/skia    ( 2397):   8888: msecs = 108.28 cmsecs = 108.23
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                morph_2_erode
+D/skia    ( 2397):   8888: msecs = 107.64 cmsecs = 107.60
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                  merge_large
+D/skia    ( 2397):   8888: msecs =   4.07 cmsecs =   4.06
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                  merge_small
+D/skia    ( 2397):   8888: msecs =   3.98 cmsecs =   3.97
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            matrixconvolution
+D/skia    ( 2397):   8888: msecs = 189.06 cmsecs = 189.00
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            matrixconvolution
+D/skia    ( 2397):   8888: msecs = 215.87 cmsecs = 215.80
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            matrixconvolution
+D/skia    ( 2397):   8888: msecs = 217.00 cmsecs = 216.93
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            matrixconvolution
+D/skia    ( 2397):   8888: msecs = 216.12 cmsecs = 216.04
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]              magnifier_large
+D/skia    ( 2397):   8888: msecs =  20.33 cmsecs =  20.32
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]              magnifier_small
+D/skia    ( 2397):   8888: msecs =  20.37 cmsecs =  20.35
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] lightingspotlitspecular_large
+D/skia    ( 2397):   8888: msecs =  65.88 cmsecs =  65.85
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] lightingspotlitspecular_small
+D/skia    ( 2397):   8888: msecs =  65.84 cmsecs =  65.81
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] lightingdistantlitspecular_large
+D/skia    ( 2397):   8888: msecs =  58.06 cmsecs =  58.04
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] lightingdistantlitspecular_small
+D/skia    ( 2397):   8888: msecs =  57.99 cmsecs =  57.96
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] lightingpointlitspecular_large
+D/skia    ( 2397):   8888: msecs =  64.25 cmsecs =  64.22
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] lightingpointlitspecular_small
+D/skia    ( 2397):   8888: msecs =  64.16 cmsecs =  64.13
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] lightingspotlitdiffuse_large
+D/skia    ( 2397):   8888: msecs =  39.77 cmsecs =  39.75
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] lightingspotlitdiffuse_small
+D/skia    ( 2397):   8888: msecs =  39.55 cmsecs =  39.53
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] lightingdistantlitdiffuse_large
+D/skia    ( 2397):   8888: msecs =  31.41 cmsecs =  31.39
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] lightingdistantlitdiffuse_small
+D/skia    ( 2397):   8888: msecs =  31.20 cmsecs =  31.18
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] lightingpointlitdiffuse_large
+D/skia    ( 2397):   8888: msecs =  35.17 cmsecs =  35.16
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] lightingpointlitdiffuse_small
+D/skia    ( 2397):   8888: msecs =  35.10 cmsecs =  35.08
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                   lines_1_AA
+D/skia    ( 2397):   8888: msecs =  43.57 cmsecs =  43.55
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                 lines_0.5_AA
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7665930746240, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7665978640037, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+D/skia    ( 2397):   8888: msecs =  65.20 cmsecs =  65.17
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                   lines_0_AA
+D/skia    ( 2397):   8888: msecs =  39.27 cmsecs =  39.25
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                   lines_1_BW
+D/skia    ( 2397):   8888: msecs =  32.54 cmsecs =  32.52
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                   lines_0_BW
+D/skia    ( 2397):   8888: msecs =  22.31 cmsecs =  22.30
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]   path_hairline_big_AA_cubic
+D/skia    ( 2397):   8888: msecs =  36.55 cmsecs =  36.53
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] path_hairline_small_AA_cubic
+D/skia    ( 2397):   8888: msecs =  31.39 cmsecs =  31.37
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] path_hairline_big_noAA_cubic
+D/skia    ( 2397):   8888: msecs =  32.07 cmsecs =  32.05
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] path_hairline_small_noAA_cubic
+D/skia    ( 2397):   8888: msecs =  23.43 cmsecs =  23.42
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]   path_hairline_big_AA_conic
+D/skia    ( 2397):   8888: msecs =  11.83 cmsecs =  11.82
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] path_hairline_small_AA_conic
+D/skia    ( 2397):   8888: msecs =   5.72 cmsecs =   5.71
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]    path_hairline_big_AA_quad
+D/skia    ( 2397):   8888: msecs =   9.56 cmsecs =   9.55
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]  path_hairline_small_AA_quad
+D/skia    ( 2397):   8888: msecs =   5.15 cmsecs =   5.14
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]  path_hairline_big_noAA_quad
+D/skia    ( 2397):   8888: msecs =   7.65 cmsecs =   7.64
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] path_hairline_small_noAA_quad
+D/skia    ( 2397):   8888: msecs =   4.37 cmsecs =   4.36
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]    path_hairline_big_AA_line
+D/skia    ( 2397):   8888: msecs =   8.56 cmsecs =   8.55
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]  path_hairline_small_AA_line
+D/skia    ( 2397):   8888: msecs =   3.63 cmsecs =   3.62
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]  path_hairline_big_noAA_line
+D/skia    ( 2397):   8888: msecs =   6.21 cmsecs =   6.20
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] path_hairline_small_noAA_line
+D/skia    ( 2397):   8888: msecs =   2.97 cmsecs =   2.96
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                   imagecache
+D/skia    ( 2397):   8888: msecs =   0.10 cmsecs =   0.09
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]        gradient_create_alpha
+D/skia    ( 2397):   8888: msecs =  15.86 cmsecs =  15.84
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       gradient_create_opaque
+D/skia    ( 2397):   8888: msecs =   8.12 cmsecs =   8.11
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] gradient_conical_clamp_hicolor
+D/skia    ( 2397):   8888: msecs =  45.53 cmsecs =  45.50
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       gradient_conical_clamp
+D/skia    ( 2397):   8888: msecs =  45.49 cmsecs =  45.47
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]      gradient_radial2_mirror
+D/skia    ( 2397):   8888: msecs =  18.80 cmsecs =  18.79
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] gradient_radial2_clamp_hicolor
+D/skia    ( 2397):   8888: msecs =  21.69 cmsecs =  21.67
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       gradient_radial2_clamp
+D/skia    ( 2397):   8888: msecs =  21.67 cmsecs =  21.65
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] gradient_sweep_clamp_hicolor
+D/skia    ( 2397):   8888: msecs =  12.05 cmsecs =  12.04
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]         gradient_sweep_clamp
+D/skia    ( 2397):   8888: msecs =  12.05 cmsecs =  12.04
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]      gradient_radial1_mirror
+D/skia    ( 2397):   8888: msecs =  23.95 cmsecs =  23.93
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]  gradient_radial1_clamp_oval
+D/skia    ( 2397):   8888: msecs =  10.35 cmsecs =  10.34
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       gradient_radial1_clamp
+D/skia    ( 2397):   8888: msecs =   6.30 cmsecs =   6.29
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       gradient_linear_mirror
+D/skia    ( 2397):   8888: msecs =  10.00 cmsecs =   9.99
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] gradient_linear_clamp_hicolor
+D/skia    ( 2397):   8888: msecs =   6.85 cmsecs =   6.84
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]        gradient_linear_clamp
+D/skia    ( 2397):   8888: msecs =   6.82 cmsecs =   6.81
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] game_trans_full_atlas_drawVerts_aa
+D/skia    ( 2397):   8888: msecs = 441.81 cmsecs = 441.67
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]     game_trans_full_atlas_aa
+D/skia    ( 2397):   8888: msecs = 117.68 cmsecs = 117.63
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             game_rot_full_aa
+D/skia    ( 2397):   8888: msecs = 1731.94 cmsecs = 1731.43
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]   game_trans_aligned_full_aa
+D/skia    ( 2397):   8888: msecs = 252.61 cmsecs = 252.53
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]           game_trans_full_aa
+D/skia    ( 2397):   8888: msecs = 251.42 cmsecs = 251.34
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]           game_scale_full_aa
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7704478601620, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7704479307575, TAG=NetworkStats, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+W/SocketClient(  167): write error (Broken pipe)
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7704487250205, TAG=NetworkStats, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+V/AlarmManager(  540): triggered: act=com.android.server.action.NETWORK_STATS_POLL flg=0x14
+V/AlarmManager(  540): Pkg: android
+D/ConnectivityService(  540): Sampling interval elapsed, updating statistics ..
+I/EventLogService(  953): Aggregate from 1389259199481 (log), 1389259199481 (data)
+D/ConnectivityService(  540): Done.
+D/ConnectivityService(  540): Setting timer for 720seconds
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7704494571806, TAG=Event Log Handoff, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=953, UID=10004, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7704496775438, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7704498267247, TAG=Event Log Service, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=953, UID=10004, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7704498652771, TAG=Event Log Handoff, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=953, UID=10004, FLAGS=
+D/CRASHLOG(  203): receive_inotify_events: Can't handle the event "drop73.tmp", no valid entry found, drop it...
+D/CRASHLOG(  203): receive_inotify_events: Can't handle the event "drop73.tmp", no valid entry found, drop it...
+D/CRASHLOG(  203): receive_inotify_events: Can't handle the event "event_data@1389261098645.txt", no valid entry found, drop it...
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7704582045772, TAG=Event Log Service, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=953, UID=10004, FLAGS=
+D/skia    ( 2397):   8888: msecs = 1697.48 cmsecs = 1696.98
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]          game_rot_partial_aa
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7725931758094, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7725978697300, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+D/skia    ( 2397):   8888: msecs = 2030.70 cmsecs = 2030.10
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] game_trans_aligned_partial_aa
+D/skia    ( 2397):   8888: msecs = 315.32 cmsecs = 315.22
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]        game_trans_partial_aa
+D/skia    ( 2397):   8888: msecs = 332.98 cmsecs = 332.87
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]        game_scale_partial_aa
+D/skia    ( 2397):   8888: msecs = 1774.44 cmsecs = 1773.92
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             fullscreen_rects
+D/skia    ( 2397):   8888: msecs =  77.33 cmsecs =  77.29
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               fontscaler_lcd
+D/skia    ( 2397):   8888: msecs =   6.52 cmsecs =   6.51
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                fontscaler_aa
+D/skia    ( 2397):   8888: msecs =   6.52 cmsecs =   6.51
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                    fontcache
+D/skia    ( 2397):   8888: msecs =  56.68 cmsecs =  56.66
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]      displacement_full_large
+D/skia    ( 2397):   8888: msecs =   2.63 cmsecs =   2.63
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]     displacement_alpha_large
+D/skia    ( 2397):   8888: msecs =   2.73 cmsecs =   2.72
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]      displacement_zero_large
+D/skia    ( 2397):   8888: msecs =   2.65 cmsecs =   2.64
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]      displacement_full_small
+D/skia    ( 2397):   8888: msecs =   0.30 cmsecs =   0.29
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]     displacement_alpha_small
+D/skia    ( 2397):   8888: msecs =   0.31 cmsecs =   0.31
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]      displacement_zero_small
+D/skia    ( 2397):   8888: msecs =   0.31 cmsecs =   0.31
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       deferred_canvas_record
+D/skia    ( 2397):   8888: msecs =  23.68 cmsecs =  23.66
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]        drawpointsdash_5_5_aa
+D/skia    ( 2397):   8888: msecs =  15.12 cmsecs =  15.10
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]        drawpointsdash_5_5_bw
+D/skia    ( 2397):   8888: msecs =   8.93 cmsecs =   8.91
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]        drawpointsdash_3_1_aa
+D/skia    ( 2397):   8888: msecs =  40.43 cmsecs =  40.41
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]        drawpointsdash_3_1_bw
+D/skia    ( 2397):   8888: msecs =  33.40 cmsecs =  33.38
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]        drawpointsdash_1_1_aa
+D/skia    ( 2397):   8888: msecs =  21.81 cmsecs =  21.79
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]        drawpointsdash_1_1_bw
+D/skia    ( 2397):   8888: msecs =   6.21 cmsecs =   6.20
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            dashline_2_circle
+D/skia    ( 2397):   8888: msecs = 215.69 cmsecs = 215.62
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            dashline_1_circle
+D/skia    ( 2397):   8888: msecs =  35.35 cmsecs =  35.33
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            dashline_0_circle
+D/skia    ( 2397):   8888: msecs =  35.21 cmsecs =  35.19
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            dashline_2_square
+D/skia    ( 2397):   8888: msecs =  90.75 cmsecs =  90.71
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            dashline_1_square
+D/skia    ( 2397):   8888: msecs =  35.30 cmsecs =  35.29
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            dashline_0_square
+D/skia    ( 2397):   8888: msecs =  35.24 cmsecs =  35.22
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               makedash_cubic
+D/skia    ( 2397):   8888: msecs =  19.41 cmsecs =  19.39
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                makedash_quad
+D/skia    ( 2397):   8888: msecs =  14.33 cmsecs =  14.32
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                makedash_poly
+D/skia    ( 2397):   8888: msecs =  17.91 cmsecs =  17.90
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                dash_4_noclip
+D/skia    ( 2397):   8888: msecs =   5.20 cmsecs =   5.19
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               dash_1_clipped
+D/skia    ( 2397):   8888: msecs =   0.03 cmsecs =   0.02
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                dash_1_noclip
+D/skia    ( 2397):   8888: msecs =  14.82 cmsecs =  14.81
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                dash_0_noclip
+D/skia    ( 2397):   8888: msecs =   2.08 cmsecs =   2.07
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]      table_colorfilter_large
+D/skia    ( 2397):   8888: msecs =   0.08 cmsecs =   0.07
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       colorfilter_gray_large
+D/skia    ( 2397):   8888: msecs =  15.19 cmsecs =  15.17
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       colorfilter_blue_large
+D/skia    ( 2397):   8888: msecs =   8.52 cmsecs =   8.51
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]     colorfilter_bright_large
+D/skia    ( 2397):   8888: msecs =  13.21 cmsecs =  13.20
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] colorfilter_bright_blue_large
+D/skia    ( 2397):   8888: msecs =  18.94 cmsecs =  18.93
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] colorfilter_blue_bright_large
+D/skia    ( 2397):   8888: msecs =  18.95 cmsecs =  18.94
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] colorfilter_gray_bright_large
+D/skia    ( 2397):   8888: msecs =  16.64 cmsecs =  16.63
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] colorfilter_bright_gray_large
+D/skia    ( 2397):   8888: msecs =  25.61 cmsecs =  25.59
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] colorfilter_dim_bright_large
+D/skia    ( 2397):   8888: msecs = 136.12 cmsecs = 136.07
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]      table_colorfilter_small
+D/skia    ( 2397):   8888: msecs =   0.02 cmsecs =   0.02
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       colorfilter_gray_small
+D/skia    ( 2397):   8888: msecs =  15.74 cmsecs =  15.73
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       colorfilter_blue_small
+D/skia    ( 2397):   8888: msecs =   8.46 cmsecs =   8.45
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]     colorfilter_bright_small
+D/skia    ( 2397):   8888: msecs =  13.68 cmsecs =  13.67
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] colorfilter_bright_blue_small
+D/skia    ( 2397):   8888: msecs =  19.41 cmsecs =  19.39
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] colorfilter_blue_bright_small
+D/skia    ( 2397):   8888: msecs =  19.42 cmsecs =  19.41
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] colorfilter_gray_bright_small
+D/skia    ( 2397):   8888: msecs =  16.89 cmsecs =  16.88
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] colorfilter_bright_gray_small
+D/skia    ( 2397):   8888: msecs =  26.69 cmsecs =  26.67
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] colorfilter_dim_bright_small
+D/skia    ( 2397):   8888: msecs = 141.14 cmsecs = 141.09
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] cmap_face_charsToGlyphs_null
+D/skia    ( 2397):   8888: msecs =  10.67 cmsecs =  10.66
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]      cmap_face_charsToGlyphs
+D/skia    ( 2397):   8888: msecs =  10.92 cmsecs =  10.91
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]      cmap_paint_textToGlyphs
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7785930619115, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+D/skia    ( 2397):   8888: msecs =  14.49 cmsecs =  14.47
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]      cmap_paint_containsText
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7785972896835, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+D/skia    ( 2397):   8888: msecs =  14.34 cmsecs =  14.33
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                     chart_bw
+D/skia    ( 2397):   8888: msecs =  42.30 cmsecs =  42.28
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                     chart_aa
+D/skia    ( 2397):   8888: msecs =  80.44 cmsecs =  80.41
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]        blurrect_boxfilter_20
+D/skia    ( 2397):   8888: msecs = 276.81 cmsecs = 276.72
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]         blurrect_boxfilter_5
+D/skia    ( 2397):   8888: msecs = 255.36 cmsecs = 255.28
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]           blurrect_direct_20
+D/skia    ( 2397):   8888: msecs =  72.69 cmsecs =  72.66
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            blurrect_direct_5
+D/skia    ( 2397):   8888: msecs =  95.75 cmsecs =  95.71
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]         blurrect_direct_1.50
+D/skia    ( 2397):   8888: msecs =  33.94 cmsecs =  33.92
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]        blurrect_direct_30.50
+D/skia    ( 2397):   8888: msecs =  15.47 cmsecs =  15.46
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]           blurrect_direct_10
+D/skia    ( 2397):   8888: msecs =  24.43 cmsecs =  24.41
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]            blurrect_direct_2
+D/skia    ( 2397):   8888: msecs =  40.67 cmsecs =  40.65
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]       blurrect_gaussian_1.50
+D/skia    ( 2397):   8888: msecs =  50.75 cmsecs =  50.72
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]      blurrect_gaussian_30.50
+D/skia    ( 2397):   8888: msecs = 376.66 cmsecs = 376.55
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]         blurrect_gaussian_10
+D/skia    ( 2397):   8888: msecs = 180.44 cmsecs = 180.38
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]          blurrect_gaussian_2
+D/skia    ( 2397):   8888: msecs =  60.39 cmsecs =  60.36
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]      blurrect_boxfilter_1.50
+D/skia    ( 2397):   8888: msecs =  19.15 cmsecs =  19.14
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]     blurrect_boxfilter_30.50
+D/skia    ( 2397):   8888: msecs =  60.99 cmsecs =  60.97
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]        blurrect_boxfilter_10
+D/skia    ( 2397):   8888: msecs =  86.02 cmsecs =  85.99
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]         blurrect_boxfilter_2
+D/skia    ( 2397):   8888: msecs =  19.11 cmsecs =  19.09
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] blur_image_filter_large_10.00_10.00
+D/skia    ( 2397):   8888: msecs = 148.90 cmsecs = 148.85
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] blur_image_filter_small_10.00_10.00
+D/skia    ( 2397):   8888: msecs = 146.44 cmsecs = 146.39
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] blur_image_filter_large_1.00_1.00
+D/skia    ( 2397):   8888: msecs = 147.32 cmsecs = 147.27
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] blur_image_filter_small_1.00_1.00
+D/skia    ( 2397):   8888: msecs = 145.77 cmsecs = 145.71
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]      blur_0_none_low_quality
+D/skia    ( 2397):   8888: msecs =   1.20 cmsecs =   1.19
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] blur_1.50_normal_high_quality
+D/skia    ( 2397):   8888: msecs =   9.16 cmsecs =   9.15
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] blur_100.50_normal_high_quality
+D/skia    ( 2397):   8888: msecs =  60.57 cmsecs =  60.54
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]  blur_10_normal_high_quality
+D/skia    ( 2397):   8888: msecs =  21.12 cmsecs =  21.11
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]   blur_2_normal_high_quality
+D/skia    ( 2397):   8888: msecs =   7.91 cmsecs =   7.90
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]  blur_1.50_inner_low_quality
+D/skia    ( 2397):   8888: msecs =  10.22 cmsecs =  10.20
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]  blur_1.50_outer_low_quality
+D/skia    ( 2397):   8888: msecs =  10.71 cmsecs =  10.69
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]  blur_1.50_solid_low_quality
+D/skia    ( 2397):   8888: msecs =  11.22 cmsecs =  11.21
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] blur_1.50_normal_low_quality
+D/skia    ( 2397):   8888: msecs =   9.15 cmsecs =   9.13
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] blur_100.50_inner_low_quality
+D/skia    ( 2397):   8888: msecs =  15.65 cmsecs =  15.64
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] blur_100.50_outer_low_quality
+D/skia    ( 2397):   8888: msecs =  23.67 cmsecs =  23.66
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] blur_100.50_solid_low_quality
+D/skia    ( 2397):   8888: msecs =  24.20 cmsecs =  24.18
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] blur_100.50_normal_low_quality
+D/skia    ( 2397):   8888: msecs =  22.11 cmsecs =  22.10
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]    blur_10_inner_low_quality
+D/skia    ( 2397):   8888: msecs =   9.25 cmsecs =   9.24
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]    blur_10_outer_low_quality
+D/skia    ( 2397):   8888: msecs =  10.20 cmsecs =  10.19
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]    blur_10_solid_low_quality
+D/skia    ( 2397):   8888: msecs =  10.72 cmsecs =  10.71
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]   blur_10_normal_low_quality
+D/skia    ( 2397):   8888: msecs =   8.66 cmsecs =   8.65
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]     blur_2_inner_low_quality
+D/skia    ( 2397):   8888: msecs =   8.97 cmsecs =   8.96
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]     blur_2_outer_low_quality
+D/skia    ( 2397):   8888: msecs =   9.47 cmsecs =   9.46
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]     blur_2_solid_low_quality
+D/skia    ( 2397):   8888: msecs =   9.99 cmsecs =   9.98
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]    blur_2_normal_low_quality
+D/skia    ( 2397):   8888: msecs =   7.91 cmsecs =   7.90
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [256 256]   bitmap_scale_filter_64_256
+D/skia    ( 2397):   8888: msecs =   0.93 cmsecs =   0.92
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [64 64]   bitmap_scale_filter_256_64
+D/skia    ( 2397):   8888: msecs =   0.28 cmsecs =   0.27
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [10 10]    bitmap_scale_filter_90_10
+D/skia    ( 2397):   8888: msecs =   0.20 cmsecs =   0.19
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [30 30]    bitmap_scale_filter_90_30
+D/skia    ( 2397):   8888: msecs =   0.22 cmsecs =   0.21
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [80 80]    bitmap_scale_filter_90_80
+D/skia    ( 2397):   8888: msecs =   0.31 cmsecs =   0.31
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [90 90]    bitmap_scale_filter_90_90
+D/skia    ( 2397):   8888: msecs =   0.22 cmsecs =   0.22
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [90 90]    bitmap_scale_filter_80_90
+D/skia    ( 2397):   8888: msecs =   0.34 cmsecs =   0.33
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [90 90]    bitmap_scale_filter_30_90
+D/skia    ( 2397):   8888: msecs =   0.33 cmsecs =   0.33
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [90 90]    bitmap_scale_filter_10_90
+D/skia    ( 2397):   8888: msecs =   0.34 cmsecs =   0.33
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]   bitmaprect_FF_filter_trans
+D/skia    ( 2397):   8888: msecs =   3.30 cmsecs =   3.30
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] bitmaprect_FF_nofilter_trans
+D/skia    ( 2397):   8888: msecs =   3.30 cmsecs =   3.29
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] bitmaprect_80_filter_identity
+D/skia    ( 2397):   8888: msecs =  34.75 cmsecs =  34.73
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] bitmaprect_FF_filter_identity
+D/skia    ( 2397):   8888: msecs =   3.48 cmsecs =   3.48
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] bitmaprect_80_nofilter_identity
+D/skia    ( 2397):   8888: msecs =  34.75 cmsecs =  34.73
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] bitmaprect_FF_nofilter_identity
+D/skia    ( 2397):   8888: msecs =   3.49 cmsecs =   3.48
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] bitmap_8888_A_source_stripes_three
+D/skia    ( 2397):   8888: msecs =  24.96 cmsecs =  24.94
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] bitmap_8888_A_source_stripes_two
+D/skia    ( 2397):   8888: msecs =  24.97 cmsecs =  24.96
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] bitmap_8888_A_source_transparent
+D/skia    ( 2397):   8888: msecs =  25.27 cmsecs =  25.25
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]  bitmap_8888_A_source_opaque
+D/skia    ( 2397):   8888: msecs =  24.95 cmsecs =  24.94
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] bitmap_8888_A_scale_rotate_bicubic
+D/skia    ( 2397):   8888: msecs = 3574.14 cmsecs = 3572.97
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]  bitmap_8888_A_scale_bicubic
+D/skia    ( 2397):   8888: msecs =  36.76 cmsecs =  36.57
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] bitmap_8888_update_scale_rotate_bilerp
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: Initial value of 'need_update' 0.
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: Force update value 0.
+I/CRASHLOG(  203): [IPTRAK] check_iptrak_file: 'need_update' value 0.
+D/skia    ( 2397):   8888: msecs = 200.69 cmsecs = 200.62
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] bitmap_8888_update_volatile_scale_rotate_bilerp
+D/skia    ( 2397):   8888: msecs = 200.99 cmsecs = 200.93
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] bitmap_8888_scale_rotate_bilerp
+D/skia    ( 2397):   8888: msecs = 201.02 cmsecs = 200.95
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] bitmap_8888_A_scale_rotate_bilerp
+D/skia    ( 2397):   8888: msecs = 222.23 cmsecs = 222.16
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] bitmap_8888_update_scale_bilerp
+D/skia    ( 2397):   8888: msecs = 126.80 cmsecs = 126.75
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480] bitmap_8888_update_volatile_scale_bilerp
+D/skia    ( 2397):   8888: msecs = 126.78 cmsecs = 126.73
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]     bitmap_8888_scale_bilerp
+D/skia    ( 2397):   8888: msecs = 126.76 cmsecs = 126.71
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]   bitmap_8888_A_scale_bilerp
+D/skia    ( 2397):   8888: msecs = 150.29 cmsecs = 150.24
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]           bitmap_8888_update
+D/skia    ( 2397):   8888: msecs =   5.13 cmsecs =   5.12
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]  bitmap_8888_update_volatile
+D/skia    ( 2397):   8888: msecs =   5.13 cmsecs =   5.12
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                bitmap_index8
+D/skia    ( 2397):   8888: msecs =  34.26 cmsecs =  34.24
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]              bitmap_index8_A
+D/skia    ( 2397):   8888: msecs =  57.32 cmsecs =  57.30
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                   bitmap_565
+D/skia    ( 2397):   8888: msecs =  47.30 cmsecs =  47.27
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                  bitmap_8888
+D/skia    ( 2397):   8888: msecs =   5.15 cmsecs =   5.14
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                bitmap_8888_A
+D/skia    ( 2397):   8888: msecs =  24.94 cmsecs =  24.92
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]              bicubic_2.5x2.5
+D/skia    ( 2397):   8888: msecs =   6.20 cmsecs =   6.19
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               bicubic_10x2.5
+D/skia    ( 2397):   8888: msecs =  23.35 cmsecs =  23.33
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               bicubic_2.5x10
+D/skia    ( 2397):   8888: msecs =  23.43 cmsecs =  23.41
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]                bicubic_10x10
+D/skia    ( 2397):   8888: msecs =  93.59 cmsecs =  93.55
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             nested_aaclip_AA
+D/skia    ( 2397):   8888: msecs =   5.98 cmsecs =   5.97
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             nested_aaclip_BW
+D/skia    ( 2397):   8888: msecs =   3.66 cmsecs =   3.65
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               aaclip_path_AA
+D/skia    ( 2397):   8888: msecs =   7.21 cmsecs =   7.20
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               aaclip_path_BW
+D/skia    ( 2397):   8888: msecs =   3.85 cmsecs =   3.84
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               aaclip_rect_AA
+D/skia    ( 2397):   8888: msecs =   4.25 cmsecs =   4.24
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]               aaclip_rect_BW
+D/skia    ( 2397):   8888: msecs =   1.43 cmsecs =   1.43
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]             aaclip_setregion
+D/skia    ( 2397):   8888: msecs =   8.53 cmsecs =   8.52
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]         aaclip_build_path_AA
+D/skia    ( 2397):   8888: msecs =  10.96 cmsecs =  10.94
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]         aaclip_build_path_BW
+D/skia    ( 2397):   8888: msecs =   4.97 cmsecs =   4.96
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]         aaclip_build_rect_AA
+D/skia    ( 2397):   8888: msecs =   1.28 cmsecs =   1.27
+D/skia    ( 2397): 
+D/skia    ( 2397): running bench -- test [640 480]         aaclip_build_rect_BW
+D/skia    ( 2397):   8888: msecs =   0.63 cmsecs =   0.63
+D/skia    ( 2397): 
+E/libEGL  ( 2397): call to OpenGL ES API with no current context (logged once per thread)
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7845931709750, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7845981260461, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_ACQUIRE(  540): TIMESTAMP=7905931411102, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=
+I/WAKELOCK_RELEASE(  540): TIMESTAMP=7905980298879, TAG=AlarmManager, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=540, UID=1000, FLAGS=

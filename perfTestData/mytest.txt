@@ -1,0 +1,16 @@
+running bench [640 480]  aaclip_build_rect_AA
+         8888: msecs =4.788001   cmsecs =4.737501
+         565: msecs =4.752001    cmsecs =4.719501
+         GPU: msecs =4.773000    cmsecs =4.740500
+         NULLGPU: msecs =4.808000        cmsecs =4.706000
+
+running bench [640 480]  aaclip_build_rect_BW
+         8888: msecs =2.538000   cmsecs =2.518000
+         565: msecs =2.539500    cmsecs =2.519500
+         GPU: msecs =2.579500    cmsecs =2.562500
+         NULLGPU: msecs =2.621500        cmsecs =2.539000
+
+running bench [640 480]  aaclip_build_rect_BW
+         NULLGPU: msecs =2.530000        cmsecs =2.530000
+
+

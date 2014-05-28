@@ -1,0 +1,62 @@
+# ========
+# captured on: Mon Jul 15 17:38:59 2013
+# hostname : venture
+# os release : 3.5.0-23-generic
+# perf version : 3.5.7.2
+# arch : x86_64
+# nrcpus online : 8
+# nrcpus avail : 8
+# cpudesc : Intel(R) Core(TM) i7 CPU 870 @ 2.93GHz
+# cpuid : GenuineIntel,6,30,5
+# total memory : 3982968 kB
+# cmdline : /usr/bin/perf_3.5.0-23 record ./out/Release/bench --repeat 10 --match scalar_compare --timers wcg 
+# event : name = cycles, type = 0, config = 0x0, config1 = 0x0, config2 = 0x0, excl_usr = 0, excl_kern = 0, id = { 86, 87, 88, 89, 90, 91, 92, 93 }
+# HEADER_CPU_TOPOLOGY info available, use -I to display
+# HEADER_NUMA_TOPOLOGY info available, use -I to display
+# ========
+#
+# Samples: 641  of event 'cycles'
+# Event count (approx.): 347473926
+#
+# Overhead  Command           Shared Object                                                                                                                         Symbol
+# ........  .......  ......................  .............................................................................................................................
+#
+    41.43%    bench  [kernel.kallsyms]       [k] 0xffffffff8103fe1a                                                                                                       
+    21.11%    bench  bench                   [.] ForcedIntComparisonBench::performTest()                                                                                  
+    12.27%    bench  bench                   [.] FloatComparisonBench::performTest()                                                                                      
+     5.30%    bench  ld-2.15.so              [.] 0x0000000000009330                                                                                                       
+     3.41%    bench  bench                   [.] ScalarBench::onDraw(SkCanvas*)                                                                                           
+     2.68%    bench  libGL.so.1.2            [.] 0x000000000001fbc6                                                                                                       
+     2.21%    bench  bench                   [.] SkRTree::chooseSubtree(SkRTree::Node*, SkRTree::Branch*)                                                                 
+     1.29%    bench  libc-2.15.so            [.] 0x000000000008c52b                                                                                                       
+     1.22%    bench  bench                   [.] void SkTIntroSort<SkRTree::Branch, SkRTree::RectLessThan>(int, SkRTree::Branch*, SkRTree::Branch*, SkRTree::RectLessThan)
+     0.98%    bench  bench                   [.] SkRTree::distributeChildren(SkRTree::Branch*)                                                                            
+     0.94%    bench  libfontconfig.so.1.4.4  [.] 0x000000000001bc22                                                                                                       
+     0.77%    bench  nouveau_dri.so          [.] driIndexConfigAttrib                                                                                                     
+     0.72%    bench  bench                   [.] SkRTree::insert(SkRTree::Node*, SkRTree::Branch*, unsigned short)                                                        
+     0.63%    bench  libGL.so.1.2            [.] glXGetFBConfigAttribSGIX                                                                                                 
+     0.52%    bench  libexpat.so.1.5.2       [.] 0x000000000000fa6f                                                                                                       
+     0.47%    bench  libc-2.15.so            [.] vfprintf                                                                                                                 
+     0.38%    bench  libc-2.15.so            [.] __libc_calloc                                                                                                            
+     0.29%    bench  libLLVM-3.0.so.1        [.] llvm::PMTopLevelManager::findAnalysisUsage(llvm::Pass*)                                                                  
+     0.28%    bench  libc-2.15.so            [.] random_r                                                                                                                 
+     0.28%    bench  libc-2.15.so            [.] bsearch                                                                                                                  
+     0.25%    bench  bench                   [.] F_300(void*)                                                                                                             
+     0.25%    bench  bench                   [.] operate_on_span(int const*, int const*, int*, int, int)                                                                  
+     0.25%    bench  bench                   [.] void SkTIntroSort<SkRTree::Branch, SkRTree::RectLessX>(int, SkRTree::Branch*, SkRTree::Branch*, SkRTree::RectLessX)      
+     0.25%    bench  bench                   [.] void SkTIntroSort<SkRTree::Branch, SkRTree::RectLessY>(int, SkRTree::Branch*, SkRTree::Branch*, SkRTree::RectLessY)      
+     0.24%    bench  libfreetype.so.6.8.0    [.] FT_Done_FreeType                                                                                                         
+     0.21%    bench  libc-2.15.so            [.] realloc                                                                                                                  
+     0.21%    bench  libm-2.15.so            [.] __powf_finite                                                                                                            
+     0.20%    bench  bench                   [.] strcmp@plt                                                                                                               
+     0.19%    bench  libglsl.so              [.] ir_hierarchical_visitor::visit_enter(ir_assignment*)                                                                     
+     0.16%    bench  libgallium.so           [.] _mesa_load_state_parameters@plt                                                                                          
+     0.16%    bench  bench                   [.] SkBitmap::SkBitmap()                                                                                                     
+     0.15%    bench  libdricore.so           [.] _mesa_get_enabled_extension                                                                                              
+     0.15%    bench  libfontconfig.so.1.4.4  [.] FcStrSetMember                                                                                                           
+     0.14%    bench  libfontconfig.so.1.4.4  [.] strcmp@plt                                                                                                               
+
+
+#
+# (For a higher level overview, try: perf report --sort comm,dso)
+#

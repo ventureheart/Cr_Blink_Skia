@@ -1,0 +1,116 @@
+<html>
+        <head> </head>
+
+        <body>
+                <canvas id="myCanvas" width="600" height="400">
+                
+                <script>
+                        var c = document.getElementById("myCanvas");
+                        var ctx = c.getContext("2d");
+			ctx.lineWidth="20";
+
+			/////////////////////////////////////////////////////////////////////////////
+			//
+			//                              Stroke rect
+			//
+			////////////////////////////////////////////////////////////////////////////
+	
+
+			// ----------------------  butt-cap painter  ------------------------
+                        ctx.lineCap="butt";
+
+			// butt-cap with miter-join painter                        
+                        ctx.lineJoin="miter";
+			ctx.strokeStyle="black";
+			// draw a line as a reference
+			ctx.beginPath();
+			ctx.moveTo(50, 50);
+			ctx.lineTo(150, 50);
+			ctx.stroke();
+
+			ctx.strokeStyle="red";             
+			// draw two empty rects: one is totally empty, the other is a line.
+			ctx.strokeRect(50, 100, 0, 0);
+			ctx.strokeRect(50, 150, 100, 0);
+
+			// butt-cap with round-join painter
+                        ctx.lineJoin="round";
+			ctx.strokeStyle="green";
+                        // draw two empty rects: one is totally empty, the other is a line.
+			ctx.strokeRect(50, 200, 0, 0);
+			ctx.strokeRect(50, 250, 100, 0);
+
+			// butt-cap with bevel-join painter
+                        ctx.lineJoin="bevel";
+			ctx.strokeStyle="blue";
+                        // draw two empty rects: one is totally empty, the other is a line.
+			ctx.strokeRect(50, 300, 0, 0);
+			ctx.strokeRect(50, 350, 100, 0);
+
+
+			// ---------------------------  round-cap painter  --------------------------
+			ctx.lineCap="round";
+
+			// round-cap with miter-join painter
+                        ctx.lineJoin="miter";
+			ctx.strokeStyle="black";
+			// draw a line as a reference
+			ctx.beginPath();
+			ctx.moveTo(250, 50);
+			ctx.lineTo(350, 50);
+			ctx.stroke(); 
+
+			ctx.strokeStyle="red";            
+			// draw two empty rects: one is totally empty, the other is a line.
+			ctx.strokeRect(250, 100, 0, 0);
+			ctx.strokeRect(250, 150, 100, 0);
+
+			// round-cap with round-join painter
+                        ctx.lineJoin="round";
+			ctx.strokeStyle="green";
+                        // draw two empty rects: one is totally empty, the other is a line.
+			ctx.strokeRect(250, 200, 0, 0);
+			ctx.strokeRect(250, 250, 100, 0);
+
+			// round-cap with bevel-join painter
+                        ctx.lineJoin="bevel";
+			ctx.strokeStyle="blue";
+                        // draw two empty rects: one is totally empty, the other is a line.
+			ctx.strokeRect(250, 300, 0, 0);
+			ctx.strokeRect(250, 350, 100, 0);
+
+
+			// ----------------------------  square-cap painter -------------------------
+                        ctx.lineCap="square";
+
+			// square-cap with miter-join painter
+                        ctx.lineJoin="miter";
+			ctx.strokeStyle="black";
+			// draw a line as a reference
+			ctx.beginPath();
+			ctx.moveTo(450, 50);
+			ctx.lineTo(550, 50);
+			ctx.stroke(); 
+
+			ctx.strokeStyle="red";            
+			// draw two empty rects: one is totally empty, the other is a line.
+			ctx.strokeRect(450, 100, 0, 0);
+			ctx.strokeRect(450, 150, 100, 0);
+
+			// square-cap with round-join painter
+                        ctx.lineJoin="round";
+			ctx.strokeStyle="green";
+                        // draw two empty rects: one is totally empty, the other is a line.
+			ctx.strokeRect(450, 200, 0, 0);
+			ctx.strokeRect(450, 250, 100, 0);
+
+			// square-cap with bevel-join painter
+                        ctx.lineJoin="bevel";
+			ctx.strokeStyle="blue";
+                        // draw two empty rects: one is totally empty, the other is a line.
+			ctx.strokeRect(450, 300, 0, 0);
+			ctx.strokeRect(450, 350, 100, 0);
+
+                </script>
+        </body>
+</html> 

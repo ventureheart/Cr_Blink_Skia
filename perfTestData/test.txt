@@ -1,0 +1,1931 @@
+running bench 	 Xfermode_Luminosity
+	 8888: msecs =33.319996 	 cmsecs =32.944508
+	 565: msecs =38.955498 	 cmsecs =38.769997
+	 GPU: msecs =74.382004 	 cmsecs =21.484499
+	 NULLGPU: msecs =2.279500 	 cmsecs =2.257000
+running bench 	 Xfermode_Color
+	 8888: msecs =99.024498 	 cmsecs =98.356010
+	 565: msecs =101.695999 	 cmsecs =101.096512
+	 GPU: msecs =75.959999 	 cmsecs =21.417999
+	 NULLGPU: msecs =2.255500 	 cmsecs =2.237500
+running bench 	 Xfermode_Saturation
+	 8888: msecs =35.811501 	 cmsecs =34.790504
+	 565: msecs =38.761997 	 cmsecs =38.516998
+	 GPU: msecs =76.431496 	 cmsecs =21.517000
+	 NULLGPU: msecs =2.272000 	 cmsecs =2.258500
+running bench 	 Xfermode_Hue
+	 8888: msecs =54.225502 	 cmsecs =53.905998
+	 565: msecs =57.832497 	 cmsecs =57.411491
+	 GPU: msecs =76.141006 	 cmsecs =21.446497
+	 NULLGPU: msecs =2.261500 	 cmsecs =2.246500
+running bench 	 Xfermode_Multiply
+	 8888: msecs =21.762997 	 cmsecs =21.554501
+	 565: msecs =22.470499 	 cmsecs =22.300999
+	 GPU: msecs =75.419991 	 cmsecs =21.385496
+	 NULLGPU: msecs =2.267500 	 cmsecs =2.249500
+running bench 	 Xfermode_Exclusion
+	 8888: msecs =24.017994 	 cmsecs =23.787996
+	 565: msecs =26.630497 	 cmsecs =26.465998
+	 GPU: msecs =74.702499 	 cmsecs =21.284496
+	 NULLGPU: msecs =2.258500 	 cmsecs =2.242000
+running bench 	 Xfermode_Difference
+	 8888: msecs =13.512499 	 cmsecs =13.350499
+	 565: msecs =18.857998 	 cmsecs =18.714495
+	 GPU: msecs =75.137009 	 cmsecs =21.396500
+	 NULLGPU: msecs =2.258500 	 cmsecs =2.236000
+running bench 	 Xfermode_SoftLight
+	 8888: msecs =144.448517 	 cmsecs =143.008499
+	 565: msecs =145.314514 	 cmsecs =144.274994
+	 GPU: msecs =76.027504 	 cmsecs =21.555002
+	 NULLGPU: msecs =2.266000 	 cmsecs =2.242000
+running bench 	 Xfermode_HardLight
+	 8888: msecs =33.653503 	 cmsecs =33.347496
+	 565: msecs =36.046501 	 cmsecs =35.840500
+	 GPU: msecs =75.499489 	 cmsecs =21.449497
+	 NULLGPU: msecs =2.283999 	 cmsecs =2.264500
+running bench 	 Xfermode_ColorBurn
+	 8888: msecs =21.487501 	 cmsecs =20.759502
+	 565: msecs =25.833502 	 cmsecs =25.689505
+	 GPU: msecs =75.668007 	 cmsecs =21.453501
+	 NULLGPU: msecs =2.245000 	 cmsecs =2.225500
+running bench 	 Xfermode_ColorDodge
+	 8888: msecs =74.676994 	 cmsecs =74.129990
+	 565: msecs =77.611496 	 cmsecs =76.592506
+	 GPU: msecs =76.093002 	 cmsecs =21.519001
+	 NULLGPU: msecs =2.270500 	 cmsecs =2.249500
+running bench 	 Xfermode_Lighten
+	 8888: msecs =15.924500 	 cmsecs =15.744000
+	 565: msecs =20.506998 	 cmsecs =20.376499
+	 GPU: msecs =74.809509 	 cmsecs =21.407999
+	 NULLGPU: msecs =2.234500 	 cmsecs =2.225500
+running bench 	 Xfermode_Darken
+	 8888: msecs =15.874501 	 cmsecs =15.613503
+	 565: msecs =19.782000 	 cmsecs =19.666002
+	 GPU: msecs =75.178993 	 cmsecs =21.480000
+	 NULLGPU: msecs =2.266000 	 cmsecs =2.243500
+running bench 	 Xfermode_Overlay
+	 8888: msecs =31.198999 	 cmsecs =30.288498
+	 565: msecs =33.107994 	 cmsecs =32.903004
+	 GPU: msecs =75.252998 	 cmsecs =21.490995
+	 NULLGPU: msecs =2.276500 	 cmsecs =2.255500
+running bench 	 Xfermode_Screen
+	 8888: msecs =11.289000 	 cmsecs =11.135500
+	 565: msecs =17.100498 	 cmsecs =16.991001
+	 GPU: msecs =2.292500 	 cmsecs =1.058000
+	 NULLGPU: msecs =0.643000 	 cmsecs =0.638500
+running bench 	 Xfermode_Modulate
+	 8888: msecs =11.336499 	 cmsecs =11.178999
+	 565: msecs =14.125498 	 cmsecs =14.033999
+	 GPU: msecs =2.234500 	 cmsecs =1.073000
+	 NULLGPU: msecs =0.635500 	 cmsecs =0.631000
+running bench 	 Xfermode_Plus
+	 8888: msecs =7.223501 	 cmsecs =7.123501
+	 565: msecs =11.653501 	 cmsecs =11.544500
+	 GPU: msecs =2.246500 	 cmsecs =1.076000
+	 NULLGPU: msecs =0.655500 	 cmsecs =0.637000
+running bench 	 Xfermode_Xor
+	 8888: msecs =15.284999 	 cmsecs =15.120499
+	 565: msecs =18.316500 	 cmsecs =18.200500
+	 GPU: msecs =2.237500 	 cmsecs =1.079000
+	 NULLGPU: msecs =0.635500 	 cmsecs =0.628000
+running bench 	 Xfermode_DstATop
+	 8888: msecs =12.444499 	 cmsecs =11.820000
+	 565: msecs =16.021496 	 cmsecs =15.937498
+	 GPU: msecs =2.236000 	 cmsecs =1.064000
+	 NULLGPU: msecs =0.651000 	 cmsecs =0.634000
+running bench 	 Xfermode_SrcATop
+	 8888: msecs =11.672998 	 cmsecs =11.514498
+	 565: msecs =15.515501 	 cmsecs =15.410001
+	 GPU: msecs =2.219500 	 cmsecs =1.068500
+	 NULLGPU: msecs =0.638500 	 cmsecs =0.631000
+running bench 	 Xfermode_DstOut
+	 8888: msecs =6.788000 	 cmsecs =6.683500
+	 565: msecs =13.113500 	 cmsecs =13.042000
+	 GPU: msecs =2.236000 	 cmsecs =1.065500
+	 NULLGPU: msecs =0.644500 	 cmsecs =0.638500
+running bench 	 Xfermode_SrcOut
+	 8888: msecs =8.153999 	 cmsecs =8.040499
+	 565: msecs =12.798999 	 cmsecs =12.713497
+	 GPU: msecs =2.231500 	 cmsecs =1.083500
+	 NULLGPU: msecs =0.649500 	 cmsecs =0.632500
+running bench 	 Xfermode_DstIn
+	 8888: msecs =6.780501 	 cmsecs =6.666000
+	 565: msecs =13.108999 	 cmsecs =13.036000
+	 GPU: msecs =2.221000 	 cmsecs =1.073000
+	 NULLGPU: msecs =0.640000 	 cmsecs =0.629500
+running bench 	 Xfermode_SrcIn
+	 8888: msecs =8.157000 	 cmsecs =8.034499
+	 565: msecs =12.815498 	 cmsecs =12.735998
+	 GPU: msecs =2.216500 	 cmsecs =1.071500
+	 NULLGPU: msecs =0.657000 	 cmsecs =0.637000
+running bench 	 Xfermode_DstOver
+	 8888: msecs =9.045501 	 cmsecs =8.914500
+	 565: msecs =0.166500 	 cmsecs =0.162000
+	 GPU: msecs =2.225500 	 cmsecs =1.083500
+	 NULLGPU: msecs =0.641500 	 cmsecs =0.634000
+running bench 	 Xfermode_SrcOver
+	 8888: msecs =1.575000 	 cmsecs =1.552500
+	 565: msecs =6.325500 	 cmsecs =6.228500
+	 GPU: msecs =2.204500 	 cmsecs =1.055000
+	 NULLGPU: msecs =0.626500 	 cmsecs =0.619000
+running bench 	 Xfermode_Dst
+	 8888: msecs =0.061500 	 cmsecs =0.057000
+	 565: msecs =0.061500 	 cmsecs =0.058500
+	 GPU: msecs =0.099000 	 cmsecs =0.082500
+	 NULLGPU: msecs =0.063000 	 cmsecs =0.058500
+running bench 	 Xfermode_Src
+	 8888: msecs =1.201000 	 cmsecs =1.173500
+	 565: msecs =6.402000 	 cmsecs =6.291500
+	 GPU: msecs =2.224000 	 cmsecs =1.068500
+	 NULLGPU: msecs =0.658000 	 cmsecs =0.640000
+running bench 	 Xfermode_Clear
+	 8888: msecs =1.317500 	 cmsecs =1.305500
+	 565: msecs =6.539500 	 cmsecs =6.416000
+	 GPU: msecs =2.283500 	 cmsecs =1.076000
+	 NULLGPU: msecs =0.638500 	 cmsecs =0.632500
+running bench 	 writer
+	 NONRENDERING: msecs =1.651500 	 cmsecs =1.618500
+running bench 	 verts
+	 8888: msecs =306.215515 	 cmsecs =304.006989
+	 565: msecs =281.856476 	 cmsecs =279.484467
+	 GPU: msecs =3.381000 	 cmsecs =0.993500
+	 NULLGPU: msecs =0.311500 	 cmsecs =0.308000
+running bench 	 constXTile_MM_filter_trans
+	 8888: msecs =39.457497 	 cmsecs =38.899498
+	 565: msecs =126.553993 	 cmsecs =125.784508
+	 GPU: msecs =8.893500 	 cmsecs =2.170000
+	 NULLGPU: msecs =0.811000 	 cmsecs =0.803500
+running bench 	 constXTile_CC_filter_trans_scale
+	 8888: msecs =40.821499 	 cmsecs =40.396996
+	 565: msecs =396.282013 	 cmsecs =393.320007
+	 GPU: msecs =8.817498 	 cmsecs =2.167000
+	 NULLGPU: msecs =0.823000 	 cmsecs =0.821500
+running bench 	 constXTile_RR_filter_trans
+	 8888: msecs =39.712002 	 cmsecs =39.375999
+	 565: msecs =127.327011 	 cmsecs =126.003990
+	 GPU: msecs =8.822000 	 cmsecs =2.162500
+	 NULLGPU: msecs =0.826500 	 cmsecs =0.805000
+running bench 	 constXTile_MM_trans_scale
+	 8888: msecs =40.730003 	 cmsecs =40.352997
+	 565: msecs =134.853500 	 cmsecs =133.768005
+	 GPU: msecs =8.853500 	 cmsecs =2.173000
+	 NULLGPU: msecs =0.837000 	 cmsecs =0.823000
+running bench 	 constXTile_CC_trans
+	 8888: msecs =39.587502 	 cmsecs =39.251499
+	 565: msecs =126.400490 	 cmsecs =125.652512
+	 GPU: msecs =8.800999 	 cmsecs =2.158000
+	 NULLGPU: msecs =0.829500 	 cmsecs =0.805000
+running bench 	 constXTile_RR_trans_scale
+	 8888: msecs =40.707001 	 cmsecs =40.382999
+	 565: msecs =126.279015 	 cmsecs =125.524010
+	 GPU: msecs =8.874501 	 cmsecs =2.174500
+	 NULLGPU: msecs =0.829500 	 cmsecs =0.821500
+running bench 	 constXTile_MM_filter
+	 8888: msecs =3.387000 	 cmsecs =3.239501
+	 565: msecs =7.496500 	 cmsecs =7.444000
+	 GPU: msecs =5.922500 	 cmsecs =0.674500
+	 NULLGPU: msecs =0.343000 	 cmsecs =0.340000
+running bench 	 constXTile_CC_filter_scale
+	 8888: msecs =4.384999 	 cmsecs =4.271499
+	 565: msecs =276.738464 	 cmsecs =274.588989
+	 GPU: msecs =5.265001 	 cmsecs =0.731500
+	 NULLGPU: msecs =0.658500 	 cmsecs =0.373000
+running bench 	 constXTile_RR_filter
+	 8888: msecs =3.175000 	 cmsecs =3.152000
+	 565: msecs =7.744999 	 cmsecs =7.608999
+	 GPU: msecs =5.155499 	 cmsecs =0.746500
+	 NULLGPU: msecs =0.358000 	 cmsecs =0.337000
+running bench 	 constXTile_MM_scale
+	 8888: msecs =4.638000 	 cmsecs =4.528999
+	 565: msecs =15.535501 	 cmsecs =15.423502
+	 GPU: msecs =5.137500 	 cmsecs =0.731500
+	 NULLGPU: msecs =0.356500 	 cmsecs =0.353500
+running bench 	 constXTile_CC
+	 8888: msecs =3.269001 	 cmsecs =3.247501
+	 565: msecs =7.323999 	 cmsecs =7.207499
+	 GPU: msecs =5.145000 	 cmsecs =0.749500
+	 NULLGPU: msecs =0.341500 	 cmsecs =0.335500
+running bench 	 constXTile_RR_scale
+	 8888: msecs =4.713500 	 cmsecs =4.607000
+	 565: msecs =7.207500 	 cmsecs =7.158000
+	 GPU: msecs =5.173501 	 cmsecs =0.760000
+	 NULLGPU: msecs =0.361000 	 cmsecs =0.356500
+running bench 	 text_16_pos_AA_BK
+	 8888: msecs =20.943501 	 cmsecs =20.747501
+	 565: msecs =14.837003 	 cmsecs =14.746002
+	 GPU: msecs =32.666496 	 cmsecs =28.638998
+	 NULLGPU: msecs =26.843500 	 cmsecs =26.502996
+running bench 	 text_16_LCD_88
+	 8888: msecs =27.878998 	 cmsecs =27.699497
+	 565: msecs =23.067003 	 cmsecs =22.932005
+	 GPU: msecs =32.811001 	 cmsecs =28.629004
+	 NULLGPU: msecs =27.273001 	 cmsecs =27.020498
+running bench 	 text_16_LCD_FF
+	 8888: msecs =25.976002 	 cmsecs =25.815506
+	 565: msecs =16.544003 	 cmsecs =16.451502
+	 GPU: msecs =32.202999 	 cmsecs =28.506002
+	 NULLGPU: msecs =27.395000 	 cmsecs =27.156002
+running bench 	 text_16_LCD_BK
+	 8888: msecs =21.683500 	 cmsecs =21.534998
+	 565: msecs =15.290497 	 cmsecs =15.195498
+	 GPU: msecs =31.110998 	 cmsecs =27.454998
+	 NULLGPU: msecs =25.825504 	 cmsecs =25.621502
+running bench 	 text_16_AA_88
+	 8888: msecs =28.549000 	 cmsecs =27.771000
+	 565: msecs =22.069002 	 cmsecs =21.956501
+	 GPU: msecs =32.314499 	 cmsecs =28.597998
+	 NULLGPU: msecs =26.809000 	 cmsecs =26.599997
+running bench 	 text_16_AA_FF
+	 8888: msecs =25.964502 	 cmsecs =25.769007
+	 565: msecs =15.653000 	 cmsecs =15.565503
+	 GPU: msecs =32.292503 	 cmsecs =28.518000
+	 NULLGPU: msecs =27.316998 	 cmsecs =27.093998
+running bench 	 text_16_AA_BK
+	 8888: msecs =21.619999 	 cmsecs =21.487995
+	 565: msecs =14.482000 	 cmsecs =14.390503
+	 GPU: msecs =31.018002 	 cmsecs =27.233505
+	 NULLGPU: msecs =25.421497 	 cmsecs =25.206999
+running bench 	 text_16_BW_88
+	 8888: msecs =15.921499 	 cmsecs =15.815999
+	 565: msecs =13.922501 	 cmsecs =13.330000
+	 GPU: msecs =30.469004 	 cmsecs =26.945499
+	 NULLGPU: msecs =24.969999 	 cmsecs =24.759001
+running bench 	 text_16_BW_FF
+	 8888: msecs =9.075500 	 cmsecs =9.014999
+	 565: msecs =8.497998 	 cmsecs =8.455998
+	 GPU: msecs =30.294500 	 cmsecs =26.785999
+	 NULLGPU: msecs =25.566999 	 cmsecs =25.340498
+running bench 	 text_16_BW_BK
+	 8888: msecs =8.892001 	 cmsecs =8.842501
+	 565: msecs =8.496498 	 cmsecs =8.451498
+	 GPU: msecs =30.135000 	 cmsecs =26.621998
+	 NULLGPU: msecs =25.086998 	 cmsecs =24.880499
+running bench 	 tablebench
+	 8888: msecs =88.942505 	 cmsecs =87.735489
+	 565: msecs =116.027504 	 cmsecs =115.156494
+	 GPU: msecs =307.820038 	 cmsecs =297.003967
+	 NULLGPU: msecs =277.190002 	 cmsecs =275.601013
+running bench 	 draw_stroke_oval_miter
+	 8888: msecs =44.341496 	 cmsecs =44.116997
+	 565: msecs =40.922501 	 cmsecs =40.678501
+	 GPU: msecs =19.782997 	 cmsecs =14.869499
+	 NULLGPU: msecs =6.088501 	 cmsecs =5.996501
+running bench 	 draw_stroke_oval_bevel
+	 8888: msecs =50.017509 	 cmsecs =49.767494
+	 565: msecs =46.408001 	 cmsecs =46.164001
+	 GPU: msecs =19.887999 	 cmsecs =14.915500
+	 NULLGPU: msecs =6.102500 	 cmsecs =5.993499
+running bench 	 draw_stroke_oval_round
+	 8888: msecs =44.200996 	 cmsecs =43.777996
+	 565: msecs =40.446495 	 cmsecs =40.239002
+	 GPU: msecs =19.809498 	 cmsecs =14.858998
+	 NULLGPU: msecs =6.100501 	 cmsecs =6.010000
+running bench 	 draw_stroke_rrect_miter
+	 8888: msecs =43.411503 	 cmsecs =43.180492
+	 565: msecs =40.559994 	 cmsecs =39.825500
+	 GPU: msecs =23.140499 	 cmsecs =17.566500
+	 NULLGPU: msecs =6.739501 	 cmsecs =6.639501
+running bench 	 draw_stroke_rrect_bevel
+	 8888: msecs =50.916508 	 cmsecs =50.655998
+	 565: msecs =46.144997 	 cmsecs =45.915501
+	 GPU: msecs =23.133501 	 cmsecs =17.593498
+	 NULLGPU: msecs =6.768500 	 cmsecs =6.663500
+running bench 	 draw_stroke_rrect_round
+	 8888: msecs =43.345505 	 cmsecs =43.123497
+	 565: msecs =40.516502 	 cmsecs =39.728001
+	 GPU: msecs =23.141998 	 cmsecs =17.579998
+	 NULLGPU: msecs =6.773500 	 cmsecs =6.662501
+running bench 	 draw_stroke_rect_miter
+	 8888: msecs =2.587500 	 cmsecs =2.567500
+	 565: msecs =2.681500 	 cmsecs =2.668000
+	 GPU: msecs =15.552999 	 cmsecs =10.771502
+	 NULLGPU: msecs =5.946500 	 cmsecs =5.848001
+running bench 	 draw_stroke_rect_bevel
+	 8888: msecs =21.654505 	 cmsecs =21.427502
+	 565: msecs =17.918003 	 cmsecs =17.823505
+	 GPU: msecs =114.346497 	 cmsecs =100.839005
+	 NULLGPU: msecs =51.110001 	 cmsecs =50.726997
+running bench 	 draw_stroke_rect_round
+	 8888: msecs =26.631496 	 cmsecs =26.490997
+	 565: msecs =22.807001 	 cmsecs =22.685495
+	 GPU: msecs =119.378006 	 cmsecs =105.429504
+	 NULLGPU: msecs =55.999001 	 cmsecs =55.553505
+running bench 	 sort_qsort_repeated
+	 NONRENDERING: msecs =3.647500 	 cmsecs =3.137000
+running bench 	 sort_skheap_repeated
+	 NONRENDERING: msecs =14.105501 	 cmsecs =13.976999
+running bench 	 sort_skqsort_repeated
+	 NONRENDERING: msecs =36.962498 	 cmsecs =36.649002
+running bench 	 sort_qsort_backward
+	 NONRENDERING: msecs =7.277499 	 cmsecs =7.217999
+running bench 	 sort_skheap_backward
+	 NONRENDERING: msecs =19.056004 	 cmsecs =18.945503
+running bench 	 sort_skqsort_backward
+	 NONRENDERING: msecs =19.977999 	 cmsecs =19.874498
+running bench 	 sort_qsort_forward
+	 NONRENDERING: msecs =5.208500 	 cmsecs =5.163000
+running bench 	 sort_skheap_forward
+	 NONRENDERING: msecs =19.618000 	 cmsecs =19.506001
+running bench 	 sort_skqsort_forward
+	 NONRENDERING: msecs =7.159500 	 cmsecs =7.108500
+running bench 	 sort_qsort_rand10
+	 NONRENDERING: msecs =19.938997 	 cmsecs =19.824999
+running bench 	 sort_skheap_rand10
+	 NONRENDERING: msecs =22.436998 	 cmsecs =22.314499
+running bench 	 sort_skqsort_rand10
+	 NONRENDERING: msecs =14.551000 	 cmsecs =14.467001
+running bench 	 sort_qsort_rand
+	 NONRENDERING: msecs =29.779001 	 cmsecs =29.614498
+running bench 	 sort_skheap_rand
+	 NONRENDERING: msecs =22.924498 	 cmsecs =22.804497
+running bench 	 sort_skqsort_rand
+	 NONRENDERING: msecs =17.457998 	 cmsecs =17.281498
+running bench 	 shadermask_LCD_80
+	 8888: msecs =32.747498 	 cmsecs =32.563000
+	 565: msecs =50.645996 	 cmsecs =50.376499
+	 GPU: msecs =28.168499 	 cmsecs =24.541004
+	 NULLGPU: msecs =23.218998 	 cmsecs =23.031002
+running bench 	 shadermask_LCD_FF
+	 8888: msecs =31.637501 	 cmsecs =31.464502
+	 565: msecs =42.121502 	 cmsecs =41.898499
+	 GPU: msecs =28.659002 	 cmsecs =24.679501
+	 NULLGPU: msecs =23.539001 	 cmsecs =23.344002
+running bench 	 shadermask_AA_80
+	 8888: msecs =32.967999 	 cmsecs =32.674995
+	 565: msecs =49.646500 	 cmsecs =49.367996
+	 GPU: msecs =27.938498 	 cmsecs =24.331501
+	 NULLGPU: msecs =23.107502 	 cmsecs =22.926498
+running bench 	 shadermask_AA_FF
+	 8888: msecs =31.581997 	 cmsecs =31.384497
+	 565: msecs =41.427502 	 cmsecs =41.211006
+	 GPU: msecs =28.777004 	 cmsecs =24.683002
+	 NULLGPU: msecs =23.515001 	 cmsecs =23.333002
+running bench 	 shadermask_BW_80
+	 8888: msecs =35.120998 	 cmsecs =34.912498
+	 565: msecs =25.629501 	 cmsecs =25.482502
+	 GPU: msecs =25.174498 	 cmsecs =21.703005
+	 NULLGPU: msecs =20.705502 	 cmsecs =20.522501
+running bench 	 shadermask_BW_FF
+	 8888: msecs =22.859999 	 cmsecs =22.729496
+	 565: msecs =21.172499 	 cmsecs =21.000000
+	 GPU: msecs =25.374001 	 cmsecs =21.920502
+	 NULLGPU: msecs =20.810001 	 cmsecs =20.549000
+running bench 	 scalar_isfinite
+	 NONRENDERING: msecs =41.059502 	 cmsecs =40.724998
+running bench 	 rect_bounds
+	 NONRENDERING: msecs =10.221502 	 cmsecs =10.149500
+running bench 	 scalar_compare_forced_int
+	 NONRENDERING: msecs =9.876501 	 cmsecs =9.824001
+running bench 	 scalar_compare_float
+	 NONRENDERING: msecs =7.751501 	 cmsecs =7.696001
+running bench 	 rtree_random_query
+	 NONRENDERING: msecs =17.642498 	 cmsecs =17.546497
+running bench 	 rtree_random_query_bulk
+	 NONRENDERING: msecs =13.948500 	 cmsecs =13.868998
+running bench 	 rtree_concentric_build_bulk
+	 NONRENDERING: msecs =10.085499 	 cmsecs =10.023499
+running bench 	 rtree_random_build
+	 NONRENDERING: msecs =177.415985 	 cmsecs =176.175018
+running bench 	 rtree_random_build_bulk
+	 NONRENDERING: msecs =20.139997 	 cmsecs =20.007998
+running bench 	 repeatTile_index8_A
+	 8888: msecs =39.969002 	 cmsecs =39.689003
+	 565: msecs =46.769497 	 cmsecs =46.504002
+	 GPU: msecs =5.143499 	 cmsecs =0.745000
+	 NULLGPU: msecs =0.338500 	 cmsecs =0.332500
+running bench 	 repeatTile_565_A
+	 8888: msecs =53.216499 	 cmsecs =52.780499
+	 565: msecs =29.297501 	 cmsecs =28.798004
+	 GPU: msecs =5.501500 	 cmsecs =0.652000
+	 NULLGPU: msecs =0.334000 	 cmsecs =0.334000
+running bench 	 repeatTile_8888_A
+	 8888: msecs =29.983002 	 cmsecs =29.694504
+	 565: msecs =25.032999 	 cmsecs =24.813499
+	 GPU: msecs =5.774999 	 cmsecs =0.683500
+	 NULLGPU: msecs =0.340000 	 cmsecs =0.332500
+running bench 	 repeatTile_8888_X
+	 8888: msecs =6.565000 	 cmsecs =6.461001
+	 565: msecs =39.314503 	 cmsecs =39.081993
+	 GPU: msecs =5.141999 	 cmsecs =0.737500
+	 NULLGPU: msecs =0.335500 	 cmsecs =0.334000
+running bench 	 region_contains_sect
+	 NONRENDERING: msecs =8.508001 	 cmsecs =8.375501
+running bench 	 region_containsxy_16
+	 NONRENDERING: msecs =19.201502 	 cmsecs =19.083998
+running bench 	 region_intersectsrect_16
+	 NONRENDERING: msecs =24.277002 	 cmsecs =24.129501
+running bench 	 region_intersectsrgn_16
+	 NONRENDERING: msecs =865.974976 	 cmsecs =859.313477
+running bench 	 region_containsrect_16
+	 NONRENDERING: msecs =25.791006 	 cmsecs =25.623505
+running bench 	 region_differencerectbig_16
+	 NONRENDERING: msecs =0.278000 	 cmsecs =0.261500
+running bench 	 region_differencerect_16
+	 NONRENDERING: msecs =16.052998 	 cmsecs =15.967501
+running bench 	 region_difference_16
+	 NONRENDERING: msecs =126.936996 	 cmsecs =126.180481
+running bench 	 region_intersect_16
+	 NONRENDERING: msecs =125.278519 	 cmsecs =124.025002
+running bench 	 region_union_16
+	 NONRENDERING: msecs =128.923508 	 cmsecs =128.160980
+running bench 	 ref_cnt_new_weak
+	 NONRENDERING: msecs =170.337006 	 cmsecs =168.701019
+running bench 	 ref_cnt_heap_weak
+	 NONRENDERING: msecs =92.616501 	 cmsecs =92.105515
+running bench 	 ref_cnt_stack_weak
+	 NONRENDERING: msecs =60.490009 	 cmsecs =60.122498
+running bench 	 ref_cnt_new
+	 NONRENDERING: msecs =143.429993 	 cmsecs =142.563492
+running bench 	 ref_cnt_heap
+	 NONRENDERING: msecs =76.494499 	 cmsecs =76.052002
+running bench 	 ref_cnt_stack
+	 NONRENDERING: msecs =60.423012 	 cmsecs =59.978004
+running bench 	 rectori
+	 8888: msecs =188.568512 	 cmsecs =187.216492
+	 565: msecs =207.261505 	 cmsecs =205.955978
+	 GPU: msecs =1267.727783 	 cmsecs =356.818542
+	 NULLGPU: msecs =27.083500 	 cmsecs =26.849497
+running bench 	 maskshader
+	 8888: msecs =45.196499 	 cmsecs =44.907001
+	 565: msecs =51.495003 	 cmsecs =51.198002
+	 GPU: msecs =51.924999 	 cmsecs =45.515999
+	 NULLGPU: msecs =33.112000 	 cmsecs =32.747501
+running bench 	 maskcolor
+	 8888: msecs =35.661503 	 cmsecs =35.435001
+	 565: msecs =32.823997 	 cmsecs =32.640999
+	 GPU: msecs =50.006004 	 cmsecs =42.309498
+	 NULLGPU: msecs =21.731499 	 cmsecs =21.528997
+running bench 	 maskblack
+	 8888: msecs =33.763000 	 cmsecs =33.532501
+	 565: msecs =27.944494 	 cmsecs =27.741995
+	 GPU: msecs =50.029007 	 cmsecs =42.340500
+	 NULLGPU: msecs =21.817003 	 cmsecs =21.618999
+running bench 	 maskopaque
+	 8888: msecs =34.988003 	 cmsecs =34.761505
+	 565: msecs =27.816498 	 cmsecs =27.640997
+	 GPU: msecs =50.013504 	 cmsecs =42.326000
+	 NULLGPU: msecs =21.761497 	 cmsecs =21.582996
+running bench 	 aarects_rotated
+	 8888: msecs =485.289062 	 cmsecs =481.220520
+	 565: msecs =481.148499 	 cmsecs =478.146057
+	 GPU: msecs =379.527557 	 cmsecs =367.850983
+	 NULLGPU: msecs =362.519012 	 cmsecs =360.284485
+running bench 	 aarects
+	 8888: msecs =118.768997 	 cmsecs =118.084496
+	 565: msecs =123.718002 	 cmsecs =122.990501
+	 GPU: msecs =287.961487 	 cmsecs =277.555969
+	 NULLGPU: msecs =272.437988 	 cmsecs =270.753479
+running bench 	 srcmode_rects_1
+	 8888: msecs =11.929499 	 cmsecs =11.844499
+	 565: msecs =74.853500 	 cmsecs =74.428001
+	 GPU: msecs =5.576500 	 cmsecs =2.934500
+	 NULLGPU: msecs =4.424000 	 cmsecs =4.380500
+running bench 	 polygon
+	 8888: msecs =100.682007 	 cmsecs =100.003006
+	 565: msecs =88.757004 	 cmsecs =88.227997
+	 GPU: msecs =370.498993 	 cmsecs =256.144012
+	 NULLGPU: msecs =144.028976 	 cmsecs =143.110016
+running bench 	 lines
+	 8888: msecs =32.010002 	 cmsecs =31.671503
+	 565: msecs =28.324001 	 cmsecs =28.153498
+	 GPU: msecs =159.266998 	 cmsecs =96.158501
+	 NULLGPU: msecs =46.926498 	 cmsecs =46.565002
+running bench 	 points
+	 8888: msecs =10.554999 	 cmsecs =10.492998
+	 565: msecs =9.970999 	 cmsecs =9.909498
+	 GPU: msecs =26.160999 	 cmsecs =21.118498
+	 NULLGPU: msecs =10.772998 	 cmsecs =10.646997
+running bench 	 rrects_3_stroke_4
+	 8888: msecs =42.921997 	 cmsecs =42.648994
+	 565: msecs =40.952003 	 cmsecs =40.684994
+	 GPU: msecs =106.849998 	 cmsecs =66.349503
+	 NULLGPU: msecs =35.320999 	 cmsecs =34.833000
+running bench 	 rrects_3
+	 8888: msecs =13.154500 	 cmsecs =13.034498
+	 565: msecs =11.613500 	 cmsecs =11.550501
+	 GPU: msecs =20.117996 	 cmsecs =15.195500
+	 NULLGPU: msecs =5.933001 	 cmsecs =5.837501
+running bench 	 rrects_1_stroke_4
+	 8888: msecs =81.305496 	 cmsecs =80.771507
+	 565: msecs =75.494492 	 cmsecs =75.037003
+	 GPU: msecs =124.797997 	 cmsecs =86.125000
+	 NULLGPU: msecs =52.681499 	 cmsecs =52.071999
+running bench 	 rrects_1
+	 8888: msecs =26.198498 	 cmsecs =26.033499
+	 565: msecs =23.433002 	 cmsecs =23.266003
+	 GPU: msecs =27.835501 	 cmsecs =14.427501
+	 NULLGPU: msecs =5.543000 	 cmsecs =5.437500
+running bench 	 ovals_3_stroke_4
+	 8888: msecs =38.944000 	 cmsecs =38.706001
+	 565: msecs =36.744499 	 cmsecs =36.434502
+	 GPU: msecs =102.630005 	 cmsecs =62.430489
+	 NULLGPU: msecs =31.495499 	 cmsecs =31.213501
+running bench 	 ovals_1_stroke_4
+	 8888: msecs =80.605995 	 cmsecs =79.524002
+	 565: msecs =72.420494 	 cmsecs =71.989502
+	 GPU: msecs =122.347000 	 cmsecs =82.207497
+	 NULLGPU: msecs =49.238499 	 cmsecs =48.846504
+running bench 	 ovals_3
+	 8888: msecs =14.031500 	 cmsecs =13.936499
+	 565: msecs =12.297002 	 cmsecs =12.222002
+	 GPU: msecs =14.603502 	 cmsecs =11.030502
+	 NULLGPU: msecs =4.372500 	 cmsecs =4.351001
+running bench 	 ovals_1
+	 8888: msecs =35.479004 	 cmsecs =35.251503
+	 565: msecs =30.788504 	 cmsecs =30.611500
+	 GPU: msecs =22.774502 	 cmsecs =10.944499
+	 NULLGPU: msecs =4.416500 	 cmsecs =4.318000
+running bench 	 rects_3_stroke_4
+	 8888: msecs =2.750000 	 cmsecs =2.730500
+	 565: msecs =2.876000 	 cmsecs =2.858000
+	 GPU: msecs =10.031498 	 cmsecs =7.709501
+	 NULLGPU: msecs =4.415500 	 cmsecs =4.385000
+running bench 	 rects_3
+	 8888: msecs =2.143000 	 cmsecs =2.126500
+	 565: msecs =2.055500 	 cmsecs =2.033500
+	 GPU: msecs =9.670500 	 cmsecs =7.412499
+	 NULLGPU: msecs =4.239499 	 cmsecs =4.205500
+running bench 	 rects_1_stroke_4
+	 8888: msecs =6.903501 	 cmsecs =6.753500
+	 565: msecs =8.166499 	 cmsecs =8.122999
+	 GPU: msecs =10.531501 	 cmsecs =7.605999
+	 NULLGPU: msecs =4.381500 	 cmsecs =4.361500
+running bench 	 rects_1
+	 8888: msecs =6.489001 	 cmsecs =6.449000
+	 565: msecs =5.516000 	 cmsecs =5.460000
+	 GPU: msecs =11.313498 	 cmsecs =7.392499
+	 NULLGPU: msecs =4.232999 	 cmsecs =4.214499
+running bench 	 premul_and_unpremul_alpha_Native8888
+	 8888: msecs =149.006500 	 cmsecs =147.285492
+	 565: msecs =239.972992 	 cmsecs =237.497482
+	 GPU: msecs =383.302032 	 cmsecs =356.320496
+	 NULLGPU: msecs =6.944499 	 cmsecs =6.823499
+running bench 	 premul_and_unpremul_alpha_RGBA8888
+	 8888: msecs =146.279480 	 cmsecs =145.113998
+	 565: msecs =241.242035 	 cmsecs =239.327515
+	 GPU: msecs =382.534485 	 cmsecs =355.997498
+	 NULLGPU: msecs =6.101501 	 cmsecs =5.990501
+running bench 	 readpix
+	 8888: msecs =2.131000 	 cmsecs =2.111500
+	 565: msecs =27.430502 	 cmsecs =27.274502
+	 GPU: msecs =691.519470 	 cmsecs =618.426025
+	 NULLGPU: msecs =23.216503 	 cmsecs =23.014503
+running bench 	 picture_record_recurring_paint_dictionary
+	 NONRENDERING: msecs =137.518494 	 cmsecs =136.699005
+running bench 	 picture_record_unique_paint_dictionary
+	 NONRENDERING: msecs =448.422028 	 cmsecs =444.742035
+running bench 	 picture_record_dictionaries
+	 NONRENDERING: msecs =109.549500 	 cmsecs =108.340492
+running bench 	 picture_playback_drawPosText
+	 8888: msecs =231.651001 	 cmsecs =229.891998
+	 565: msecs =211.360992 	 cmsecs =209.986496
+	 GPU: msecs =419.298523 	 cmsecs =405.263489
+	 NULLGPU: msecs =392.453003 	 cmsecs =389.967987
+running bench 	 picture_playback_drawPosTextH
+	 8888: msecs =211.072968 	 cmsecs =209.650970
+	 565: msecs =206.492020 	 cmsecs =205.082001
+	 GPU: msecs =412.512024 	 cmsecs =398.303009
+	 NULLGPU: msecs =377.437012 	 cmsecs =375.226044
+running bench 	 picture_playback_drawText
+	 8888: msecs =168.714035 	 cmsecs =167.720978
+	 565: msecs =167.265533 	 cmsecs =166.389008
+	 GPU: msecs =361.094482 	 cmsecs =347.758026
+	 NULLGPU: msecs =334.484009 	 cmsecs =332.091492
+running bench 	 perlinnoise
+	 8888: msecs =25.139500 	 cmsecs =25.023998
+	 565: msecs =25.158998 	 cmsecs =25.028500
+	 GPU: msecs =2.287000 	 cmsecs =0.922500
+	 NULLGPU: msecs =0.425500 	 cmsecs =0.422500
+running bench 	 pathUtils_region
+	 8888: msecs =5.579000 	 cmsecs =5.479001
+	 565: msecs =5.443000 	 cmsecs =5.415500
+	 GPU: msecs =5.669500 	 cmsecs =5.570001
+	 NULLGPU: msecs =5.796500 	 cmsecs =5.749500
+running bench 	 pathUtils_path
+	 8888: msecs =54.589497 	 cmsecs =54.286499
+	 565: msecs =54.915497 	 cmsecs =54.038494
+	 GPU: msecs =54.485504 	 cmsecs =54.125999
+	 NULLGPU: msecs =54.046497 	 cmsecs =53.745003
+running bench 	 pathiter_raw
+	 NONRENDERING: msecs =23.828497 	 cmsecs =23.681995
+running bench 	 pathiter_consume
+	 NONRENDERING: msecs =54.713501 	 cmsecs =54.341999
+running bench 	 conic-quadPow2
+	 NONRENDERING: msecs =169.217987 	 cmsecs =168.326019
+running bench 	 conic-asQuadTol
+	 NONRENDERING: msecs =102.621994 	 cmsecs =101.601997
+running bench 	 conic-compute-error
+	 NONRENDERING: msecs =51.972496 	 cmsecs =51.703003
+running bench 	 ratquad-chop-half
+	 8888: msecs =5.608000 	 cmsecs =5.579500
+	 565: msecs =5.605000 	 cmsecs =5.577500
+	 GPU: msecs =5.717000 	 cmsecs =5.614001
+	 NULLGPU: msecs =5.613000 	 cmsecs =5.583999
+running bench 	 ratquad-chop-0.5
+	 8888: msecs =15.135500 	 cmsecs =15.059000
+	 565: msecs =15.129499 	 cmsecs =15.057500
+	 GPU: msecs =15.240000 	 cmsecs =15.085999
+	 NULLGPU: msecs =15.139999 	 cmsecs =15.060499
+running bench 	 conservatively_contains_oval
+	 NONRENDERING: msecs =38.847496 	 cmsecs =38.602493
+running bench 	 conservatively_contains_round_rect
+	 NONRENDERING: msecs =50.230492 	 cmsecs =49.859505
+running bench 	 conservatively_contains_rect
+	 NONRENDERING: msecs =33.771503 	 cmsecs =33.040001
+running bench 	 zeroradroundrect
+	 8888: msecs =138.739532 	 cmsecs =138.019989
+	 565: msecs =119.757507 	 cmsecs =118.508507
+	 GPU: msecs =303.117981 	 cmsecs =285.534973
+	 NULLGPU: msecs =174.980499 	 cmsecs =173.847000
+running bench 	 arbroundrect
+	 8888: msecs =251.521515 	 cmsecs =249.853973
+	 565: msecs =230.686981 	 cmsecs =229.329468
+	 GPU: msecs =456.367493 	 cmsecs =439.726013
+	 NULLGPU: msecs =308.184967 	 cmsecs =306.252502
+running bench 	 circles_stroke
+	 8888: msecs =311.659485 	 cmsecs =309.822998
+	 565: msecs =301.954041 	 cmsecs =300.110992
+	 GPU: msecs =251.598480 	 cmsecs =234.015015
+	 NULLGPU: msecs =122.605492 	 cmsecs =121.888000
+running bench 	 circles_fill
+	 8888: msecs =113.872009 	 cmsecs =113.186508
+	 565: msecs =109.976501 	 cmsecs =109.343002
+	 GPU: msecs =210.481491 	 cmsecs =198.193497
+	 NULLGPU: msecs =113.285988 	 cmsecs =112.614502
+running bench 	 path_reverse_path_to
+	 NONRENDERING: msecs =69.336014 	 cmsecs =68.337006
+running bench 	 path_reverse_add_path
+	 NONRENDERING: msecs =158.129501 	 cmsecs =157.194489
+running bench 	 path_path_to
+	 NONRENDERING: msecs =70.153496 	 cmsecs =69.545509
+running bench 	 path_add_path_matrix
+	 NONRENDERING: msecs =182.323502 	 cmsecs =181.149506
+running bench 	 path_add_path_trans
+	 NONRENDERING: msecs =181.329987 	 cmsecs =180.284500
+running bench 	 path_add_path
+	 NONRENDERING: msecs =170.690002 	 cmsecs =169.596512
+running bench 	 path_equality_50%
+	 NONRENDERING: msecs =1.391500 	 cmsecs =1.371500
+running bench 	 path_transform_copy
+	 NONRENDERING: msecs =27.388998 	 cmsecs =27.230503
+running bench 	 path_transform_in_place
+	 NONRENDERING: msecs =17.228497 	 cmsecs =17.112499
+running bench 	 path_copy
+	 NONRENDERING: msecs =10.773502 	 cmsecs =10.719003
+running bench 	 path_create
+	 NONRENDERING: msecs =30.960999 	 cmsecs =30.694504
+running bench 	 path_stroke_small_long_line
+	 8888: msecs =123.344505 	 cmsecs =122.594498
+	 565: msecs =121.491516 	 cmsecs =120.259499
+	 GPU: msecs =160.438507 	 cmsecs =136.240997
+	 NULLGPU: msecs =128.935013 	 cmsecs =127.589478
+running bench 	 path_fill_small_long_line
+	 8888: msecs =52.381508 	 cmsecs =52.082001
+	 565: msecs =51.336506 	 cmsecs =51.037498
+	 GPU: msecs =76.081497 	 cmsecs =63.795494
+	 NULLGPU: msecs =56.102997 	 cmsecs =55.674500
+running bench 	 path_stroke_small_long_curved
+	 8888: msecs =262.597992 	 cmsecs =260.813477
+	 565: msecs =257.047974 	 cmsecs =255.343536
+	 GPU: msecs =290.304962 	 cmsecs =265.043518
+	 NULLGPU: msecs =261.507507 	 cmsecs =259.871490
+running bench 	 path_fill_small_long_curved
+	 8888: msecs =80.514496 	 cmsecs =79.763504
+	 565: msecs =78.630508 	 cmsecs =78.134995
+	 GPU: msecs =116.575500 	 cmsecs =92.110001
+	 NULLGPU: msecs =83.179001 	 cmsecs =82.597496
+running bench 	 path_stroke_small_sawtooth
+	 8888: msecs =97.092003 	 cmsecs =96.330002
+	 565: msecs =96.742012 	 cmsecs =95.589005
+	 GPU: msecs =214.841995 	 cmsecs =149.363007
+	 NULLGPU: msecs =106.865501 	 cmsecs =106.142990
+running bench 	 path_fill_small_sawtooth
+	 8888: msecs =45.436501 	 cmsecs =45.156498
+	 565: msecs =44.755501 	 cmsecs =44.498497
+	 GPU: msecs =156.516022 	 cmsecs =92.477493
+	 NULLGPU: msecs =54.924995 	 cmsecs =54.535503
+running bench 	 path_stroke_big_circle
+	 8888: msecs =99.779007 	 cmsecs =99.200485
+	 565: msecs =99.695503 	 cmsecs =98.970993
+	 GPU: msecs =21.632496 	 cmsecs =8.232500
+	 NULLGPU: msecs =3.677500 	 cmsecs =3.640501
+running bench 	 path_fill_big_circle
+	 8888: msecs =41.324997 	 cmsecs =41.086006
+	 565: msecs =40.117500 	 cmsecs =39.890999
+	 GPU: msecs =19.568501 	 cmsecs =8.109499
+	 NULLGPU: msecs =3.474000 	 cmsecs =3.457500
+running bench 	 path_stroke_small_circle
+	 8888: msecs =101.815010 	 cmsecs =101.193497
+	 565: msecs =91.796997 	 cmsecs =90.748497
+	 GPU: msecs =40.601498 	 cmsecs =31.873501
+	 NULLGPU: msecs =14.645000 	 cmsecs =14.498500
+running bench 	 path_fill_small_circle
+	 8888: msecs =26.230000 	 cmsecs =26.035501
+	 565: msecs =22.084000 	 cmsecs =21.953001
+	 GPU: msecs =39.368999 	 cmsecs =31.109503
+	 NULLGPU: msecs =14.121498 	 cmsecs =13.699499
+running bench 	 path_stroke_big_oval
+	 8888: msecs =61.502003 	 cmsecs =61.117992
+	 565: msecs =61.532997 	 cmsecs =61.181007
+	 GPU: msecs =17.519999 	 cmsecs =8.731498
+	 NULLGPU: msecs =3.664000 	 cmsecs =3.637500
+running bench 	 path_fill_big_oval
+	 8888: msecs =23.775997 	 cmsecs =23.616997
+	 565: msecs =22.492496 	 cmsecs =22.351997
+	 GPU: msecs =14.725497 	 cmsecs =8.531000
+	 NULLGPU: msecs =3.378000 	 cmsecs =3.345001
+running bench 	 path_stroke_small_oval
+	 8888: msecs =87.437981 	 cmsecs =86.848503
+	 565: msecs =84.521996 	 cmsecs =83.701500
+	 GPU: msecs =43.050499 	 cmsecs =33.845497
+	 NULLGPU: msecs =14.785501 	 cmsecs =14.508000
+running bench 	 path_fill_small_oval
+	 8888: msecs =19.444500 	 cmsecs =19.332005
+	 565: msecs =17.996502 	 cmsecs =17.891003
+	 GPU: msecs =41.320000 	 cmsecs =33.004997
+	 NULLGPU: msecs =13.487999 	 cmsecs =13.336499
+running bench 	 path_stroke_big_rect
+	 8888: msecs =40.858002 	 cmsecs =40.032001
+	 565: msecs =39.755997 	 cmsecs =39.518501
+	 GPU: msecs =262.367493 	 cmsecs =132.577499
+	 NULLGPU: msecs =60.334003 	 cmsecs =59.821999
+running bench 	 path_fill_big_rect
+	 8888: msecs =6.358500 	 cmsecs =6.315000
+	 565: msecs =5.309000 	 cmsecs =5.266500
+	 GPU: msecs =26.046997 	 cmsecs =12.505999
+	 NULLGPU: msecs =6.262000 	 cmsecs =6.160500
+running bench 	 path_stroke_small_rect
+	 8888: msecs =28.672001 	 cmsecs =28.484501
+	 565: msecs =26.512503 	 cmsecs =25.776505
+	 GPU: msecs =850.163574 	 cmsecs =344.256012
+	 NULLGPU: msecs =92.903503 	 cmsecs =92.301498
+running bench 	 path_fill_small_rect
+	 8888: msecs =11.322497 	 cmsecs =11.246497
+	 565: msecs =10.110998 	 cmsecs =10.047499
+	 GPU: msecs =59.474998 	 cmsecs =49.230000
+	 NULLGPU: msecs =24.725500 	 cmsecs =24.520504
+running bench 	 path_stroke_big_triangle
+	 8888: msecs =64.298996 	 cmsecs =63.918995
+	 565: msecs =64.881500 	 cmsecs =64.506500
+	 GPU: msecs =292.336975 	 cmsecs =160.815002
+	 NULLGPU: msecs =90.207504 	 cmsecs =89.024490
+running bench 	 path_fill_big_triangle
+	 8888: msecs =26.020000 	 cmsecs =25.856003
+	 565: msecs =24.388004 	 cmsecs =24.237503
+	 GPU: msecs =22.703499 	 cmsecs =12.340499
+	 NULLGPU: msecs =6.121001 	 cmsecs =6.020501
+running bench 	 path_stroke_small_triangle
+	 8888: msecs =39.979500 	 cmsecs =39.747002
+	 565: msecs =38.497498 	 cmsecs =38.277996
+	 GPU: msecs =875.056458 	 cmsecs =369.299500
+	 NULLGPU: msecs =104.495995 	 cmsecs =103.859009
+running bench 	 path_fill_small_triangle
+	 8888: msecs =14.163002 	 cmsecs =14.073001
+	 565: msecs =12.521501 	 cmsecs =12.348501
+	 GPU: msecs =57.840492 	 cmsecs =48.222500
+	 NULLGPU: msecs =24.263496 	 cmsecs =24.052994
+running bench 	 mutex
+	 NONRENDERING: msecs =3.785500 	 cmsecs =3.750000
+running bench 	 morph_0_none
+	 8888: msecs =0.575500 	 cmsecs =0.571000
+	 565: msecs =0.570000 	 cmsecs =0.550000
+	 GPU: msecs =1.711500 	 cmsecs =0.548500
+	 NULLGPU: msecs =0.093500 	 cmsecs =0.072000
+running bench 	 morph_1.50_dilate
+	 8888: msecs =166.097015 	 cmsecs =164.339508
+	 565: msecs =160.735489 	 cmsecs =160.590988
+	 GPU: msecs =16.943003 	 cmsecs =3.483000
+	 NULLGPU: msecs =0.461500 	 cmsecs =0.452500
+running bench 	 morph_1.50_erode
+	 8888: msecs =164.579498 	 cmsecs =162.656982
+	 565: msecs =164.033005 	 cmsecs =162.760498
+	 GPU: msecs =16.859003 	 cmsecs =3.492000
+	 NULLGPU: msecs =0.452500 	 cmsecs =0.449500
+running bench 	 morph_10_dilate
+	 8888: msecs =448.322998 	 cmsecs =444.677979
+	 565: msecs =449.253571 	 cmsecs =445.400970
+	 GPU: msecs =36.501995 	 cmsecs =3.484500
+	 NULLGPU: msecs =0.457000 	 cmsecs =0.452500
+running bench 	 morph_10_erode
+	 8888: msecs =448.212982 	 cmsecs =445.085510
+	 565: msecs =448.528503 	 cmsecs =445.379486
+	 GPU: msecs =36.464001 	 cmsecs =3.453000
+	 NULLGPU: msecs =0.454000 	 cmsecs =0.446500
+running bench 	 morph_2_dilate
+	 8888: msecs =189.371490 	 cmsecs =188.074997
+	 565: msecs =190.445023 	 cmsecs =189.132492
+	 GPU: msecs =18.261000 	 cmsecs =3.476999
+	 NULLGPU: msecs =0.461500 	 cmsecs =0.451000
+running bench 	 morph_2_erode
+	 8888: msecs =190.675018 	 cmsecs =189.191498
+	 565: msecs =192.536011 	 cmsecs =190.878021
+	 GPU: msecs =18.224501 	 cmsecs =3.523500
+	 NULLGPU: msecs =0.484000 	 cmsecs =0.479500
+running bench 	 merge_large
+	 8888: msecs =8.523499 	 cmsecs =8.398500
+	 565: msecs =8.412500 	 cmsecs =8.351000
+	 GPU: msecs =3.746000 	 cmsecs =1.236500
+	 NULLGPU: msecs =0.186000 	 cmsecs =0.183000
+running bench 	 merge_small
+	 8888: msecs =8.514499 	 cmsecs =8.388499
+	 565: msecs =8.390501 	 cmsecs =8.318001
+	 GPU: msecs =3.729501 	 cmsecs =1.241000
+	 NULLGPU: msecs =0.186000 	 cmsecs =0.180000
+running bench 	 memset16_4000_5000
+	 NONRENDERING: msecs =534.445007 	 cmsecs =530.294556
+running bench 	 memset16_3000_4000
+	 NONRENDERING: msecs =416.681976 	 cmsecs =414.246521
+running bench 	 memset16_2000_3000
+	 NONRENDERING: msecs =303.879486 	 cmsecs =302.247009
+running bench 	 memset16_1000_2000
+	 NONRENDERING: msecs =197.380035 	 cmsecs =196.196487
+running bench 	 memset16_800_1000
+	 NONRENDERING: msecs =25.128998 	 cmsecs =24.980000
+running bench 	 memset16_600_800
+	 NONRENDERING: msecs =19.913498 	 cmsecs =19.806999
+running bench 	 memset16_1_600
+	 NONRENDERING: msecs =32.149498 	 cmsecs =31.933004
+running bench 	 memset32_4000_5000
+	 NONRENDERING: msecs =526.873474 	 cmsecs =522.852417
+running bench 	 memset32_3000_4000
+	 NONRENDERING: msecs =409.343536 	 cmsecs =406.981506
+running bench 	 memset32_2000_3000
+	 NONRENDERING: msecs =292.905457 	 cmsecs =291.197510
+running bench 	 memset32_1000_2000
+	 NONRENDERING: msecs =179.538513 	 cmsecs =178.347015
+running bench 	 memset32_800_1000
+	 NONRENDERING: msecs =21.913004 	 cmsecs =21.782505
+running bench 	 memset32_600_800
+	 NONRENDERING: msecs =17.195999 	 cmsecs =17.088497
+running bench 	 memset32_1_600
+	 NONRENDERING: msecs =24.079496 	 cmsecs =23.954996
+running bench 	 chunkalloc_8192
+	 NONRENDERING: msecs =21.581001 	 cmsecs =21.447498
+running bench 	 chunkalloc_64
+	 NONRENDERING: msecs =15.180499 	 cmsecs =15.084498
+running bench 	 matrixconvolution
+	 8888: msecs =399.263977 	 cmsecs =396.371490
+	 565: msecs =400.229034 	 cmsecs =396.741486
+	 GPU: msecs =32.903000 	 cmsecs =3.160500
+	 NULLGPU: msecs =0.398500 	 cmsecs =0.389500
+running bench 	 matrixconvolution
+	 8888: msecs =438.891998 	 cmsecs =435.055511
+	 565: msecs =437.061523 	 cmsecs =433.906982
+	 GPU: msecs =30.664005 	 cmsecs =3.120500
+	 NULLGPU: msecs =0.397000 	 cmsecs =0.391000
+running bench 	 matrixconvolution
+	 8888: msecs =439.560059 	 cmsecs =436.333008
+	 565: msecs =438.293518 	 cmsecs =435.011475
+	 GPU: msecs =24.140499 	 cmsecs =3.161000
+	 NULLGPU: msecs =0.397000 	 cmsecs =0.388000
+running bench 	 matrixconvolution
+	 8888: msecs =437.768494 	 cmsecs =434.690033
+	 565: msecs =436.470032 	 cmsecs =433.396484
+	 GPU: msecs =22.143503 	 cmsecs =3.153500
+	 NULLGPU: msecs =0.409000 	 cmsecs =0.392500
+running bench 	 matrix_scaletrans_double
+	 NONRENDERING: msecs =9.502000 	 cmsecs =9.363998
+running bench 	 matrix_scaletrans_mixed
+	 NONRENDERING: msecs =9.169500 	 cmsecs =9.098501
+running bench 	 matrix_invert_maprect_typemask_nonpersp
+	 NONRENDERING: msecs =30.350498 	 cmsecs =30.181997
+running bench 	 matrix_invert_maprect_typemask_rectstaysrect
+	 NONRENDERING: msecs =15.963501 	 cmsecs =15.731502
+running bench 	 matrix_invert_maprect_persp
+	 NONRENDERING: msecs =37.728004 	 cmsecs =37.521999
+running bench 	 matrix_invert_maprect_nonpersp
+	 NONRENDERING: msecs =26.938000 	 cmsecs =26.786495
+running bench 	 matrix_invert_maprect_translate
+	 NONRENDERING: msecs =10.754499 	 cmsecs =10.699500
+running bench 	 matrix_invert_maprect_rectstaysrect
+	 NONRENDERING: msecs =12.414001 	 cmsecs =12.337502
+running bench 	 matrix_invert_maprect_identity
+	 NONRENDERING: msecs =9.890001 	 cmsecs =9.825501
+running bench 	 matrix_gettype
+	 NONRENDERING: msecs =15.744000 	 cmsecs =15.655502
+running bench 	 matrix_concat_double
+	 NONRENDERING: msecs =8.820000 	 cmsecs =8.758499
+running bench 	 matrix_concat_floatdouble
+	 NONRENDERING: msecs =16.799501 	 cmsecs =16.711500
+running bench 	 matrix_concat_floatfloat
+	 NONRENDERING: msecs =9.355000 	 cmsecs =9.293499
+running bench 	 matrix_scale
+	 NONRENDERING: msecs =9.878000 	 cmsecs =9.824001
+running bench 	 matrix_equals
+	 NONRENDERING: msecs =14.278501 	 cmsecs =14.193001
+running bench 	 matrix44_gettype
+	 NONRENDERING: msecs =8.738999 	 cmsecs =8.695498
+running bench 	 matrix44_setconcat
+	 NONRENDERING: msecs =7.392499 	 cmsecs =6.826500
+running bench 	 matrix44_invert
+	 NONRENDERING: msecs =20.180496 	 cmsecs =20.033497
+running bench 	 matrix44_postscale
+	 NONRENDERING: msecs =6.440501 	 cmsecs =6.393500
+running bench 	 matrix44_prescale
+	 NONRENDERING: msecs =5.402501 	 cmsecs =5.368501
+running bench 	 matrix44_equals
+	 NONRENDERING: msecs =11.337499 	 cmsecs =11.261498
+running bench 	 point_normalize
+	 NONRENDERING: msecs =45.359993 	 cmsecs =45.111500
+running bench 	 clz_portable
+	 NONRENDERING: msecs =66.960487 	 cmsecs =66.580994
+running bench 	 clz_intrinsic
+	 NONRENDERING: msecs =10.130503 	 cmsecs =10.065500
+running bench 	 floor_fast
+	 NONRENDERING: msecs =15.673502 	 cmsecs =15.588003
+running bench 	 floor_std
+	 NONRENDERING: msecs =72.557999 	 cmsecs =71.589989
+running bench 	 isfinite_plus_mulzero
+	 NONRENDERING: msecs =23.961498 	 cmsecs =23.799500
+running bench 	 isfinite_plus_float
+	 NONRENDERING: msecs =24.032497 	 cmsecs =23.813000
+running bench 	 isfinite_plus_int
+	 NONRENDERING: msecs =29.905499 	 cmsecs =29.740499
+running bench 	 isfinite_and_mulzero
+	 NONRENDERING: msecs =32.041004 	 cmsecs =31.846500
+running bench 	 isfinite_and_float
+	 NONRENDERING: msecs =24.672001 	 cmsecs =24.541506
+running bench 	 isfinite_and_int
+	 NONRENDERING: msecs =12.633499 	 cmsecs =12.553499
+running bench 	 isfinite_rect
+	 NONRENDERING: msecs =25.236996 	 cmsecs =25.098997
+running bench 	 math_qmul32
+	 NONRENDERING: msecs =8.015000 	 cmsecs =7.959501
+running bench 	 math_qmul64
+	 NONRENDERING: msecs =21.681499 	 cmsecs =21.504997
+running bench 	 math_fastIsqrt
+	 NONRENDERING: msecs =31.312000 	 cmsecs =31.136002
+running bench 	 math_slowIsqrt
+	 NONRENDERING: msecs =71.136513 	 cmsecs =70.685005
+running bench 	 math_noOp
+	 NONRENDERING: msecs =2.284000 	 cmsecs =2.263000
+running bench 	 magnifier_large
+	 8888: msecs =82.542503 	 cmsecs =81.954498
+	 565: msecs =82.486008 	 cmsecs =81.888000
+	 GPU: msecs =5.973000 	 cmsecs =1.323500
+	 NULLGPU: msecs =0.157500 	 cmsecs =0.154500
+running bench 	 magnifier_small
+	 8888: msecs =83.379501 	 cmsecs =82.483505
+	 565: msecs =82.968002 	 cmsecs =82.371010
+	 GPU: msecs =5.921499 	 cmsecs =1.310000
+	 NULLGPU: msecs =0.160500 	 cmsecs =0.154500
+running bench 	 lightingspotlitspecular_large
+	 8888: msecs =342.683014 	 cmsecs =339.796997
+	 565: msecs =341.830017 	 cmsecs =339.642975
+	 GPU: msecs =6.512000 	 cmsecs =1.313000
+	 NULLGPU: msecs =0.151500 	 cmsecs =0.148500
+running bench 	 lightingspotlitspecular_small
+	 8888: msecs =342.930969 	 cmsecs =340.304504
+	 565: msecs =342.234528 	 cmsecs =339.955017
+	 GPU: msecs =6.488000 	 cmsecs =1.292000
+	 NULLGPU: msecs =0.153000 	 cmsecs =0.145500
+running bench 	 lightingdistantlitspecular_large
+	 8888: msecs =318.988953 	 cmsecs =316.408020
+	 565: msecs =318.744476 	 cmsecs =315.965027
+	 GPU: msecs =6.216500 	 cmsecs =1.301000
+	 NULLGPU: msecs =0.151500 	 cmsecs =0.148500
+running bench 	 lightingdistantlitspecular_small
+	 8888: msecs =320.252991 	 cmsecs =317.999512
+	 565: msecs =318.299530 	 cmsecs =316.250977
+	 GPU: msecs =6.242000 	 cmsecs =1.286000
+	 NULLGPU: msecs =0.150000 	 cmsecs =0.145500
+running bench 	 lightingpointlitspecular_large
+	 8888: msecs =332.395966 	 cmsecs =330.125000
+	 565: msecs =330.549500 	 cmsecs =328.360016
+	 GPU: msecs =6.428500 	 cmsecs =1.290500
+	 NULLGPU: msecs =0.150000 	 cmsecs =0.144000
+running bench 	 lightingpointlitspecular_small
+	 8888: msecs =332.235535 	 cmsecs =330.058960
+	 565: msecs =331.094482 	 cmsecs =328.760986
+	 GPU: msecs =6.417500 	 cmsecs =1.302500
+	 NULLGPU: msecs =0.165500 	 cmsecs =0.150000
+running bench 	 lightingspotlitdiffuse_large
+	 8888: msecs =131.689499 	 cmsecs =130.751511
+	 565: msecs =132.085495 	 cmsecs =130.580490
+	 GPU: msecs =6.438501 	 cmsecs =1.324000
+	 NULLGPU: msecs =0.153000 	 cmsecs =0.147000
+running bench 	 lightingspotlitdiffuse_small
+	 8888: msecs =131.511520 	 cmsecs =130.563019
+	 565: msecs =131.898010 	 cmsecs =130.402496
+	 GPU: msecs =6.443501 	 cmsecs =1.299500
+	 NULLGPU: msecs =0.153000 	 cmsecs =0.147000
+running bench 	 lightingdistantlitdiffuse_large
+	 8888: msecs =111.458984 	 cmsecs =110.513000
+	 565: msecs =111.215500 	 cmsecs =110.350502
+	 GPU: msecs =6.216499 	 cmsecs =1.292000
+	 NULLGPU: msecs =0.150000 	 cmsecs =0.145500
+running bench 	 lightingdistantlitdiffuse_small
+	 8888: msecs =111.568504 	 cmsecs =110.772987
+	 565: msecs =111.858498 	 cmsecs =111.099014
+	 GPU: msecs =6.199000 	 cmsecs =1.287500
+	 NULLGPU: msecs =0.153000 	 cmsecs =0.145500
+running bench 	 lightingpointlitdiffuse_large
+	 8888: msecs =123.003502 	 cmsecs =121.514999
+	 565: msecs =122.458496 	 cmsecs =121.593506
+	 GPU: msecs =6.366499 	 cmsecs =1.310000
+	 NULLGPU: msecs =0.151500 	 cmsecs =0.148500
+running bench 	 lightingpointlitdiffuse_small
+	 8888: msecs =123.080978 	 cmsecs =121.610008
+	 565: msecs =122.228516 	 cmsecs =121.414001
+	 GPU: msecs =6.332000 	 cmsecs =1.301000
+	 NULLGPU: msecs =0.154500 	 cmsecs =0.145500
+running bench 	 lines_1_AA
+	 8888: msecs =89.822502 	 cmsecs =89.096504
+	 565: msecs =81.331505 	 cmsecs =80.781006
+	 GPU: msecs =129.707001 	 cmsecs =120.341995
+	 NULLGPU: msecs =58.453003 	 cmsecs =58.057503
+running bench 	 lines_0.5_AA
+	 8888: msecs =126.557007 	 cmsecs =125.739517
+	 565: msecs =72.831505 	 cmsecs =72.309502
+	 GPU: msecs =138.225983 	 cmsecs =127.218491
+	 NULLGPU: msecs =58.660500 	 cmsecs =58.241009
+running bench 	 lines_0_AA
+	 8888: msecs =73.939499 	 cmsecs =73.469009
+	 565: msecs =67.164505 	 cmsecs =66.212997
+	 GPU: msecs =3.432000 	 cmsecs =0.694000
+	 NULLGPU: msecs =0.181500 	 cmsecs =0.180000
+running bench 	 lines_1_BW
+	 8888: msecs =81.626007 	 cmsecs =81.009499
+	 565: msecs =69.055489 	 cmsecs =68.467506
+	 GPU: msecs =125.247498 	 cmsecs =117.942505
+	 NULLGPU: msecs =79.156998 	 cmsecs =78.615501
+running bench 	 lines_0_BW
+	 8888: msecs =31.635000 	 cmsecs =31.425999
+	 565: msecs =18.730999 	 cmsecs =18.612497
+	 GPU: msecs =3.442500 	 cmsecs =0.692500
+	 NULLGPU: msecs =0.181500 	 cmsecs =0.180000
+running bench 	 interp_double
+	 NONRENDERING: msecs =18.604996 	 cmsecs =18.424496
+running bench 	 interp_float
+	 NONRENDERING: msecs =35.010502 	 cmsecs =34.814003
+running bench 	 interp_16.48
+	 NONRENDERING: msecs =25.380001 	 cmsecs =25.239998
+running bench 	 interp_32.32
+	 NONRENDERING: msecs =31.025501 	 cmsecs =30.851995
+running bench 	 interp_16.16
+	 NONRENDERING: msecs =7.096501 	 cmsecs =7.051501
+running bench 	 grmemorypool_queue
+	 NONRENDERING: msecs =29.064499 	 cmsecs =28.848001
+running bench 	 grmemorypool_random
+	 NONRENDERING: msecs =42.803997 	 cmsecs =42.458000
+running bench 	 grmemorypool_stack
+	 NONRENDERING: msecs =42.746498 	 cmsecs =42.501499
+running bench 	 gradient_create_alpha
+	 8888: msecs =29.754496 	 cmsecs =29.060497
+	 565: msecs =28.876499 	 cmsecs =28.694500
+	 GPU: msecs =163.206497 	 cmsecs =126.616501
+	 NULLGPU: msecs =67.586998 	 cmsecs =66.532997
+running bench 	 gradient_create_opaque
+	 8888: msecs =18.151003 	 cmsecs =18.053503
+	 565: msecs =14.914000 	 cmsecs =14.829999
+	 GPU: msecs =154.628494 	 cmsecs =118.125999
+	 NULLGPU: msecs =56.835499 	 cmsecs =55.839996
+running bench 	 gradient_conical_clamp
+	 8888: msecs =102.750999 	 cmsecs =102.124496
+	 565: msecs =103.459511 	 cmsecs =102.864990
+	 GPU: msecs =2.738000 	 cmsecs =0.554500
+	 NULLGPU: msecs =0.126000 	 cmsecs =0.123000
+running bench 	 gradient_radial2_mirror
+	 8888: msecs =51.786499 	 cmsecs =50.837997
+	 565: msecs =53.533501 	 cmsecs =53.226997
+	 GPU: msecs =2.375000 	 cmsecs =0.574000
+	 NULLGPU: msecs =0.127500 	 cmsecs =0.120000
+running bench 	 gradient_radial2_clamp
+	 8888: msecs =57.263000 	 cmsecs =56.758003
+	 565: msecs =59.476494 	 cmsecs =59.133507
+	 GPU: msecs =2.305000 	 cmsecs =0.548500
+	 NULLGPU: msecs =0.127500 	 cmsecs =0.120000
+running bench 	 gradient_sweep_clamp
+	 8888: msecs =46.913502 	 cmsecs =46.487999
+	 565: msecs =46.655495 	 cmsecs =46.398998
+	 GPU: msecs =1.843500 	 cmsecs =0.490000
+	 NULLGPU: msecs =0.060000 	 cmsecs =0.060000
+running bench 	 gradient_radial1_mirror
+	 8888: msecs =44.518494 	 cmsecs =44.154999
+	 565: msecs =44.386497 	 cmsecs =44.114998
+	 GPU: msecs =2.797000 	 cmsecs =0.620500
+	 NULLGPU: msecs =0.195000 	 cmsecs =0.189000
+running bench 	 gradient_radial1_clamp_oval
+	 8888: msecs =13.405500 	 cmsecs =13.247000
+	 565: msecs =29.928003 	 cmsecs =29.754004
+	 GPU: msecs =2.999500 	 cmsecs =0.784000
+	 NULLGPU: msecs =0.259500 	 cmsecs =0.255000
+running bench 	 gradient_radial1_clamp
+	 8888: msecs =12.983498 	 cmsecs =12.496997
+	 565: msecs =26.151501 	 cmsecs =25.980499
+	 GPU: msecs =2.708000 	 cmsecs =0.620500
+	 NULLGPU: msecs =0.195000 	 cmsecs =0.193500
+running bench 	 gradient_linear_mirror
+	 8888: msecs =9.791001 	 cmsecs =9.666001
+	 565: msecs =15.275002 	 cmsecs =15.182001
+	 GPU: msecs =3.080000 	 cmsecs =0.694000
+	 NULLGPU: msecs =0.269000 	 cmsecs =0.261000
+running bench 	 gradient_linear_clamp
+	 8888: msecs =6.648500 	 cmsecs =6.525500
+	 565: msecs =8.632501 	 cmsecs =8.578501
+	 GPU: msecs =3.088001 	 cmsecs =0.698500
+	 NULLGPU: msecs =0.269000 	 cmsecs =0.266000
+running bench 	 game_trans_full_atlas_aa
+	 8888: msecs =163.982971 	 cmsecs =162.139999
+	 565: msecs =160.876999 	 cmsecs =159.861481
+	 GPU: msecs =317.914490 	 cmsecs =280.011993
+	 NULLGPU: msecs =173.144501 	 cmsecs =171.809021
+running bench 	 game_rot_full_aa
+	 8888: msecs =1551.929077 	 cmsecs =1540.614990
+	 565: msecs =1408.154541 	 cmsecs =1399.005615
+	 GPU: msecs =155.005508 	 cmsecs =125.230995
+	 NULLGPU: msecs =120.572983 	 cmsecs =119.357010
+running bench 	 game_trans_aligned_full_aa
+	 8888: msecs =268.898499 	 cmsecs =268.276001
+	 565: msecs =208.421478 	 cmsecs =208.241989
+	 GPU: msecs =147.610992 	 cmsecs =115.155006
+	 NULLGPU: msecs =110.233009 	 cmsecs =109.669006
+running bench 	 game_trans_full_aa
+	 8888: msecs =268.985535 	 cmsecs =267.085022
+	 565: msecs =208.315018 	 cmsecs =207.085983
+	 GPU: msecs =145.899002 	 cmsecs =113.354996
+	 NULLGPU: msecs =108.310501 	 cmsecs =107.747513
+running bench 	 game_scale_full_aa
+	 8888: msecs =1418.640869 	 cmsecs =1409.024658
+	 565: msecs =1303.146484 	 cmsecs =1294.603394
+	 GPU: msecs =153.576004 	 cmsecs =118.727501
+	 NULLGPU: msecs =113.717995 	 cmsecs =112.545517
+running bench 	 game_rot_partial_aa
+	 8888: msecs =2089.147949 	 cmsecs =2077.497559
+	 565: msecs =1892.122803 	 cmsecs =1890.572266
+	 GPU: msecs =233.642990 	 cmsecs =186.248016
+	 NULLGPU: msecs =181.541992 	 cmsecs =180.512512
+running bench 	 game_trans_aligned_partial_aa
+	 8888: msecs =340.148529 	 cmsecs =339.892517
+	 565: msecs =249.069000 	 cmsecs =248.841522
+	 GPU: msecs =214.067505 	 cmsecs =166.604507
+	 NULLGPU: msecs =159.763992 	 cmsecs =158.930496
+running bench 	 game_trans_partial_aa
+	 8888: msecs =398.351013 	 cmsecs =395.714996
+	 565: msecs =316.325012 	 cmsecs =314.337952
+	 GPU: msecs =213.151520 	 cmsecs =162.311005
+	 NULLGPU: msecs =155.785492 	 cmsecs =154.890503
+running bench 	 game_scale_partial_aa
+	 8888: msecs =1544.112061 	 cmsecs =1531.825439
+	 565: msecs =1407.550537 	 cmsecs =1398.501831
+	 GPU: msecs =223.714966 	 cmsecs =169.370514
+	 NULLGPU: msecs =163.509003 	 cmsecs =162.369019
+running bench 	 fontscaler_lcd
+	 8888: msecs =11.419001 	 cmsecs =11.333501
+	 565: msecs =11.075500 	 cmsecs =10.996001
+	 GPU: msecs =4.539999 	 cmsecs =3.429000
+	 NULLGPU: msecs =2.901500 	 cmsecs =2.883500
+running bench 	 fontscaler_aa
+	 8888: msecs =11.437999 	 cmsecs =11.287000
+	 565: msecs =11.044001 	 cmsecs =10.981002
+	 GPU: msecs =4.564000 	 cmsecs =3.433500
+	 NULLGPU: msecs =2.932000 	 cmsecs =2.903000
+running bench 	 fontcache
+	 8888: msecs =115.292496 	 cmsecs =114.621498
+	 565: msecs =115.524513 	 cmsecs =114.850487
+	 GPU: msecs =118.841507 	 cmsecs =117.716507
+	 NULLGPU: msecs =115.408997 	 cmsecs =115.310013
+running bench 	 displacement_full_large
+	 8888: msecs =5.747500 	 cmsecs =5.735499
+	 565: msecs =5.783500 	 cmsecs =5.776000
+	 GPU: msecs =2.313000 	 cmsecs =1.092500
+	 NULLGPU: msecs =0.159000 	 cmsecs =0.153000
+running bench 	 displacement_alpha_large
+	 8888: msecs =5.928501 	 cmsecs =5.816501
+	 565: msecs =5.901500 	 cmsecs =5.866000
+	 GPU: msecs =2.293000 	 cmsecs =1.089500
+	 NULLGPU: msecs =0.159000 	 cmsecs =0.153000
+running bench 	 displacement_zero_large
+	 8888: msecs =5.909500 	 cmsecs =5.804500
+	 565: msecs =5.964499 	 cmsecs =5.932000
+	 GPU: msecs =2.291500 	 cmsecs =1.077500
+	 NULLGPU: msecs =0.162000 	 cmsecs =0.154500
+running bench 	 displacement_full_small
+	 8888: msecs =0.736000 	 cmsecs =0.731500
+	 565: msecs =0.741000 	 cmsecs =0.721000
+	 GPU: msecs =2.323000 	 cmsecs =1.206500
+	 NULLGPU: msecs =0.159000 	 cmsecs =0.153000
+running bench 	 displacement_alpha_small
+	 8888: msecs =0.754000 	 cmsecs =0.748000
+	 565: msecs =0.746500 	 cmsecs =0.743500
+	 GPU: msecs =2.342500 	 cmsecs =1.220000
+	 NULLGPU: msecs =0.157500 	 cmsecs =0.153000
+running bench 	 displacement_zero_small
+	 8888: msecs =0.788500 	 cmsecs =0.787000
+	 565: msecs =0.779500 	 cmsecs =0.779500
+	 GPU: msecs =2.320000 	 cmsecs =1.214000
+	 NULLGPU: msecs =0.159000 	 cmsecs =0.151500
+running bench 	 DeferredSurfaceCopy_discardable
+	 8888: msecs =63.113506 	 cmsecs =62.596992
+	 565: msecs =63.673512 	 cmsecs =62.612000
+	 GPU: msecs =29.127499 	 cmsecs =5.254500
+	 NULLGPU: msecs =0.437500 	 cmsecs =0.433000
+running bench 	 DeferredSurfaceCopy_nonDiscardable
+	 8888: msecs =105.192001 	 cmsecs =104.232483
+	 565: msecs =105.167992 	 cmsecs =104.287498
+	 GPU: msecs =33.517506 	 cmsecs =8.193499
+	 NULLGPU: msecs =0.586500 	 cmsecs =0.563500
+running bench 	 deferred_canvas_record
+	 8888: msecs =41.053001 	 cmsecs =40.714504
+	 565: msecs =40.803001 	 cmsecs =40.557503
+	 GPU: msecs =41.408501 	 cmsecs =41.038498
+	 NULLGPU: msecs =41.199997 	 cmsecs =40.834000
+running bench 	 decode_4444_(null)
+	 NONRENDERING: msecs =0.030000 	 cmsecs =0.009000
+running bench 	 decode_565_(null)
+	 NONRENDERING: msecs =0.028500 	 cmsecs =0.007500
+running bench 	 decode_8888_(null)
+	 NONRENDERING: msecs =0.022500 	 cmsecs =0.010500
+running bench 	 giantdashline_diag_2
+	 8888: msecs =60.088509 	 cmsecs =59.660004
+	 565: msecs =60.127998 	 cmsecs =59.676506
+	 GPU: msecs =64.304001 	 cmsecs =61.935497
+	 NULLGPU: msecs =62.102497 	 cmsecs =61.008991
+running bench 	 giantdashline_vert_2
+	 8888: msecs =59.187000 	 cmsecs =58.777000
+	 565: msecs =59.258503 	 cmsecs =58.816010
+	 GPU: msecs =74.264000 	 cmsecs =72.255508
+	 NULLGPU: msecs =72.246994 	 cmsecs =71.557999
+running bench 	 giantdashline_hori_2
+	 8888: msecs =0.611500 	 cmsecs =0.607000
+	 565: msecs =0.634500 	 cmsecs =0.610000
+	 GPU: msecs =602.025513 	 cmsecs =591.689453
+	 NULLGPU: msecs =591.898010 	 cmsecs =587.593994
+running bench 	 giantdashline_diag_0
+	 8888: msecs =60.176502 	 cmsecs =59.713501
+	 565: msecs =59.651501 	 cmsecs =59.242012
+	 GPU: msecs =97.060013 	 cmsecs =93.604996
+	 NULLGPU: msecs =92.261490 	 cmsecs =91.544006
+running bench 	 giantdashline_vert_0
+	 8888: msecs =61.262501 	 cmsecs =60.533997
+	 565: msecs =60.253502 	 cmsecs =59.799000
+	 GPU: msecs =91.631500 	 cmsecs =89.447998
+	 NULLGPU: msecs =89.270500 	 cmsecs =88.558998
+running bench 	 giantdashline_hori_0
+	 8888: msecs =0.382000 	 cmsecs =0.379000
+	 565: msecs =0.376000 	 cmsecs =0.371500
+	 GPU: msecs =90.865486 	 cmsecs =88.737007
+	 NULLGPU: msecs =88.870995 	 cmsecs =88.154007
+running bench 	 drawpointsdash_5_5_aa
+	 8888: msecs =33.102997 	 cmsecs =32.720497
+	 565: msecs =31.771002 	 cmsecs =31.051498
+	 GPU: msecs =289.920502 	 cmsecs =258.856018
+	 NULLGPU: msecs =209.647995 	 cmsecs =208.236496
+running bench 	 drawpointsdash_5_5_bw
+	 8888: msecs =20.493002 	 cmsecs =20.353003
+	 565: msecs =20.116997 	 cmsecs =19.979994
+	 GPU: msecs =228.586990 	 cmsecs =216.768997
+	 NULLGPU: msecs =184.802979 	 cmsecs =183.595490
+running bench 	 drawpointsdash_3_1_aa
+	 8888: msecs =78.125496 	 cmsecs =77.652000
+	 565: msecs =79.154495 	 cmsecs =78.640511
+	 GPU: msecs =405.585022 	 cmsecs =373.320007
+	 NULLGPU: msecs =320.970001 	 cmsecs =318.399506
+running bench 	 drawpointsdash_3_1_bw
+	 8888: msecs =64.851509 	 cmsecs =64.183487
+	 565: msecs =64.302994 	 cmsecs =63.921497
+	 GPU: msecs =341.968018 	 cmsecs =328.914490
+	 NULLGPU: msecs =273.911499 	 cmsecs =272.658508
+running bench 	 drawpointsdash_1_1_aa
+	 8888: msecs =38.968998 	 cmsecs =38.932999
+	 565: msecs =35.978001 	 cmsecs =35.949001
+	 GPU: msecs =900.512573 	 cmsecs =864.186523
+	 NULLGPU: msecs =819.581909 	 cmsecs =815.161499
+running bench 	 drawpointsdash_1_1_bw
+	 8888: msecs =27.354502 	 cmsecs =27.179499
+	 565: msecs =27.195505 	 cmsecs =27.010000
+	 GPU: msecs =817.806946 	 cmsecs =799.935974
+	 NULLGPU: msecs =774.321411 	 cmsecs =769.532043
+running bench 	 dashline_2_circle
+	 8888: msecs =506.181549 	 cmsecs =502.037506
+	 565: msecs =506.894043 	 cmsecs =503.706451
+	 GPU: msecs =686.140015 	 cmsecs =583.289490
+	 NULLGPU: msecs =529.652527 	 cmsecs =525.780945
+running bench 	 dashline_1_circle
+	 8888: msecs =71.259995 	 cmsecs =70.837013
+	 565: msecs =70.332993 	 cmsecs =69.925003
+	 GPU: msecs =621.252014 	 cmsecs =520.475464
+	 NULLGPU: msecs =467.079926 	 cmsecs =464.216003
+running bench 	 dashline_0_circle
+	 8888: msecs =71.224991 	 cmsecs =70.806999
+	 565: msecs =69.982506 	 cmsecs =69.568008
+	 GPU: msecs =116.850014 	 cmsecs =105.644997
+	 NULLGPU: msecs =91.542999 	 cmsecs =90.935982
+running bench 	 dashline_2_square
+	 8888: msecs =168.391998 	 cmsecs =167.292999
+	 565: msecs =166.808502 	 cmsecs =165.834488
+	 GPU: msecs =336.460999 	 cmsecs =237.755493
+	 NULLGPU: msecs =185.776489 	 cmsecs =184.112991
+running bench 	 dashline_1_square
+	 8888: msecs =71.242996 	 cmsecs =70.820999
+	 565: msecs =70.636002 	 cmsecs =70.220993
+	 GPU: msecs =357.661469 	 cmsecs =258.146515
+	 NULLGPU: msecs =203.709991 	 cmsecs =202.382538
+running bench 	 dashline_0_square
+	 8888: msecs =70.982491 	 cmsecs =70.581009
+	 565: msecs =69.982994 	 cmsecs =69.577499
+	 GPU: msecs =116.857506 	 cmsecs =105.761986
+	 NULLGPU: msecs =91.344498 	 cmsecs =90.756516
+running bench 	 makedash_cubic
+	 8888: msecs =45.848000 	 cmsecs =45.570499
+	 565: msecs =46.043003 	 cmsecs =45.757000
+	 GPU: msecs =46.324501 	 cmsecs =45.882496
+	 NULLGPU: msecs =45.842506 	 cmsecs =45.574497
+running bench 	 makedash_quad
+	 8888: msecs =33.898499 	 cmsecs =33.702496
+	 565: msecs =33.787498 	 cmsecs =33.595497
+	 GPU: msecs =34.045498 	 cmsecs =33.778999
+	 NULLGPU: msecs =34.192501 	 cmsecs =33.973000
+running bench 	 makedash_poly
+	 8888: msecs =43.931999 	 cmsecs =43.681992
+	 565: msecs =44.517002 	 cmsecs =44.278500
+	 GPU: msecs =45.256504 	 cmsecs =44.398495
+	 NULLGPU: msecs =43.635998 	 cmsecs =43.379997
+running bench 	 dash_4_noclip
+	 8888: msecs =9.332500 	 cmsecs =9.275499
+	 565: msecs =8.880499 	 cmsecs =8.821500
+	 GPU: msecs =23.974001 	 cmsecs =19.129002
+	 NULLGPU: msecs =12.007498 	 cmsecs =11.857999
+running bench 	 dash_1_clipped
+	 8888: msecs =0.037500 	 cmsecs =0.036000
+	 565: msecs =0.039000 	 cmsecs =0.033000
+	 GPU: msecs =0.070500 	 cmsecs =0.067500
+	 NULLGPU: msecs =0.060500 	 cmsecs =0.036000
+running bench 	 dash_1_noclip
+	 8888: msecs =28.523502 	 cmsecs =28.159998
+	 565: msecs =27.894497 	 cmsecs =27.727997
+	 GPU: msecs =49.815498 	 cmsecs =43.546001
+	 NULLGPU: msecs =34.738003 	 cmsecs =33.875504
+running bench 	 dash_0_noclip
+	 8888: msecs =2.768000 	 cmsecs =2.745500
+	 565: msecs =2.170000 	 cmsecs =2.149000
+	 GPU: msecs =5.113500 	 cmsecs =3.792500
+	 NULLGPU: msecs =1.830500 	 cmsecs =1.815000
+running bench 	 table_colorfilter_large
+	 8888: msecs =0.061500 	 cmsecs =0.058500
+	 565: msecs =0.043500 	 cmsecs =0.039000
+	 GPU: msecs =1.489000 	 cmsecs =0.484000
+	 NULLGPU: msecs =0.057000 	 cmsecs =0.051000
+running bench 	 colorfilter_gray_large
+	 8888: msecs =26.397497 	 cmsecs =26.107000
+	 565: msecs =23.804497 	 cmsecs =23.642496
+	 GPU: msecs =4.024000 	 cmsecs =1.212500
+	 NULLGPU: msecs =0.176000 	 cmsecs =0.156000
+running bench 	 colorfilter_blue_large
+	 8888: msecs =11.729498 	 cmsecs =11.512999
+	 565: msecs =8.905500 	 cmsecs =8.848501
+	 GPU: msecs =3.925000 	 cmsecs =1.187000
+	 NULLGPU: msecs =0.150000 	 cmsecs =0.150000
+running bench 	 colorfilter_bright_large
+	 8888: msecs =21.077999 	 cmsecs =20.817501
+	 565: msecs =18.319500 	 cmsecs =18.172001
+	 GPU: msecs =4.022500 	 cmsecs =1.194500
+	 NULLGPU: msecs =0.159000 	 cmsecs =0.153000
+running bench 	 colorfilter_bright_blue_large
+	 8888: msecs =31.197002 	 cmsecs =30.902002
+	 565: msecs =28.248001 	 cmsecs =28.035000
+	 GPU: msecs =5.132999 	 cmsecs =1.471500
+	 NULLGPU: msecs =0.211500 	 cmsecs =0.208500
+running bench 	 colorfilter_blue_bright_large
+	 8888: msecs =30.752497 	 cmsecs =30.425497
+	 565: msecs =27.862497 	 cmsecs =27.643997
+	 GPU: msecs =5.145000 	 cmsecs =1.495500
+	 NULLGPU: msecs =0.216000 	 cmsecs =0.208500
+running bench 	 colorfilter_gray_bright_large
+	 8888: msecs =26.955502 	 cmsecs =26.703999
+	 565: msecs =24.322498 	 cmsecs =24.060495
+	 GPU: msecs =4.043499 	 cmsecs =1.226000
+	 NULLGPU: msecs =0.165000 	 cmsecs =0.160500
+running bench 	 colorfilter_bright_gray_large
+	 8888: msecs =46.436001 	 cmsecs =45.894505
+	 565: msecs =43.371502 	 cmsecs =43.041500
+	 GPU: msecs =5.259000 	 cmsecs =1.480000
+	 NULLGPU: msecs =0.219000 	 cmsecs =0.211500
+running bench 	 colorfilter_dim_bright_large
+	 8888: msecs =230.491501 	 cmsecs =228.641479
+	 565: msecs =214.899506 	 cmsecs =212.408524
+	 GPU: msecs =28.022995 	 cmsecs =6.833500
+	 NULLGPU: msecs =1.169000 	 cmsecs =1.151000
+running bench 	 table_colorfilter_small
+	 8888: msecs =0.031500 	 cmsecs =0.028500
+	 565: msecs =0.025500 	 cmsecs =0.022500
+	 GPU: msecs =1.443000 	 cmsecs =0.445000
+	 NULLGPU: msecs =0.058500 	 cmsecs =0.052500
+running bench 	 colorfilter_gray_small
+	 8888: msecs =27.636002 	 cmsecs =27.355503
+	 565: msecs =24.897501 	 cmsecs =24.717001
+	 GPU: msecs =4.007500 	 cmsecs =1.182500
+	 NULLGPU: msecs =0.160500 	 cmsecs =0.154500
+running bench 	 colorfilter_blue_small
+	 8888: msecs =11.539499 	 cmsecs =11.461500
+	 565: msecs =8.862000 	 cmsecs =8.796000
+	 GPU: msecs =3.878500 	 cmsecs =1.196000
+	 NULLGPU: msecs =0.150000 	 cmsecs =0.150000
+running bench 	 colorfilter_bright_small
+	 8888: msecs =22.105001 	 cmsecs =21.868504
+	 565: msecs =19.380499 	 cmsecs =19.225502
+	 GPU: msecs =4.012000 	 cmsecs =1.199000
+	 NULLGPU: msecs =0.160500 	 cmsecs =0.154500
+running bench 	 colorfilter_bright_blue_small
+	 8888: msecs =32.219501 	 cmsecs =31.893997
+	 565: msecs =29.318501 	 cmsecs =29.103001
+	 GPU: msecs =5.116499 	 cmsecs =1.474500
+	 NULLGPU: msecs =0.213000 	 cmsecs =0.204000
+running bench 	 colorfilter_blue_bright_small
+	 8888: msecs =31.851004 	 cmsecs =31.540501
+	 565: msecs =29.529001 	 cmsecs =28.767002
+	 GPU: msecs =5.134500 	 cmsecs =1.467000
+	 NULLGPU: msecs =0.213000 	 cmsecs =0.207000
+running bench 	 colorfilter_gray_bright_small
+	 8888: msecs =28.100500 	 cmsecs =27.825994
+	 565: msecs =25.325497 	 cmsecs =25.139496
+	 GPU: msecs =4.013500 	 cmsecs =1.190000
+	 NULLGPU: msecs =0.168000 	 cmsecs =0.160500
+running bench 	 colorfilter_bright_gray_small
+	 8888: msecs =48.682503 	 cmsecs =48.232502
+	 565: msecs =45.945999 	 cmsecs =45.464996
+	 GPU: msecs =5.230500 	 cmsecs =1.469500
+	 NULLGPU: msecs =0.214500 	 cmsecs =0.210000
+running bench 	 colorfilter_dim_bright_small
+	 8888: msecs =242.970001 	 cmsecs =240.488525
+	 565: msecs =225.335480 	 cmsecs =223.225006
+	 GPU: msecs =27.864496 	 cmsecs =7.021499
+	 NULLGPU: msecs =1.160000 	 cmsecs =1.154000
+running bench 	 cmap_face_charsToGlyphs_null
+	 8888: msecs =15.510503 	 cmsecs =15.348503
+	 565: msecs =15.440002 	 cmsecs =15.345503
+	 GPU: msecs =15.531502 	 cmsecs =15.375502
+	 NULLGPU: msecs =15.451002 	 cmsecs =15.347003
+running bench 	 cmap_face_charsToGlyphs
+	 8888: msecs =15.526001 	 cmsecs =15.434001
+	 565: msecs =15.532001 	 cmsecs =15.429502
+	 GPU: msecs =15.628001 	 cmsecs =15.466001
+	 NULLGPU: msecs =15.530500 	 cmsecs =15.432501
+running bench 	 cmap_paint_textToGlyphs
+	 8888: msecs =24.090502 	 cmsecs =23.953995
+	 565: msecs =24.122501 	 cmsecs =23.953999
+	 GPU: msecs =24.161501 	 cmsecs =23.962996
+	 NULLGPU: msecs =24.629002 	 cmsecs =23.951496
+running bench 	 cmap_paint_containsText
+	 8888: msecs =24.157000 	 cmsecs =24.021496
+	 565: msecs =24.164997 	 cmsecs =24.019997
+	 GPU: msecs =24.262997 	 cmsecs =24.060495
+	 NULLGPU: msecs =24.160999 	 cmsecs =24.016996
+running bench 	 chart_bw
+	 8888: msecs =87.912506 	 cmsecs =87.282501
+	 565: msecs =96.426003 	 cmsecs =95.058998
+	 GPU: msecs =64.522507 	 cmsecs =27.202999
+	 NULLGPU: msecs =23.873499 	 cmsecs =23.560499
+running bench 	 chart_aa
+	 8888: msecs =169.484497 	 cmsecs =167.704483
+	 565: msecs =172.028488 	 cmsecs =170.758514
+	 GPU: msecs =206.558502 	 cmsecs =177.629990
+	 NULLGPU: msecs =161.210510 	 cmsecs =160.267975
+running bench 	 compute_sha1
+	 NONRENDERING: msecs =1529.291016 	 cmsecs =1520.204346
+running bench 	 compute_md5
+	 NONRENDERING: msecs =591.280518 	 cmsecs =590.804993
+running bench 	 compute_checksum
+	 NONRENDERING: msecs =35.019001 	 cmsecs =34.986000
+running bench 	 blurrect_boxfilter_20
+	 8888: msecs =561.499512 	 cmsecs =561.057007
+	 565: msecs =561.500916 	 cmsecs =561.057007
+	 GPU: msecs =564.856079 	 cmsecs =561.563538
+	 NULLGPU: msecs =564.320496 	 cmsecs =561.288452
+running bench 	 blurrect_boxfilter_5
+	 8888: msecs =526.929016 	 cmsecs =523.882935
+	 565: msecs =526.723572 	 cmsecs =523.696411
+	 GPU: msecs =527.106445 	 cmsecs =523.817566
+	 NULLGPU: msecs =527.034973 	 cmsecs =523.920532
+running bench 	 blurrect_direct_20
+	 8888: msecs =218.928009 	 cmsecs =217.705978
+	 565: msecs =219.045486 	 cmsecs =217.727493
+	 GPU: msecs =219.531006 	 cmsecs =217.998993
+	 NULLGPU: msecs =219.377029 	 cmsecs =217.991989
+running bench 	 blurrect_direct_5
+	 8888: msecs =268.355499 	 cmsecs =268.134979
+	 565: msecs =268.332458 	 cmsecs =268.114044
+	 GPU: msecs =269.903992 	 cmsecs =268.226501
+	 NULLGPU: msecs =269.300507 	 cmsecs =267.878510
+running bench 	 blurrect_direct_1.50
+	 8888: msecs =92.831512 	 cmsecs =92.276993
+	 565: msecs =92.102997 	 cmsecs =91.667007
+	 GPU: msecs =93.222000 	 cmsecs =92.400002
+	 NULLGPU: msecs =92.561485 	 cmsecs =92.026001
+running bench 	 blurrect_direct_30.50
+	 8888: msecs =46.514000 	 cmsecs =46.283497
+	 565: msecs =46.497002 	 cmsecs =46.285000
+	 GPU: msecs =46.653999 	 cmsecs =46.328499
+	 NULLGPU: msecs =46.502003 	 cmsecs =46.286495
+running bench 	 blurrect_direct_10
+	 8888: msecs =70.913498 	 cmsecs =70.579498
+	 565: msecs =70.910507 	 cmsecs =70.574997
+	 GPU: msecs =71.302994 	 cmsecs =70.666489
+	 NULLGPU: msecs =70.931503 	 cmsecs =70.591492
+running bench 	 blurrect_direct_2
+	 8888: msecs =110.136002 	 cmsecs =109.631508
+	 565: msecs =110.803513 	 cmsecs =109.739502
+	 GPU: msecs =110.821999 	 cmsecs =109.980515
+	 NULLGPU: msecs =111.090492 	 cmsecs =109.895508
+running bench 	 blurrect_gaussian_1.50
+	 8888: msecs =112.340004 	 cmsecs =111.812012
+	 565: msecs =112.462997 	 cmsecs =111.828491
+	 GPU: msecs =113.047997 	 cmsecs =112.202988
+	 NULLGPU: msecs =112.746994 	 cmsecs =112.069496
+running bench 	 blurrect_gaussian_30.50
+	 8888: msecs =497.423981 	 cmsecs =494.415466
+	 565: msecs =497.448486 	 cmsecs =494.421478
+	 GPU: msecs =494.501465 	 cmsecs =491.208069
+	 NULLGPU: msecs =493.832031 	 cmsecs =490.740051
+running bench 	 blurrect_gaussian_10
+	 8888: msecs =287.891998 	 cmsecs =287.657501
+	 565: msecs =287.917542 	 cmsecs =287.688477
+	 GPU: msecs =289.867981 	 cmsecs =287.926483
+	 NULLGPU: msecs =290.259491 	 cmsecs =288.491028
+running bench 	 blurrect_gaussian_2
+	 8888: msecs =131.983490 	 cmsecs =131.281494
+	 565: msecs =132.193512 	 cmsecs =131.390503
+	 GPU: msecs =132.869507 	 cmsecs =131.813507
+	 NULLGPU: msecs =132.108002 	 cmsecs =131.384003
+running bench 	 blurrect_boxfilter_1.50
+	 8888: msecs =48.031002 	 cmsecs =47.757496
+	 565: msecs =48.098503 	 cmsecs =47.822498
+	 GPU: msecs =48.218498 	 cmsecs =47.745499
+	 NULLGPU: msecs =47.845001 	 cmsecs =47.579002
+running bench 	 blurrect_boxfilter_30.50
+	 8888: msecs =124.682007 	 cmsecs =123.924500
+	 565: msecs =124.637474 	 cmsecs =123.906998
+	 GPU: msecs =125.806496 	 cmsecs =124.238510
+	 NULLGPU: msecs =124.748985 	 cmsecs =123.939499
+running bench 	 blurrect_boxfilter_10
+	 8888: msecs =170.355988 	 cmsecs =168.815002
+	 565: msecs =169.446014 	 cmsecs =168.492996
+	 GPU: msecs =170.276520 	 cmsecs =168.805984
+	 NULLGPU: msecs =169.462494 	 cmsecs =168.493988
+running bench 	 blurrect_boxfilter_2
+	 8888: msecs =44.803993 	 cmsecs =44.549500
+	 565: msecs =44.914497 	 cmsecs =44.660500
+	 GPU: msecs =45.036003 	 cmsecs =44.696503
+	 NULLGPU: msecs =44.935997 	 cmsecs =44.584499
+running bench 	 blur_image_filter_large_10.00_10.00
+	 8888: msecs =224.991501 	 cmsecs =223.308502
+	 565: msecs =222.017532 	 cmsecs =220.366501
+	 GPU: msecs =9.753001 	 cmsecs =2.185000
+	 NULLGPU: msecs =0.268500 	 cmsecs =0.264000
+running bench 	 blur_image_filter_small_10.00_10.00
+	 8888: msecs =185.043503 	 cmsecs =183.291489
+	 565: msecs =183.172501 	 cmsecs =181.231491
+	 GPU: msecs =9.735501 	 cmsecs =2.198500
+	 NULLGPU: msecs =0.267000 	 cmsecs =0.264000
+running bench 	 blur_image_filter_large_1.00_1.00
+	 8888: msecs =190.903503 	 cmsecs =188.773483
+	 565: msecs =187.262985 	 cmsecs =185.745514
+	 GPU: msecs =7.077001 	 cmsecs =1.456000
+	 NULLGPU: msecs =0.192000 	 cmsecs =0.187500
+running bench 	 blur_image_filter_small_1.00_1.00
+	 8888: msecs =173.084503 	 cmsecs =171.761993
+	 565: msecs =171.007980 	 cmsecs =169.567505
+	 GPU: msecs =7.056001 	 cmsecs =1.439500
+	 NULLGPU: msecs =0.190500 	 cmsecs =0.187500
+running bench 	 blur_0_none_low_quality
+	 8888: msecs =1.973000 	 cmsecs =1.950000
+	 565: msecs =1.878500 	 cmsecs =1.857000
+	 GPU: msecs =2.275000 	 cmsecs =0.776500
+	 NULLGPU: msecs =0.160500 	 cmsecs =0.153000
+running bench 	 blur_1.50_normal_high_quality
+	 8888: msecs =20.306000 	 cmsecs =20.102997
+	 565: msecs =13.536000 	 cmsecs =13.449503
+	 GPU: msecs =27.077002 	 cmsecs =11.009501
+	 NULLGPU: msecs =1.412500 	 cmsecs =1.389500
+running bench 	 blur_100.50_normal_high_quality
+	 8888: msecs =136.990005 	 cmsecs =136.056503
+	 565: msecs =106.453003 	 cmsecs =105.150497
+	 GPU: msecs =218.393509 	 cmsecs =42.948002
+	 NULLGPU: msecs =2.701500 	 cmsecs =2.657000
+running bench 	 blur_10_normal_high_quality
+	 8888: msecs =45.142002 	 cmsecs =44.832005
+	 565: msecs =36.378502 	 cmsecs =36.133999
+	 GPU: msecs =40.858505 	 cmsecs =18.102501
+	 NULLGPU: msecs =2.001000 	 cmsecs =1.990500
+running bench 	 blur_2_normal_high_quality
+	 8888: msecs =19.419001 	 cmsecs =19.221004
+	 565: msecs =12.450999 	 cmsecs =12.370501
+	 GPU: msecs =27.846996 	 cmsecs =11.001001
+	 NULLGPU: msecs =1.412000 	 cmsecs =1.407500
+running bench 	 blur_1.50_inner_low_quality
+	 8888: msecs =23.191504 	 cmsecs =22.944502
+	 565: msecs =16.331499 	 cmsecs =16.209995
+	 GPU: msecs =25.366497 	 cmsecs =11.033499
+	 NULLGPU: msecs =1.681500 	 cmsecs =1.659000
+running bench 	 blur_1.50_outer_low_quality
+	 8888: msecs =23.779499 	 cmsecs =23.531500
+	 565: msecs =16.767002 	 cmsecs =16.647503
+	 GPU: msecs =25.414501 	 cmsecs =11.144500
+	 NULLGPU: msecs =1.680000 	 cmsecs =1.659000
+running bench 	 blur_1.50_solid_low_quality
+	 8888: msecs =26.747498 	 cmsecs =26.486996
+	 565: msecs =19.772999 	 cmsecs =19.639999
+	 GPU: msecs =25.490007 	 cmsecs =11.123500
+	 NULLGPU: msecs =1.665000 	 cmsecs =1.663500
+running bench 	 blur_1.50_normal_low_quality
+	 8888: msecs =20.535500 	 cmsecs =20.331497
+	 565: msecs =13.605501 	 cmsecs =13.508001
+	 GPU: msecs =27.138500 	 cmsecs =11.016001
+	 NULLGPU: msecs =1.403000 	 cmsecs =1.400000
+running bench 	 blur_100.50_inner_low_quality
+	 8888: msecs =34.498001 	 cmsecs =34.173000
+	 565: msecs =27.585499 	 cmsecs =27.401001
+	 GPU: msecs =159.894989 	 cmsecs =35.531502
+	 NULLGPU: msecs =2.967000 	 cmsecs =2.916501
+running bench 	 blur_100.50_outer_low_quality
+	 8888: msecs =62.867500 	 cmsecs =62.325001
+	 565: msecs =35.681999 	 cmsecs =35.428501
+	 GPU: msecs =159.961014 	 cmsecs =35.384499
+	 NULLGPU: msecs =2.938000 	 cmsecs =2.903001
+running bench 	 blur_100.50_solid_low_quality
+	 8888: msecs =65.643997 	 cmsecs =65.188988
+	 565: msecs =38.769501 	 cmsecs =38.492001
+	 GPU: msecs =160.189484 	 cmsecs =35.434498
+	 NULLGPU: msecs =2.932000 	 cmsecs =2.907501
+running bench 	 blur_100.50_normal_low_quality
+	 8888: msecs =59.209496 	 cmsecs =58.782501
+	 565: msecs =32.340504 	 cmsecs =32.111496
+	 GPU: msecs =219.691498 	 cmsecs =43.103500
+	 NULLGPU: msecs =2.690000 	 cmsecs =2.653000
+running bench 	 blur_10_inner_low_quality
+	 8888: msecs =22.621998 	 cmsecs =22.386497
+	 565: msecs =15.660001 	 cmsecs =15.555502
+	 GPU: msecs =36.421501 	 cmsecs =17.344501
+	 NULLGPU: msecs =2.276500 	 cmsecs =2.248000
+running bench 	 blur_10_outer_low_quality
+	 8888: msecs =24.733501 	 cmsecs =24.470505
+	 565: msecs =16.660999 	 cmsecs =16.538502
+	 GPU: msecs =36.469501 	 cmsecs =17.579498
+	 NULLGPU: msecs =2.350000 	 cmsecs =2.263000
+running bench 	 blur_10_solid_low_quality
+	 8888: msecs =28.134497 	 cmsecs =27.545498
+	 565: msecs =19.697998 	 cmsecs =19.561497
+	 GPU: msecs =36.372002 	 cmsecs =17.542999
+	 NULLGPU: msecs =2.269000 	 cmsecs =2.248000
+running bench 	 blur_10_normal_low_quality
+	 8888: msecs =21.469498 	 cmsecs =21.244495
+	 565: msecs =13.465998 	 cmsecs =13.378998
+	 GPU: msecs =41.163002 	 cmsecs =18.037500
+	 NULLGPU: msecs =2.018000 	 cmsecs =1.996500
+running bench 	 blur_2_inner_low_quality
+	 8888: msecs =22.123501 	 cmsecs =21.893003
+	 565: msecs =15.177501 	 cmsecs =15.072499
+	 GPU: msecs =26.345999 	 cmsecs =11.176499
+	 NULLGPU: msecs =1.689000 	 cmsecs =1.666500
+running bench 	 blur_2_outer_low_quality
+	 8888: msecs =22.650497 	 cmsecs =22.342999
+	 565: msecs =15.547501 	 cmsecs =15.432501
+	 GPU: msecs =26.201000 	 cmsecs =11.079000
+	 NULLGPU: msecs =1.675500 	 cmsecs =1.665000
+running bench 	 blur_2_solid_low_quality
+	 8888: msecs =25.634003 	 cmsecs =25.384502
+	 565: msecs =18.619499 	 cmsecs =18.511499
+	 GPU: msecs =26.077999 	 cmsecs =11.091500
+	 NULLGPU: msecs =1.669500 	 cmsecs =1.668000
+running bench 	 blur_2_normal_low_quality
+	 8888: msecs =19.378500 	 cmsecs =19.195501
+	 565: msecs =12.418000 	 cmsecs =12.330001
+	 GPU: msecs =27.795498 	 cmsecs =10.967500
+	 NULLGPU: msecs =1.413500 	 cmsecs =1.406000
+running bench 	 blend_lighten
+	 8888: msecs =3.221500 	 cmsecs =3.125000
+	 565: msecs =3.551000 	 cmsecs =3.528000
+	 GPU: msecs =2.305500 	 cmsecs =1.106000
+	 NULLGPU: msecs =0.171000 	 cmsecs =0.162000
+running bench 	 blend_darken
+	 8888: msecs =3.446999 	 cmsecs =3.409499
+	 565: msecs =4.064000 	 cmsecs =3.831500
+	 GPU: msecs =2.340000 	 cmsecs =1.101500
+	 NULLGPU: msecs =0.180000 	 cmsecs =0.154500
+running bench 	 blend_screen
+	 8888: msecs =2.753000 	 cmsecs =2.711000
+	 565: msecs =3.116500 	 cmsecs =3.023000
+	 GPU: msecs =2.349000 	 cmsecs =1.121000
+	 NULLGPU: msecs =0.165000 	 cmsecs =0.165000
+running bench 	 blend_multiply
+	 8888: msecs =4.649000 	 cmsecs =4.539500
+	 565: msecs =5.165999 	 cmsecs =5.130000
+	 GPU: msecs =2.311000 	 cmsecs =1.095500
+	 NULLGPU: msecs =0.172500 	 cmsecs =0.165000
+running bench 	 blend_normal
+	 8888: msecs =1.197500 	 cmsecs =1.193000
+	 565: msecs =1.597500 	 cmsecs =1.575000
+	 GPU: msecs =2.343000 	 cmsecs =1.109000
+	 NULLGPU: msecs =0.168000 	 cmsecs =0.162000
+running bench 	 bitmaprect_FF_filter_trans
+	 8888: msecs =7.533999 	 cmsecs =7.416999
+	 565: msecs =19.308002 	 cmsecs =19.186504
+	 GPU: msecs =11.244500 	 cmsecs =5.860001
+	 NULLGPU: msecs =5.576000 	 cmsecs =5.440500
+running bench 	 bitmaprect_FF_nofilter_trans
+	 8888: msecs =7.487499 	 cmsecs =7.416999
+	 565: msecs =19.296001 	 cmsecs =19.185003
+	 GPU: msecs =10.564500 	 cmsecs =5.603500
+	 NULLGPU: msecs =5.312501 	 cmsecs =5.205000
+running bench 	 bitmaprect_80_filter_identity
+	 8888: msecs =25.830999 	 cmsecs =25.628000
+	 565: msecs =19.698997 	 cmsecs =19.585499
+	 GPU: msecs =10.440001 	 cmsecs =5.940999
+	 NULLGPU: msecs =5.628999 	 cmsecs =5.533999
+running bench 	 bitmaprect_FF_filter_identity
+	 8888: msecs =7.162000 	 cmsecs =7.122000
+	 565: msecs =18.965500 	 cmsecs =18.856998
+	 GPU: msecs =10.450500 	 cmsecs =5.914000
+	 NULLGPU: msecs =5.655001 	 cmsecs =5.544000
+running bench 	 bitmaprect_80_nofilter_identity
+	 8888: msecs =25.761501 	 cmsecs =25.608496
+	 565: msecs =19.700497 	 cmsecs =19.586998
+	 GPU: msecs =10.084498 	 cmsecs =5.582999
+	 NULLGPU: msecs =5.291500 	 cmsecs =5.199000
+running bench 	 bitmaprect_FF_nofilter_identity
+	 8888: msecs =7.186500 	 cmsecs =7.129500
+	 565: msecs =18.968500 	 cmsecs =18.854000
+	 GPU: msecs =10.066000 	 cmsecs =5.573000
+	 NULLGPU: msecs =5.292001 	 cmsecs =5.188501
+running bench 	 bitmap_8888_A_source_stripes_three
+	 8888: msecs =36.731499 	 cmsecs =36.435997
+	 565: msecs =18.391499 	 cmsecs =18.272499
+	 GPU: msecs =10.049998 	 cmsecs =5.419501
+	 NULLGPU: msecs =5.137000 	 cmsecs =5.034001
+running bench 	 bitmap_8888_A_source_stripes_two
+	 8888: msecs =41.588505 	 cmsecs =41.284500
+	 565: msecs =18.449001 	 cmsecs =18.307499
+	 GPU: msecs =10.121500 	 cmsecs =5.445000
+	 NULLGPU: msecs =5.257501 	 cmsecs =5.061001
+running bench 	 bitmap_8888_A_source_transparent
+	 8888: msecs =18.316000 	 cmsecs =18.209499
+	 565: msecs =18.383999 	 cmsecs =18.271000
+	 GPU: msecs =10.086498 	 cmsecs =5.419500
+	 NULLGPU: msecs =5.138501 	 cmsecs =5.034001
+running bench 	 bitmap_8888_A_source_opaque
+	 8888: msecs =20.541500 	 cmsecs =20.418501
+	 565: msecs =18.485500 	 cmsecs =18.319500
+	 GPU: msecs =10.103498 	 cmsecs =5.430000
+	 NULLGPU: msecs =5.118001 	 cmsecs =5.020501
+running bench 	 bitmap_8888_A_scale_rotate_bicubic
+	 8888: msecs =3256.553223 	 cmsecs =3236.776123
+	 565: msecs =3247.155762 	 cmsecs =3215.291504
+	 GPU: msecs =39.253002 	 cmsecs =14.283998
+	 NULLGPU: msecs =5.703499 	 cmsecs =5.642499
+running bench 	 bitmap_8888_A_scale_bicubic
+	 8888: msecs =2350.281738 	 cmsecs =2331.789551
+	 565: msecs =2350.587158 	 cmsecs =2325.010254
+	 GPU: msecs =39.344505 	 cmsecs =14.344998
+	 NULLGPU: msecs =5.855999 	 cmsecs =5.794999
+running bench 	 bitmap_8888_update_scale_rotate_bilerp
+	 8888: msecs =178.366516 	 cmsecs =177.032013
+	 565: msecs =288.497498 	 cmsecs =286.598969
+	 GPU: msecs =55.848503 	 cmsecs =46.551998
+	 NULLGPU: msecs =12.849998 	 cmsecs =12.710500
+running bench 	 bitmap_8888_update_volatile_scale_rotate_bilerp
+	 8888: msecs =169.372009 	 cmsecs =168.272003
+	 565: msecs =286.283020 	 cmsecs =283.408508
+	 GPU: msecs =441.453522 	 cmsecs =143.071503
+	 NULLGPU: msecs =11.379998 	 cmsecs =11.249498
+running bench 	 bitmap_8888_scale_rotate_bilerp
+	 8888: msecs =177.839996 	 cmsecs =176.703995
+	 565: msecs =285.459991 	 cmsecs =283.826965
+	 GPU: msecs =10.478002 	 cmsecs =5.677000
+	 NULLGPU: msecs =5.352000 	 cmsecs =5.263500
+running bench 	 bitmap_8888_A_scale_rotate_bilerp
+	 8888: msecs =200.724503 	 cmsecs =199.451477
+	 565: msecs =167.817505 	 cmsecs =166.835022
+	 GPU: msecs =10.471501 	 cmsecs =5.681500
+	 NULLGPU: msecs =5.395000 	 cmsecs =5.283000
+running bench 	 bitmap_8888_update_scale_bilerp
+	 8888: msecs =142.344009 	 cmsecs =141.415009
+	 565: msecs =255.472000 	 cmsecs =253.923492
+	 GPU: msecs =54.977501 	 cmsecs =45.646496
+	 NULLGPU: msecs =12.704000 	 cmsecs =12.566500
+running bench 	 bitmap_8888_update_volatile_scale_bilerp
+	 8888: msecs =138.893997 	 cmsecs =138.035004
+	 565: msecs =256.097961 	 cmsecs =253.989502
+	 GPU: msecs =445.451477 	 cmsecs =145.954010
+	 NULLGPU: msecs =12.326501 	 cmsecs =12.179998
+running bench 	 bitmap_8888_scale_bilerp
+	 8888: msecs =138.466980 	 cmsecs =137.589508
+	 565: msecs =257.407990 	 cmsecs =255.550995
+	 GPU: msecs =10.905002 	 cmsecs =6.060000
+	 NULLGPU: msecs =5.872999 	 cmsecs =5.759499
+running bench 	 bitmap_8888_A_scale_bilerp
+	 8888: msecs =164.577988 	 cmsecs =163.326004
+	 565: msecs =154.656494 	 cmsecs =153.733490
+	 GPU: msecs =10.838002 	 cmsecs =6.046000
+	 NULLGPU: msecs =5.824999 	 cmsecs =5.729499
+running bench 	 bitmap_8888_update
+	 8888: msecs =6.780000 	 cmsecs =6.729500
+	 565: msecs =17.135500 	 cmsecs =17.028500
+	 GPU: msecs =54.510498 	 cmsecs =45.266499
+	 NULLGPU: msecs =12.452000 	 cmsecs =12.301499
+running bench 	 bitmap_8888_update_volatile
+	 8888: msecs =6.215500 	 cmsecs =6.177999
+	 565: msecs =17.108000 	 cmsecs =17.003000
+	 GPU: msecs =445.164490 	 cmsecs =145.075500
+	 NULLGPU: msecs =11.632498 	 cmsecs =11.505499
+running bench 	 bitmap_index8
+	 8888: msecs =46.668999 	 cmsecs =46.325500
+	 565: msecs =12.291001 	 cmsecs =12.207000
+	 GPU: msecs =9.087500 	 cmsecs =5.421000
+	 NULLGPU: msecs =5.284500 	 cmsecs =5.079000
+running bench 	 bitmap_index8_A
+	 8888: msecs =57.625008 	 cmsecs =57.211998
+	 565: msecs =82.652504 	 cmsecs =82.089493
+	 GPU: msecs =9.059999 	 cmsecs =5.415000
+	 NULLGPU: msecs =5.140000 	 cmsecs =5.035501
+running bench 	 bitmap_565
+	 8888: msecs =67.465500 	 cmsecs =66.969513
+	 565: msecs =3.657500 	 cmsecs =3.636000
+	 GPU: msecs =9.095499 	 cmsecs =5.418000
+	 NULLGPU: msecs =5.135501 	 cmsecs =5.032501
+running bench 	 bitmap_8888
+	 8888: msecs =6.714000 	 cmsecs =6.674001
+	 565: msecs =17.129498 	 cmsecs =17.026999
+	 GPU: msecs =10.016499 	 cmsecs =5.380501
+	 NULLGPU: msecs =5.168500 	 cmsecs =5.062500
+running bench 	 bitmap_8888_A
+	 8888: msecs =24.466002 	 cmsecs =24.319004
+	 565: msecs =17.133999 	 cmsecs =17.029999
+	 GPU: msecs =10.065998 	 cmsecs =5.392500
+	 NULLGPU: msecs =5.153501 	 cmsecs =5.050500
+running bench 	 bicubic_2.5x2.5
+	 8888: msecs =23.555500 	 cmsecs =23.437000
+	 565: msecs =23.559998 	 cmsecs =23.426502
+	 GPU: msecs =2.844000 	 cmsecs =1.265500
+	 NULLGPU: msecs =0.160500 	 cmsecs =0.156000
+running bench 	 bicubic_10x2.5
+	 8888: msecs =93.212021 	 cmsecs =92.466507
+	 565: msecs =92.916016 	 cmsecs =92.412003
+	 GPU: msecs =2.478000 	 cmsecs =1.146500
+	 NULLGPU: msecs =0.160500 	 cmsecs =0.157500
+running bench 	 bicubic_2.5x10
+	 8888: msecs =94.273491 	 cmsecs =93.122986
+	 565: msecs =93.594986 	 cmsecs =93.079506
+	 GPU: msecs =2.468500 	 cmsecs =1.139000
+	 NULLGPU: msecs =0.162000 	 cmsecs =0.156000
+running bench 	 bicubic_10x10
+	 8888: msecs =371.019531 	 cmsecs =368.130951
+	 565: msecs =370.427002 	 cmsecs =368.191528
+	 GPU: msecs =4.190001 	 cmsecs =1.298000
+	 NULLGPU: msecs =0.156000 	 cmsecs =0.156000
+running bench 	 nested_aaclip_AA
+	 8888: msecs =15.124501 	 cmsecs =14.957501
+	 565: msecs =14.421999 	 cmsecs =14.321999
+	 GPU: msecs =494.852478 	 cmsecs =455.058502
+	 NULLGPU: msecs =34.901501 	 cmsecs =34.629501
+running bench 	 nested_aaclip_BW
+	 8888: msecs =8.354001 	 cmsecs =8.294002
+	 565: msecs =7.617000 	 cmsecs =7.550499
+	 GPU: msecs =356.804474 	 cmsecs =341.302490
+	 NULLGPU: msecs =23.295506 	 cmsecs =23.088005
+running bench 	 aaclip_path_AA
+	 8888: msecs =18.764000 	 cmsecs =18.657497
+	 565: msecs =18.750498 	 cmsecs =18.654497
+	 GPU: msecs =330.551025 	 cmsecs =295.382019
+	 NULLGPU: msecs =34.744499 	 cmsecs =34.370003
+running bench 	 aaclip_path_BW
+	 8888: msecs =9.198500 	 cmsecs =9.136999
+	 565: msecs =8.134999 	 cmsecs =8.082499
+	 GPU: msecs =155.344025 	 cmsecs =141.180984
+	 NULLGPU: msecs =20.028498 	 cmsecs =19.835499
+running bench 	 aaclip_rect_AA
+	 8888: msecs =11.198000 	 cmsecs =11.126500
+	 565: msecs =10.654499 	 cmsecs =10.583999
+	 GPU: msecs =283.790955 	 cmsecs =253.477509
+	 NULLGPU: msecs =21.167999 	 cmsecs =20.962502
+running bench 	 aaclip_rect_BW
+	 8888: msecs =3.480000 	 cmsecs =3.456000
+	 565: msecs =3.037000 	 cmsecs =3.020000
+	 GPU: msecs =13.594999 	 cmsecs =10.896500
+	 NULLGPU: msecs =7.043500 	 cmsecs =6.939000
+running bench 	 aaclip_setregion
+	 8888: msecs =20.143997 	 cmsecs =20.016998
+	 565: msecs =20.019001 	 cmsecs =19.901497
+	 GPU: msecs =20.241497 	 cmsecs =20.049997
+	 NULLGPU: msecs =20.148497 	 cmsecs =20.030499
+running bench 	 aaclip_build_path_AA
+	 8888: msecs =33.241001 	 cmsecs =33.023998
+	 565: msecs =33.878502 	 cmsecs =33.099499
+	 GPU: msecs =33.419998 	 cmsecs =33.151001
+	 NULLGPU: msecs =33.308498 	 cmsecs =33.110996
+running bench 	 aaclip_build_path_BW
+	 8888: msecs =17.917501 	 cmsecs =17.806503
+	 565: msecs =17.890503 	 cmsecs =17.786503
+	 GPU: msecs =17.868000 	 cmsecs =17.692501
+	 NULLGPU: msecs =17.651499 	 cmsecs =17.563498
+running bench 	 aaclip_build_rect_AA
+	 8888: msecs =4.788001 	 cmsecs =4.737501
+	 565: msecs =4.752001 	 cmsecs =4.719501
+	 GPU: msecs =4.773000 	 cmsecs =4.740500
+	 NULLGPU: msecs =4.808000 	 cmsecs =4.706000
+running bench 	 aaclip_build_rect_BW
+	 8888: msecs =2.538000 	 cmsecs =2.518000
+	 565: msecs =2.539500 	 cmsecs =2.519500
+	 GPU: msecs =2.579500 	 cmsecs =2.562500
+	 NULLGPU: msecs =2.621500 	 cmsecs =2.539000
+running bench 	 aaclip_build_rect_BW
+	 NULLGPU: msecs =2.530000 	 cmsecs =2.530000

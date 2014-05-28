@@ -1,0 +1,516 @@
+Index: bench/benchmain.cpp
+===================================================================
+--- bench/benchmain.cpp	(revision 10253)
++++ bench/benchmain.cpp	(working copy)
+@@ -6,7 +6,7 @@
+  * found in the LICENSE file.
+  */
+ 
+-
++#include <sys/time.h>
+ #include "BenchTimer.h"
+ 
+ #if SK_SUPPORT_GPU
+@@ -376,6 +376,10 @@
+     gPrintInstCount = true;
+ #endif
+     SkAutoGraphics ag;
++    
++    struct timeval beginMain;
++    gettimeofday(&beginMain, NULL);
++    printf("enter bench main: %d s %d us. \n", (int)beginMain.tv_sec, (int)beginMain.tv_usec);
+ 
+     SkTDict<const char*> defineDict(1024);
+     int repeatDraw = 1;
+@@ -778,6 +782,10 @@
+         bool loggedBenchStart = false;
+ 
+         AutoPrePostDraw appd(bench);
++    
++        struct timeval RenderInit;
++        gettimeofday(&RenderInit, NULL);
++        printf("setup infrastructure before drawing(create backend and canvas): %d s %d us. \n", (int)RenderInit.tv_sec, (int)RenderInit.tv_usec);
+ 
+         for (int x = 0; x < configs.count(); ++x) {
+             int configIndex = configs[x];
+@@ -865,6 +873,11 @@
+                 }
+             }
+             SkAutoUnref canvasUnref(canvas);
++    
++            struct timeval beginRendering;
++            gettimeofday(&beginRendering, NULL);
++            printf("beginRendering: %d s %d us. \n", (int)beginRendering.tv_sec, (int)beginRendering.tv_usec);
++
+             if (!setupFailed) {
+                 if (NULL != canvas) {
+                     if (doClip) {
+@@ -913,6 +926,10 @@
+ #endif
+                 }
+ 
++            struct timeval renderStub;
++            gettimeofday(&renderStub, NULL);
++            printf("render Stub: %d s %d us. \n", (int)renderStub.tv_sec, (int)renderStub.tv_usec);
++
+                 // record timer values for each repeat, and their sum
+                 TimerData timerData(perIterTimeformat, normalTimeFormat);
+                 for (int i = 0; i < repeatDraw; i++) {
+@@ -933,6 +950,10 @@
+                         bench->draw(canvas);
+                     }
+ 
++                    struct timeval drawStub;
++                    gettimeofday(&drawStub, NULL);
++                    printf("drawing finished: %d s %d us. \n", (int)drawStub.tv_sec, (int)drawStub.tv_usec);       // yunchao
++
+                     if (kDeferredSilent_benchModes == benchMode) {
+                         static_cast<SkDeferredCanvas*>(canvas)->silentFlush();
+                     } else if (NULL != canvas) {
+@@ -952,6 +973,10 @@
+                         SK_GL(*glContext, Finish());
+                     }
+ #endif
++                    struct timeval flushStub;
++                    gettimeofday(&flushStub, NULL);
++                    printf("flushing: %d s %d us. \n", (int)flushStub.tv_sec, (int)flushStub.tv_usec);        // yunchao
++
+                     // stop the inclusive and gpu timers once all the GL calls
+                     // have completed
+                     timer->end();
+@@ -971,6 +996,10 @@
+                     saveFile(bench->getName(), configName, outDir.c_str(),
+                              device->accessBitmap(false));
+                 }
++                struct timeval renderFinished;
++                gettimeofday(&renderFinished, NULL);
++                printf("renderFinished for this config: %d s %d us. \n", (int)renderFinished.tv_sec, (int)renderFinished.tv_usec);
++
+             }
+         }
+         if (loggedBenchStart) {
+@@ -996,6 +1025,10 @@
+         SkDELETE(timers[i]);
+     }
+ 
++            struct timeval exitBench;
++            gettimeofday(&exitBench, NULL);
++            printf("exit bench: %d s %d us. \n", (int)exitBench.tv_sec, (int)exitBench.tv_usec);
++
+     return 0;
+ }
+ 
+Index: bench/RectBench.cpp
+===================================================================
+--- bench/RectBench.cpp	(revision 10253)
++++ bench/RectBench.cpp	(working copy)
+@@ -5,6 +5,7 @@
+  * Use of this source code is governed by a BSD-style license that can be
+  * found in the LICENSE file.
+  */
++#include <sys/time.h>
+ #include "SkBenchmark.h"
+ #include "SkCanvas.h"
+ #include "SkPaint.h"
+@@ -155,7 +156,13 @@
+         for (size_t i = 0; i < sizes; i++) {
+             paint.setStrokeWidth(gSizes[i]);
+             this->setupPaint(&paint);
++    struct timeval beginDraw;
++    gettimeofday(&beginDraw, NULL);
++    printf("before draw points: %d s %d us. \n", (int)beginDraw.tv_sec, (int)beginDraw.tv_usec);
+             canvas->drawPoints(fMode, N * 2, SkTCast<SkPoint*>(fRects), paint);
++    struct timeval finishDraw;
++    gettimeofday(&finishDraw, NULL);
++    printf("finished draw points: %d s %d us. \n", (int)finishDraw.tv_sec, (int)finishDraw.tv_usec);
+             paint.setColor(fColors[i]);
+         }
+     }
+Index: src/core/SkDraw.cpp
+===================================================================
+--- src/core/SkDraw.cpp	(revision 10253)
++++ src/core/SkDraw.cpp	(working copy)
+@@ -5,7 +5,7 @@
+  * found in the LICENSE file.
+  */
+ 
+-
++#include <sys/time.h>
+ #include "SkDraw.h"
+ #include "SkBlitter.h"
+ #include "SkBounder.h"
+@@ -775,6 +775,9 @@
+                 SkPaint p(paint);
+                 p.setStyle(SkPaint::kStroke_Style);
+                 size_t inc = (SkCanvas::kLines_PointMode == mode) ? 2 : 1;
++    struct timeval drawing;
++    gettimeofday(&drawing, NULL);
++    printf("drawing points in this for loop: %d s %d us. \n", (int)drawing.tv_sec, (int)drawing.tv_usec);
+                 for (size_t i = 0; i < count; i += inc) {
+                     path.moveTo(pts[i]);
+                     path.lineTo(pts[i+1]);
+@@ -785,6 +788,9 @@
+                     }
+                     path.rewind();
+                 }
++    struct timeval finishDrawing;
++    gettimeofday(&finishDrawing, NULL);
++    printf("finished drawing in above for loop: %d s %d us. \n", (int)finishDrawing.tv_sec, (int)finishDrawing.tv_usec);
+                 break;
+             }
+         }
+Index: src/core/SkXfermode.cpp
+===================================================================
+--- src/core/SkXfermode.cpp	(revision 10253)
++++ src/core/SkXfermode.cpp	(working copy)
+@@ -977,6 +977,7 @@
+                 case SkXfermode::kOverlay_Mode:
+                     // Overlay is Hard-Light with the src and dst reversed
+                     HardLight(builder, outputColor, dstColor, inputColor);
++                    //HardLight(builder, outputColor, inputColor, dstColor);
+                     break;
+                 case SkXfermode::kDarken_Mode:
+                     builder->fsCodeAppendf("\t\t%s.rgb = min((1.0 - %s.a) * %s.rgb + %s.rgb, "
+@@ -1121,7 +1122,10 @@
+                               const char* src,
+                               const char* dst) {
+             static const char kComponents[] = {'r', 'g', 'b'};
++            //static const char kComponents[] = {'b', 'g', 'r'};
++            //for (size_t i = SK_ARRAY_COUNT(kComponents); i > 0; --i) {
+             for (size_t i = 0; i < SK_ARRAY_COUNT(kComponents); ++i) {
++            //    size_t i = 0;
+                 char component = kComponents[i];
+                 builder->fsCodeAppendf("\t\tif (2.0 * %s.%c <= %s.a) {\n", src, component, src);
+                 builder->fsCodeAppendf("\t\t\t%s.%c = 2.0 * %s.%c * %s.%c;\n", final, component, src, component, dst, component);
+@@ -1132,6 +1136,10 @@
+             }
+             builder->fsCodeAppendf("\t\t%s.rgb += %s.rgb * (1.0 - %s.a) + %s.rgb * (1.0 - %s.a);\n",
+                                    final, src, dst, dst, src);
++            //builder->fsCodeAppendf("\t\tvec3 temp1 = %s.rgb * (1.0 - %s.a) + %s.rgb * (1.0 - %s.a);\n",
++            //                       src, dst, dst, src);
++            //builder->fsCodeAppendf("\t\tvec3 temp2 = %s.rgb;\n", final);
++            //builder->fsCodeAppendf("\t\t%s.rgb = temp2.rgb + temp1.rgb;\n", final);
+         }
+ 
+         // Does one component of color-dodge
+Index: src/core/SkCanvas.cpp
+===================================================================
+--- src/core/SkCanvas.cpp	(revision 10253)
++++ src/core/SkCanvas.cpp	(working copy)
+@@ -6,7 +6,7 @@
+  * found in the LICENSE file.
+  */
+ 
+-
++#include <sys/time.h>
+ #include "SkCanvas.h"
+ #include "SkBounder.h"
+ #include "SkDevice.h"
+@@ -1613,6 +1613,9 @@
+     LOOPER_BEGIN(paint, SkDrawFilter::kPoint_Type)
+ 
+     while (iter.next()) {
++    struct timeval drawing;
++    gettimeofday(&drawing, NULL);
++    printf("drawing points: %d s %d us. \n", (int)drawing.tv_sec, (int)drawing.tv_usec);
+         iter.fDevice->drawPoints(iter, mode, count, pts, looper.paint());
+     }
+ 
+Index: src/gpu/gl/GrGLProgram.cpp
+===================================================================
+--- src/gpu/gl/GrGLProgram.cpp	(revision 10253)
++++ src/gpu/gl/GrGLProgram.cpp	(working copy)
+@@ -351,6 +351,7 @@
+     GR_GL_CALL(gli, CompileShader(shader));
+     GR_GL_CALL(gli, GetShaderiv(shader, GR_GL_COMPILE_STATUS, &compiled));
+ 
++            //print_shader(stringCnt, strings, stringLengths);
+     if (!compiled) {
+         GrGLint infoLen = GR_GL_INIT_ZERO;
+         GR_GL_CALL(gli, GetShaderiv(shader, GR_GL_INFO_LOG_LENGTH, &infoLen));
+@@ -374,6 +375,8 @@
+ // helper version of above for when shader is already flattened into a single SkString
+ GrGLuint compile_shader(const GrGLContext& gl, GrGLenum type, const SkString& shader) {
+     const GrGLchar* str = shader.c_str();
++    //printf("\nprint shader before compile it:\n");
++    //printf("%s", str);
+     int length = shader.size();
+     return compile_shader(gl, type, 1, &str, &length);
+ }
+@@ -674,6 +677,10 @@
+     fUniformHandles.fDstCopySamplerUni = builder.getDstCopySamplerUniform();
+     // This must be called after we set fDstCopySamplerUni above.
+     this->initSamplerUniforms();
++    static int genProgram = 0;
++    genProgram++;
++    if (genProgram % 2 == 0)
++        printf("GrGLProgram::genProgram() is called %d times.\n", genProgram);
+ 
+     return true;
+ }
+Index: src/gpu/gl/GrGpuGL.cpp
+===================================================================
+--- src/gpu/gl/GrGpuGL.cpp	(revision 10253)
++++ src/gpu/gl/GrGpuGL.cpp	(working copy)
+@@ -13,6 +13,7 @@
+ #include "GrTemplates.h"
+ #include "GrTypes.h"
+ #include "SkTemplates.h"
++#include <sys/time.h>
+ 
+ static const GrGLuint GR_MAX_GLUINT = ~0U;
+ static const GrGLint  GR_INVAL_GLINT = ~0;
+@@ -33,7 +34,7 @@
+     #define CHECK_ALLOC_ERROR(iface)          GR_GL_NO_ERROR
+ #endif
+ 
+-
++#define TRACE_TEXTURE_CREATION
+ ///////////////////////////////////////////////////////////////////////////////
+ 
+ static const GrGLenum gXfermodeCoeff2Blend[] = {
+@@ -575,7 +576,6 @@
+                             const void* data,
+                             size_t rowBytes) {
+     GrAssert(NULL != data || isNewTexture);
+-
+     size_t bpp = GrBytesPerPixel(dataConfig);
+     if (!adjust_pixel_ops_params(desc.fWidth, desc.fHeight, bpp, &left, &top,
+                                  &width, &height, &data, &rowBytes)) {
+@@ -717,6 +717,10 @@
+             }
+         }
+     } else {
++    struct timeval enterUploadTexData;                                                                       
++    gettimeofday(&enterUploadTexData, NULL);                                                                 
++    //printf("enter GrGpuGL::uploadTexData time: %d s %d us. width:%d, height:%d", (int)enterUploadTexData.tv_sec, (int)enterUploadTexData.tv_usec, width, height); 
++    printf("enter GrGpuGL::uploadTexData: %d us. width:%d, height:%d", (int)enterUploadTexData.tv_usec, width, height); 
+         if (swFlipY || glFlipY) {
+             top = desc.fHeight - (top + height);
+         }
+@@ -725,8 +729,13 @@
+                               left, top,
+                               width, height,
+                               externalFormat, externalType, data));
++        GL_CALL(Finish());
+     }
+ 
++    struct timeval UploadTexData;                                                                       
++    gettimeofday(&UploadTexData, NULL);                                                                 
++    //printf("in GrGpuGL::uploadTexData time: %d s %d us.\t", (int)UploadTexData.tv_sec, (int)UploadTexData.tv_usec); 
++    printf("\tIn GrGpuGL::uploadTexData: %d us.\t", (int)UploadTexData.tv_usec); 
+     if (restoreGLRowLength) {
+         GrAssert(this->glCaps().unpackRowLengthSupport());
+         GL_CALL(PixelStorei(GR_GL_UNPACK_ROW_LENGTH, 0));
+@@ -734,6 +743,10 @@
+     if (glFlipY) {
+         GL_CALL(PixelStorei(GR_GL_UNPACK_FLIP_Y, GR_GL_FALSE));
+     }
++    struct timeval exitUploadTexData;                                                                       
++    gettimeofday(&exitUploadTexData, NULL);                                                                 
++    //printf("exit GrGpuGL::uploadTexData time: %d s %d us.\n", (int)exitUploadTexData.tv_sec, (int)exitUploadTexData.tv_usec); 
++    printf("exit GrGpuGL::uploadTexData: %d us.\n", (int)exitUploadTexData.tv_usec); 
+     return succeeded;
+ }
+ 
+@@ -1584,9 +1597,15 @@
+     size_t indexOffsetInBytes;
+     this->setupGeometry(info, &indexOffsetInBytes);
+ 
++    static int onGpuDraw = 0;
++    onGpuDraw++;
++    if (onGpuDraw % 100 == 0)
++        printf("GrGpuGL::onGpuDraw() is called %d times.\n", onGpuDraw);
++
+     GrAssert((size_t)info.primitiveType() < GR_ARRAY_COUNT(gPrimitiveType2GLMode));
+ 
+     if (info.isIndexed()) {
++        printf("  In onGpuDraw: called glDrawElements:%d \t", info.indexCount());
+         GrGLvoid* indices =
+             reinterpret_cast<GrGLvoid*>(indexOffsetInBytes + sizeof(uint16_t) * info.startIndex());
+         // info.startVertex() was accounted for by setupGeometry.
+@@ -1594,10 +1613,12 @@
+                              info.indexCount(),
+                              GR_GL_UNSIGNED_SHORT,
+                              indices));
++        GL_CALL(Finish());
+     } else {
+         // Pass 0 for parameter first. We have to adjust glVertexAttribPointer() to account for
+         // startVertex in the DrawElements case. So we always rely on setupGeometry to have
+         // accounted for startVertex.
++        printf("****glDrawArrays,%d....\t", info.vertexCount());
+         GL_CALL(DrawArrays(gPrimitiveType2GLMode[info.primitiveType()], 0, info.vertexCount()));
+     }
+ #if SWAP_PER_DRAW
+Index: src/gpu/GrInOrderDrawBuffer.cpp
+===================================================================
+--- src/gpu/GrInOrderDrawBuffer.cpp	(revision 10253)
++++ src/gpu/GrInOrderDrawBuffer.cpp	(working copy)
+@@ -481,6 +481,11 @@
+     int currStencilPath = 0;
+     int currCopySurface = 0;
+ 
++    static int realFlush = 0;
++    realFlush++;
++    if (realFlush % 50 == 0)
++        printf("flush() is called %d times.\n", realFlush);
++
+     for (int c = 0; c < numCmds; ++c) {
+         switch (fCmds[c]) {
+             case kDraw_Cmd: {
+Index: src/gpu/GrContext.cpp
+===================================================================
+--- src/gpu/GrContext.cpp	(revision 10253)
++++ src/gpu/GrContext.cpp	(working copy)
+@@ -6,7 +6,7 @@
+  * found in the LICENSE file.
+  */
+ 
+-
++#include <sys/time.h>
+ #include "GrContext.h"
+ 
+ #include "effects/GrSingleTextureEffect.h"
+@@ -1154,13 +1154,27 @@
+             return false;
+         }
+     }
++    //struct timeval enter;
++    //gettimeofday(&enter, NULL);
++    //printf("enter GrContext::writeTexturePixels: %d s %d us. \t", (int)enter.tv_sec, (int)enter.tv_usec);
+ 
+     if (!(kDontFlush_PixelOpsFlag & flags)) {
+         this->flush();
+     }
+ 
+-    return fGpu->writeTexturePixels(texture, left, top, width, height,
++    static int flushAndWriteTexturePixels = 0;
++    flushAndWriteTexturePixels++;
++    if (flushAndWriteTexturePixels % 100 == 0)
++        printf("flush() and writeTexturePixels() are called %d times.\n", flushAndWriteTexturePixels);
++    //struct timeval flushed;
++    //gettimeofday(&flushed, NULL);
++    //printf("flushed in GrContext::writeTexturePixels: %d s %d us. \t", (int)flushed.tv_sec, (int)flushed.tv_usec);
++    bool flag = fGpu->writeTexturePixels(texture, left, top, width, height,
+                                     config, buffer, rowBytes);
++    //struct timeval written;
++    //gettimeofday(&written, NULL);
++    //printf("written in GrContext::writeTexturePixels: %d s %d us. \t", (int)written.tv_sec, (int)written.tv_usec);
++    return flag;
+ }
+ 
+ bool GrContext::readTexturePixels(GrTexture* texture,
+Index: src/gpu/GrGpu.cpp
+===================================================================
+--- src/gpu/GrGpu.cpp	(revision 10253)
++++ src/gpu/GrGpu.cpp	(working copy)
+@@ -15,6 +15,7 @@
+ #include "GrIndexBuffer.h"
+ #include "GrStencilBuffer.h"
+ #include "GrVertexBuffer.h"
++#include <sys/time.h>
+ 
+ // probably makes no sense for this to be less than a page
+ static const size_t VERTEX_POOL_VB_SIZE = 1 << 18;
+@@ -338,12 +339,24 @@
+ void GrGpu::onDraw(const DrawInfo& info) {
+     this->handleDirtyContext();
+     GrDrawState::AutoRestoreEffects are;
++    struct timeval enterOnDraw;
++    gettimeofday(&enterOnDraw, NULL);
++    //printf("enter GrGpu::onDraw time: %d s %d us.\t", (int)enterOnDraw.tv_sec, (int)enterOnDraw.tv_usec);
++    printf("enter GrGpu::setupClipAndFlush: %d us.\t", (int)enterOnDraw.tv_usec);
+     if (!this->setupClipAndFlushState(PrimTypeToDrawType(info.primitiveType()),
+                                       info.getDstCopy(),
+                                       &are)) {
+         return;
+     }
++    struct timeval setupClip;
++    gettimeofday(&setupClip, NULL);
++    //printf("enter GrGpu::setupClip time: %d s %d us.\t", (int)setupClip.tv_sec, (int)setupClip.tv_usec);
++    printf("exit GrGpu::setupClipAndFlush: %d us.\t", (int)setupClip.tv_usec);
+     this->onGpuDraw(info);
++    struct timeval draw;
++    gettimeofday(&draw, NULL);
++    //printf("enter GrGpu::onGpuDraw time: %d s %d us.\n", (int)draw.tv_sec, (int)draw.tv_usec);
++    printf("exit GrGpu::onGpuDraw: %d us.\n", (int)draw.tv_usec);
+ }
+ 
+ void GrGpu::onStencilPath(const GrPath* path, const SkStrokeRec&, SkPath::FillType fill) {
+Index: src/gpu/GrSWMaskHelper.cpp
+===================================================================
+--- src/gpu/GrSWMaskHelper.cpp	(revision 10253)
++++ src/gpu/GrSWMaskHelper.cpp	(working copy)
+@@ -4,7 +4,7 @@
+  * Use of this source code is governed by a BSD-style license that can be
+  * found in the LICENSE file.
+  */
+-
++#include <sys/time.h>
+ #include "GrSWMaskHelper.h"
+ #include "GrDrawState.h"
+ #include "GrGpu.h"
+@@ -150,6 +150,9 @@
+                                                  const SkIRect& resultBounds,
+                                                  bool antiAlias,
+                                                  SkMatrix* matrix) {
++    //struct timeval enter;
++    //gettimeofday(&enter, NULL);
++    //printf("enter DrawPathMaskToTexture: %d s %d us. \t", (int)enter.tv_sec, (int)enter.tv_usec);
+     GrAutoScratchTexture ast;
+ 
+     GrSWMaskHelper helper(context);
+@@ -160,11 +163,21 @@
+ 
+     helper.draw(path, stroke, SkRegion::kReplace_Op, antiAlias, 0xFF);
+ 
++    static int drawAnd2Texture = 0;
++    drawAnd2Texture++;
++    if(drawAnd2Texture % 100 == 0)
++        printf("draw() and toTexture() called %d times.\n", drawAnd2Texture);
++    //struct timeval drawed;
++    //gettimeofday(&drawed, NULL);
++    //printf("drawed in DrawPathMaskToTexture: %d s %d us. \t", (int)drawed.tv_sec, (int)drawed.tv_usec);
+     if (!helper.getTexture(&ast)) {
+         return NULL;
+     }
+ 
+     helper.toTexture(ast.texture());
++    //struct timeval uploaded;
++    //gettimeofday(&uploaded, NULL);
++    //printf("uploaded texture in DrawPathMaskToTexture: %d s %d us. \n", (int)uploaded.tv_sec, (int)uploaded.tv_usec);
+ 
+     return ast.detach();
+ }
+Index: platform_tools/android/bin/android_install_skia
+===================================================================
+--- platform_tools/android/bin/android_install_skia	(revision 10253)
++++ platform_tools/android/bin/android_install_skia	(working copy)
+@@ -75,4 +75,7 @@
+ fi
+ 
+ echo "Installing Skia App from ${SKIA_OUT}/${configuration}"
++echo "adb: $ADB"
++echo "install options: $installOptions"
++echo "skia binary path: $SKIA_OUT/$configuration/android/bin/SkiaAndroid.apk"
+ $ADB ${serialNumber} install ${installOptions} ${SKIA_OUT}/${configuration}/android/bin/SkiaAndroid.apk
+Index: platform_tools/android/bin/android_gdb_exe
+===================================================================
+--- platform_tools/android/bin/android_gdb_exe	(revision 10253)
++++ platform_tools/android/bin/android_gdb_exe	(working copy)
+@@ -29,7 +29,7 @@
+ echo "set solib-search-path $GDB_TMP_DIR" >> $GDBSETUP
+ 
+ # The apps shared library symbols are not loaded by default so we load them here
+-echo "break skia_launcher.cpp:launch_app" >> $GDBSETUP
++echo "break launch_app" >> $GDBSETUP
+ echo "continue" >> $GDBSETUP
+ echo "sharedLibrary $APP_NAME" >> $GDBSETUP
+ 
+@@ -40,4 +40,4 @@
+ $ANDROID_TOOLCHAIN/arm-linux-androideabi-gdb -x $GDBSETUP
+ 
+ # Clean up
+-rm -rf $GDB_TMP_DIR
+\ No newline at end of file
++rm -rf $GDB_TMP_DIR

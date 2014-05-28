@@ -1,0 +1,164 @@
+# ========
+# captured on: Sat Jul 13 00:57:31 2013
+# hostname : venture
+# os release : 3.5.0-23-generic
+# perf version : 3.5.7.2
+# arch : x86_64
+# nrcpus online : 8
+# nrcpus avail : 8
+# cpudesc : Intel(R) Core(TM) i7 CPU 870 @ 2.93GHz
+# cpuid : GenuineIntel,6,30,5
+# total memory : 3982968 kB
+# cmdline : /usr/bin/perf_3.5.0-23 record ./out/Release/bench --repeat 10 --match path_stroke_small_long_line --config GPU --timers wcg 
+# event : name = cycles, type = 0, config = 0x0, config1 = 0x0, config2 = 0x0, excl_usr = 0, excl_kern = 0, id = { 30, 31, 32, 33, 34, 35, 36, 37 }
+# HEADER_CPU_TOPOLOGY info available, use -I to display
+# HEADER_NUMA_TOPOLOGY info available, use -I to display
+# ========
+#
+# Samples: 2K of event 'cycles'
+# Event count (approx.): 2207052684
+#
+# Overhead  Command            Shared Object                                                                                                                         Symbol
+# ........  .......  .......................  .............................................................................................................................
+#
+    21.61%    bench  [kernel.kallsyms]        [k] 0xffffffff8103fe1a                                                                                                       
+    19.86%    bench  bench                    [.] _ZL10walk_edgesP6SkEdgeN6SkPath8FillTypeEP9SkBlitteriiPFvS4_ibE.isra.3.constprop.29                                      
+    15.22%    bench  bench                    [.] SkA8_Blitter::blitAntiH(int, int, unsigned char const*, short const*)                                                    
+    14.99%    bench  bench                    [.] SkAlphaRuns::Break(short*, unsigned char*, int, int)                                                                     
+     9.72%    bench  bench                    [.] SkAlphaRuns::add(int, unsigned int, int, unsigned int, unsigned int, int)                                                
+     8.18%    bench  bench                    [.] SuperBlitter::blitH(int, int, int)                                                                                       
+     2.97%    bench  libc-2.15.so             [.] 0x00000000000807b7                                                                                                       
+     0.76%    bench  ld-2.15.so               [.] 0x000000000000c284                                                                                                       
+     0.70%    bench  bench                    [.] void SkTIntroSort<SkEdge*, SkTPointerCompareLT<SkEdge> >(int, SkEdge**, SkEdge**, SkTPointerCompareLT<SkEdge>)           
+     0.56%    bench  bench                    [.] SkRTree::chooseSubtree(SkRTree::Node*, SkRTree::Branch*)                                                                 
+     0.44%    bench  libGL.so.1.2             [.] 0x000000000001f4c8                                                                                                       
+     0.32%    bench  bench                    [.] SkDivBits(int, int, int)                                                                                                 
+     0.28%    bench  bench                    [.] SkPath::lineTo(float, float)                                                                                             
+     0.24%    bench  bench                    [.] SkEdgeBuilder::buildPoly(SkPath const&, SkIRect const*, int)                                                             
+     0.23%    bench  libglsl.so               [.] 0x0000000000081b75                                                                                                       
+     0.19%    bench  libexpat.so.1.5.2        [.] 0x000000000000f4cf                                                                                                       
+     0.16%    bench  libc-2.15.so             [.] __libc_calloc                                                                                                            
+     0.15%    bench  libglsl.so               [.] ir_reader::read_declaration(s_expression*)                                                                               
+     0.12%    bench  bench                    [.] GrInOrderDrawBuffer::reset()                                                                                             
+     0.12%    bench  bench                    [.] SkPath::reversePathTo(SkPath const&)                                                                                     
+     0.12%    bench  libdricore.so            [.] 0x000000000015e000                                                                                                       
+     0.10%    bench  libpthread-2.15.so       [.] pthread_mutex_unlock                                                                                                     
+     0.10%    bench  nouveau_dri.so           [.] driIndexConfigAttrib                                                                                                     
+     0.08%    bench  bench                    [.] void SkTIntroSort<SkRTree::Branch, SkRTree::RectLessY>(int, SkRTree::Branch*, SkRTree::Branch*, SkRTree::RectLessY)      
+     0.08%    bench  bench                    [.] void SkTIntroSort<SkRTree::Branch, SkRTree::RectLessThan>(int, SkRTree::Branch*, SkRTree::Branch*, SkRTree::RectLessThan)
+     0.08%    bench  bench                    [.] SkPath::Iter::doNext(SkPoint*)                                                                                           
+     0.08%    bench  libdricore.so            [.] _mesa_update_state_locked                                                                                                
+     0.08%    bench  bench                    [.] SkRTree::distributeChildren(SkRTree::Branch*)                                                                            
+     0.08%    bench  bench                    [.] SkPoint::setNormalize(float, float)                                                                                      
+     0.08%    bench  libgallium.so            [.] 0x0000000000118ccb                                                                                                       
+     0.08%    bench  libGL.so.1.2             [.] glXGetFBConfigAttribSGIX                                                                                                 
+     0.08%    bench  bench                    [.] SkMallocPixelRef::~SkMallocPixelRef()                                                                                    
+     0.06%    bench  libc-2.15.so             [.] malloc                                                                                                                   
+     0.06%    bench  nouveau_dri.so           [.] 0x000000000003d360                                                                                                       
+     0.05%    bench  libc-2.15.so             [.] free                                                                                                                     
+     0.04%    bench  bench                    [.] SkRegion::Oper(SkRegion const&, SkRegion const&, SkRegion::Op, SkRegion*)                                                
+     0.04%    bench  bench                    [.] SkPath::quadTo(float, float, float, float)                                                                               
+     0.04%    bench  bench                    [.] void SkTIntroSort<SkRTree::Branch, SkRTree::RectLessX>(int, SkRTree::Branch*, SkRTree::Branch*, SkRTree::RectLessX)      
+     0.04%    bench  bench                    [.] SkCanvas::drawPath(SkPath const&, SkPaint const&)                                                                        
+     0.04%    bench  bench                    [.] SkAlphaRuns::reset(int)                                                                                                  
+     0.04%    bench  bench                    [.] GrInOrderDrawBuffer::onDrawRect(SkRect const&, SkMatrix const*, SkRect const*, SkMatrix const*)                          
+     0.04%    bench  nouveau_dri.so           [.] util_copy_rect                                                                                                           
+     0.04%    bench  bench                    [.] GrDrawTarget::AutoStateRestore::AutoStateRestore(GrDrawTarget*, GrDrawTarget::ASRInit, SkMatrix const*)                  
+     0.04%    bench  bench                    [.] SkBlitter::Choose(SkBitmap const&, SkMatrix const&, SkPaint const&, void*, unsigned long)                                
+     0.04%    bench  bench                    [.] GrInOrderDrawBuffer::flush()                                                                                             
+     0.04%    bench  bench                    [.] SkRefCnt::internal_dispose() const                                                                                       
+     0.04%    bench  libdricore.so            [.] _mesa_BindTexture                                                                                                        
+     0.04%    bench  bench                    [.] GrInOrderDrawBuffer::recordState()                                                                                       
+     0.04%    bench  libgallium.so            [.] cso_set_vertex_buffers                                                                                                   
+     0.04%    bench  bench                    [.] SkStroke::strokePath(SkPath const&, SkPath*) const                                                                       
+     0.04%    bench  nouveau_dri.so           [.] nv50_inst_min_size                                                                                                       
+     0.04%    bench  nouveau_dri.so           [.] nouveau_mm_allocate                                                                                                      
+     0.04%    bench  libdricore.so            [.] _mesa_validate_DrawElements                                                                                              
+     0.04%    bench  libdricore.so            [.] _mesa_HashLookup                                                                                                         
+     0.04%    bench  libdrm_nouveau.so.1.0.0  [.] nouveau_reloc_emit                                                                                                       
+     0.04%    bench  libLLVM-3.0.so.1         [.] llvm::PassRegistry::getPassInfo(void const*) const                                                                       
+     0.04%    bench  bench                    [.] SkMatrix::Trans_pts(SkMatrix const&, SkPoint*, SkPoint const*, int)                                                      
+     0.04%    bench  libpthread-2.15.so       [.] pthread_once                                                                                                             
+     0.04%    bench  libglsl.so               [.] emit_inline_vector_constructor(glsl_type const*, exec_list*, exec_list*, void*)                                          
+     0.04%    bench  libX11.so.6.3.0          [.] XGetVisualInfo                                                                                                           
+     0.04%    bench  libLLVM-3.0.so.1         [.] llvm::PMTopLevelManager::setLastUser(llvm::SmallVectorImpl<llvm::Pass*> const&, llvm::Pass*)                             
+     0.04%    bench  bench                    [.] SkRTree::insert(void*, SkIRect const&, bool)                                                                             
+     0.04%    bench  libdricore.so            [.] pthread_mutex_unlock@plt                                                                                                 
+     0.04%    bench  bench                    [.] SkRTree::insert(SkRTree::Node*, SkRTree::Branch*, unsigned short)                                                        
+     0.04%    bench  libc-2.15.so             [.] _IO_default_xsputn                                                                                                       
+     0.04%    bench  libdricore.so            [.] hash_table_find                                                                                                          
+     0.04%    bench  libglsl.so               [.] s_match(s_expression*, unsigned int, s_pattern*, bool)                                                                   
+     0.04%    bench  libfreetype.so.6.8.0     [.] 0x000000000004c5df                                                                                                       
+     0.04%    bench  libdricore.so            [.] _mesa_GetError                                                                                                           
+     0.04%    bench  libm-2.15.so             [.] __powf_finite                                                                                                            
+     0.04%    bench  libpthread-2.15.so       [.] pthread_mutex_lock                                                                                                       
+     0.04%    bench  bench                    [.] GrGLBufferImpl::bind(GrGpuGL*) const                                                                                     
+     0.04%    bench  libfontconfig.so.1.4.4   [.] 0x0000000000015e0f                                                                                                       
+     0.04%    bench  bench                    [.] Fact0(void*)                                                                                                             
+     0.04%    bench  bench                    [.] tool_main(int, char**)                                                                                                   
+     0.04%    bench  libc-2.15.so             [.] getenv                                                                                                                   
+     0.04%    bench  libglsl.so               [.] ralloc_size                                                                                                              
+     0.04%    bench  libglsl.so               [.] _mesa_glsl__scan_bytes(char const*, int, void*)                                                                          
+     0.04%    bench  libglsl.so               [.] ir_variable_refcount_visitor::get_variable_entry(ir_variable*)                                                           
+     0.04%    bench  libpthread-2.15.so       [.] pthread_getspecific                                                                                                      
+     0.03%    bench  libdricore.so            [.] _mesa_get_enabled_extension                                                                                              
+     0.02%    bench  libfontconfig.so.1.4.4   [.] FcStrSetMember                                                                                                           
+     0.02%    bench  libstdc++.so.6.0.16      [.] _ZNSs4_Rep9_S_createEmmRKSaIcE@plt                                                                                       
+     0.02%    bench  libexpat.so.1.5.2        [.] XmlPrologStateInit                                                                                                       
+     0.01%    bench  libdricore.so            [.] _mesa_make_extension_string                                                                                              
+     0.01%    bench  libc-2.15.so             [.] vfprintf                                                                                                                 
+     0.01%    bench  libdricore.so            [.] _mesa_reference_buffer_object_                                                                                           
+     0.01%    bench  libglsl.so               [.] lower_noise(exec_list*)                                                                                                  
+     0.01%    bench  libglsl.so               [.] ir_rvalue_visitor::visit_leave(ir_assignment*)                                                                           
+     0.01%    bench  libglsl.so               [.] ralloc_array_size                                                                                                        
+     0.01%    bench  libc-2.15.so             [.] bsearch                                                                                                                  
+     0.01%    bench  bench                    [.] strlen@plt                                                                                                               
+     0.01%    bench  libdricore.so            [.] _mesa_Clear                                                                                                              
+
+
+#
+# (For a higher level overview, try: perf report --sort comm,dso)
+#
+# ========
+# captured on: Sat Jul 13 00:57:31 2013
+# hostname : venture
+# os release : 3.5.0-23-generic
+# perf version : 3.5.7.2
+# arch : x86_64
+# nrcpus online : 8
+# nrcpus avail : 8
+# cpudesc : Intel(R) Core(TM) i7 CPU 870 @ 2.93GHz
+# cpuid : GenuineIntel,6,30,5
+# total memory : 3982968 kB
+# cmdline : /usr/bin/perf_3.5.0-23 record ./out/Release/bench --repeat 10 --match path_stroke_small_long_line --config GPU --timers wcg 
+# event : name = cycles, type = 0, config = 0x0, config1 = 0x0, config2 = 0x0, excl_usr = 0, excl_kern = 0, id = { 30, 31, 32, 33, 34, 35, 36, 37 }
+# HEADER_CPU_TOPOLOGY info available, use -I to display
+# HEADER_NUMA_TOPOLOGY info available, use -I to display
+# ========
+#
+# Samples: 2K of event 'cycles'
+# Event count (approx.): 2207052684
+#
+# Overhead  Command            Shared Object
+# ........  .......  .......................
+#
+    71.52%    bench  bench                  
+    21.61%    bench  [kernel.kallsyms]      
+     3.34%    bench  libc-2.15.so           
+     0.76%    bench  ld-2.15.so             
+     0.61%    bench  libglsl.so             
+     0.52%    bench  libGL.so.1.2           
+     0.50%    bench  libdricore.so          
+     0.28%    bench  nouveau_dri.so         
+     0.22%    bench  libpthread-2.15.so     
+     0.20%    bench  libexpat.so.1.5.2      
+     0.12%    bench  libgallium.so          
+     0.08%    bench  libLLVM-3.0.so.1       
+     0.06%    bench  libfontconfig.so.1.4.4 
+     0.04%    bench  libdrm_nouveau.so.1.0.0
+     0.04%    bench  libX11.so.6.3.0        
+     0.04%    bench  libfreetype.so.6.8.0   
+     0.04%    bench  libm-2.15.so           
+     0.02%    bench  libstdc++.so.6.0.16    
+
+
